@@ -7,6 +7,8 @@
 - 按品类抓取商品列表
 - 同一商品只保留一个代表配置，不重复抓取全部 SKU
 - 以 `品类 -> 系列 -> 产品` 的层级保存 JSON
+- 每次拉取会在品类 JSON 顶层记录 `pull_time`，格式为 `yymmdd`
+- 自动对比同品类上一次拉取结果，发现新增商品时生成新增部分 JSON
 - 支持 macOS 和 Windows
 - 内置限速、重试、退避和日志输出
 
@@ -35,6 +37,8 @@ vmallExportNew/
 ├── run.py
 ├── pyproject.toml
 ├── src/
+│   ├── out/                 # 默认导出目录，运行时自动创建
+│   ├── diff/                # 默认新增商品 diff 目录，运行时按需自动创建
 │   └── vmall_export_new/
 │       ├── __init__.py
 │       ├── __main__.py
@@ -44,6 +48,7 @@ vmallExportNew/
 │       ├── exporter.py
 │       └── models.py
 └── tests/
+    ├── test_cli.py
     └── test_exporter.py
 ```
 
@@ -89,28 +94,34 @@ python -m pip install -r requirements.txt
 python run.py --list-categories
 ```
 
-导出手机参数：
+导出手机参数。未指定目录时，默认写入 `src/out`，如果发现新增商品，新增部分默认写入 `src/diff`：
 
 ```bash
-python run.py --category phones --output-dir output
+python run.py --category phones
 ```
 
 导出全部内置品类：
 
 ```bash
-python run.py --all --output-dir output
+python run.py --all
 ```
 
 限制每个品类最多抓取 10 个商品：
 
 ```bash
-python run.py --category tablets --limit 10 --output-dir output
+python run.py --category tablets --limit 10
+```
+
+手动指定输出目录和新增 diff 目录：
+
+```bash
+python run.py --category phones --output-dir output --diff-dir diff
 ```
 
 开启调试日志并写入文件：
 
 ```bash
-python run.py --category phones --output-dir output --log-level DEBUG --log-file vmall.log
+python run.py --category phones --log-level DEBUG --log-file vmall.log
 ```
 
 ## 可选安装方式
@@ -124,8 +135,8 @@ python -m pip install .
 安装后可以使用以下任一方式运行：
 
 ```bash
-vmall-export --category phones --output-dir output
-python -m vmall_export_new --category phones --output-dir output
+vmall-export --category phones
+python -m vmall_export_new --category phones
 ```
 
 ## 常用参数
@@ -133,7 +144,8 @@ python -m vmall_export_new --category phones --output-dir output
 - `--list-categories`：列出内置品类
 - `--category <key>`：导出单个品类，例如 `phones`
 - `--all`：导出全部内置品类
-- `--output-dir <dir>`：输出目录
+- `--output-dir <dir>`：完整品类 JSON 输出目录，默认是当前工程的 `src/out`
+- `--diff-dir <dir>`：新增商品 JSON 输出目录，默认是当前工程的 `src/diff`
 - `--limit <n>`：限制每个品类抓取的商品数量
 - `--max-pages <n>`：限制搜索结果翻页数
 - `--page-size <n>`：每页搜索结果数量
@@ -157,7 +169,12 @@ python -m vmall_export_new --category phones --output-dir output
 
 ## 输出格式
 
-每个品类会生成一个 JSON 文件，例如：
+每个品类会生成一个完整 JSON 文件。默认目录是 `src/out`，例如：
+
+- `src/out/phones.json`
+- `src/out/tablets.json`
+
+如果你显式传入 `--output-dir output`，则会生成到：
 
 - `output/phones.json`
 - `output/tablets.json`
@@ -168,6 +185,7 @@ python -m vmall_export_new --category phones --output-dir output
 {
   "category_key": "phones",
   "category_name": "手机",
+  "pull_time": "260518",
   "series": {
     "pura系列": {
       "series_key": "pura系列",
@@ -199,9 +217,78 @@ python -m vmall_export_new --category phones --output-dir output
 说明：
 
 - 顶层按品类保存
+- `pull_time` 表示本次拉取时间，格式为 `yymmdd`
 - 品类下按系列归类
 - 系列下按产品归类
 - `specifications` 为最终规格参数列表
+
+## 新增商品识别
+
+每次导出同一个品类时，工具会先读取上一次完整导出文件，例如 `src/out/phones.json`，再和本次拉取结果对比。
+
+对比规则：
+
+- 优先使用 `product_id` 判断是否为同一个商品
+- 如果缺少 `product_id`，会依次回退到 `sku_code` 和产品键名
+- 首次拉取时没有历史文件，只生成完整品类 JSON，不生成 diff 文件
+- 如果本次没有新增商品，不生成 diff 文件
+- 如果发现新增商品，会只把新增部分写入 `src/diff`
+
+新增 diff 文件命名格式：
+
+```text
+{category_key}_{上次pull_time}_{本次pull_time}_new.json
+```
+
+示例：
+
+```text
+src/diff/phones_260517_260518_new.json
+```
+
+diff 文件结构示例：
+
+```json
+{
+  "category_key": "phones",
+  "category_name": "手机",
+  "previous_pull_time": "260517",
+  "current_pull_time": "260518",
+  "new_product_count": 1,
+  "series": {
+    "mate系列": {
+      "series_key": "mate系列",
+      "series_name": "Mate系列",
+      "products": {
+        "mate80": {
+          "product_id": "10000000000000",
+          "product_name": "HUAWEI Mate 80",
+          "specifications": []
+        }
+      }
+    }
+  }
+}
+```
+
+常见使用流程：
+
+```bash
+python run.py --category phones
+```
+
+第一次运行：
+
+- 生成 `src/out/phones.json`
+- JSON 顶层包含本次 `pull_time`
+- 因为没有历史文件，不生成 `src/diff`
+
+第二次及以后运行：
+
+- 先读取旧的 `src/out/phones.json`
+- 拉取本次最新数据
+- 覆盖写入新的 `src/out/phones.json`
+- 如果有新增商品，生成 `src/diff/phones_旧时间_新时间_new.json`
 
 ## 耳机音箱类目说明
 
@@ -212,7 +299,7 @@ python -m vmall_export_new --category phones --output-dir output
 - 智能眼镜：`keyword=智能眼镜`，`categoryId=100620`，三级物理类目码 `310218`
 - 有线耳机：`keyword=有线耳机`，`categoryId=100591`，三级物理类目码 `310213`
 
-如果后续华为商城继续把“耳机音箱”拆出新的子类目，优先在 [categories.py](/Users/ray/Documents/vmallExportNew/src/vmall_export_new/categories.py) 的 `audio.search_queries` 里新增一组查询配置，而不是只改 `keyword`。
+如果后续华为商城继续把“耳机音箱”拆出新的子类目，优先在 [categories.py](src/vmall_export_new/categories.py) 的 `audio.search_queries` 里新增一组查询配置，而不是只改 `keyword`。
 
 ## 测试
 
