@@ -1,0 +1,242 @@
+# vmallExportNew
+
+基于华为商城 VMALL 官方接口和商品详情页内嵌 JSON 的规格参数导出工具。
+
+项目目标：
+
+- 按品类抓取商品列表
+- 同一商品只保留一个代表配置，不重复抓取全部 SKU
+- 以 `品类 -> 系列 -> 产品` 的层级保存 JSON
+- 支持 macOS 和 Windows
+- 内置限速、重试、退避和日志输出
+
+## 运行环境
+
+必需条件：
+
+- Python `3.9+`
+- `pip`，建议升级到最新版本
+- 能访问 `https://www.vmall.com/` 和 `https://openapi.vmall.com/`
+
+运行时依赖：
+
+- `requests>=2.31.0`
+
+可选开发依赖：
+
+- `pytest>=8.0`
+
+## 项目结构
+
+```text
+vmallExportNew/
+├── README.md
+├── requirements.txt
+├── run.py
+├── pyproject.toml
+├── src/
+│   └── vmall_export_new/
+│       ├── __init__.py
+│       ├── __main__.py
+│       ├── categories.py
+│       ├── cli.py
+│       ├── client.py
+│       ├── exporter.py
+│       └── models.py
+└── tests/
+    └── test_exporter.py
+```
+
+## 推荐使用方式
+
+推荐直接运行根目录的 `run.py`，这样不依赖平台上的可执行脚本名，macOS 和 Windows 都一致。
+
+### 1. 创建虚拟环境
+
+macOS:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Windows PowerShell:
+
+```powershell
+py -3 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+Windows CMD:
+
+```cmd
+py -3 -m venv .venv
+.\.venv\Scripts\activate.bat
+```
+
+### 2. 安装依赖
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+### 3. 运行
+
+查看内置品类：
+
+```bash
+python run.py --list-categories
+```
+
+导出手机参数：
+
+```bash
+python run.py --category phones --output-dir output
+```
+
+导出全部内置品类：
+
+```bash
+python run.py --all --output-dir output
+```
+
+限制每个品类最多抓取 10 个商品：
+
+```bash
+python run.py --category tablets --limit 10 --output-dir output
+```
+
+开启调试日志并写入文件：
+
+```bash
+python run.py --category phones --output-dir output --log-level DEBUG --log-file vmall.log
+```
+
+## 可选安装方式
+
+如果你希望安装成命令行工具，也可以：
+
+```bash
+python -m pip install .
+```
+
+安装后可以使用以下任一方式运行：
+
+```bash
+vmall-export --category phones --output-dir output
+python -m vmall_export_new --category phones --output-dir output
+```
+
+## 常用参数
+
+- `--list-categories`：列出内置品类
+- `--category <key>`：导出单个品类，例如 `phones`
+- `--all`：导出全部内置品类
+- `--output-dir <dir>`：输出目录
+- `--limit <n>`：限制每个品类抓取的商品数量
+- `--max-pages <n>`：限制搜索结果翻页数
+- `--page-size <n>`：每页搜索结果数量
+- `--log-level <level>`：日志级别，支持 `DEBUG/INFO/WARNING/ERROR`
+- `--log-file <path>`：把日志同时写入文件
+- `--request-interval <sec>`：请求间隔秒数，默认 `0.8`
+- `--max-retries <n>`：请求失败最大重试次数，默认 `4`
+- `--backoff-factor <sec>`：重试退避基数，默认 `1.5`
+
+## 当前内置品类
+
+- `phones`：手机
+- `tablets`：平板电脑
+- `wearables`：手表
+- `audio`：耳机音箱
+- `laptops`：笔记本电脑
+- `routers`：路由器
+- `smart_screens`：智慧屏
+- `printers`：打印机
+- `monitors`：显示器
+
+## 输出格式
+
+每个品类会生成一个 JSON 文件，例如：
+
+- `output/phones.json`
+- `output/tablets.json`
+
+文件结构示例：
+
+```json
+{
+  "category_key": "phones",
+  "category_name": "手机",
+  "series": {
+    "pura系列": {
+      "series_key": "pura系列",
+      "series_name": "Pura系列",
+      "products": {
+        "pura90pro": {
+          "product_key": "pura90pro",
+          "product_id": "10086866372688",
+          "product_name": "HUAWEI Pura 90 Pro",
+          "product_name_short": "Pura 90 Pro",
+          "sku_code": "2601010614418",
+          "sku_name": "HUAWEI Pura 90 Pro 12GB+256GB 椰青白",
+          "product_url": "https://www.vmall.com/product/10086866372688.html",
+          "third_level_category_code": "260101",
+          "specifications": [
+            {
+              "group_name": "主体",
+              "attr_name": "品牌",
+              "attr_value": "华为"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+```
+
+说明：
+
+- 顶层按品类保存
+- 品类下按系列归类
+- 系列下按产品归类
+- `specifications` 为最终规格参数列表
+
+## 耳机音箱类目说明
+
+`audio` 不是单一搜索条件，而是聚合了多组华为商城子类目查询：
+
+- 蓝牙耳机：`keyword=耳机`，`categoryId=100559`，三级物理类目码 `310205`
+- 智能音箱：`keyword=智能音箱`，`categoryId=100561`，三级物理类目码 `310206`
+- 智能眼镜：`keyword=智能眼镜`，`categoryId=100620`，三级物理类目码 `310218`
+- 有线耳机：`keyword=有线耳机`，`categoryId=100591`，三级物理类目码 `310213`
+
+如果后续华为商城继续把“耳机音箱”拆出新的子类目，优先在 [categories.py](/Users/ray/Documents/vmallExportNew/src/vmall_export_new/categories.py) 的 `audio.search_queries` 里新增一组查询配置，而不是只改 `keyword`。
+
+## 测试
+
+安装开发依赖：
+
+```bash
+python -m pip install -e .[dev]
+```
+
+运行测试：
+
+```bash
+python -m pytest
+```
+
+## 注意事项
+
+- 当前搜索阶段使用官方接口 `openapi.vmall.com/mcp/v1/search/queryPrd`
+- 当前规格提取阶段使用商品详情页官方 `__NEXT_DATA__`
+- “全部品类”基于内置品类配置，不依赖商城导航树自动发现
+- 华为商城页面结构如果后续变化，解析逻辑可能需要调整
+- 当前已实现基础稳定性策略：
+  - 自动获取并缓存 csrf token
+  - csrf 失效后自动刷新并重试
+  - 403/429/网络异常自动重试
+  - 串行请求 + 最小请求间隔控制
+  - 标准输出日志和可选日志文件
