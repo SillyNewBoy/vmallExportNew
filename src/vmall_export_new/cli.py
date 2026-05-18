@@ -31,6 +31,11 @@ def build_parser() -> argparse.ArgumentParser:
         help="Directory used to store generated JSON files.",
     )
     parser.add_argument(
+        "--diff-dir",
+        default="./diff",
+        help="Directory used to store new-product diff JSON files.",
+    )
+    parser.add_argument(
         "--limit",
         type=int,
         default=None,
@@ -134,6 +139,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         file_path, count = exporter.export_category(
             category,
             output_dir=Path(args.output_dir),
+            diff_dir=Path(args.diff_dir),
             limit=args.limit,
             max_pages=args.max_pages,
             page_size=args.page_size,
