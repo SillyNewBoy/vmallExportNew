@@ -40,4 +40,5 @@ CATEGORY_PRESETS = {
     "smart_screens": {"name": "智慧屏", "keyword": "智慧屏", "category_id": 100636},
     "printers": {"name": "打印机", "keyword": "打印机", "category_id": 101086},
     "monitors": {"name": "显示器", "keyword": "显示器", "category_id": 100848},
+    "cars": {"name": "汽车", "keyword": "汽车", "category_id": None},
 }

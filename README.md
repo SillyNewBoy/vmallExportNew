@@ -1,12 +1,14 @@
 # vmallExportNew
 
 基于华为商城 VMALL 官方接口和商品详情页内嵌 JSON 的规格参数导出工具。
+同时支持从鸿蒙智行官网 `hima.auto` 抓取汽车配置参数。
 
 项目目标：
 
 - 按品类抓取商品列表
 - 同一商品只保留一个代表配置，不重复抓取全部 SKU
 - 以 `品类 -> 系列 -> 产品` 的层级保存 JSON
+- 支持 VMALL 数码品类和鸿蒙智行汽车品类统一导出
 - 每次拉取会在品类 JSON 顶层记录 `pull_time`，格式为 `yymmdd`
 - 自动对比同品类上一次拉取结果，发现新增商品时生成新增部分 JSON
 - 支持 macOS 和 Windows
@@ -18,11 +20,12 @@
 
 - Python `3.9+`
 - `pip`，建议升级到最新版本
-- 能访问 `https://www.vmall.com/` 和 `https://openapi.vmall.com/`
+- 能访问 `https://www.vmall.com/`、`https://openapi.vmall.com/` 和 `https://hima.auto/`
 
 运行时依赖：
 
 - `requests>=2.31.0`
+- `beautifulsoup4>=4.12.0`
 
 可选开发依赖：
 
@@ -46,6 +49,8 @@ vmallExportNew/
 │       ├── cli.py
 │       ├── client.py
 │       ├── exporter.py
+│       ├── hima_exporter.py
+│       ├── json_export.py
 │       └── models.py
 └── tests/
     ├── test_cli.py
@@ -92,6 +97,12 @@ python -m pip install -r requirements.txt
 
 ```bash
 python run.py --list-categories
+```
+
+导出汽车配置参数：
+
+```bash
+python run.py --category cars
 ```
 
 导出手机参数。未指定目录时，默认写入 `src/out`，如果发现新增商品，新增部分默认写入 `src/diff`：
@@ -166,6 +177,7 @@ python -m vmall_export_new --category phones
 - `smart_screens`：智慧屏
 - `printers`：打印机
 - `monitors`：显示器
+- `cars`：汽车，来源为鸿蒙智行官网 `hima.auto`
 
 ## 输出格式
 
@@ -173,6 +185,7 @@ python -m vmall_export_new --category phones
 
 - `src/out/phones.json`
 - `src/out/tablets.json`
+- `src/out/cars.json`
 
 如果你显式传入 `--output-dir output`，则会生成到：
 
@@ -289,6 +302,43 @@ python run.py --category phones
 - 拉取本次最新数据
 - 覆盖写入新的 `src/out/phones.json`
 - 如果有新增商品，生成 `src/diff/phones_旧时间_新时间_new.json`
+
+## 汽车配置导出
+
+汽车品类使用 `cars`：
+
+```bash
+python run.py --category cars
+```
+
+该导出器会从鸿蒙智行官网抓取以下品牌入口：
+
+- 问界：`https://hima.auto/wenjie/`
+- 智界：`https://hima.auto/zhijie/`
+- 享界：`https://hima.auto/xiangjie/`
+- 尊界：`https://hima.auto/zunjie/`
+- 尚界：`https://hima.auto/shangjie/`
+
+输出文件默认是：
+
+```text
+src/out/cars.json
+```
+
+汽车输出同样包含：
+
+- 顶层 `pull_time`
+- `category_key: "cars"`
+- `category_name: "汽车"`
+- `series` 下按品牌归类，例如 `wenjie`、`zhijie`
+- 每个车型配置版本以产品形式写入 `products`
+- `specifications` 中包含品牌、车型、售价、续航、车身、安全、智能化等页面可解析的配置项
+
+汽车品类也会复用新增识别机制。第二次及以后运行，如果发现新增车型配置，会生成类似：
+
+```text
+src/diff/cars_260517_260518_new.json
+```
 
 ## 耳机音箱类目说明
 

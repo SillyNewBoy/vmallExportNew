@@ -9,6 +9,7 @@ from typing import Sequence
 
 from .client import VmallClient
 from .exporter import VmallExporter
+from .hima_exporter import HIMA_CATEGORY_KEY, HimaCarExporter
 
 
 DEFAULT_OUTPUT_DIR = Path(__file__).resolve().parents[1] / "out"
@@ -112,13 +113,17 @@ def main(argv: Sequence[str] | None = None) -> int:
     args = parser.parse_args(argv)
     configure_logging(args.log_level, args.log_file)
     logger = logging.getLogger(__name__)
-    client = VmallClient(
+    vmall_client = VmallClient(
         min_request_interval=args.request_interval,
         max_retries=args.max_retries,
         backoff_factor=args.backoff_factor,
         logger=logging.getLogger("vmall_export_new.client"),
     )
-    exporter = VmallExporter(client=client)
+    exporter = VmallExporter(client=vmall_client)
+    hima_exporter = HimaCarExporter(
+        request_interval=args.request_interval,
+        logger=logging.getLogger("vmall_export_new.hima_exporter"),
+    )
 
     if args.list_categories:
         for category in exporter.list_categories():
@@ -140,14 +145,21 @@ def main(argv: Sequence[str] | None = None) -> int:
 
     logger.info("Resolved %s categories for export", len(categories))
     for category in categories:
-        file_path, count = exporter.export_category(
-            category,
-            output_dir=Path(args.output_dir),
-            diff_dir=Path(args.diff_dir),
-            limit=args.limit,
-            max_pages=args.max_pages,
-            page_size=args.page_size,
-        )
+        if category.key == HIMA_CATEGORY_KEY:
+            file_path, count = hima_exporter.export_category(
+                output_dir=Path(args.output_dir),
+                diff_dir=Path(args.diff_dir),
+                limit=args.limit,
+            )
+        else:
+            file_path, count = exporter.export_category(
+                category,
+                output_dir=Path(args.output_dir),
+                diff_dir=Path(args.diff_dir),
+                limit=args.limit,
+                max_pages=args.max_pages,
+                page_size=args.page_size,
+            )
         print(f"{category.key}\t{count}\t{file_path}")
 
     return 0
