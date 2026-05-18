@@ -11,4 +11,6 @@ dist/
 output/
 output_*/
 diff/
+src/out/
+src/diff/
 *.log

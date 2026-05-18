@@ -11,6 +11,10 @@ from .client import VmallClient
 from .exporter import VmallExporter
 
 
+DEFAULT_OUTPUT_DIR = Path(__file__).resolve().parents[1] / "out"
+DEFAULT_DIFF_DIR = Path(__file__).resolve().parents[1] / "diff"
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="vmall-export",
@@ -27,12 +31,12 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--output-dir",
-        default="./output",
+        default=str(DEFAULT_OUTPUT_DIR),
         help="Directory used to store generated JSON files.",
     )
     parser.add_argument(
         "--diff-dir",
-        default="./diff",
+        default=str(DEFAULT_DIFF_DIR),
         help="Directory used to store new-product diff JSON files.",
     )
     parser.add_argument(
