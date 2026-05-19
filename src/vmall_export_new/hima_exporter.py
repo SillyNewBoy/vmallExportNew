@@ -217,7 +217,7 @@ def extract_named_item_texts(container: Tag | None, group_label_map: dict[str, s
     counts = Counter(text for text, _ in items)
     results: list[str] = []
     for text, group_label in items:
-        if group_label and counts[text] > 1:
+        if group_label:
             results.append(f"{text} {group_label}")
         else:
             results.append(text)
