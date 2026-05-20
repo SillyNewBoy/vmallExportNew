@@ -1,5 +1,6 @@
 import json
 
+from vmall_export_new.categories import CATEGORY_PRESETS
 from vmall_export_new.exporter import VmallExporter
 from vmall_export_new.models import CategoryConfig, SearchProduct, SearchQueryConfig
 
@@ -296,3 +297,125 @@ def test_search_query_filter_keeps_allowed_category_codes_only():
     )
 
     assert [item.product_id for item in items] == ["1"]
+
+
+def test_router_category_queries_cover_mobile_wifi_subcategories():
+    queries = CATEGORY_PRESETS["routers"]["search_queries"]
+
+    assert {
+        (query.keyword, query.category_id, query.allowed_category_codes)
+        for query in queries
+    } == {
+        ("路由", 100529, ("300101",)),
+        ("随行WiFi", 100533, ("300103",)),
+        ("移动路由", 100533, ("300103",)),
+        ("移动路由", 101800, ("640101",)),
+    }
+
+
+def test_wearable_category_queries_cover_watch_band_and_kids_watch():
+    queries = CATEGORY_PRESETS["wearables"]["search_queries"]
+
+    assert {
+        (query.keyword, query.category_id, query.allowed_category_codes)
+        for query in queries
+    } == {
+        ("手表", 100523, ("290101",)),
+        ("手环", 100525, ("290102",)),
+        ("儿童手表", 102292, ("290103",)),
+    }
+
+
+def test_export_category_merges_and_dedupes_multiple_queries(tmp_path):
+    class StubExporter(VmallExporter):
+        def __init__(self):
+            super().__init__(client=None)
+
+        def _current_pull_time(self):
+            return "260520"
+
+        def _build_export_item(self, category, product):
+            return {
+                "category_key": category.key,
+                "category_name": category.name,
+                "series_name": "路由器",
+                "series_key": "routers",
+                "product_id": product.product_id,
+                "product_name": product.product_name,
+                "product_name_short": product.product_name,
+                "product_key": product.product_name.lower().replace(" ", ""),
+                "sku_code": product.sku_code,
+                "sku_name": product.sku_name,
+                "product_url": product.product_url,
+                "third_level_category_code": product.category_code,
+                "specifications": [],
+            }
+
+    class StubClient:
+        def search_products(self, **kwargs):
+            if kwargs["category_id"] == 100529:
+                return [
+                    SearchProduct(
+                        product_id="router-1",
+                        product_name="华为路由 BE7",
+                        sku_code="sku-router",
+                        sku_name="华为路由 BE7",
+                        category_code="300101",
+                        raw={},
+                    )
+                ]
+            if kwargs["category_id"] == 100533:
+                return [
+                    SearchProduct(
+                        product_id="wifi-1",
+                        product_name="华为随行WiFi X",
+                        sku_code="sku-wifi",
+                        sku_name="华为随行WiFi X 银色",
+                        category_code="300103",
+                        raw={},
+                    )
+                ]
+            if kwargs["category_id"] == 101800:
+                return [
+                    SearchProduct(
+                        product_id="mobile-router-pro",
+                        product_name="华为移动路由 Pro",
+                        sku_code="sku-mobile-router-pro",
+                        sku_name="华为移动路由 Pro 白色",
+                        category_code="640101",
+                        raw={},
+                    )
+                ]
+            return []
+
+    exporter = StubExporter()
+    exporter.client = StubClient()
+    category = CategoryConfig(
+        key="routers",
+        name="路由器",
+        keyword="路由",
+        search_queries=(
+            SearchQueryConfig("路由", 100529, ("300101",)),
+            SearchQueryConfig("随行WiFi", 100533, ("300103",)),
+            SearchQueryConfig("移动路由", 100533, ("300103",)),
+            SearchQueryConfig("移动路由", 101800, ("640101",)),
+        ),
+    )
+
+    file_path, count = exporter.export_category(
+        category,
+        output_dir=tmp_path / "output",
+        diff_dir=tmp_path / "diff",
+    )
+
+    payload = json.loads(file_path.read_text(encoding="utf-8"))
+    products = payload["series"]["routers"]["products"]
+    assert count == 3
+    assert {
+        product["product_name"]
+        for product in products.values()
+    } == {
+        "华为路由 BE7",
+        "华为随行WiFi X",
+        "华为移动路由 Pro",
+    }
