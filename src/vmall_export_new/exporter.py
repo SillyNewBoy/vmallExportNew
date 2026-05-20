@@ -16,6 +16,8 @@ from .models import CategoryConfig, SearchProduct, SearchQueryConfig
 class VmallExporter(JsonCategoryExportMixin):
     """High-level export orchestration."""
 
+    COLOR_SUMMARY_ATTR_NAMES = ("颜色", "款式")
+
     def __init__(self, client: VmallClient | None = None) -> None:
         self.client = client or VmallClient()
         self.logger = logging.getLogger(__name__)
@@ -155,6 +157,7 @@ class VmallExporter(JsonCategoryExportMixin):
         next_data = self.client.fetch_product_next_data(product.product_id)
         main_data = next_data.get("props", {}).get("pageProps", {}).get("mainData", {}).get("current", {})
         specs = self._extract_specifications(next_data, preferred_sku_code=product.sku_code)
+        color_summary = self._extract_color_summary(main_data)
         series_name = self._extract_series_name(specs)
         product_name_short = self._extract_product_short_name(main_data, specs, fallback=product.product_name)
         return {
@@ -170,6 +173,7 @@ class VmallExporter(JsonCategoryExportMixin):
             "sku_name": product.sku_name,
             "product_url": product.product_url,
             "third_level_category_code": product.category_code,
+            "color_summary": color_summary,
             "specifications": specs,
         }
 
@@ -201,6 +205,7 @@ class VmallExporter(JsonCategoryExportMixin):
                 item["product_key"],
                 item["product_id"],
             )
+            color_summary = item.get("color_summary", [])
             series_bucket["products"][product_key] = {
                 "product_key": product_key,
                 "product_id": item["product_id"],
@@ -210,6 +215,8 @@ class VmallExporter(JsonCategoryExportMixin):
                 "sku_name": item["sku_name"],
                 "product_url": item["product_url"],
                 "third_level_category_code": item["third_level_category_code"],
+                "color_summary_count": len(color_summary),
+                "color_summary": color_summary,
                 "specifications": item["specifications"],
             }
 
@@ -218,6 +225,114 @@ class VmallExporter(JsonCategoryExportMixin):
     def _count_products(self, payload: dict[str, Any]) -> int:
         series = payload.get("series", {})
         return sum(len(item.get("products", {})) for item in series.values())
+
+    def _extract_color_summary(
+        self,
+        main_data: dict[str, Any],
+    ) -> list[dict[str, Any]]:
+        summary: dict[tuple[str, str], dict[str, Any]] = {}
+
+        for item in self._as_list(main_data.get("colorSelectItem")):
+            if not isinstance(item, dict):
+                continue
+            self._add_color_summary_item(
+                summary,
+                attr_name=item.get("attrName") or "颜色",
+                attr_value=item.get("attrValue"),
+                sku_code=item.get("sbomCode"),
+                sku_codes=item.get("surrportSbomCodes") or item.get("supportSbomCodes"),
+                image_url=item.get("url"),
+                source="colorSelectItem",
+            )
+
+        product_options = self._as_dict(main_data.get("productOptions"))
+        mappings = self._as_dict(product_options.get("gbomAttrMappings"))
+        for attr_name, options in mappings.items():
+            attr_name_text = str(attr_name or "")
+            if not self._is_color_summary_attr(attr_name_text):
+                continue
+            for option in self._as_list(options):
+                if not isinstance(option, dict):
+                    continue
+                self._add_color_summary_item(
+                    summary,
+                    attr_name=option.get("attrName") or attr_name_text,
+                    attr_value=option.get("attrValue"),
+                    sku_code=option.get("sbomCode"),
+                    sku_codes=option.get("supportSbomCodes") or option.get("surrportSbomCodes"),
+                    source="productOptions.gbomAttrMappings",
+                )
+
+        for sbom_map in (
+            self._as_dict(main_data.get("base")),
+            self._as_dict(product_options.get("sbomList")),
+        ):
+            for sbom_code, sbom in sbom_map.items():
+                if not isinstance(sbom, dict):
+                    continue
+                for attr in self._as_list(sbom.get("gbomAttrList")):
+                    if not isinstance(attr, dict):
+                        continue
+                    attr_name = str(attr.get("attrName") or "")
+                    if not self._is_color_summary_attr(attr_name):
+                        continue
+                    self._add_color_summary_item(
+                        summary,
+                        attr_name=attr_name,
+                        attr_value=attr.get("attrValue"),
+                        sku_code=attr.get("sbomCode") or sbom.get("sbomCode") or sbom_code,
+                        source="sbom.gbomAttrList",
+                    )
+
+        return list(summary.values())
+
+    def _add_color_summary_item(
+        self,
+        summary: dict[tuple[str, str], dict[str, Any]],
+        *,
+        attr_name: Any,
+        attr_value: Any,
+        sku_code: Any = None,
+        sku_codes: Any = None,
+        image_url: Any = None,
+        source: str = "",
+    ) -> None:
+        value = str(attr_value or "").strip()
+        if not value:
+            return
+        name = str(attr_name or "颜色").strip() or "颜色"
+        key = (name, value)
+        if key not in summary:
+            summary[key] = {
+                "attr_name": name,
+                "attr_value": value,
+                "sku_codes": [],
+            }
+            if image_url:
+                summary[key]["image_url"] = str(image_url)
+            if source:
+                summary[key]["source"] = source
+
+        entry = summary[key]
+        for code in self._as_list(sku_codes):
+            self._append_unique_sku_code(entry["sku_codes"], code)
+        self._append_unique_sku_code(entry["sku_codes"], sku_code)
+        if image_url and "image_url" not in entry:
+            entry["image_url"] = str(image_url)
+
+    def _append_unique_sku_code(self, sku_codes: list[str], value: Any) -> None:
+        code = str(value or "").strip()
+        if code and code not in sku_codes:
+            sku_codes.append(code)
+
+    def _is_color_summary_attr(self, attr_name: str) -> bool:
+        return any(name in attr_name for name in self.COLOR_SUMMARY_ATTR_NAMES)
+
+    def _as_list(self, value: Any) -> list[Any]:
+        return value if isinstance(value, list) else []
+
+    def _as_dict(self, value: Any) -> dict[str, Any]:
+        return value if isinstance(value, dict) else {}
 
     def _extract_specifications(
         self,

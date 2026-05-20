@@ -299,6 +299,126 @@ def test_search_query_filter_keeps_allowed_category_codes_only():
     assert [item.product_id for item in items] == ["1"]
 
 
+def test_extract_color_summary_uses_color_select_items_first():
+    exporter = VmallExporter(client=None)
+    main_data = {
+        "colorSelectItem": [
+            {
+                "attrName": "颜色",
+                "attrValue": "曜石黑",
+                "sbomCode": "sku-black-1",
+                "surrportSbomCodes": ["sku-black-1", "sku-black-2"],
+                "url": "https://example.com/black.png",
+            },
+            {
+                "attrName": "颜色",
+                "attrValue": "雪域白",
+                "sbomCode": "sku-white-1",
+                "surrportSbomCodes": ["sku-white-1", "sku-white-2"],
+                "url": "https://example.com/white.png",
+            },
+        ]
+    }
+
+    summary = exporter._extract_color_summary(main_data)
+
+    assert summary == [
+        {
+            "attr_name": "颜色",
+            "attr_value": "曜石黑",
+            "sku_codes": ["sku-black-1", "sku-black-2"],
+            "image_url": "https://example.com/black.png",
+            "source": "colorSelectItem",
+        },
+        {
+            "attr_name": "颜色",
+            "attr_value": "雪域白",
+            "sku_codes": ["sku-white-1", "sku-white-2"],
+            "image_url": "https://example.com/white.png",
+            "source": "colorSelectItem",
+        },
+    ]
+
+
+def test_extract_color_summary_falls_back_to_product_options_style():
+    exporter = VmallExporter(client=None)
+    main_data = {
+        "productOptions": {
+            "gbomAttrMappings": {
+                "款式": [
+                    {
+                        "attrName": "款式",
+                        "attrValue": "风信紫 淡紫色氟橡胶表带",
+                        "sbomCode": "sku-purple",
+                        "supportSbomCodes": ["sku-purple"],
+                    }
+                ]
+            },
+            "sbomList": {
+                "sku-purple": {
+                    "gbomAttrList": [
+                        {
+                            "attrName": "款式",
+                            "attrValue": "风信紫 淡紫色氟橡胶表带",
+                        }
+                    ],
+                    "sbomCode": "sku-purple",
+                }
+            },
+        }
+    }
+
+    summary = exporter._extract_color_summary(main_data)
+
+    assert summary == [
+        {
+            "attr_name": "款式",
+            "attr_value": "风信紫 淡紫色氟橡胶表带",
+            "sku_codes": ["sku-purple"],
+            "source": "productOptions.gbomAttrMappings",
+        }
+    ]
+
+
+def test_build_category_tree_places_color_summary_before_specifications():
+    exporter = VmallExporter(client=None)
+    category = CategoryConfig(
+        key="phones",
+        name="手机",
+        keyword="手机",
+        category_id=100507,
+    )
+    item = {
+        "category_key": category.key,
+        "category_name": category.name,
+        "series_name": "Mate系列",
+        "series_key": "mate系列",
+        "product_id": "1001",
+        "product_name": "HUAWEI Mate 80 Pro",
+        "product_name_short": "Mate 80 Pro",
+        "product_key": "mate80pro",
+        "sku_code": "sku-white",
+        "sku_name": "HUAWEI Mate 80 Pro 12GB+256GB 雪域白",
+        "product_url": "https://www.vmall.com/product/1001.html",
+        "third_level_category_code": "260101",
+        "color_summary": [
+            {
+                "attr_name": "颜色",
+                "attr_value": "雪域白",
+                "sku_codes": ["sku-white"],
+            }
+        ],
+        "specifications": [],
+    }
+
+    payload = exporter._build_category_tree(category, [item], pull_time="260520")
+    product = payload["series"]["mate系列"]["products"]["mate80pro"]
+
+    assert product["color_summary_count"] == 1
+    assert product["color_summary"] == item["color_summary"]
+    assert list(product).index("color_summary") < list(product).index("specifications")
+
+
 def test_router_category_queries_cover_mobile_wifi_subcategories():
     queries = CATEGORY_PRESETS["routers"]["search_queries"]
 
