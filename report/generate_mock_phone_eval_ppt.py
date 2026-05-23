@@ -361,10 +361,10 @@ def set_widths(ws, widths: dict[str, int]) -> None:
 
 def build_action_items(summary: dict[str, object]) -> list[dict[str, object]]:
     actions = []
-    for (l5, l6), stat in summary["top_l6"][:8]:
+    for (l5, l6), stat in summary["top_l6"][:7]:
         top_dim = max(stat["dims"].items(), key=lambda item: item[1])[0]
         device_hits = summary["by_l6_device"].get((l5, l6), [])
-        devices = "、".join(device for device, _ in device_hits) or "-"
+        devices = "\n".join(device for device, _ in device_hits) or "-"
         issue = int(stat["issue"])
         accuracy = float(stat["accuracy"])
         if issue >= 45 and (top_dim == "正确性" or accuracy < 0.80):
@@ -720,7 +720,7 @@ def create_ppt(
     actions = build_action_items(summary)
     x = 0.65
     y = 1.35
-    widths = [0.68, 2.0, 1.65, 0.72, 0.78, 0.85, 5.05]
+    widths = [0.68, 1.85, 2.6, 0.72, 0.78, 0.85, 4.25]
     headers = ["优先级", "参数", "重点设备", "问题数", "准确率", "主问题", "建议动作"]
     add_rect(slide, x, y, sum(widths), 0.38, "dark")
     xx = x
@@ -728,8 +728,9 @@ def create_ppt(
         add_text(slide, header, xx + 0.05, y + 0.08, width - 0.1, 0.18, 8, "white", True, PP_ALIGN.CENTER)
         xx += width
     for idx, item in enumerate(actions):
-        yy = y + 0.38 + idx * 0.54
-        add_rect(slide, x, yy, sum(widths), 0.54, "white", "light_gray")
+        row_h = 0.62
+        yy = y + 0.38 + idx * row_h
+        add_rect(slide, x, yy, sum(widths), row_h, "white", "light_gray")
         xx = x
         values = [
             item["priority"],
@@ -741,8 +742,13 @@ def create_ppt(
             item["action"],
         ]
         colors = ["red" if item["priority"] == "P0" else "orange", "dark", "gray", "dark", "dark", "red", "dark"]
-        for width, value, color in zip(widths, values, colors):
-            add_text(slide, truncate(value, 33), xx + 0.06, yy + 0.12, width - 0.12, 0.23, 8, color, item["priority"] == "P0" and value == item["priority"])
+        for width, value, color, header in zip(widths, values, colors, headers):
+            if header == "重点设备":
+                longest_device = max(str(value).splitlines() or [""], key=len)
+                font_size = fitted_font_size(longest_device, 7.0, fit_chars=34, min_size=5.0)
+                add_text(slide, str(value), xx + 0.05, yy + 0.05, width - 0.1, row_h - 0.1, font_size, color)
+            else:
+                add_text(slide, truncate(value, 33), xx + 0.06, yy + 0.16, width - 0.12, 0.23, 8, color, item["priority"] == "P0" and value == item["priority"])
             xx += width
     add_text(slide, "优先级规则：优先处理问题量高、正确性问题突出、准确率低的具体参数。", 0.75, 6.38, 8.2, 0.25, 9, "gray")
     add_footer(slide, 7)
