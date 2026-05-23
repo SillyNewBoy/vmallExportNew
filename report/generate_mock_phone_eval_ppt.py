@@ -76,6 +76,14 @@ def truncate(text: object, limit: int) -> str:
     return value if len(value) <= limit else value[: limit - 1] + "…"
 
 
+def fitted_font_size(text: object, base_size: float, *, fit_chars: int, min_size: float = 5.5) -> float:
+    value = "" if text is None else str(text)
+    if len(value) <= fit_chars:
+        return base_size
+    shrink = (len(value) - fit_chars + 5) // 6
+    return max(min_size, base_size - shrink)
+
+
 def load_eval_rows(input_path: Path) -> list[dict[str, object]]:
     wb = load_workbook(input_path, data_only=True, read_only=True)
     ws = wb[wb.sheetnames[0]]
@@ -462,13 +470,18 @@ def add_manual_bar_list(
     label_w: float = 2.0,
     color: str = "red",
     limit: int | None = None,
+    label_limit: int | None = 16,
+    label_size: float = 8,
+    label_fit_chars: int = 16,
 ) -> None:
     visible = items[:limit] if limit else items
     bar_x = x + label_w
     bar_w = w - label_w - 0.85
     for idx, (label, value, tag) in enumerate(visible):
         yy = y + idx * row_h
-        add_text(slide, truncate(label, 16), x, yy + 0.02, label_w - 0.05, row_h - 0.02, 8, "dark")
+        display_label = str(label) if label_limit is None else truncate(label, label_limit)
+        display_size = fitted_font_size(display_label, label_size, fit_chars=label_fit_chars)
+        add_text(slide, display_label, x, yy + 0.02, label_w - 0.05, row_h - 0.02, display_size, "dark")
         add_rect(slide, bar_x, yy + 0.07, bar_w, row_h * 0.38, "light_gray")
         fill_w = max(0.02, bar_w * min(value / max_value, 1))
         add_rect(slide, bar_x, yy + 0.07, fill_w, row_h * 0.38, color)
@@ -612,7 +625,22 @@ def create_ppt(
         for device, stat in summary["device_rank"]
     ]
     add_text(slide, "设备准确率排行", 0.8, 1.28, 2.2, 0.25, 12, "dark", True)
-    add_manual_bar_list(slide, device_items, 0.8, 1.68, 5.55, 0.29, 1.0, "{:.1%}", 1.55, "red", limit=16)
+    add_manual_bar_list(
+        slide,
+        device_items,
+        0.65,
+        1.68,
+        6.05,
+        0.29,
+        1.0,
+        "{:.1%}",
+        2.45,
+        "red",
+        limit=16,
+        label_limit=None,
+        label_size=7.2,
+        label_fit_chars=26,
+    )
     l5_items = [
         (l5, stat["accuracy"], f"n={stat['total']}")
         for l5, stat in sorted(summary["by_l5"].items(), key=lambda item: item[1]["accuracy"])
@@ -621,7 +649,7 @@ def create_ppt(
     add_manual_bar_list(slide, l5_items, 7.0, 1.68, 5.15, 0.38, 1.0, "{:.1%}", 1.45, "blue")
     worst = l5_items[0]
     worst_device = device_items[0]
-    add_text(slide, f"最低设备：{worst_device[0]}（{worst_device[1]:.1%}）", 0.8, 6.65, 4.0, 0.24, 9, "red", True)
+    add_text(slide, f"最低设备：{worst_device[0]}（{worst_device[1]:.1%}）", 0.65, 6.65, 5.5, 0.24, fitted_font_size(worst_device[0], 9, fit_chars=24, min_size=7), "red", True)
     add_text(slide, f"最低参数聚类：{worst[0]}（{worst[1]:.1%}）", 7.0, 6.65, 4.2, 0.24, 9, "red", True)
     add_footer(slide, 3)
 
