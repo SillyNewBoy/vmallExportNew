@@ -39,6 +39,9 @@ vmallExportNew/
 ├── requirements.txt
 ├── run.py
 ├── pyproject.toml
+├── report/
+│   ├── generate_mock_phone_eval_ppt.py  # 小艺参数评测 PPT/统计表生成脚本
+│   └── PPT生成脚本使用说明.md             # 评测报告生成说明
 ├── src/
 │   ├── out/                 # 默认导出目录，运行时自动创建
 │   ├── diff/                # 默认新增商品 diff 目录，运行时按需自动创建
@@ -350,6 +353,41 @@ src/diff/cars_260517_260518_new.json
 - 有线耳机：`keyword=有线耳机`，`categoryId=100591`，三级物理类目码 `310213`
 
 如果后续华为商城继续把“耳机音箱”拆出新的子类目，优先在 [categories.py](src/vmall_export_new/categories.py) 的 `audio.search_queries` 里新增一组查询配置，而不是只改 `keyword`。
+
+## 评测报告 PPT 生成
+
+`report` 目录提供了小艺参数问答评测报告生成脚本，可根据人工评测 Excel 自动生成 PPT 报告和统计汇总 Excel。
+
+脚本入口：
+
+```text
+report/generate_mock_phone_eval_ppt.py
+```
+
+脚本不调用模型、不访问网络，执行过程为：
+
+```text
+评测 Excel -> 统计聚合 -> 生成统计 Excel -> 生成 PPT
+```
+
+正式评测表字段固定时，可复用于手机、平板、耳机等品类。评测表需要包含 `query所属设备` 字段，用于区分 `pura80`、`pura90` 等不同机型或设备。
+
+示例：
+
+```powershell
+python report\generate_mock_phone_eval_ppt.py `
+  --input report\手机全量参数评测.xlsx `
+  --product 手机 `
+  --output 小艺手机全量参数评测报告.pptx
+```
+
+不传 `--input` 时会生成模拟数据和模拟 PPT，适合预览报告样式：
+
+```powershell
+python report\generate_mock_phone_eval_ppt.py --product 平板 --mock-count 5800
+```
+
+详细字段说明、依赖安装、参数说明和常见问题见 [PPT生成脚本使用说明.md](report/PPT生成脚本使用说明.md)。
 
 ## 测试
 
