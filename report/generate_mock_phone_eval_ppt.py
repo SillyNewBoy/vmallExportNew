@@ -60,7 +60,7 @@ BASE_COLUMNS = [
     "五级分类",
     "六级分类",
     "query",
-    "displayText",
+    "DisplayText",
     "备注",
     "人工综合评测结果",
     *DIMENSIONS,
@@ -104,7 +104,7 @@ def load_eval_rows(input_path: Path) -> list[dict[str, object]]:
         row["五级分类"] = str(row["五级分类"] or "未标注五级分类").strip()
         row["六级分类"] = str(row["六级分类"] or "未标注六级分类").strip()
         row["query"] = str(row["query"] or "").strip()
-        row["displayText"] = str(row["displayText"] or "").strip()
+        row["DisplayText"] = str(row["DisplayText"] or "").strip()
         row["备注"] = str(row["备注"] or "").strip()
         for column in ["人工综合评测结果", *DIMENSIONS]:
             row[column] = parse_flag(row[column], column)
@@ -301,7 +301,7 @@ def write_summary_workbook(summary: dict[str, object], output_path: Path) -> Non
     set_widths(ws, {"A": 16, "B": 18, "C": 12, "D": 12, "E": 12, "F": 16})
 
     ws = wb.create_sheet("典型案例")
-    ws.append(["case_id", "query所属设备", "五级分类", "六级分类", "query", "displayText", "备注", *DIMENSIONS])
+    ws.append(["case_id", "query所属设备", "五级分类", "六级分类", "query", "DisplayText", "备注", *DIMENSIONS])
     for row in summary["examples"]:
         ws.append(
             [
@@ -310,7 +310,7 @@ def write_summary_workbook(summary: dict[str, object], output_path: Path) -> Non
                 row["五级分类"],
                 row["六级分类"],
                 row["query"],
-                row["displayText"],
+                row["DisplayText"],
                 row["备注"],
                 *[row[dim] for dim in DIMENSIONS],
             ]
@@ -709,7 +709,7 @@ def create_ppt(
         add_text(slide, f"案例 {idx}｜{row['query所属设备']}｜{row['五级分类']} / {row['六级分类']}", x + 0.2, y + 0.18, 3.95, 0.25, 10, "red", True)
         add_text(slide, dims, x + 4.1, y + 0.18, 1.25, 0.25, 9, "orange", True, PP_ALIGN.RIGHT)
         add_text(slide, f"Q：{truncate(row['query'], 42)}", x + 0.2, y + 0.55, 5.15, 0.35, 10, "dark", True)
-        add_text(slide, f"A：{truncate(row['displayText'], 58)}", x + 0.2, y + 0.98, 5.15, 0.45, 9, "gray")
+        add_text(slide, f"A：{truncate(row['DisplayText'], 58)}", x + 0.2, y + 0.98, 5.15, 0.45, 9, "gray")
         add_text(slide, f"备注：{truncate(row['备注'], 38)}", x + 0.2, y + 1.62, 5.15, 0.35, 10, "dark")
     add_footer(slide, 6)
 
