@@ -372,19 +372,14 @@ report/generate_mock_phone_eval_ppt.py
 
 正式评测表字段固定时，可复用于手机、平板、耳机等品类。评测表需要包含 `query所属设备` 字段，用于区分 `pura80`、`pura90` 等不同机型或设备。
 
-示例：
+使用方式：
+
+1. 打开 `report/generate_mock_phone_eval_ppt.py`
+2. 修改脚本顶部 `CONFIG` 中的输入 Excel、输出 PPT、品类名等配置
+3. 直接执行脚本
 
 ```powershell
-python report\generate_mock_phone_eval_ppt.py `
-  --input report\手机全量参数评测.xlsx `
-  --product 手机 `
-  --output 小艺手机全量参数评测报告.pptx
-```
-
-不传 `--input` 时会生成模拟数据和模拟 PPT，适合预览报告样式：
-
-```powershell
-python report\generate_mock_phone_eval_ppt.py --product 平板 --mock-count 5800
+python report\generate_mock_phone_eval_ppt.py
 ```
 
 详细字段说明、依赖安装、参数说明和常见问题见 [PPT生成脚本使用说明.md](report/PPT生成脚本使用说明.md)。

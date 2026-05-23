@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-import argparse
-import random
 from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
@@ -20,13 +18,23 @@ from pptx.util import Inches, Pt
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORT_DIR = ROOT / "report"
-RAW_XLSX = REPORT_DIR / "手机全量参数评测_模拟数据.xlsx"
-SUMMARY_XLSX = REPORT_DIR / "手机全量参数评测统计_模拟数据.xlsx"
-PPTX_PATH = ROOT / "小艺手机全量参数评测报告_模拟数据.pptx"
 
 FONT = "Microsoft YaHei"
-TOTAL_CASES = 5800
-RANDOM_SEED = 20260523
+
+# =============================================================================
+# 使用前只需要修改这里
+# =============================================================================
+#
+# 1. PRODUCT_NAME：报告品类名，例如 "手机"、"平板"、"耳机"。
+# 2. INPUT_XLSX：人工评测结果 Excel 路径。
+# 3. OUTPUT_PPTX：PPT 输出路径。
+# 4. 如果 PPT 正在被打开，Windows 会禁止覆盖同名文件；请关闭 PPT 或修改 OUTPUT_PPTX。
+#
+CONFIG = {
+    "PRODUCT_NAME": "手机",
+    "INPUT_XLSX": REPORT_DIR / "手机全量参数评测.xlsx",
+    "OUTPUT_PPTX": ROOT / "小艺手机全量参数评测报告.pptx",
+}
 
 COLORS = {
     "red": "C7000B",
@@ -58,132 +66,6 @@ BASE_COLUMNS = [
     *DIMENSIONS,
 ]
 
-L5_SPECS = {
-    "主体": {
-        "weight": 11,
-        "dims": {"相关性": 0.010, "正确性": 0.055, "信息量": 0.055, "一致性": 0.010},
-        "l6": ["品牌", "上市时间", "操作系统", "机身内存", "运行内存", "CPU型号", "双卡类型"],
-    },
-    "屏幕": {
-        "weight": 13,
-        "dims": {"相关性": 0.012, "正确性": 0.080, "信息量": 0.090, "一致性": 0.012},
-        "l6": ["屏幕尺寸", "屏幕色彩", "屏幕类型", "分辨率", "刷新率", "触控采样率", "护眼认证"],
-    },
-    "摄像头": {
-        "weight": 13,
-        "dims": {"相关性": 0.015, "正确性": 0.105, "信息量": 0.125, "一致性": 0.018},
-        "l6": ["后置摄像头", "前置摄像头", "变焦模式", "防抖模式", "拍摄功能", "视频拍摄", "闪光灯"],
-    },
-    "电池与充电": {
-        "weight": 10,
-        "dims": {"相关性": 0.012, "正确性": 0.100, "信息量": 0.105, "一致性": 0.014},
-        "l6": ["电池容量", "有线充电", "无线充电", "反向充电", "快充协议", "充电器规格"],
-    },
-    "网络制式": {
-        "weight": 9,
-        "dims": {"相关性": 0.020, "正确性": 0.110, "信息量": 0.095, "一致性": 0.016},
-        "l6": ["5G网络", "4G网络", "SIM卡类型", "卫星通信", "双卡双待", "频段"],
-    },
-    "传输功能": {
-        "weight": 9,
-        "dims": {"相关性": 0.025, "正确性": 0.090, "信息量": 0.155, "一致性": 0.018},
-        "l6": ["WLAN", "蓝牙", "NFC", "USB接口", "OTG", "定位", "红外遥控"],
-    },
-    "机身外观": {
-        "weight": 8,
-        "dims": {"相关性": 0.010, "正确性": 0.060, "信息量": 0.070, "一致性": 0.010},
-        "l6": ["机身尺寸", "机身重量", "机身材质", "配色", "防水等级", "折叠形态"],
-    },
-    "传感器": {
-        "weight": 7,
-        "dims": {"相关性": 0.018, "正确性": 0.075, "信息量": 0.120, "一致性": 0.012},
-        "l6": ["重力传感器", "陀螺仪", "指纹识别", "人脸识别", "环境光传感器", "距离传感器"],
-    },
-    "音频": {
-        "weight": 5,
-        "dims": {"相关性": 0.018, "正确性": 0.070, "信息量": 0.110, "一致性": 0.010},
-        "l6": ["扬声器", "麦克风", "音频格式", "耳机接口", "音效能力"],
-    },
-    "软件与服务": {
-        "weight": 5,
-        "dims": {"相关性": 0.018, "正确性": 0.075, "信息量": 0.095, "一致性": 0.012},
-        "l6": ["AI功能", "隐私安全", "智慧互联", "系统版本", "预置应用"],
-    },
-    "包装清单": {
-        "weight": 5,
-        "dims": {"相关性": 0.012, "正确性": 0.060, "信息量": 0.090, "一致性": 0.008},
-        "l6": ["主机", "充电器", "数据线", "保护壳", "说明书", "取卡针"],
-    },
-    "其他": {
-        "weight": 5,
-        "dims": {"相关性": 0.018, "正确性": 0.070, "信息量": 0.095, "一致性": 0.012},
-        "l6": ["保修政策", "备注说明", "适用场景", "版本差异", "销售状态"],
-    },
-}
-
-L6_OVERRIDES = {
-    "OTG": {"信息量": 0.34, "正确性": 0.12},
-    "卫星通信": {"正确性": 0.22, "信息量": 0.16},
-    "反向充电": {"信息量": 0.25, "正确性": 0.16},
-    "变焦模式": {"正确性": 0.18, "信息量": 0.18},
-    "快充协议": {"正确性": 0.16, "信息量": 0.18},
-    "防水等级": {"正确性": 0.15},
-    "折叠形态": {"正确性": 0.14, "信息量": 0.13},
-    "频段": {"正确性": 0.17, "信息量": 0.16},
-    "触控采样率": {"信息量": 0.18},
-    "护眼认证": {"信息量": 0.17},
-    "AI功能": {"信息量": 0.18, "相关性": 0.04},
-}
-
-DEVICES = [
-    {"device": "pura80", "display": "HUAWEI Pura 80", "weight": 9, "risk": 0.98},
-    {"device": "pura80pro", "display": "HUAWEI Pura 80 Pro", "weight": 10, "risk": 1.08},
-    {"device": "pura80ultra", "display": "HUAWEI Pura 80 Ultra", "weight": 8, "risk": 1.18},
-    {"device": "pura90", "display": "HUAWEI Pura 90", "weight": 8, "risk": 1.16},
-    {"device": "pura90pro", "display": "HUAWEI Pura 90 Pro", "weight": 9, "risk": 1.28},
-    {"device": "mate70", "display": "HUAWEI Mate 70", "weight": 9, "risk": 0.95},
-    {"device": "mate70pro", "display": "HUAWEI Mate 70 Pro", "weight": 10, "risk": 1.02},
-    {"device": "mate70rs", "display": "HUAWEI Mate 70 RS", "weight": 5, "risk": 1.12},
-    {"device": "matex6", "display": "HUAWEI Mate X6", "weight": 7, "risk": 1.22},
-    {"device": "matext", "display": "HUAWEI Mate XT", "weight": 5, "risk": 1.35},
-    {"device": "nova14", "display": "HUAWEI nova 14", "weight": 10, "risk": 0.86},
-    {"device": "nova14pro", "display": "HUAWEI nova 14 Pro", "weight": 9, "risk": 0.92},
-    {"device": "novaflip", "display": "HUAWEI nova Flip", "weight": 6, "risk": 1.05},
-    {"device": "pocket2", "display": "HUAWEI Pocket 2", "weight": 5, "risk": 1.12},
-    {"device": "changxiang70pro", "display": "HUAWEI 畅享 70 Pro", "weight": 6, "risk": 0.82},
-    {"device": "maimang30", "display": "HUAWEI 麦芒 30", "weight": 4, "risk": 0.80},
-]
-
-QUERY_TEMPLATES = [
-    "{model}的{param}是多少？",
-    "{model}支持{param}吗？",
-    "帮我查一下{model}的{param}",
-    "{model}在{param}方面是什么规格？",
-    "我想确认{model}的{param}参数",
-]
-
-GOOD_ANSWERS = [
-    "根据当前商品规格，{model}的{param}为{value}。",
-    "{model}的{param}参数是{value}，以华为商城规格页为准。",
-    "查到{model}的{param}为{value}。",
-]
-
-VALUES = {
-    "操作系统": ["HarmonyOS 4.2", "HarmonyOS 5.0", "HarmonyOS NEXT"],
-    "OTG": ["支持，最大输出电流以官方规格为准"],
-    "反向充电": ["支持有线反向充电"],
-    "卫星通信": ["支持北斗卫星消息", "部分版本支持卫星通信"],
-    "屏幕尺寸": ["6.7英寸", "6.8英寸", "7.85英寸"],
-    "电池容量": ["5000mAh", "5200mAh", "5600mAh"],
-    "有线充电": ["最高支持88W超级快充", "最高支持100W超级快充"],
-    "无线充电": ["最高支持50W无线超级快充", "支持无线充电"],
-    "后置摄像头": ["5000万像素主摄组合", "超聚光主摄组合"],
-    "变焦模式": ["支持光学变焦和数字变焦"],
-    "防水等级": ["IP68", "IPX8", "不支持防水"],
-    "机身重量": ["约209g", "约226g", "约198g"],
-}
-
-
 def rgb(hex_color: str) -> RGBColor:
     hex_color = hex_color.strip("#")
     return RGBColor(int(hex_color[0:2], 16), int(hex_color[2:4], 16), int(hex_color[4:6], 16))
@@ -194,26 +76,9 @@ def truncate(text: object, limit: int) -> str:
     return value if len(value) <= limit else value[: limit - 1] + "…"
 
 
-def choose_l5() -> str:
-    names = list(L5_SPECS)
-    weights = [L5_SPECS[name]["weight"] for name in names]
-    return random.choices(names, weights=weights, k=1)[0]
-
-
-def choose_device() -> dict[str, object]:
-    return random.choices(DEVICES, weights=[int(item["weight"]) for item in DEVICES], k=1)[0]
-
-
-def answer_value(param: str) -> str:
-    if param in VALUES:
-        return random.choice(VALUES[param])
-    generic = ["支持", "不支持", "以具体版本为准", "官方规格页已标注", "标准配置"]
-    return random.choice(generic)
-
-
-def load_eval_rows(input_path: Path, sheet_name: str | None = None) -> list[dict[str, object]]:
+def load_eval_rows(input_path: Path) -> list[dict[str, object]]:
     wb = load_workbook(input_path, data_only=True, read_only=True)
-    ws = wb[sheet_name] if sheet_name else wb[wb.sheetnames[0]]
+    ws = wb[wb.sheetnames[0]]
     headers = [str(value).strip() if value is not None else "" for value in next(ws.iter_rows(min_row=1, max_row=1, values_only=True))]
     index = {header: idx for idx, header in enumerate(headers)}
     missing = [column for column in BASE_COLUMNS if column not in index]
@@ -254,70 +119,6 @@ def parse_flag(value: object, column: str) -> int:
     if text in {"0", "否", "无问题", "通过", "false", "FALSE"}:
         return 0
     raise ValueError(f"{column} 字段只支持 0/1 或等价文本，发现：{value!r}")
-
-
-def generate_rows(total: int = TOTAL_CASES) -> list[dict[str, object]]:
-    random.seed(RANDOM_SEED)
-    rows: list[dict[str, object]] = []
-    for idx in range(1, total + 1):
-        l5 = choose_l5()
-        l6 = random.choice(L5_SPECS[l5]["l6"])
-        device_info = choose_device()
-        device = str(device_info["device"])
-        model = str(device_info["display"])
-        query = random.choice(QUERY_TEMPLATES).format(model=model, param=l6)
-
-        dim_probs = dict(L5_SPECS[l5]["dims"])
-        dim_probs.update(L6_OVERRIDES.get(l6, {}))
-        risk = float(device_info["risk"])
-        dim_probs = {dim: min(prob * risk, 0.55) for dim, prob in dim_probs.items()}
-        dims = {dim: 1 if random.random() < prob else 0 for dim, prob in dim_probs.items()}
-
-        # Keep the synthetic data realistic: unrelated answers usually also lack useful information.
-        if dims["相关性"]:
-            dims["信息量"] = 1
-        if dims["一致性"] and random.random() < 0.45:
-            dims["正确性"] = 1
-
-        issue = 1 if any(dims.values()) else 0
-        value = answer_value(l6)
-        if not issue:
-            display = random.choice(GOOD_ANSWERS).format(model=model, param=l6, value=value)
-            remark = ""
-        elif dims["相关性"]:
-            display = f"你好，关于{model}的活动优惠可以在商城页面查看。"
-            remark = "回复偏离规格参数查询意图"
-        elif dims["正确性"] and dims["信息量"]:
-            display = f"{model}的{l6}为{random.choice(['不支持', '8GB', '4200mAh', 'IP53'])}，其他信息暂未查询到。"
-            remark = "核心参数存在事实错误，且补充信息不足"
-        elif dims["正确性"]:
-            display = f"根据规格，{model}的{l6}为{random.choice(['不支持', '6.1英寸', '66W', 'IP53'])}。"
-            remark = "回答与官方参数不一致"
-        elif dims["信息量"]:
-            display = f"你好，{model}的{l6}官方暂未提供相关信息。"
-            remark = "无有效信息提供或回答不完整"
-        else:
-            display = f"{model}的{l6}支持，同时也可能不支持，需以官方页面为准。"
-            remark = "同一回复中存在前后不一致表述"
-
-        rows.append(
-            {
-                "case_id": f"parameter_{idx:05d}",
-                "四级分类": "规格查询",
-                "query所属设备": device,
-                "五级分类": l5,
-                "六级分类": l6,
-                "query": query,
-                "displayText": display,
-                "备注": remark,
-                "人工综合评测结果": issue,
-                "相关性": dims["相关性"],
-                "正确性": dims["正确性"],
-                "信息量": dims["信息量"],
-                "一致性": dims["一致性"],
-            }
-        )
-    return rows
 
 
 def compute_summary(rows: list[dict[str, object]]) -> dict[str, object]:
@@ -422,38 +223,7 @@ def compute_summary(rows: list[dict[str, object]]) -> dict[str, object]:
     }
 
 
-def write_raw_workbook(rows: list[dict[str, object]], output_path: Path = RAW_XLSX) -> None:
-    REPORT_DIR.mkdir(parents=True, exist_ok=True)
-    wb = Workbook()
-    ws = wb.active
-    ws.title = "mock_eval"
-    headers = BASE_COLUMNS
-    ws.append(headers)
-    for row in rows:
-        ws.append([row[key] for key in headers])
-    style_header(ws, len(headers))
-    set_widths(
-        ws,
-        {
-            "A": 18,
-            "B": 12,
-            "C": 18,
-            "D": 14,
-            "E": 16,
-            "F": 42,
-            "G": 56,
-            "H": 34,
-            "I": 18,
-            "J": 10,
-            "K": 10,
-            "L": 10,
-            "M": 10,
-        },
-    )
-    wb.save(output_path)
-
-
-def write_summary_workbook(summary: dict[str, object], output_path: Path = SUMMARY_XLSX) -> None:
+def write_summary_workbook(summary: dict[str, object], output_path: Path) -> None:
     wb = Workbook()
     ws = wb.active
     ws.title = "总览"
@@ -660,7 +430,7 @@ def add_rect(slide, x: float, y: float, w: float, h: float, fill: str, line: str
     return shape
 
 
-def add_slide_header(slide, title: str, subtitle: str | None = None, label: str = "模拟数据") -> None:
+def add_slide_header(slide, title: str, subtitle: str | None = None, label: str = "评测数据") -> None:
     add_text(slide, title, 0.55, 0.35, 8.2, 0.45, 21, "dark", True)
     if subtitle:
         add_text(slide, subtitle, 0.58, 0.82, 8.7, 0.28, 9, "gray")
@@ -757,7 +527,7 @@ def add_heatmap(slide, summary: dict[str, object], x: float, y: float, w: float,
                 cell_w,
                 row_h - 0.04,
                 8,
-                "white" if rate / max_rate >= 0.75 else "dark",
+                "white" if max_rate > 0 and rate / max_rate >= 0.75 else "dark",
                 False,
                 PP_ALIGN.CENTER,
             )
@@ -766,25 +536,21 @@ def add_heatmap(slide, summary: dict[str, object], x: float, y: float, w: float,
 def create_ppt(
     summary: dict[str, object],
     *,
-    output_path: Path = PPTX_PATH,
+    output_path: Path,
     product_name: str = "手机",
-    subtitle: str | None = None,
-    mock: bool = True,
 ) -> None:
     prs = Presentation()
     prs.slide_width = Inches(13.333)
     prs.slide_height = Inches(7.5)
     blank = prs.slide_layouts[6]
-    label = "模拟数据" if mock else "正式数据"
+    label = "评测数据"
 
     # 1. Cover
     slide = prs.slides.add_slide(blank)
     add_rect(slide, 0, 0, 13.333, 7.5, "bg")
     add_rect(slide, 0, 0, 13.333, 0.18, "red")
     add_text(slide, f"小艺{product_name}全量参数\n知识覆盖评测报告", 0.85, 1.45, 7.2, 1.5, 34, "dark", True)
-    cover_subtitle = subtitle or f"华为商城在售{product_name}全系列规格查询"
-    if mock:
-        cover_subtitle = f"{cover_subtitle} | PPT预览版（模拟数据）"
+    cover_subtitle = f"华为商城在售{product_name}全系列规格查询"
     add_text(slide, cover_subtitle, 0.9, 3.25, 7.2, 0.35, 14, "gray")
     add_kpi_card(slide, 8.8, 1.55, 3.25, 1.35, "样本规模", f"{summary['total']:,}", f"覆盖 {len(summary['by_device'])} 个设备", "red")
     add_kpi_card(slide, 8.8, 3.15, 3.25, 1.35, "综合准确率", f"{summary['accuracy']:.1%}", "人工综合评测结果=0", "green")
@@ -874,25 +640,31 @@ def create_ppt(
     total_issue = summary["issue_count"]
     cumulative = 0
     items = []
-    max_issue = max(stat["issue"] for _, stat in top20)
-    for (l5, l6), stat in top20:
+    max_issue = max((stat["issue"] for _, stat in top20), default=0)
+    for (_l5, l6), stat in top20:
         cumulative += stat["issue"]
         label = f"{l6}"
-        tag = f"{cumulative / total_issue:.0%}"
-        items.append((label, stat["issue"] / max_issue, tag))
-    add_manual_bar_list(slide, items, 0.75, 1.28, 8.25, 0.255, 1.0, "{:.0%}", 1.55, "red")
+        tag = f"{cumulative / total_issue:.0%}" if total_issue else "0%"
+        items.append((label, stat["issue"] / max_issue if max_issue else 0, tag))
+    if items and max_issue:
+        add_manual_bar_list(slide, items, 0.75, 1.28, 8.25, 0.255, 1.0, "{:.0%}", 1.55, "red")
+    else:
+        add_text(slide, "当前没有问题 case，暂无六级分类 Top 问题。", 0.9, 2.3, 7.2, 0.4, 18, "green", True)
     add_text(slide, "右侧百分比为累计覆盖问题占比", 6.25, 6.65, 2.5, 0.22, 8, "gray", False, PP_ALIGN.RIGHT)
     add_rect(slide, 9.45, 1.35, 3.05, 4.9, "white", "light_gray")
-    top_coverage = sum(stat["issue"] for _, stat in top20) / total_issue
+    top_coverage = sum(stat["issue"] for _, stat in top20) / total_issue if total_issue else 0
     add_text(slide, "Top 20 覆盖", 9.75, 1.75, 1.4, 0.3, 10, "gray", True)
     add_text(slide, f"{top_coverage:.1%}", 9.75, 2.12, 1.7, 0.45, 28, "red", True)
     add_text(slide, "的问题 case", 11.25, 2.28, 0.9, 0.25, 10, "gray")
-    top_param = top20[0]
+    top_param = top20[0] if top20 else None
     add_text(slide, "最高频参数", 9.75, 3.05, 1.4, 0.3, 10, "gray", True)
-    add_text(slide, f"{top_param[0][0]} / {top_param[0][1]}", 9.75, 3.42, 2.35, 0.45, 15, "dark", True)
-    add_text(slide, f"问题数 {top_param[1]['issue']}，准确率 {top_param[1]['accuracy']:.1%}", 9.75, 4.02, 2.25, 0.25, 9, "gray")
-    top_devices = "、".join(device for device, _ in summary["by_l6_device"].get(top_param[0], []))
-    add_text(slide, f"高发设备：{top_devices or '-'}", 9.75, 4.38, 2.25, 0.25, 9, "gray")
+    if top_param and top_param[1]["issue"]:
+        add_text(slide, f"{top_param[0][0]} / {top_param[0][1]}", 9.75, 3.42, 2.35, 0.45, 15, "dark", True)
+        add_text(slide, f"问题数 {top_param[1]['issue']}，准确率 {top_param[1]['accuracy']:.1%}", 9.75, 4.02, 2.25, 0.25, 9, "gray")
+        top_devices = "、".join(device for device, _ in summary["by_l6_device"].get(top_param[0], []))
+        add_text(slide, f"高发设备：{top_devices or '-'}", 9.75, 4.38, 2.25, 0.25, 9, "gray")
+    else:
+        add_text(slide, "暂无", 9.75, 3.42, 2.35, 0.45, 15, "green", True)
     add_text(slide, "开发优先处理高频参数，能最快拉动整体准确率。", 9.75, 5.15, 2.25, 0.55, 11, "dark")
     add_footer(slide, 5)
 
@@ -948,56 +720,18 @@ def create_ppt(
     prs.save(output_path)
 
 
-def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Generate Xiaoyi product-parameter evaluation PPT.")
-    parser.add_argument("--input", type=Path, help="评测结果 Excel。缺省时生成模拟数据。")
-    parser.add_argument("--sheet", help="Excel sheet 名。缺省读取第一个 sheet。")
-    parser.add_argument("--product", default="手机", help="报告品类名，例如 手机、平板、耳机。")
-    parser.add_argument("--subtitle", help="封面副标题。")
-    parser.add_argument("--output", type=Path, help="PPT 输出路径。")
-    parser.add_argument("--summary-output", type=Path, help="统计汇总 Excel 输出路径。")
-    parser.add_argument("--mock-output", type=Path, help="模拟原始评测 Excel 输出路径；仅模拟模式使用。")
-    parser.add_argument("--mock-count", type=int, default=TOTAL_CASES, help="模拟数据条数。")
-    return parser
-
-
-def default_output_path(product_name: str, mock: bool) -> Path:
-    suffix = "_模拟数据" if mock else ""
-    return ROOT / f"小艺{product_name}全量参数评测报告{suffix}.pptx"
-
-
-def default_summary_path(product_name: str, mock: bool) -> Path:
-    suffix = "_模拟数据" if mock else ""
-    return REPORT_DIR / f"{product_name}全量参数评测统计{suffix}.xlsx"
-
-
-def default_mock_raw_path(product_name: str) -> Path:
-    return REPORT_DIR / f"{product_name}全量参数评测_模拟数据.xlsx"
-
-
-def main(argv: list[str] | None = None) -> None:
-    args = build_parser().parse_args(argv)
-    mock = args.input is None
-    if mock:
-        rows = generate_rows(args.mock_count)
-    else:
-        rows = load_eval_rows(args.input, args.sheet)
-
+def main() -> None:
+    product_name = str(CONFIG["PRODUCT_NAME"])
+    rows = load_eval_rows(Path(CONFIG["INPUT_XLSX"]))
     summary = compute_summary(rows)
-    pptx_path = args.output or default_output_path(args.product, mock)
-    summary_path = args.summary_output or default_summary_path(args.product, mock)
+    pptx_path = Path(CONFIG["OUTPUT_PPTX"])
+    summary_path = pptx_path.with_name(f"{pptx_path.stem}_统计.xlsx")
     write_summary_workbook(summary, summary_path)
-    if mock:
-        raw_path = args.mock_output or default_mock_raw_path(args.product)
-        write_raw_workbook(rows, raw_path)
-        print(f"raw={raw_path}")
     print(f"summary={summary_path}")
     create_ppt(
         summary,
         output_path=pptx_path,
-        product_name=args.product,
-        subtitle=args.subtitle,
-        mock=mock,
+        product_name=product_name,
     )
     print(f"pptx={pptx_path}")
     print(f"total={summary['total']} accuracy={summary['accuracy']:.2%} issue={summary['issue_count']}")

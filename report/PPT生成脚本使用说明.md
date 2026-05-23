@@ -8,7 +8,7 @@
 D:\01_code_workspace\vmallExportNew\report\generate_mock_phone_eval_ppt.py
 ```
 
-该脚本用于根据小艺参数问答评测 Excel 自动生成 PPT 报告和统计汇总 Excel。
+该脚本用于根据小艺参数问答人工评测 Excel 自动生成 PPT 报告和统计汇总 Excel。
 
 脚本不调用模型、不访问网络，执行过程完全在本地完成：
 
@@ -30,10 +30,62 @@ python -m pip install -e .[report]
 python -m pip install openpyxl python-pptx
 ```
 
-当前脚本主要使用：
+## 使用方式
 
-- `openpyxl`：读取和写入 Excel
-- `python-pptx`：生成 PPT
+脚本不接收命令行参数。使用时只需要修改脚本顶部的 `CONFIG` 配置区，然后直接执行脚本。
+
+```powershell
+python D:\01_code_workspace\vmallExportNew\report\generate_mock_phone_eval_ppt.py
+```
+
+## CONFIG 配置说明
+
+打开 `generate_mock_phone_eval_ppt.py`，只需要修改这 3 个字段：
+
+```python
+CONFIG = {
+    "PRODUCT_NAME": "手机",
+    "INPUT_XLSX": REPORT_DIR / "手机全量参数评测.xlsx",
+    "OUTPUT_PPTX": ROOT / "小艺手机全量参数评测报告.pptx",
+}
+```
+
+| 配置项 | 说明 |
+|---|---|
+| `PRODUCT_NAME` | 报告品类名，例如手机、平板、耳机 |
+| `INPUT_XLSX` | 真实评测 Excel 路径 |
+| `OUTPUT_PPTX` | PPT 输出路径 |
+
+统计汇总 Excel 不需要手动配置，会根据 `OUTPUT_PPTX` 自动生成在同一目录。例如：
+
+```text
+OUTPUT_PPTX = D:\01_code_workspace\vmallExportNew\小艺手机全量参数评测报告.pptx
+统计表 = D:\01_code_workspace\vmallExportNew\小艺手机全量参数评测报告_统计.xlsx
+```
+
+## 示例
+
+### 手机报告
+
+```python
+CONFIG = {
+    "PRODUCT_NAME": "手机",
+    "INPUT_XLSX": REPORT_DIR / "手机全量参数评测.xlsx",
+    "OUTPUT_PPTX": ROOT / "小艺手机全量参数评测报告.pptx",
+}
+```
+
+### 平板报告
+
+只要字段保持一致，平板、耳机、汽车等品类也可以复用同一个脚本。
+
+```python
+CONFIG = {
+    "PRODUCT_NAME": "平板",
+    "INPUT_XLSX": REPORT_DIR / "平板全量参数评测.xlsx",
+    "OUTPUT_PPTX": ROOT / "小艺平板全量参数评测报告.pptx",
+}
+```
 
 ## 输入表字段要求
 
@@ -56,75 +108,6 @@ python -m pip install openpyxl python-pptx
 | 一致性 | 0 表示无问题，1 表示存在问题 |
 
 四个评测维度可以同时命中，因此 PPT 中展示的是各维度问题率，不会把它们做成互斥占比。
-
-## 生成正式报告
-
-### 手机报告
-
-```powershell
-python D:\01_code_workspace\vmallExportNew\report\generate_mock_phone_eval_ppt.py `
-  --input D:\01_code_workspace\vmallExportNew\report\手机全量参数评测.xlsx `
-  --product 手机 `
-  --output D:\01_code_workspace\vmallExportNew\小艺手机全量参数评测报告.pptx
-```
-
-### 平板报告
-
-只要字段保持一致，平板、耳机、汽车等品类也可以复用同一个脚本。
-
-```powershell
-python D:\01_code_workspace\vmallExportNew\report\generate_mock_phone_eval_ppt.py `
-  --input D:\01_code_workspace\vmallExportNew\report\平板全量参数评测.xlsx `
-  --product 平板 `
-  --output D:\01_code_workspace\vmallExportNew\小艺平板全量参数评测报告.pptx
-```
-
-### 指定统计汇总 Excel 输出路径
-
-```powershell
-python D:\01_code_workspace\vmallExportNew\report\generate_mock_phone_eval_ppt.py `
-  --input D:\01_code_workspace\vmallExportNew\report\手机全量参数评测.xlsx `
-  --product 手机 `
-  --output D:\01_code_workspace\vmallExportNew\小艺手机全量参数评测报告.pptx `
-  --summary-output D:\01_code_workspace\vmallExportNew\report\手机全量参数评测统计.xlsx
-```
-
-## 生成模拟报告
-
-不传 `--input` 时，脚本会生成模拟数据，用于预览 PPT 效果。
-
-```powershell
-python D:\01_code_workspace\vmallExportNew\report\generate_mock_phone_eval_ppt.py `
-  --product 手机 `
-  --mock-count 5800
-```
-
-模拟模式会生成：
-
-- 原始模拟评测表
-- 统计汇总 Excel
-- PPT 预览报告
-
-也可以生成平板模拟报告：
-
-```powershell
-python D:\01_code_workspace\vmallExportNew\report\generate_mock_phone_eval_ppt.py `
-  --product 平板 `
-  --mock-count 5800
-```
-
-## 常用参数
-
-| 参数 | 说明 |
-|---|---|
-| `--input` | 正式评测 Excel 路径；不传则生成模拟数据 |
-| `--sheet` | 指定读取的 Excel sheet；不传则读取第一个 sheet |
-| `--product` | 报告品类名，例如手机、平板、耳机 |
-| `--subtitle` | 封面副标题 |
-| `--output` | PPT 输出路径 |
-| `--summary-output` | 统计汇总 Excel 输出路径 |
-| `--mock-output` | 模拟原始评测 Excel 输出路径，仅模拟模式使用 |
-| `--mock-count` | 模拟数据条数，默认 5800 |
 
 ## 输出内容
 
@@ -151,6 +134,6 @@ PPT 当前为 7 页：
 
 ## 注意事项
 
-- 如果 PPT 文件正在被 PowerPoint 打开，脚本覆盖同名文件时会报 `Permission denied`。关闭 PPT 后重新执行，或通过 `--output` 指定新的文件名。
-- 正式数据模式下，脚本不会改动原始评测 Excel，只会读取数据并生成新的统计文件和 PPT。
+- 如果 PPT 文件正在被 PowerPoint 打开，脚本覆盖同名文件时会报 `Permission denied`。关闭 PPT 后重新执行，或修改 `OUTPUT_PPTX` 为新的文件名。
+- 脚本不会改动原始评测 Excel，只会读取数据并生成新的统计文件和 PPT。
 - `query所属设备` 是设备维度分析的来源，建议保持设备命名稳定，例如 `pura80`、`pura90pro`、`matex6`。
