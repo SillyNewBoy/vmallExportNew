@@ -491,8 +491,10 @@ def add_manual_bar_list(
 
 
 def heat_color(rate: float, max_rate: float) -> str:
+    if rate == 0:
+        return "DCFCE7"
     if max_rate <= 0:
-        return "FFFFFF"
+        return "DCFCE7"
     ratio = min(rate / max_rate, 1.0)
     if ratio < 0.25:
         return "FEE2E2"
