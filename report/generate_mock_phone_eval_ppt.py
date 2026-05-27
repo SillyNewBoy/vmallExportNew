@@ -12,7 +12,7 @@ from pptx.chart.data import ChartData
 from pptx.dml.color import RGBColor
 from pptx.enum.chart import XL_CHART_TYPE, XL_LABEL_POSITION
 from pptx.enum.shapes import MSO_SHAPE
-from pptx.enum.text import MSO_ANCHOR, PP_ALIGN
+from pptx.enum.text import MSO_ANCHOR, MSO_AUTO_SIZE, PP_ALIGN
 from pptx.util import Inches, Pt
 
 
@@ -210,6 +210,10 @@ def compute_summary(rows: list[dict[str, object]]) -> dict[str, object]:
     top_dim = max(dim_counts.items(), key=lambda item: item[1])[0]
     worst_l5 = min(by_l5.items(), key=lambda item: item[1]["accuracy"])[0]
     worst_device = device_rank[0][0]
+    worst_dim_device = find_worst_dim_device(by_device, top_dim)
+    device_bands = build_device_bands(device_rank)
+    bad_cases = build_bad_cases(rows, device_rank, by_l5)
+    low_accuracy_failures = build_low_accuracy_failures(rows, by_device)
 
     return {
         "total": total,
@@ -228,7 +232,116 @@ def compute_summary(rows: list[dict[str, object]]) -> dict[str, object]:
         "top_dim": top_dim,
         "worst_l5": worst_l5,
         "worst_device": worst_device,
+        "worst_dim_device": worst_dim_device,
+        "device_bands": device_bands,
+        "bad_cases": bad_cases,
+        "low_accuracy_failures": low_accuracy_failures,
     }
+
+
+def find_worst_dim_device(by_device: dict[str, dict[str, object]], dim: str) -> dict[str, object]:
+    ranked = sorted(
+        by_device.items(),
+        key=lambda item: (
+            item[1]["dims"][dim] / item[1]["total"],
+            item[1]["dims"][dim],
+            item[1]["issue_rate"],
+        ),
+        reverse=True,
+    )
+    device, stat = ranked[0]
+    return {
+        "device": device,
+        "dimension": dim,
+        "dimension_issue": stat["dims"][dim],
+        "dimension_rate": stat["dims"][dim] / stat["total"],
+        "total": stat["total"],
+        "accuracy": stat["accuracy"],
+    }
+
+
+def build_device_bands(device_rank: list[tuple[str, dict[str, object]]]) -> dict[str, list[tuple[str, dict[str, object]]]]:
+    return {
+        "90%-100%": [(device, stat) for device, stat in device_rank if 0.90 < stat["accuracy"] <= 1.00],
+        "60%-90%": [(device, stat) for device, stat in device_rank if 0.60 <= stat["accuracy"] <= 0.90],
+        "30%-60%": [(device, stat) for device, stat in device_rank if 0.30 < stat["accuracy"] < 0.60],
+        "0%-30%": [(device, stat) for device, stat in device_rank if 0 <= stat["accuracy"] <= 0.30],
+    }
+
+
+def build_bad_cases(
+    rows: list[dict[str, object]],
+    device_rank: list[tuple[str, dict[str, object]]],
+    by_l5: dict[str, dict[str, object]],
+) -> dict[str, list[dict[str, object]]]:
+    issue_rows = [row for row in rows if int(row["人工综合评测结果"]) == 1]
+    worst_devices = [device for device, _ in device_rank[:2]]
+    worst_l5s = [l5 for l5, _ in sorted(by_l5.items(), key=lambda item: item[1]["accuracy"])[:2]]
+    device_cases = pick_issue_rows(issue_rows, "query所属设备", worst_devices, limit=2)
+    used_case_ids = {str(row["case_id"]) for row in device_cases}
+    return {
+        "devices": device_cases,
+        "l5": pick_issue_rows(issue_rows, "五级分类", worst_l5s, limit=2, exclude_case_ids=used_case_ids),
+    }
+
+
+def pick_issue_rows(
+    issue_rows: list[dict[str, object]],
+    field: str,
+    values: list[str],
+    *,
+    limit: int,
+    exclude_case_ids: set[str] | None = None,
+) -> list[dict[str, object]]:
+    picked: list[dict[str, object]] = []
+    seen: set[str] = set(exclude_case_ids or set())
+    for value in values:
+        for row in issue_rows:
+            case_id = str(row["case_id"])
+            if row[field] == value and case_id not in seen:
+                picked.append(row)
+                seen.add(case_id)
+                break
+        if len(picked) >= limit:
+            break
+    if len(picked) < limit:
+        for row in issue_rows:
+            case_id = str(row["case_id"])
+            if case_id in seen:
+                continue
+            picked.append(row)
+            seen.add(case_id)
+            if len(picked) >= limit:
+                break
+    return picked
+
+
+def build_low_accuracy_failures(
+    rows: list[dict[str, object]],
+    by_device: dict[str, dict[str, object]],
+) -> list[dict[str, object]]:
+    result: list[dict[str, object]] = []
+    for device, stat in sorted(by_device.items(), key=lambda item: item[1]["accuracy"]):
+        if stat["accuracy"] > 0.30:
+            continue
+        issue_rows = [
+            row
+            for row in rows
+            if row["query所属设备"] == device and int(row["人工综合评测结果"]) == 1
+        ]
+        params = Counter(f"{row['五级分类']} / {row['六级分类']}" for row in issue_rows)
+        dim_counts = {dim: sum(int(row[dim]) for row in issue_rows) for dim in DIMENSIONS}
+        result.append(
+            {
+                "device": device,
+                "total": stat["total"],
+                "accuracy": stat["accuracy"],
+                "issue": stat["issue"],
+                "params": params.most_common(),
+                "top_dim": max(dim_counts.items(), key=lambda item: item[1])[0] if issue_rows else "-",
+            }
+        )
+    return result
 
 
 def write_summary_workbook(summary: dict[str, object], output_path: Path) -> None:
@@ -285,6 +398,14 @@ def write_summary_workbook(summary: dict[str, object], output_path: Path) -> Non
     style_header(ws, 10)
     set_widths(ws, {"A": 18, "B": 12, "C": 12, "D": 12, "E": 12, "F": 12})
 
+    ws = wb.create_sheet("设备准确率分档")
+    ws.append(["分档", "query所属设备", "总数", "问题数", "准确率", "问题率"])
+    for band, items in summary["device_bands"].items():
+        for device, stat in items:
+            ws.append([band, device, stat["total"], stat["issue"], stat["accuracy"], stat["issue_rate"]])
+    style_header(ws, 6)
+    set_widths(ws, {"A": 14, "B": 34, "C": 12, "D": 12, "E": 12, "F": 12})
+
     ws = wb.create_sheet("五级维度矩阵")
     ws.append(["五级分类", *DIMENSIONS])
     for l5, stat in sorted(summary["by_l5"].items(), key=lambda item: item[1]["issue"], reverse=True):
@@ -301,6 +422,30 @@ def write_summary_workbook(summary: dict[str, object], output_path: Path) -> Non
     set_widths(ws, {"A": 16, "B": 18, "C": 12, "D": 12, "E": 12, "F": 16})
 
     ws = wb.create_sheet("典型案例")
+    ws.append(["案例来源", "case_id", "query所属设备", "五级分类", "六级分类", "query", "DisplayText", "备注", *DIMENSIONS])
+    case_groups = [
+        ("最差设备", summary["bad_cases"]["devices"]),
+        ("最差五级分类", summary["bad_cases"]["l5"]),
+    ]
+    for source, rows in case_groups:
+        for row in rows:
+            ws.append(
+                [
+                    source,
+                    row["case_id"],
+                    row["query所属设备"],
+                    row["五级分类"],
+                    row["六级分类"],
+                    row["query"],
+                    row["DisplayText"],
+                    row["备注"],
+                    *[row[dim] for dim in DIMENSIONS],
+                ]
+            )
+    style_header(ws, 12)
+    set_widths(ws, {"A": 14, "B": 18, "C": 18, "D": 14, "E": 16, "F": 44, "G": 56, "H": 34})
+
+    ws = wb.create_sheet("历史典型案例")
     ws.append(["case_id", "query所属设备", "五级分类", "六级分类", "query", "DisplayText", "备注", *DIMENSIONS])
     for row in summary["examples"]:
         ws.append(
@@ -334,6 +479,14 @@ def write_summary_workbook(summary: dict[str, object], output_path: Path) -> Non
         )
     style_header(ws, 7)
     set_widths(ws, {"A": 12, "B": 22, "C": 24, "D": 12, "E": 12, "F": 14, "G": 54})
+
+    ws = wb.create_sheet("低准确率设备失败参数")
+    ws.append(["query所属设备", "总数", "问题数", "准确率", "主要问题维度", "失败参数"])
+    for item in summary["low_accuracy_failures"]:
+        params = "\n".join(f"{param} ({count})" for param, count in item["params"])
+        ws.append([item["device"], item["total"], item["issue"], item["accuracy"], item["top_dim"], params])
+    style_header(ws, 6)
+    set_widths(ws, {"A": 34, "B": 12, "C": 12, "D": 12, "E": 14, "F": 56})
 
     for ws in wb.worksheets:
         for row in ws.iter_rows():
@@ -405,6 +558,7 @@ def add_text(
     bold: bool = False,
     align=PP_ALIGN.LEFT,
     valign=MSO_ANCHOR.TOP,
+    auto_fit: bool = False,
 ) -> object:
     box = slide.shapes.add_textbox(Inches(x), Inches(y), Inches(w), Inches(h))
     tf = box.text_frame
@@ -415,6 +569,8 @@ def add_text(
     tf.margin_right = Inches(0.03)
     tf.margin_top = Inches(0.02)
     tf.margin_bottom = Inches(0.02)
+    if auto_fit:
+        tf.auto_size = MSO_AUTO_SIZE.TEXT_TO_FIT_SHAPE
     for idx, line in enumerate(str(text).split("\n")):
         p = tf.paragraphs[0] if idx == 0 else tf.add_paragraph()
         p.text = line
@@ -454,7 +610,8 @@ def add_kpi_card(slide, x: float, y: float, w: float, h: float, label: str, valu
     add_rect(slide, x, y, w, h, "white", "light_gray")
     add_rect(slide, x, y, 0.06, h, accent)
     add_text(slide, label, x + 0.22, y + 0.18, w - 0.35, 0.25, 9, "gray", True)
-    add_text(slide, value, x + 0.22, y + 0.46, w - 0.35, 0.45, 25, accent, True)
+    value_size = fitted_font_size(value, 25, fit_chars=12, min_size=7)
+    add_text(slide, value, x + 0.22, y + 0.46, w - 0.35, 0.45, value_size, accent, True, auto_fit=True)
     add_text(slide, sub, x + 0.22, y + 1.03, w - 0.35, 0.25, 8, "gray")
 
 
@@ -480,14 +637,207 @@ def add_manual_bar_list(
     for idx, (label, value, tag) in enumerate(visible):
         yy = y + idx * row_h
         display_label = str(label) if label_limit is None else truncate(label, label_limit)
-        display_size = fitted_font_size(display_label, label_size, fit_chars=label_fit_chars)
-        add_text(slide, display_label, x, yy + 0.02, label_w - 0.05, row_h - 0.02, display_size, "dark")
+        display_size = fitted_font_size(display_label, label_size, fit_chars=label_fit_chars, min_size=4.8)
+        add_text(slide, display_label, x, yy + 0.02, label_w - 0.05, row_h - 0.02, display_size, "dark", auto_fit=True)
         add_rect(slide, bar_x, yy + 0.07, bar_w, row_h * 0.38, "light_gray")
-        fill_w = max(0.02, bar_w * min(value / max_value, 1))
+        denominator = max_value or 1.0
+        fill_w = max(0.02, bar_w * min(value / denominator, 1))
         add_rect(slide, bar_x, yy + 0.07, fill_w, row_h * 0.38, color)
         add_text(slide, value_fmt.format(value), bar_x + bar_w + 0.08, yy + 0.02, 0.75, row_h - 0.02, 8, "dark")
         if tag:
             add_text(slide, tag, bar_x + bar_w - 0.95, yy + 0.02, 0.9, row_h - 0.02, 7, "gray", False, PP_ALIGN.RIGHT)
+
+
+def add_device_band_slide(
+    prs: Presentation,
+    blank,
+    summary: dict[str, object],
+    *,
+    band: str,
+    page: int,
+    label: str,
+) -> int:
+    items = [
+        (device, stat["accuracy"], f"n={stat['total']}")
+        for device, stat in summary["device_bands"][band]
+    ]
+    chunks = [items[idx : idx + 32] for idx in range(0, len(items), 32)] or [[]]
+    for chunk_idx, chunk in enumerate(chunks):
+        slide = prs.slides.add_slide(blank)
+        add_rect(slide, 0, 0, 13.333, 7.5, "bg")
+        suffix = f"（{chunk_idx + 1}/{len(chunks)}）" if len(chunks) > 1 else ""
+        add_slide_header(slide, f"设备准确率分档：{band}{suffix}", "按答复准确率分档展示该区间内全部设备。", label)
+        if not chunk:
+            add_text(slide, f"当前没有准确率在 {band} 的设备。", 0.85, 2.35, 9.8, 0.5, 20, "gray", True)
+            add_footer(slide, page)
+            page += 1
+            continue
+
+        columns = split_evenly(chunk, 2)
+        for col_idx, col_items in enumerate(columns):
+            x = 0.65 + col_idx * 6.15
+            add_manual_bar_list(
+                slide,
+                col_items,
+                x,
+                1.45,
+                5.65,
+                0.31,
+                1.0,
+                "{:.1%}",
+                2.65,
+                "red" if band == "0%-30%" else "orange" if band == "30%-60%" else "blue",
+                label_limit=None,
+                label_size=7.0,
+                label_fit_chars=30,
+            )
+        add_footer(slide, page)
+        page += 1
+    return page
+
+
+def split_evenly(items: list[tuple[str, float, str]], parts: int) -> list[list[tuple[str, float, str]]]:
+    if not items:
+        return [[]]
+    size = (len(items) + parts - 1) // parts
+    return [items[idx : idx + size] for idx in range(0, len(items), size)]
+
+
+def add_l5_accuracy_slide(prs: Presentation, blank, summary: dict[str, object], *, page: int, label: str) -> int:
+    items = [
+        (l5, stat["accuracy"], f"n={stat['total']}")
+        for l5, stat in sorted(summary["by_l5"].items(), key=lambda item: item[1]["accuracy"])
+    ]
+    chunks = [items[idx : idx + 28] for idx in range(0, len(items), 28)] or [[]]
+    for chunk_idx, chunk in enumerate(chunks):
+        slide = prs.slides.add_slide(blank)
+        add_rect(slide, 0, 0, 13.333, 7.5, "bg")
+        suffix = f"（{chunk_idx + 1}/{len(chunks)}）" if len(chunks) > 1 else ""
+        add_slide_header(slide, f"主要参数主体准确率{suffix}", "列举全部五级分类的答复准确率。", label)
+        columns = split_evenly(chunk, 2)
+        for col_idx, col_items in enumerate(columns):
+            x = 0.8 + col_idx * 6.05
+            add_manual_bar_list(
+                slide,
+                col_items,
+                x,
+                1.45,
+                5.55,
+                0.38,
+                1.0,
+                "{:.1%}",
+                1.75,
+                "blue",
+                label_limit=None,
+                label_size=8,
+                label_fit_chars=20,
+            )
+        add_footer(slide, page)
+        page += 1
+    return page
+
+
+def chunk_list(items: list[object], size: int) -> list[list[object]]:
+    return [items[idx : idx + size] for idx in range(0, len(items), size)] or [[]]
+
+
+def format_param_chunks(params: list[tuple[str, int]], *, max_items: int = 5, max_chars: int = 150) -> list[str]:
+    if not params:
+        return ["-"]
+    chunks: list[str] = []
+    current: list[str] = []
+    current_chars = 0
+    for param, count in params:
+        line = f"{param} ({count})"
+        if current and (len(current) >= max_items or current_chars + len(line) > max_chars):
+            chunks.append("\n".join(current))
+            current = []
+            current_chars = 0
+        current.append(line)
+        current_chars += len(line)
+    if current:
+        chunks.append("\n".join(current))
+    return chunks
+
+
+def add_low_accuracy_failure_slides(prs: Presentation, blank, summary: dict[str, object], *, page: int, label: str) -> int:
+    failures = summary["low_accuracy_failures"]
+    expanded_rows: list[tuple[dict[str, object], str, int, int]] = []
+    for item in failures:
+        param_chunks = format_param_chunks(item["params"])
+        for chunk_idx, params_text in enumerate(param_chunks):
+            expanded_rows.append((item, params_text, chunk_idx, len(param_chunks)))
+
+    row_groups = chunk_list(expanded_rows, 6)
+    for group_idx, rows in enumerate(row_groups):
+        slide = prs.slides.add_slide(blank)
+        add_rect(slide, 0, 0, 13.333, 7.5, "bg")
+        suffix = f"（{group_idx + 1}/{len(row_groups)}）" if len(row_groups) > 1 else ""
+        add_slide_header(
+            slide,
+            f"0%-30% 低准确率机型失败参数{suffix}",
+            "列举准确率 0%-30% 的全部机型；参数过多时同一机型会自动拆成多行。",
+            label,
+        )
+
+        if not failures:
+            add_text(slide, "当前没有准确率在 0%-30% 的机型。", 0.85, 2.45, 8.8, 0.45, 18, "green", True)
+            add_footer(slide, page)
+            page += 1
+            continue
+
+        x = 0.62
+        y = 1.28
+        widths = [2.45, 0.68, 0.72, 0.78, 0.95, 6.85]
+        headers = ["机型", "总数", "问题数", "准确率", "主问题", "失败参数"]
+        add_rect(slide, x, y, sum(widths), 0.38, "dark")
+        xx = x
+        for width, header in zip(widths, headers):
+            add_text(slide, header, xx + 0.05, y + 0.08, width - 0.1, 0.18, 8, "white", True, PP_ALIGN.CENTER)
+            xx += width
+
+        row_h = 0.79
+        for idx, (item, params_text, part_idx, part_count) in enumerate(rows):
+            yy = y + 0.38 + idx * row_h
+            add_rect(slide, x, yy, sum(widths), row_h, "white", "light_gray")
+            xx = x
+            device = str(item["device"])
+            device_label = device if part_count == 1 else f"{device}\n参数 {part_idx + 1}/{part_count}"
+            values = [
+                device_label,
+                str(item["total"]),
+                str(item["issue"]),
+                f"{item['accuracy']:.1%}",
+                item["top_dim"],
+                params_text,
+            ]
+            colors = ["dark", "dark", "dark", "red", "red", "dark"]
+            for width, value, color, header in zip(widths, values, colors, headers):
+                if header == "机型":
+                    longest = max(str(value).splitlines() or [""], key=len)
+                    font_size = fitted_font_size(longest, 7.2, fit_chars=26, min_size=5.0)
+                    add_text(slide, str(value), xx + 0.05, yy + 0.05, width - 0.1, row_h - 0.1, font_size, color, auto_fit=True)
+                elif header == "失败参数":
+                    longest = max(str(value).splitlines() or [""], key=len)
+                    font_size = fitted_font_size(longest, 6.5, fit_chars=48, min_size=4.8)
+                    add_text(slide, str(value), xx + 0.05, yy + 0.05, width - 0.1, row_h - 0.1, font_size, color, auto_fit=True)
+                else:
+                    add_text(slide, str(value), xx + 0.06, yy + 0.22, width - 0.12, 0.22, 8, color, header in {"准确率", "主问题"}, PP_ALIGN.CENTER)
+                xx += width
+
+        add_text(
+            slide,
+            "说明：失败参数为该机型综合评测结果=1 的「五级分类 / 六级分类」，括号内为失败 case 数。",
+            0.75,
+            6.55,
+            10.6,
+            0.25,
+            9,
+            "gray",
+        )
+        add_footer(slide, page)
+        page += 1
+    return page
 
 
 def heat_color(rate: float, max_rate: float) -> str:
@@ -508,6 +858,9 @@ def heat_color(rate: float, max_rate: float) -> str:
 def add_heatmap(slide, summary: dict[str, object], x: float, y: float, w: float, h: float) -> None:
     by_l5 = summary["by_l5"]
     l5_rows = sorted(by_l5.items(), key=lambda item: item[1]["issue_rate"], reverse=True)
+    if not l5_rows:
+        add_text(slide, "暂无五级分类数据。", x, y + 1.8, w, 0.4, 18, "gray", True, PP_ALIGN.CENTER)
+        return
     label_w = 2.1
     cell_w = (w - label_w) / len(DIMENSIONS)
     row_h = h / (len(l5_rows) + 1)
@@ -581,7 +934,8 @@ def create_ppt(
     add_kpi_card(slide, 3.22, 1.28, 2.45, 1.08, "通过数", f"{summary['pass_count']:,}", "无问题 case", "green")
     add_kpi_card(slide, 5.84, 1.28, 2.45, 1.08, "问题数", f"{summary['issue_count']:,}", "至少一个维度命中", "orange")
     add_kpi_card(slide, 8.46, 1.28, 2.45, 1.08, "综合准确率", f"{summary['accuracy']:.1%}", "通过数 / 总评测数", "blue")
-    add_kpi_card(slide, 11.08, 1.28, 1.6, 1.08, "最低设备", str(summary["worst_device"]), "按准确率", "red")
+    worst_dim_device = summary["worst_dim_device"]
+    add_kpi_card(slide, 11.08, 1.28, 1.6, 1.08, "最差维度设备", str(worst_dim_device["device"]), f"{worst_dim_device['dimension']}维度", "red")
 
     chart_data = ChartData()
     chart_data.categories = ["通过", "问题"]
@@ -608,7 +962,7 @@ def create_ppt(
     insights = [
         f"整体准确率 {summary['accuracy']:.1%}，问题 case {summary['issue_count']:,} 条。",
         f"主要短板集中在「{summary['top_dim']}」，应优先处理该维度的高频参数。",
-        f"设备维度最低为「{summary['worst_device']}」，五级分类最低为「{summary['worst_l5']}」。",
+        f"最差维度为「{summary['top_dim']}」，该维度最差设备为「{worst_dim_device['device']}」（问题率 {worst_dim_device['dimension_rate']:.1%}）。",
     ]
     for idx, text in enumerate(insights):
         y = 3.0 + idx * 0.72
@@ -618,54 +972,26 @@ def create_ppt(
     add_text(slide, "判断方式：综合结果=1 表示四个维度中至少一个存在问题；四维度命中率可重叠，不做互斥占比。", 0.88, 6.38, 11.6, 0.25, 8, "gray")
     add_footer(slide, 2)
 
-    # 3. Device and L5 ranking
-    slide = prs.slides.add_slide(blank)
-    add_rect(slide, 0, 0, 13.333, 7.5, "bg")
-    add_slide_header(slide, "设备与参数聚类表现", "按 query所属设备 定位具体机型的知识覆盖差异。", label)
-    device_items = [
-        (device, stat["accuracy"], f"n={stat['total']}")
-        for device, stat in summary["device_rank"]
-    ]
-    add_text(slide, "设备准确率排行", 0.8, 1.28, 2.2, 0.25, 12, "dark", True)
-    add_manual_bar_list(
-        slide,
-        device_items,
-        0.65,
-        1.68,
-        6.05,
-        0.29,
-        1.0,
-        "{:.1%}",
-        2.45,
-        "red",
-        limit=16,
-        label_limit=None,
-        label_size=7.2,
-        label_fit_chars=26,
-    )
-    l5_items = [
-        (l5, stat["accuracy"], f"n={stat['total']}")
-        for l5, stat in sorted(summary["by_l5"].items(), key=lambda item: item[1]["accuracy"])
-    ]
-    add_text(slide, "五级分类准确率排行", 7.0, 1.28, 2.6, 0.25, 12, "dark", True)
-    add_manual_bar_list(slide, l5_items, 7.0, 1.68, 5.15, 0.38, 1.0, "{:.1%}", 1.45, "blue")
-    worst = l5_items[0]
-    worst_device = device_items[0]
-    add_text(slide, f"最低设备：{worst_device[0]}（{worst_device[1]:.1%}）", 0.65, 6.65, 5.5, 0.24, fitted_font_size(worst_device[0], 9, fit_chars=24, min_size=7), "red", True)
-    add_text(slide, f"最低参数聚类：{worst[0]}（{worst[1]:.1%}）", 7.0, 6.65, 4.2, 0.24, 9, "red", True)
-    add_footer(slide, 3)
+    page = 3
+    if summary["device_bands"].get("90%-100%"):
+        page = add_device_band_slide(prs, blank, summary, band="90%-100%", page=page, label=label)
+    page = add_device_band_slide(prs, blank, summary, band="60%-90%", page=page, label=label)
+    page = add_device_band_slide(prs, blank, summary, band="30%-60%", page=page, label=label)
+    page = add_device_band_slide(prs, blank, summary, band="0%-30%", page=page, label=label)
+    page = add_l5_accuracy_slide(prs, blank, summary, page=page, label=label)
 
-    # 4. Heatmap
+    # Heatmap
     slide = prs.slides.add_slide(blank)
     add_rect(slide, 0, 0, 13.333, 7.5, "bg")
     add_slide_header(slide, "五级分类 × 问题维度矩阵", "颜色越深，表示该分类在该评测维度上的问题率越高。", label)
     add_heatmap(slide, summary, 0.8, 1.35, 11.65, 5.4)
-    add_footer(slide, 4)
+    add_footer(slide, page)
+    page += 1
 
-    # 5. Top L6
+    # Top L6
     slide = prs.slides.add_slide(blank)
     add_rect(slide, 0, 0, 13.333, 7.5, "bg")
-    add_slide_header(slide, "六级分类问题 Top 20", "具体参数级别的问题排序，用来形成开发优化队列。", label)
+    add_slide_header(slide, "六级分类问题 Top 20", "按具体参数的问题 case 数排序，右侧灰字为累计覆盖的问题占比。", label)
     top20 = summary["top_l6"][:20]
     total_issue = summary["issue_count"]
     cumulative = 0
@@ -675,12 +1001,12 @@ def create_ppt(
         cumulative += stat["issue"]
         label = f"{l6}"
         tag = f"{cumulative / total_issue:.0%}" if total_issue else "0%"
-        items.append((label, stat["issue"] / max_issue if max_issue else 0, tag))
+        items.append((label, stat["issue"], tag))
     if items and max_issue:
-        add_manual_bar_list(slide, items, 0.75, 1.28, 8.25, 0.255, 1.0, "{:.0%}", 1.55, "red")
+        add_manual_bar_list(slide, items, 0.75, 1.28, 8.25, 0.255, max_issue, "{:.0f}", 1.55, "red")
     else:
         add_text(slide, "当前没有问题 case，暂无六级分类 Top 问题。", 0.9, 2.3, 7.2, 0.4, 18, "green", True)
-    add_text(slide, "右侧百分比为累计覆盖问题占比", 6.25, 6.65, 2.5, 0.22, 8, "gray", False, PP_ALIGN.RIGHT)
+    add_text(slide, "读法：红色条形长度代表失败 case 数，条末数字是该参数失败 case 数；右侧灰字是从第1名累加到当前行覆盖全部问题 case 的比例。", 0.82, 6.55, 8.4, 0.35, 9, "gray")
     add_rect(slide, 9.45, 1.35, 3.05, 4.9, "white", "light_gray")
     top_coverage = sum(stat["issue"] for _, stat in top20) / total_issue if total_issue else 0
     add_text(slide, "Top 20 覆盖", 9.75, 1.75, 1.4, 0.3, 10, "gray", True)
@@ -695,63 +1021,29 @@ def create_ppt(
         add_text(slide, f"高发设备：{top_devices or '-'}", 9.75, 4.38, 2.25, 0.25, 9, "gray")
     else:
         add_text(slide, "暂无", 9.75, 3.42, 2.35, 0.45, 15, "green", True)
-    add_text(slide, "开发优先处理高频参数，能最快拉动整体准确率。", 9.75, 5.15, 2.25, 0.55, 11, "dark")
-    add_footer(slide, 5)
+    add_text(slide, "用途：优先修复 Top 参数，通常能最快降低整体问题数。", 9.75, 5.15, 2.25, 0.55, 11, "dark")
+    add_footer(slide, page)
+    page += 1
 
-    # 6. Examples
+    # Examples
     slide = prs.slides.add_slide(blank)
     add_rect(slide, 0, 0, 13.333, 7.5, "bg")
-    add_slide_header(slide, "典型错误案例", "从高频问题池中抽样，帮助开发理解判错原因和修复方向。", label)
+    add_slide_header(slide, "典型错误案例", "2个最差设备 badcase + 2个最差五级分类 badcase。", label)
     positions = [(0.75, 1.35), (6.8, 1.35), (0.75, 4.05), (6.8, 4.05)]
-    for idx, (row, (x, y)) in enumerate(zip(summary["examples"], positions), start=1):
+    example_rows = summary["bad_cases"]["devices"] + summary["bad_cases"]["l5"]
+    example_titles = ["最差设备", "最差设备", "最差五级分类", "最差五级分类"]
+    for idx, (row, (x, y), case_title) in enumerate(zip(example_rows, positions, example_titles), start=1):
         add_rect(slide, x, y, 5.65, 2.25, "white", "light_gray")
         dims = " / ".join([dim for dim in DIMENSIONS if row[dim]])
-        add_text(slide, f"案例 {idx}｜{row['query所属设备']}｜{row['五级分类']} / {row['六级分类']}", x + 0.2, y + 0.18, 3.95, 0.25, 10, "red", True)
+        add_text(slide, f"{case_title} {idx}｜{row['query所属设备']}｜{row['五级分类']} / {row['六级分类']}", x + 0.2, y + 0.14, 4.15, 0.25, 9, "red", True)
         add_text(slide, dims, x + 4.1, y + 0.18, 1.25, 0.25, 9, "orange", True, PP_ALIGN.RIGHT)
-        add_text(slide, f"Q：{truncate(row['query'], 42)}", x + 0.2, y + 0.55, 5.15, 0.35, 10, "dark", True)
-        add_text(slide, f"A：{truncate(row['DisplayText'], 58)}", x + 0.2, y + 0.98, 5.15, 0.45, 9, "gray")
-        add_text(slide, f"备注：{truncate(row['备注'], 38)}", x + 0.2, y + 1.62, 5.15, 0.35, 10, "dark")
-    add_footer(slide, 6)
+        add_text(slide, f"Q：{row['query']}", x + 0.2, y + 0.46, 5.15, 0.45, fitted_font_size(row["query"], 8.0, fit_chars=58, min_size=5.6), "dark", True, auto_fit=True)
+        add_text(slide, f"A：{row['DisplayText']}", x + 0.2, y + 0.97, 5.15, 0.52, fitted_font_size(row["DisplayText"], 7.5, fit_chars=70, min_size=5.3), "gray", auto_fit=True)
+        add_text(slide, f"备注：{row['备注']}", x + 0.2, y + 1.6, 5.15, 0.45, fitted_font_size(row["备注"], 8.0, fit_chars=58, min_size=5.6), "dark", auto_fit=True)
+    add_footer(slide, page)
+    page += 1
 
-    # 7. Actions
-    slide = prs.slides.add_slide(blank)
-    add_rect(slide, 0, 0, 13.333, 7.5, "bg")
-    add_slide_header(slide, "优化优先级与行动清单", "把参数问题和重点设备一起给到开发，优先拉动整体准确率。", label)
-    actions = build_action_items(summary)
-    x = 0.65
-    y = 1.35
-    widths = [0.68, 1.85, 2.6, 0.72, 0.78, 0.85, 4.25]
-    headers = ["优先级", "参数", "重点设备", "问题数", "准确率", "主问题", "建议动作"]
-    add_rect(slide, x, y, sum(widths), 0.38, "dark")
-    xx = x
-    for width, header in zip(widths, headers):
-        add_text(slide, header, xx + 0.05, y + 0.08, width - 0.1, 0.18, 8, "white", True, PP_ALIGN.CENTER)
-        xx += width
-    for idx, item in enumerate(actions):
-        row_h = 0.62
-        yy = y + 0.38 + idx * row_h
-        add_rect(slide, x, yy, sum(widths), row_h, "white", "light_gray")
-        xx = x
-        values = [
-            item["priority"],
-            item["param"],
-            item["devices"],
-            str(item["issue"]),
-            f"{item['accuracy']:.1%}",
-            item["top_dim"],
-            item["action"],
-        ]
-        colors = ["red" if item["priority"] == "P0" else "orange", "dark", "gray", "dark", "dark", "red", "dark"]
-        for width, value, color, header in zip(widths, values, colors, headers):
-            if header == "重点设备":
-                longest_device = max(str(value).splitlines() or [""], key=len)
-                font_size = fitted_font_size(longest_device, 7.0, fit_chars=34, min_size=5.0)
-                add_text(slide, str(value), xx + 0.05, yy + 0.05, width - 0.1, row_h - 0.1, font_size, color)
-            else:
-                add_text(slide, truncate(value, 33), xx + 0.06, yy + 0.16, width - 0.12, 0.23, 8, color, item["priority"] == "P0" and value == item["priority"])
-            xx += width
-    add_text(slide, "优先级规则：优先处理问题量高、正确性问题突出、准确率低的具体参数。", 0.75, 6.38, 8.2, 0.25, 9, "gray")
-    add_footer(slide, 7)
+    page = add_low_accuracy_failure_slides(prs, blank, summary, page=page, label=label)
 
     prs.save(output_path)
 
