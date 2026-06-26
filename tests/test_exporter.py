@@ -105,6 +105,66 @@ def test_build_new_products_payload_compares_product_ids():
     assert list(diff_payload["series"]["mate"]["products"]) == ["mate80"]
 
 
+def test_build_new_products_payload_includes_changed_existing_products():
+    exporter = VmallExporter(client=None)
+    previous_payload = {
+        "category_key": "cars",
+        "category_name": "Cars",
+        "pull_time": "260517",
+        "series": {
+            "shangjie": {
+                "series_key": "shangjie",
+                "series_name": "Shangjie",
+                "products": {
+                    "h5-pro": {
+                        "product_id": "h5-pro",
+                        "product_name": "Shangjie H5 Pro",
+                        "specifications": [
+                            {
+                                "group_name": "appearance",
+                                "attr_name": "exterior_color",
+                                "attr_value": "black, gray",
+                            }
+                        ],
+                    },
+                },
+            },
+        },
+    }
+    current_payload = {
+        "category_key": "cars",
+        "category_name": "Cars",
+        "pull_time": "260518",
+        "series": {
+            "shangjie": {
+                "series_key": "shangjie",
+                "series_name": "Shangjie",
+                "products": {
+                    "h5-pro": {
+                        "product_id": "h5-pro",
+                        "product_name": "Shangjie H5 Pro",
+                        "specifications": [
+                            {
+                                "group_name": "appearance",
+                                "attr_name": "exterior_color",
+                                "attr_value": "black, gray, blue",
+                            }
+                        ],
+                    },
+                },
+            },
+        },
+    }
+
+    diff_payload = exporter._build_new_products_payload(previous_payload, current_payload)
+
+    product = diff_payload["series"]["shangjie"]["products"]["h5-pro"]
+    assert diff_payload["diff_product_count"] == 1
+    assert diff_payload["new_product_count"] == 0
+    assert diff_payload["changed_product_count"] == 1
+    assert product["specifications"][0]["attr_value"] == "black, gray, blue"
+
+
 def test_write_new_products_diff_creates_file(tmp_path):
     exporter = VmallExporter(client=None)
     previous_payload = {
@@ -138,6 +198,71 @@ def test_write_new_products_diff_creates_file(tmp_path):
     diff_payload = json.loads(diff_path.read_text(encoding="utf-8"))
     assert diff_payload["new_product_count"] == 1
     assert diff_payload["series"]["mate"]["products"]["mate80"]["product_id"] == "1002"
+
+
+def test_write_new_products_diff_creates_file_for_changed_products(tmp_path):
+    exporter = VmallExporter(client=None)
+    previous_payload = {
+        "category_key": "cars",
+        "category_name": "Cars",
+        "pull_time": "260517",
+        "series": {
+            "shangjie": {
+                "series_key": "shangjie",
+                "series_name": "Shangjie",
+                "products": {
+                    "h5-pro": {
+                        "product_id": "h5-pro",
+                        "product_name": "Shangjie H5 Pro",
+                        "specifications": [
+                            {
+                                "group_name": "appearance",
+                                "attr_name": "exterior_color",
+                                "attr_value": "black, gray",
+                            }
+                        ],
+                    },
+                },
+            },
+        },
+    }
+    current_payload = {
+        "category_key": "cars",
+        "category_name": "Cars",
+        "pull_time": "260518",
+        "series": {
+            "shangjie": {
+                "series_key": "shangjie",
+                "series_name": "Shangjie",
+                "products": {
+                    "h5-pro": {
+                        "product_id": "h5-pro",
+                        "product_name": "Shangjie H5 Pro",
+                        "specifications": [
+                            {
+                                "group_name": "appearance",
+                                "attr_name": "exterior_color",
+                                "attr_value": "black, gray, blue",
+                            }
+                        ],
+                    },
+                },
+            },
+        },
+    }
+
+    diff_path = exporter._write_new_products_diff(
+        previous_payload,
+        current_payload,
+        diff_dir=tmp_path,
+    )
+
+    assert diff_path == tmp_path / "cars_260517_260518_new.json"
+    diff_payload = json.loads(diff_path.read_text(encoding="utf-8"))
+    assert diff_payload["diff_product_count"] == 1
+    assert diff_payload["new_product_count"] == 0
+    assert diff_payload["changed_product_count"] == 1
+    assert "h5-pro" in diff_payload["series"]["shangjie"]["products"]
 
 
 def test_write_new_products_diff_skips_when_no_previous_payload(tmp_path):
