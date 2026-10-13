@@ -8,9 +8,6 @@ __pycache__/
 .pytest_cache/
 build/
 dist/
-output/
-output_*/
 diff/
-src/out/
 src/diff/
 *.log

@@ -1,0 +1,48 @@
+{
+  "category_key": "speakers",
+  "category_name": "音箱",
+  "source": "https://consumer.huawei.com/my/",
+  "pull_time": "261013",
+  "series": {
+    "其他": {
+      "series_key": "其他",
+      "series_name": "其他",
+      "products": {
+        "minispeaker": {
+          "product_key": "minispeaker",
+          "product_id": "mini-speaker",
+          "product_name": "HUAWEI Mini Speaker",
+          "product_name_short": "Mini Speaker",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/speakers/mini-speaker/",
+          "specs_url": "https://consumer.huawei.com/my/speakers/mini-speaker/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    },
+    "sound系列": {
+      "series_key": "sound系列",
+      "series_name": "Sound 系列",
+      "products": {
+        "soundjoy": {
+          "product_key": "soundjoy",
+          "product_id": "sound-joy",
+          "product_name": "Sound Joy",
+          "product_name_short": "Sound Joy",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/speakers/sound-joy/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    }
+  }
+}

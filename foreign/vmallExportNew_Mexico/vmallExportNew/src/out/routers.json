@@ -1,0 +1,340 @@
+{
+  "category_key": "routers",
+  "category_name": "路由器",
+  "source": "https://consumer.huawei.com/my/",
+  "pull_time": "261013",
+  "series": {
+    "路由系列": {
+      "series_key": "路由系列",
+      "series_name": "路由系列",
+      "products": {
+        "wifimesh3": {
+          "product_key": "wifimesh3",
+          "product_id": "wifi-mesh3",
+          "product_name": "HUAWEI WiFi Mesh 3",
+          "product_name_short": "WiFi Mesh 3",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/routers/wifi-mesh3/",
+          "specs_url": "https://consumer.huawei.com/my/routers/wifi-mesh3/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "White",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions and Weight",
+              "attr_name": "Height",
+              "attr_value": "174 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions and Weight",
+              "attr_name": "Width",
+              "attr_value": "70 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions and Weight",
+              "attr_name": "Depth",
+              "attr_value": "107 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions and Weight",
+              "attr_name": "Weight",
+              "attr_value": "About 413 g (without packaging)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Wi-Fi",
+              "attr_name": "Transmission Standard",
+              "attr_value": "IEEE 802.11b/g/n/ax\n2 x 2 MIMO 2.4 GHz\nIEEE 802.11a/n/ac/ax\n2 x 2 MIMO 5 GHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Wi-Fi",
+              "attr_name": "Wireless Transmission Rate",
+              "attr_value": "2.4 GHz: 574 Mbps (theoretical)\n5 GHz: 2402 Mbps (theoretical)\nTotal theoretical negotiated rate: 2976 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Wi-Fi",
+              "attr_name": "Wireless Frequency Band",
+              "attr_value": "2.4 GHz & 5 GHz (supports prioritize 5 GHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Antenna",
+              "attr_name": "WLAN Antenna Type",
+              "attr_value": "Internal antennas",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Network Port",
+              "attr_name": "WAN/LAN Auto-adaptive Port",
+              "attr_value": "The drop network cable can be inserted into any one of the three 10/100/1000 Mbps auto-negotiation Ethernet ports to access the Internet.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Button",
+              "attr_name": "HUAWEI H (or Hi) Button (compatible with WPS)",
+              "attr_value": "Connect to HarmonyOS Connect devices or WPS wireless devices with a press of H button",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Button",
+              "attr_name": "Reset Button",
+              "attr_value": "Independent Reset pinhole",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Power Supply",
+              "attr_name": "Power Supply",
+              "attr_value": "12V DC, 1A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Power Supply",
+              "attr_name": "Power Consumption",
+              "attr_value": "< 12 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Power Supply",
+              "attr_name": "Input Voltage",
+              "attr_value": "100 – 240V",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Power Supply",
+              "attr_name": "Input Voltage Frequency",
+              "attr_value": "50 – 60 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Security",
+              "attr_name": "Firewall Security",
+              "attr_value": "Supports HUAWEI HomeSec™",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Security",
+              "attr_name": "Security Protection",
+              "attr_value": "WiFi brute force attack prevention, unauthorized network access prevention, WPA3",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Security",
+              "attr_name": "Parental Control",
+              "attr_value": "Supported",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Environment",
+              "attr_name": "Operating Temperature",
+              "attr_value": "0°C to 40°C (32°F–104°F)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Environment",
+              "attr_name": "Storage Temperature",
+              "attr_value": "–40℃ to +70℃ (–40℉ to +158℉)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Environment",
+              "attr_name": "Humidity",
+              "attr_value": "5% to 95% (non-condensing)",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "wifiax3pro": {
+          "product_key": "wifiax3pro",
+          "product_id": "ax3-pro",
+          "product_name": "HUAWEI WiFi AX3 Pro",
+          "product_name_short": "WiFi AX3 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/routers/ax3-pro/",
+          "specs_url": "https://consumer.huawei.com/my/routers/ax3-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions and Weight",
+              "attr_name": "Height",
+              "attr_value": "39.7 mm (Antenna folded)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions and Weight",
+              "attr_name": "Width",
+              "attr_value": "225 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions and Weight",
+              "attr_name": "Depth",
+              "attr_value": "159.2 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions and Weight",
+              "attr_name": "Weight",
+              "attr_value": "About 400 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Wi-Fi",
+              "attr_name": "Transmission Standard",
+              "attr_value": "IEEE 802.11b/g/n/ax 2 × 2 MIMO, IEEE 802.11a/n/ac/ax 2 × 2 MU-MIMO",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Wi-Fi",
+              "attr_name": "Wireless Transmission Rate",
+              "attr_value": "2.4 GHz: 574 Mbps (theoretical)\n5 GHz: 2,402 Mbps (theoretical)\nTotal theoretical negotiated rate: 2,976 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Wi-Fi",
+              "attr_name": "Wireless Frequency Band",
+              "attr_value": "2.4 GHz & 5 GHz (supports prioritize 5 GHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Antenna",
+              "attr_name": "WLAN Antenna Type",
+              "attr_value": "External antenna",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Power Supply",
+              "attr_name": "Power Supply",
+              "attr_value": "12V DC, 2A (FCC Area)\n12V DC, 1A (CE Area)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Power Supply",
+              "attr_name": "Power Consumption",
+              "attr_value": "< 24 W (FCC Area)\n< 12 W (CE Area)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Power Supply",
+              "attr_name": "Input Voltage",
+              "attr_value": "100 – 240V",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Power Supply",
+              "attr_name": "Input Voltage Frequency",
+              "attr_value": "50 – 60 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Security",
+              "attr_name": "Firewall Security",
+              "attr_value": "Supports HUAWEI HomeSec™ security protection: Wi-Fi brute force attack prevention, Wi-Fi access control",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Security",
+              "attr_name": "Parental Control",
+              "attr_value": "Supported",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Environment",
+              "attr_name": "Temperature",
+              "attr_value": "Operating Temperature: 0°C to 40°C (32°F – 104°F)\nStorage Temperature: –40℃ to +70℃ (–40℉ to +158℉)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Environment",
+              "attr_name": "Humidity",
+              "attr_value": "5% to 95% (non-condensing)",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "其他": {
+      "series_key": "其他",
+      "series_name": "其他",
+      "products": {
+        "ax3dualcore": {
+          "product_key": "ax3dualcore",
+          "product_id": "ax3-dual-core",
+          "product_name": "AX3 Dual Core",
+          "product_name_short": "AX3 Dual Core",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/routers/ax3-dual-core/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "ax3quadcore": {
+          "product_key": "ax3quadcore",
+          "product_id": "ax3-quad-core",
+          "product_name": "AX3 Quad Core",
+          "product_name_short": "AX3 Quad Core",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/routers/ax3-quad-core/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "ax3": {
+          "product_key": "ax3",
+          "product_id": "ax3",
+          "product_name": "AX3",
+          "product_name_short": "AX3",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/routers/ax3/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "ws5200new": {
+          "product_key": "ws5200new",
+          "product_id": "ws5200-new",
+          "product_name": "WS5200 New",
+          "product_name_short": "WS5200 New",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/routers/ws5200-new/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    }
+  }
+}

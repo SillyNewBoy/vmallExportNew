@@ -1,0 +1,213 @@
+{
+  "category_key": "monitors",
+  "category_name": "显示器",
+  "source": "https://consumer.huawei.com/my/",
+  "pull_time": "261013",
+  "series": {
+    "mateview系列": {
+      "series_key": "mateview系列",
+      "series_name": "MateView 系列",
+      "products": {
+        "mateviewgt34inchsoundedition": {
+          "product_key": "mateviewgt34inchsoundedition",
+          "product_id": "mateview-gt",
+          "product_name": "HUAWEI MateView GT 34-inch Sound Edition",
+          "product_name_short": "MateView GT 34-inch Sound Edition",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/monitors/mateview-gt/",
+          "specs_url": "https://consumer.huawei.com/my/monitors/mateview-gt/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Display",
+              "attr_name": "Size",
+              "attr_value": "34 inches",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Display",
+              "attr_name": "Curvature",
+              "attr_value": "1500R",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Display",
+              "attr_name": "Aspect ratio",
+              "attr_value": "21 : 9",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Display",
+              "attr_name": "Screen type",
+              "attr_value": "VA",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Display",
+              "attr_name": "Resolution",
+              "attr_value": "3440 x 1440",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Display",
+              "attr_name": "Refresh rate",
+              "attr_value": "165 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Display",
+              "attr_name": "Color gamut",
+              "attr_value": "90% DCI-P3 (typical value) / covering 100% sRGB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Display",
+              "attr_name": "Colors",
+              "attr_value": "1.07 billion",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Display",
+              "attr_name": "Brightness",
+              "attr_value": "350 nits (typical)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Display",
+              "attr_name": "Contrast ratio",
+              "attr_value": "4000 : 1 (typical)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Display",
+              "attr_name": "Color accuracy",
+              "attr_value": "ΔE < 2*",
+              "attr_remark": "*ΔE < 2 indicates the average color standard value in the sRGB color gamut."
+            },
+            {
+              "group_name": "Display",
+              "attr_name": "HDR",
+              "attr_value": "Support",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Display",
+              "attr_name": "Eye comfort mode",
+              "attr_value": "TÜV Rheinland Low Blue Light and Flicker Free certification",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Features",
+              "attr_name": "SoundBar dual speakers",
+              "attr_value": "5 W x 2",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Features",
+              "attr_name": "Touch volume control",
+              "attr_value": "Touch control volume, supports double click mute",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Features",
+              "attr_name": "Mood lighting",
+              "attr_value": "8 dazzling lighting effects, supports user-defined setting",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Features",
+              "attr_name": "Mic",
+              "attr_value": "DMIC x 2, supports 4-meter far-field voice pickup",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Features",
+              "attr_name": "Game assistant",
+              "attr_value": "Dark field controls, Crosshairs",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Features",
+              "attr_name": "OSD",
+              "attr_value": "Five-way joystick",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Stand",
+              "attr_name": "Quick disassembly",
+              "attr_value": "Support",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Stand",
+              "attr_name": "Wall mount",
+              "attr_value": "Support, VESA 100 x 100 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Stand",
+              "attr_name": "Height adjustment",
+              "attr_value": "110 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Stand",
+              "attr_name": "Tilt",
+              "attr_value": "-5° ~ 20° forward and backward",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Ports",
+              "attr_name": "备注",
+              "attr_value": "*Due to the theoretical bandwidth limitation of HDMI 2.0, the maximum resolution supported by HDMI 2.0 is 3440 x 1440@100 Hz. The DP and USB-C ports are recommended.",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "mateview": {
+          "product_key": "mateview",
+          "product_id": "mateview",
+          "product_name": "Mateview",
+          "product_name_short": "Mateview",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/monitors/mateview/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    },
+    "其他": {
+      "series_key": "其他",
+      "series_name": "其他",
+      "products": {
+        "display238inch": {
+          "product_key": "display238inch",
+          "product_id": "display-23-8-inch",
+          "product_name": "Display 23 8 Inch",
+          "product_name_short": "Display 23 8 Inch",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/monitors/display-23-8-inch/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    }
+  }
+}

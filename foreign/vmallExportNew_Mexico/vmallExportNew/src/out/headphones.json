@@ -1,0 +1,1573 @@
+{
+  "category_key": "headphones",
+  "category_name": "耳机",
+  "source": "https://consumer.huawei.com/my/",
+  "pull_time": "261013",
+  "series": {
+    "freebuds系列": {
+      "series_key": "freebuds系列",
+      "series_name": "FreeBuds 系列",
+      "products": {
+        "freebudsneo": {
+          "product_key": "freebudsneo",
+          "product_id": "freebuds-neo",
+          "product_name": "HUAWEI FreeBuds Neo",
+          "product_name_short": "FreeBuds Neo",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds-neo/",
+          "specs_url": "https://consumer.huawei.com/my/headphones/freebuds-neo/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Stellar Silver",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Nebula Pink",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Starry Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Earbuds:",
+              "attr_value": "Height: 23.2 mm\nWidth: 21.56 mm\nDepth: 24.56 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Charging case:",
+              "attr_value": "Height: 41.22 mm\nWidth: 68.35 mm\nDepth: 25.57 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*Data is tested when the medium ear tips are used. Actual dimensions may vary depending on product configuration and manufacturing process. Please refer to the actual product.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery capacity",
+              "attr_value": "Rated capacity\nEach earbud: 60 mAh\nCharging case: 460 mAh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Method",
+              "attr_value": "USB Type-C port, 5V/0.5A and above",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charge time*",
+              "attr_value": "Charging the empty charging case: approx. 70 minutes; Charging both the earbuds and the charging case: approx. 70 minutes; Charging the earbuds from the charging case: approx. 45 minutes.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery life**",
+              "attr_value": "After a full charge:\nMusic playback (SD): 6.5 hours with noise cancellation enabled, 10 hours with noise cancellation disabled\nMusic playback (HD): 6 hours with noise cancellation enabled, 9 hours with noise cancellation disabled\nVoice call (SD): 5 hours with noise cancellation enabled, 6 hours with noise cancellation disabled\nVoice call (HD): 4 hours with noise cancellation enabled, 5 hours with noise cancellation disabled\nWhen used with the charging case:\nMusic playback (SD): 24 hours with noise cancellation enabled, 40 hours with noise cancellation disabled\nMusic playback (HD): 22 hours with noise cancellation enabled, 33 hours with noise cancellation disabled\nVoice call (SD): 18 hours with noise cancellation enabled, 24 hours with noise cancellation disabled\nVoice call (HD): 16 hours with noise cancellation enabled, 20 hours with noise cancellation disabled",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "备注",
+              "attr_value": "*Data comes from Huawei lab tests.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Splash, Water, and Dust Resistant",
+              "attr_name": "备注",
+              "attr_value": "*The IP55 water- and dust-resistance conditions apply to the earbuds, not the charging case. This product is not a professional waterproof device, but is splash-, water-, and dust-resistant during normal use. It has been tested under strictly controlled laboratory conditions to achieve an IP55 rating under the GB/T 4208-2017 and IEC 60529 standards. Splash, water, and dust resistance are not permanent conditions and resistance might decrease as a result of normal wear. Do not charge the device in a damp environment. Liquid damage is not covered under warranty.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Weight",
+              "attr_name": "备注",
+              "attr_value": "*Data is tested when the medium ear tips are used. Actual weight may vary depending on product configuration and manufacturing process. Please refer to the actual product.",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freebudspro5": {
+          "product_key": "freebudspro5",
+          "product_id": "freebuds-pro-5",
+          "product_name": "HUAWEI FreeBuds Pro 5",
+          "product_name_short": "FreeBuds Pro 5",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds-pro-5/",
+          "specs_url": "https://consumer.huawei.com/my/headphones/freebuds-pro-5/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Sand",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "White",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Grey",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Each earbud",
+              "attr_value": "Height: 29.1 mm\nWidth: 21.8 mm\nDepth: 23.7 mm\nWeight: approx. 5.5 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Charging case (Sand, Grey, White)",
+              "attr_value": "Height: 65.5 mm\nWidth: 46.7 mm\nDepth: 22.98 mm\nWeight: approx. 43 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*Actual dimensions and weight may vary depending on product configuration and manufacturing processes.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery capacity",
+              "attr_value": "Earbuds: 60 mAh\nCharging case: 537 mAh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Method",
+              "attr_value": "Wired charger: USB-C Port: 5V-0.5A or above\nWireless charger: supported, up to 5 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charge time",
+              "attr_value": "About 40 mins for the earbuds (in the charging case)\nAbout 1 hour for the charging case without earbuds (wired) About 150 mins for charging case without earbuds (wireless)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery life",
+              "attr_value": "Prioritize sound quality: playback with L2HC/LDAC\nMusic playback (with noise canceling disabled): 8 hours after a full charge and 33 hours when used with the charging case.\nMusic playback (with noise canceling enabled): 5 hours after a full charge and 22 hours when used with the charging case.\nPrioritize connection quality: playback with AAC\nMusic playback (with noise canceling disabled): 9 hours after a full charge and 38 hours when used with the charging case.\nMusic playback (with noise canceling enabled): 6 hours after a full charge and 25 hours when used with the charging case.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Voice call:",
+              "attr_value": "Voice call (with noise canceling disabled): 5 hours after a full charge and 22 hours when used with the charging case.\nVoice call (with noise canceling enabled): 4 hours after a full charge and 18 hours when used with the charging case.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "备注",
+              "attr_value": "*The charging data comes from Huawei lab tests.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "Bluetooth Compatibility",
+              "attr_value": "Bluetooth 6.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "Pop-Up Pair",
+              "attr_value": "Supported",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "Simultaneous Bluetooth connection with dual devices",
+              "attr_value": "Supported",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "备注",
+              "attr_value": "*This feature requires Huawei phones running EMUI 10 or later.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Splash, Water, and Dust Resistant",
+              "attr_name": "备注",
+              "attr_value": "*The earbuds (excluding the charging case) comply with the IP57 (IEC 60529) requirements. This product is not a pro-level water-proof device, but is splash-, water-, and dust-resistant during normal use. It has been subject to lab tests under controlled conditions, which indicate that it meets the IP57 level under the IEC 60529 standard.",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freebuds6": {
+          "product_key": "freebuds6",
+          "product_id": "freebuds6",
+          "product_name": "HUAWEI FreeBuds 6",
+          "product_name_short": "FreeBuds 6",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds6/",
+          "specs_url": "https://consumer.huawei.com/my/headphones/freebuds6/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "White",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Purple",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*Actual dimensions may vary depending on configuration, manufacturing process, and measurement method.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery Capacity",
+              "attr_value": "Battery type: Li-ion Polymer Battery\nEarbuds: 39.5 mAh (minimum value each);\nCharging case: 510 mAh (minimum value)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery Life",
+              "attr_value": "Prioritize sound quality :\nListening to music (noise reduction off): The Earbuds can be used for 5.5 hours on a single charge and 32 hours with a charging case;\nListening to music (noise reduction on): The Earbuds can be used for 4.0 hours on a single charge and for 24 hours with a charging case.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Method",
+              "attr_value": "Wired charging: USB Type-C Port, 5V0.5A or above\nListening to music (noise reduction on): The Earbuds can be used for 4.0 hours on a Wireless Charger: Supported, up to 2W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Duration",
+              "attr_value": "Wired charging: charging case only, about 45 minutes; Headphones and charging case, about 45 minutes; The charging case charges the headphones for about 25 minutes. **\nWireless charging: charging case only, approx. 150 minutes. **",
+              "attr_remark": "*The battery life and charging data come from Huawei lab tests. During the tests, audio in AAC,L2HC or LDAC format was played at 50% volume level. The default settings were used for other features. Actual results may vary depending on the volume, audio source, environmental interference, product features, and usage habits.\n**Data comes from Huawei lab tests."
+            },
+            {
+              "group_name": "Weight",
+              "attr_name": "备注",
+              "attr_value": "*The actual weight may vary slightly according to configuration, manufacturing process, and measurement method.",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freebuds7i": {
+          "product_key": "freebuds7i",
+          "product_id": "freebuds7i",
+          "product_name": "HUAWEI FreeBuds 7i",
+          "product_name_short": "FreeBuds 7i",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds7i/",
+          "specs_url": "https://consumer.huawei.com/my/headphones/freebuds7i/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Pink",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "White",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Each earbud",
+              "attr_value": "Height: 31.9 mm\nWidth: 21.0 mm\nDepth: 24.6 mm\nWeight: approx. 5.4 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Charging case",
+              "attr_value": "Height: 57.8 mm\nWidth: 57.8 mm\nDepth: 27.8 mm\nWeight: approx. 36.5 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*Actual dimensions may vary based on product configuration and manufacturing processes.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery capacity",
+              "attr_value": "Earbuds: 55 mAh (minimum value each)\nCharging case: 510 mAh (minimum value)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Method",
+              "attr_value": "Wired charging: USB-C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charge time",
+              "attr_value": "About 40 minutes for the earbuds (in the charging case)\nAbout 1 hour for the charging case (wired)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery life",
+              "attr_value": "Music playback with the earbuds only (ANC OFF): 8 hours\nMusic playback with the earbuds only (ANC ON): 5 hours\nMusic playback with multiple charges in the case (ANC OFF): 35 hours\nMusic playback with multiple charges in the case (ANC ON): 20 hours",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "备注",
+              "attr_value": "*The charging data comes from Huawei lab tests.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "Bluetooth Compatibility",
+              "attr_value": "BT 5.4",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "Pop-Up Pair",
+              "attr_value": "Supported",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "Simultaneous Bluetooth connection with dual devices",
+              "attr_value": "Supported",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "备注",
+              "attr_value": "*This feature requires Huawei phones running EMUI 10 or later.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Splash, Water, and Dust Resistant",
+              "attr_name": "Earbuds",
+              "attr_value": "IP54",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Splash, Water, and Dust Resistant",
+              "attr_name": "备注",
+              "attr_value": "KklQNTQgZHVzdC0gYW5kIHdhdGVyLXJlc2lzdGFuY2UgaXMgb25seSBhcHBsaWNhYmxlIHRvIHRoZSBlYXJidWRzIHRoZW1zZWx2ZXMsIG5vdCB0aGUgY2hhcmdpbmcgY2FzZS4gVGhpcyBkZXZpY2UgaXMgc3BsYXNoLCANCmR1c3QsIGFuZCB3YXRlciByZXNpc3RhbnQgaW4gbm9ybWFsIGNvbmRpdGlvbnMuIEl0IHdhcyB0ZXN0ZWQgdW5kZXIgY29udHJvbGxlZCBsYWJvcmF0b3J5IGNvbmRpdGlvbnMgYW5kIGdvdCBhbiBhcHByb3ZlZCANCnJhdGluZyBvZiBJUDU0IHVuZGVyIElFQyBzdGFuZGFyZCA2MDUyOS4gU3BsYXNoLCBkdXN0LCBhbmQgd2F0ZXIgcmVzaXN0YW5jZSBhcmUgbm90IHBlcm1hbmVudCwgYW5kIHRoZSBwZXJmb3JtYW5jZSBtYXkgZGV0ZXJpb3JhdGUgDQpkdWUgdG8gZGFpbHkgd2Vhci1hbmQtdGVhci4gQXZvaWQgY2hhcmdpbmcgdGhlIGRldmljZSBpbiBkYW1wIGVudmlyb25tZW50cy4gTGlxdWlkIGRhbWFnZSBpcyBub3QgY292ZXJlZCB1bmRlciB3YXJyYW50eS4=",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freebudspro4": {
+          "product_key": "freebudspro4",
+          "product_id": "freebuds-pro-4",
+          "product_name": "HUAWEI FreeBuds Pro 4",
+          "product_name_short": "FreeBuds Pro 4",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds-pro-4/",
+          "specs_url": "https://consumer.huawei.com/my/headphones/freebuds-pro-4/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "White",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Green",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Each earbud",
+              "attr_value": "Height: 29.1 mm\nWidth: 21.8 mm\nDepth: 23.7 mm\nWeight: approx. 5.8 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Charging case",
+              "attr_value": "Height: 46.9 mm\nWidth:  65.9 mm\nDepth: 24.5 mm\nWeight: approx. 47 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*The actual size and weight of the product may vary with the product configuration and manufacturing process.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery capacity",
+              "attr_value": "Earbuds: 55 mAh (minimum value each);\nCharging case: 510 mAh (minimum value)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Method",
+              "attr_value": "Wired charger: USB-C Port: 5V-0.5A or above\nWireless charger: supported, up to 5W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Theoretical charging time",
+              "attr_value": "About 40 mins for the earbuds (in the charging case)\nAbout 1 hour for the charging case without earbuds (wired) About 150 mins for charging case without earbuds (wireless）",
+              "attr_remark": "*Data comes from Huawei lab tests."
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery life",
+              "attr_value": "Prioritize sound quality: playback with L2HC/LDAC\nMusic playback (with noise canceling disabled): 6.5 hours after a full charge and 31 hours when used with the charging case.\nMusic playback (with noise canceling enabled): 4.5 hours after a full charge and 22 hours when used with the charging case.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "备注",
+              "attr_value": "*Data comes from Huawei lab tests in which the earbuds were connected to a HUAWEI Mate X6 phone, and played audio at a 50% volume level with other features set by default. Actuall battery life may vary depending on the volume level, sound source, environmental interferences, product features, and usage habits.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "Bluetooth Compatibility",
+              "attr_value": "BT 5.2",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "Pop-Up Pair",
+              "attr_value": "Supported",
+              "attr_remark": "*Huawei phones/tablets compatible with EMUI 10.0 and above versions are required."
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "Simultaneous Bluetooth connection with dual devices",
+              "attr_value": "Supported",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freebudsse4anc": {
+          "product_key": "freebudsse4anc",
+          "product_id": "freebuds-se-4-anc",
+          "product_name": "HUAWEI FreeBuds SE 4 ANC",
+          "product_name_short": "FreeBuds SE 4 ANC",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds-se-4-anc/",
+          "specs_url": "https://consumer.huawei.com/my/headphones/freebuds-se-4-anc/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "White",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*Actual product dimensions will vary depending on the configuration and manufacturing process.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Rated capacity",
+              "attr_value": "Battery type: Lithium-ion polymer battery\nSingle earbud: 41 mAh\nCharging case: 510 mAh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging mode",
+              "attr_value": "Wired charging: USB Type-C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Duration",
+              "attr_value": "Wired charging: approx 10 mins for 4 hours playtime*\nWired charging: approx. 110 mins (only the charging case)**\napprox. 110 mins (with the earbuds in the charging case)**\napprox. 60 mins (when the charging case charges the earbuds)**",
+              "attr_remark": "*The fast charging data comes from Huawei lab tests. Fast charging for earphones is achieved when the earbuds are at low battery. Charging for 10 minutes using wired charging or when the charging case has more than 80% battery, with the volume adjusted to 50%, music in AAC encoding format, and noise cancellation turned off, can provide 4 hours of battery life. Actual battery life is influenced by factors such as volume, audio source, environmental interference, product features, and usage habits.\n**Battery life and charging data come from Huawei labs with the following testing conditions: volume set to 50%, AAC format used, and default settings for other functions. The test results are for reference only. Actual usage may vary depending on the volume level, audio source, connected devices, environmental interference, enabled features, and usage habits."
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery life",
+              "attr_value": "Music playback (with noise cancellation enabled): 7 hours after a full charge and 35 hours when used with the charging case*\nMusic playback (with noise cancellation disabled): 10 hours after a full charge and 50 hours when used with the charging case**\nVoice calling (with noise cancellation enabled): 5 hours after a full charge and 25 hours when used with the charging case*\nVoice calling (with noise cancellation disabled): 6 hours after a full charge and 30 hours when used with the charging case**",
+              "attr_remark": "*Battery life data comes from Huawei lab tests, in which audio was played at a 50% volume level and with ANC disabled in AAC mode, and while using a HUAWEI Pura 70. The default settings were used for other features. Actual battery life may vary depending on the volume level, audio source, environmental interference, product features, and usage habits.\n**Battery life data comes from Huawei lab tests, in which audio was played at a 50% volume level and with Wind noise reduction mode disabled but ANC enabled in AAC mode, and while using a HUAWEI Pura 70. The default settings were used for other features. Actual battery life may vary depending on the volume level, audio source, environmental interference, product features, and usage habits."
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "备注",
+              "attr_value": "*The data comes from Huawei lab tests and is based on tests conducted using the HUAWEI Pura 70, including the total latency during gaming, phone use, and headphone usage. The latency experience may vary depending on the phone model, system version, game type, and game version. Please refer to the actual results for accuracy.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "IP rating",
+              "attr_name": "备注",
+              "attr_value": "*IP54 dust- and water-resistance only applies to the earbuds themselves, not the charging case. This device is splash-, dust-, and water-resistant under normal conditions. When tested under controlled laboratory conditions, the earbuds were rated IP54 under the IEC standard 60529. Splash, water, and dust resistance are not permanent conditions and resistance may decrease over time with normal use. Avoid charging the device in damp environments. Liquid damage is not covered under the warranty.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Weight",
+              "attr_name": "备注",
+              "attr_value": "*Actual weight may vary based on product configuration and manufacturing processes.",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freebuds6i": {
+          "product_key": "freebuds6i",
+          "product_id": "freebuds6i",
+          "product_name": "HUAWEI FreeBuds 6i",
+          "product_name_short": "FreeBuds 6i",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds6i/",
+          "specs_url": "https://consumer.huawei.com/my/headphones/freebuds6i/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "White",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Purple",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Each earbud",
+              "attr_value": "Height: 31.4 mm\nWidth: 21.3 mm\nDepth: 23.7 mm\nWeight: 5.4 ± 0.3 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Charging case",
+              "attr_value": "Height: 48.2 mm\nWidth:  61.8 mm\nDepth: 27.0 mm\nWeight: 34 ± 1 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*The actual size and weight of the product may vary with the product configuration and manufacturing process.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery capacity",
+              "attr_value": "Earbuds: 55 mAh (minimum value each)\nCharging case: 510 mAh (minimum value)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Method",
+              "attr_value": "Wired charging: USB-C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charge time",
+              "attr_value": "About 40 minutes for the earbuds (in the charging case)\nAbout 1 hour for the charging case (wired)",
+              "attr_remark": "*The charging data comes from Huawei lab tests. During testing, the ambient temperature is 25°C, for reference only."
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery life",
+              "attr_value": "Music playback with the earbuds only (ANC OFF): 8 hours\nMusic playback with the earbuds only (ANC ON): 5 hours\nMusic playback with multiple charges in the case (ANC OFF): 35 hours\nMusic playback with multiple charges in the case (ANC ON): 20 hours",
+              "attr_remark": "*The battery life data comes from Huawei labs with conditions by default: volume at 50%, and the AAC mode is enabled. The actual battery life may vary depending on the volume, audio source, environment interference, product features, and usage habits."
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "Bluetooth Compatibility",
+              "attr_value": "BT 5.3",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "Pop-Up Pair",
+              "attr_value": "Supported",
+              "attr_remark": "*This feature requires Huawei phones running EMUI10 or later."
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "Simultaneous Bluetooth connection with dual devices",
+              "attr_value": "Supported",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Splash, Water, and Dust Resistant",
+              "attr_name": "Earbuds",
+              "attr_value": "IP54",
+              "attr_remark": "*IP54 dust- and water-resistance is only applicable to the earbuds themselves, not the charging case. This device is splash, dust, and water resistant in normal conditions. It was tested under controlled laboratory conditions and got an approved rating of IP54 under IEC standard 60529. Splash, dust, and water resistance are not permanent, and the performance may deteriorate due to daily wear-and-tear. Avoid charging the device in damp environments. Liquid damage is not covered under warranty."
+            }
+          ]
+        },
+        "freebudspro3": {
+          "product_key": "freebudspro3",
+          "product_id": "freebuds-pro-3",
+          "product_name": "HUAWEI FreeBuds Pro 3",
+          "product_name_short": "FreeBuds Pro 3",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds-pro-3/",
+          "specs_url": "https://consumer.huawei.com/my/headphones/freebuds-pro-3/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Ceramic White",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Green",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Silver Frost",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Earphone dimensions:",
+              "attr_value": "29.1 mm (Height) × 21.8 mm (Width) × 23.7 mm (Depth)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Charging case dimensions:",
+              "attr_value": "46.9 mm (Height) × 65.9 mm (Width) × 24.5 mm (Depth)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "Note: The actual size of the product may vary with the product configuration and manufacturing process.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery capacity",
+              "attr_value": "Earphones: 55 mAh (minimum value each)\nCharging case: 510 mAh (minimum value)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery Life",
+              "attr_value": "Music playback (with noise canceling disabled): 6.5 hours after a full charge and 31 hours when used with the charging case.\nMusic playback (with noise canceling enabled): 4.5 hours after a full charge and 22 hours when used with the charging case.",
+              "attr_remark": "Note: The battery life and charging data come from Huawei lab tests. During the tests, audio in AAC format was played at 50% volume level and with ANC disabled. The default settings were used for other features. Actual results may vary depending on the volume, audio source, environmental interference, product features, and usage habits."
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Method",
+              "attr_value": "Wired charging: USB-C\nWireless: up to 2 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Time",
+              "attr_value": "About 40 mins for the earbuds (in the charging case)\nAbout 1 hour for the charging case without earbuds (wired)\nAbout 150 mins for charging case without earbuds (wireless)",
+              "attr_remark": "Note: Data comes from Huawei lab tests. During testing, the ambient temperature is 25°C, for reference only."
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Standby time",
+              "attr_value": "The standby time is 270 days when the earphones are placed in the charging case and the cap is kept closed.",
+              "attr_remark": "Note: Data comes from Huawei lab tests."
+            },
+            {
+              "group_name": "Controls",
+              "attr_name": "Pinch once:",
+              "attr_value": "play/pause music, answer/end a call",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Controls",
+              "attr_name": "Pinch twice:",
+              "attr_value": "play the next track",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Controls",
+              "attr_name": "Pinch three times:",
+              "attr_value": "play the previous track",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Controls",
+              "attr_name": "Long pinch:",
+              "attr_value": "enable or disable ANC/Awareness",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Controls",
+              "attr_name": "Swipe up/down:",
+              "attr_value": "turn the volume up or down",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "Simultaneous Bluetooth connection with dual devices:",
+              "attr_value": "Supported",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "Pop-Up Pair:",
+              "attr_value": "Supported",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "备注",
+              "attr_value": "Note: This feature requires Huawei phones running EMUI10 or later.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Splash, Water, and Dust Resistant",
+              "attr_name": "Earphones:",
+              "attr_value": "IP54",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Splash, Water, and Dust Resistant",
+              "attr_name": "Charging case:",
+              "attr_value": "not water resistant",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Splash, Water, and Dust Resistant",
+              "attr_name": "备注",
+              "attr_value": "Note: IP54 dust- and water-resistance is only applicable to the earbuds themselves, not the charging case. This device is splash, dust, and water resistant in normal conditions. It was tested under controlled laboratory conditions and got an approved rating of IP54 under IEC standard 60529. Splash, dust, and water resistance are not permanent, and the performance may deteriorate due to daily wear-and-tear. Avoid charging the device in damp environments. Liquid damage is not covered under warranty.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Audio Format(s)",
+              "attr_name": "备注",
+              "attr_value": "Note: L2HC requires Huawei phones running EMUI 13.0 or later.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Weight",
+              "attr_name": "Each earphone:",
+              "attr_value": "5.8 g ± 0.3 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Weight",
+              "attr_name": "Charging case:",
+              "attr_value": "45.5 g ± 1 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Weight",
+              "attr_name": "备注",
+              "attr_value": "Note: The actual weight of the product may vary with the product configuration and manufacturing process.",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freebudsse3": {
+          "product_key": "freebudsse3",
+          "product_id": "freebuds-se-3",
+          "product_name": "HUAWEI FreeBuds SE 3",
+          "product_name_short": "FreeBuds SE 3",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds-se-3/",
+          "specs_url": "https://consumer.huawei.com/my/headphones/freebuds-se-3/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Beige",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*Actual product dimensions will vary depending on the configuration and manufacturing process.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery Capacity",
+              "attr_value": "Battery type: Lithium-ion polymer battery\nEarbuds: 41 mAh (minimum value for each earbud)\nCharging case: 510 mAh (minimum value)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery Life",
+              "attr_value": "Music playback: 9.0 hours after a full charge and 42 hours with multiple charges in the charging case*\nVoice calling: 5 hours after a full charge and 24 hours with multiple charges in the charging case*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Method",
+              "attr_value": "Wired charging: USB-C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Duration",
+              "attr_value": "Charging the earbuds with the charging case: approx. 60 minutes**\nCharging the empty charging case with a cable: approx. 110 minutes**\nCharging the charging case with a cable, with the earbuds inside the case: approx. 110 minutes**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "备注",
+              "attr_value": "*The battery life data comes from Huawei lab tests. During the tests, AAC format audio was played at 50% volume level. The default settings were used for other features. Actual results may vary depending on the volume, audio source, environmental interference, product features, auxiliary devices, system, and usage habits.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "备注",
+              "attr_value": "*This feature requires HUAWEI phones running EMUI10 or later.",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freebuds3i": {
+          "product_key": "freebuds3i",
+          "product_id": "freebuds-3i",
+          "product_name": "Freebuds 3i",
+          "product_name_short": "Freebuds 3i",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds-3i/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "freebudslipstick": {
+          "product_key": "freebudslipstick",
+          "product_id": "freebuds-lipstick",
+          "product_name": "Freebuds Lipstick",
+          "product_name_short": "Freebuds Lipstick",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds-lipstick/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "freebudspro2": {
+          "product_key": "freebudspro2",
+          "product_id": "freebuds-pro-2",
+          "product_name": "Freebuds Pro 2",
+          "product_name_short": "Freebuds Pro 2",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds-pro-2/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "freebudspro": {
+          "product_key": "freebudspro",
+          "product_id": "freebuds-pro",
+          "product_name": "Freebuds Pro",
+          "product_name_short": "Freebuds Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds-pro/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "freebudsse2": {
+          "product_key": "freebudsse2",
+          "product_id": "freebuds-se-2",
+          "product_name": "HUAWEI FreeBuds SE 2",
+          "product_name_short": "FreeBuds SE 2",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds-se-2/",
+          "specs_url": "https://consumer.huawei.com/my/headphones/freebuds-se-2/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Isle Blue",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Ceramic White",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery Capacity",
+              "attr_value": "Battery type: Lithium-ion polymer battery\nEarbuds: 41 mAh (minimum value for each earbud)\nCharging case: 510 mAh (minimum value)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery Life",
+              "attr_value": "Music playback: 9.0 hours after a full charge and 40 hours with multiple charges in the charging case*\nVoice calling: 5 hours after a full charge and 24 hours with multiple charges in the charging case*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Method",
+              "attr_value": "Wired charging: USB-C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Duration",
+              "attr_value": "Charging the earbuds with the charging case: approx. 60 minutes**\nCharging the empty charging case with a cable: approx. 110 minutes**\nCharging the charging case with a cable, with the earbuds inside the case: approx. 110 minutes**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "备注",
+              "attr_value": "*The battery life data comes from Huawei lab tests. During the tests",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freebudsse": {
+          "product_key": "freebudsse",
+          "product_id": "freebuds-se",
+          "product_name": "Freebuds SE",
+          "product_name_short": "Freebuds SE",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds-se/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "freebudsstudio": {
+          "product_key": "freebudsstudio",
+          "product_id": "freebuds-studio",
+          "product_name": "Freebuds Studio",
+          "product_name_short": "Freebuds Studio",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds-studio/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "freebuds3": {
+          "product_key": "freebuds3",
+          "product_id": "freebuds3",
+          "product_name": "FREEBUDS3",
+          "product_name_short": "FREEBUDS3",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds3/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "freebuds4": {
+          "product_key": "freebuds4",
+          "product_id": "freebuds4",
+          "product_name": "FREEBUDS4",
+          "product_name_short": "FREEBUDS4",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds4/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "freebuds4i": {
+          "product_key": "freebuds4i",
+          "product_id": "freebuds4i",
+          "product_name": "FREEBUDS4I",
+          "product_name_short": "FREEBUDS4I",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds4i/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "freebuds5": {
+          "product_key": "freebuds5",
+          "product_id": "freebuds5",
+          "product_name": "FREEBUDS5",
+          "product_name_short": "FREEBUDS5",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds5/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "freebuds5i": {
+          "product_key": "freebuds5i",
+          "product_id": "freebuds5i",
+          "product_name": "FREEBUDS5I",
+          "product_name_short": "FREEBUDS5I",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freebuds5i/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    },
+    "freeclip系列": {
+      "series_key": "freeclip系列",
+      "series_name": "FreeClip 系列",
+      "products": {
+        "freeclip2s": {
+          "product_key": "freeclip2s",
+          "product_id": "freeclip2-s",
+          "product_name": "HUAWEI FreeClip 2 S",
+          "product_name_short": "FreeClip 2 S",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freeclip2-s/",
+          "specs_url": "https://consumer.huawei.com/my/headphones/freeclip2-s/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Deepsea Blue",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Space Silver",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Earbuds:",
+              "attr_value": "25.4 mm (Height) × 26.7 mm (Width) × 18.8 mm (Depth)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Charging case:",
+              "attr_value": "37.4 mm (Length) × 48.6 mm (Width) × 48.9 mm (Depth)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*Actual dimensions may vary depending on configuration, manufacturing process, and measurement method.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery Capacity",
+              "attr_value": "Eearbuds: 60 mAh (Typical capacity each)\nCharging case: 537 mAh (Typical capacity)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Method",
+              "attr_value": "Wireless charger: up to 3 W\nWired charger: USB Type-C Port: 5V 1.5A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Time*",
+              "attr_value": "Wired charging:\nCharging case only, about 50 minutes;\nEarbuds and charging case, about 60 minutes;\nCharging case to charge the earbuds, about 40 minutes.\nWireless charging:\nCharging case only, about 150 minutes.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery Life**",
+              "attr_value": "Music playback: 9 hours after a full charge and 38 hours with a fully charged charging case.\nVoice calling: 6 hours after a full charge and 25 hours with a fully charged charging case.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "备注",
+              "attr_value": "*The charging data comes from Huawei lab tests. During testing, the ambient temperature is 25℃, and the charging coil on the case facing the center of the wireless charger，actual results may vary depending on the environmental factors and usage habits.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Controls",
+              "attr_name": "备注",
+              "attr_value": "*You can customise gestures in the HUAWEI Audio Connect app. Actual features may vary.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "备注",
+              "attr_value": "*This feature is compatible with Huawei phones or tablets running EMUI 10.0 or later.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Splash, Water, and Dust Resistant",
+              "attr_name": "备注",
+              "attr_value": "*The IP57 dustproof and waterproof condition applies to the earbuds body, and IP54 dustproof and waterproof condition applies to the charging case. This is not a professional waterproof device. It is splashproof, waterproof, and dustproof under normal use and was tested under controlled laboratory conditions. It is rated as the IP57 for the earbuds body and IP54 for the charging case under IEC standard 60529. The earbuds should not be worn while swimming, showering, or engaging in any other activities that involve high water pressure or fast-flowing water. Splash, water, and dust resistance are not permanent conditions and resistance may decrease over time with normal use.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Weight",
+              "attr_name": "备注",
+              "attr_value": "*The actual weight may vary slightly according to configuration, manufacturing process, and measurement method.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "In The Box",
+              "attr_name": "备注",
+              "attr_value": "*This product does not come with a USB Type-C charging cable.",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freeclip2": {
+          "product_key": "freeclip2",
+          "product_id": "freeclip2",
+          "product_name": "HUAWEI FreeClip 2",
+          "product_name_short": "FreeClip 2",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freeclip2/",
+          "specs_url": "https://consumer.huawei.com/my/headphones/freeclip2/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 5,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Berry Purple",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Blue",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Rose Gold",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "White",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Earbuds:",
+              "attr_value": "25.4 mm (Height) × 26.7 mm (Width) × 18.8 mm (Depth)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Charging case:",
+              "attr_value": "50.0 mm (Length) × 49.6 mm (Width) × 25.0 mm (Depth)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*Actual dimensions may vary depending on configuration, manufacturing process, and measurement method.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery Capacity",
+              "attr_value": "Earbuds: 60 mAh (Typical capacity each)\nCharging case: 537 mAh (Typical capacity)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Method",
+              "attr_value": "Wireless charging: up to 3 W\nWired charging: USB Type-C Port, 5V 1.5A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Time*",
+              "attr_value": "Wired charging:\n3 hours for music playback after a 10-minute fast charge;\nCharging case only, about 50 minutes;\nEarbuds and charging case, about 60 minutes;\nCharging case to charge the earbuds, about 40 minutes.\nWireless charging:\nCharging case only, about 150 minutes.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery Life**",
+              "attr_value": "Music playback: 9 hours after a full charge and 38 hours with a fully charged charging case.\nVoice calling: 6 hours after a full charge and 25 hours with a fully charged charging case.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "备注",
+              "attr_value": "*The charging data comes from Huawei lab tests. During testing, the ambient temperature is 25℃, and the charging coil on the case facing the center of the wireless charger，actual results may vary depending on the environmental factors and usage habits.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Controls",
+              "attr_name": "备注",
+              "attr_value": "*You can customise gestures in the HUAWEI Audio Connect app. Actual features may vary.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Connectivity",
+              "attr_name": "备注",
+              "attr_value": "*This feature is compatible with Huawei phones or tablets running EMUI 10.0 or later.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Weight",
+              "attr_name": "备注",
+              "attr_value": "*The actual weight may vary slightly according to configuration, manufacturing process, and measurement method.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "In The Box",
+              "attr_name": "备注",
+              "attr_value": "*This product does not come with a USB Type-C charging cable.",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freeclip": {
+          "product_key": "freeclip",
+          "product_id": "freeclip",
+          "product_name": "HUAWEI FreeClip",
+          "product_name_short": "FreeClip",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freeclip/",
+          "specs_url": "https://consumer.huawei.com/my/headphones/freeclip/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 4,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Rose Gold",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Beige",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Purple",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Earbuds dimensions:",
+              "attr_value": "approx.26.70 mm (Length) × 22.00 mm (Width) × 25.30 mm (Height)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Charging case dimensions:",
+              "attr_value": "approx.59.70 mm (Length) × 51.95 mm (Width) × 27.35 mm (Height)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*The actual size of the product may vary with the product configuration and manufacturing process.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery capacity",
+              "attr_value": "Earbuds\n: 55 mAh (minimum value each);\nCharging case\n: 510 mAh (minimum value)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging method",
+              "attr_value": "Wired charging:\nUSB-C\nWireless charing\n: approx. 2 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging time",
+              "attr_value": "About 40 mins for the earbuds (in the charging case)\nAbout 60 mins for the charging case  without earbuds (wired)\nAbout 150 mins for the charging case  without earbuds (wireless)",
+              "attr_remark": "*Data comes from Huawei lab tests. During testing, the ambient temperature is 25°C, for reference only."
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery life",
+              "attr_value": "Music playback: 8 hours after a full charge and 36 hours when used with the charging case.",
+              "attr_remark": "*The battery life and charging data come from Huawei lab tests. During the tests, audio in AAC format was played at 50% volume level and with ANC disabled. The default settings were used for other features. Actual results may vary depending on the volume, audio source, environmental interference, product features, and usage habits."
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Standby time",
+              "attr_value": "The standby mode is activated after 30 seconds  when the earbuds are placed outside the charging case and no services are running.",
+              "attr_remark": "*Data comes from Huawei lab tests."
+            },
+            {
+              "group_name": "Splash, Water, and Dust Resistant",
+              "attr_name": "Earbuds:",
+              "attr_value": "IP54",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Splash, Water, and Dust Resistant",
+              "attr_name": "Charging case:",
+              "attr_value": "not waterproof",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Splash, Water, and Dust Resistant",
+              "attr_name": "备注",
+              "attr_value": "*IP54 dust- and water-resistance is only applicable to the earbuds themselves, not the charging case. This device is splash, dust, and water resistant in normal conditions. It was tested under controlled laboratory conditions and got an approved rating of IP54 under IEC standard 60529. Splash, dust, and water resistance are not permanent, and the performance may deteriorate due to daily wear-and-tear. Avoid charging the device in damp environments. Liquid damage is not covered under warranty.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Weight",
+              "attr_name": "Each Earbud:",
+              "attr_value": "5.6 g ± 0.3 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Weight",
+              "attr_name": "Charging case:",
+              "attr_value": "44.5 g ± 2 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Weight",
+              "attr_name": "备注",
+              "attr_value": "*The actual weight of the product may vary with the product configuration and manufacturing process.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "In The Box",
+              "attr_name": "备注",
+              "attr_value": "*The actual product may vary.",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "freearc系列": {
+      "series_key": "freearc系列",
+      "series_name": "FreeArc 系列",
+      "products": {
+        "freearc": {
+          "product_key": "freearc",
+          "product_id": "freearc",
+          "product_name": "HUAWEI FreeArc",
+          "product_name_short": "FreeArc",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freearc/",
+          "specs_url": "https://consumer.huawei.com/my/headphones/freearc/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Green",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Grey",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery Capacity",
+              "attr_value": "Battery type: Lithium-ion polymer battery\nEarbuds: 55 mAh (minimum value for each earbud)\nCharging case: 510 mAh (minimum value)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Method",
+              "attr_value": "Wired charging: USB-C: 5V2A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Charging Duration",
+              "attr_value": "Charging the earbuds with the charging case: approx. 40 minutes*\nCharging the empty charging case with a cable: approx. 60 minutes*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "Battery Life",
+              "attr_value": "Music playback: 7 hours after a full charge and 28 hours with a fully charged charging case**\nVoice calling: 5 hours after a full charge and 20 hours with a fully charged charging case**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Battery",
+              "attr_name": "备注",
+              "attr_value": "*Data comes from Huawei lab tests. During testing, the ambient temperature is 25℃, actual results may vary depending on the environmental factors and usage habits.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Material",
+              "attr_name": "Earbuds:",
+              "attr_value": "Acoustic Bean: PC\nC-Bridge: Ni-Ti shape-memory alloy + liquid silicone\nComfort droplet: PC + liquid silicone\nCharging case: PC",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "freelace系列": {
+      "series_key": "freelace系列",
+      "series_name": "FreeLace 系列",
+      "products": {
+        "freelacepro": {
+          "product_key": "freelacepro",
+          "product_id": "freelace-pro",
+          "product_name": "Freelace Pro",
+          "product_name_short": "Freelace Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freelace-pro/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "freelace": {
+          "product_key": "freelace",
+          "product_id": "freelace",
+          "product_name": "Freelace",
+          "product_name_short": "Freelace",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/headphones/freelace/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    }
+  }
+}

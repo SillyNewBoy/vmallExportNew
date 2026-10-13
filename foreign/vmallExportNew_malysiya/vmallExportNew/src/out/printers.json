@@ -1,0 +1,28 @@
+{
+  "category_key": "printers",
+  "category_name": "打印机",
+  "source": "https://consumer.huawei.com/my/",
+  "pull_time": "261013",
+  "series": {
+    "打印机系列": {
+      "series_key": "打印机系列",
+      "series_name": "打印机系列",
+      "products": {
+        "pixlabx1": {
+          "product_key": "pixlabx1",
+          "product_id": "pixlab-x1",
+          "product_name": "Pixlab X1",
+          "product_name_short": "Pixlab X1",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/my/printers/pixlab-x1/",
+          "specs_url": "",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    }
+  }
+}
