@@ -1,0 +1,1444 @@
+{
+  "category_key": "routers",
+  "category_name": "路由器",
+  "source": "https://consumer.huawei.com/mx/",
+  "pull_time": "261013",
+  "series": {
+    "路由系列": {
+      "series_key": "路由系列",
+      "series_name": "路由系列",
+      "products": {
+        "wifimeshx3pro": {
+          "product_key": "wifimeshx3pro",
+          "product_id": "x3-pro",
+          "product_name": "HUAWEI WiFi Mesh X3 Pro",
+          "product_name_short": "WiFi Mesh X3 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/x3-pro/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/x3-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Negro",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Router principal",
+              "attr_value": "Altura: 327 mm\nDiámetro: 123.2 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Extensor",
+              "attr_value": "Altura: 73.5 mm\nDiámetro: 114.8 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Peso del router principal",
+              "attr_value": "Aproximadamente 796 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Peso del extensor",
+              "attr_value": "Aproximadamente 427 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "备注",
+              "attr_value": "*El tamaño, el peso y las especificaciones relacionadas con el producto son sólo valores teóricos. Las medidas reales entre productos individuales pueden variar. Todas las especificaciones están sujetas al producto real.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Banda inalámbrica",
+              "attr_value": "2.4 GHz y 5 GHz (admite configuración de integración de doble banda)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Transmisión estándar",
+              "attr_value": "IEEE 802.11be/ax/ac/n/a, 2 × 2 MIMO\nIEEE 802.11be/ax/n/g/b, 2 × 2 MIMO",
+              "attr_remark": "*Se debe utilizar con el dispositivo de acceso a Internet correspondiente."
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Velocidad de transmisión inalámbrica",
+              "attr_value": "Wi-Fi 7 2 × 2\n2.4 GHz: 688 Mbps (teórica)\n5 GHz: 2,882 Mbps (teórica)\nVelocidad total teórica: 3,570 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Antena",
+              "attr_name": "Router principal",
+              "attr_value": "2.4 GHz: 2 antenas; 5 GHz: 4 antenas",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Antena",
+              "attr_name": "Extensor",
+              "attr_value": "2.4 GHz: 2 antenas; 5 GHz: 4 antenas",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Puerto de red",
+              "attr_name": "Router principal",
+              "attr_value": "2 puertos de red con velocidad adaptativa de 10/100/1,000 M / 2,500 Mbps (interfaces WAN y LAN adaptativas)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Puerto de red",
+              "attr_name": "Extensor",
+              "attr_value": "1 puerto de red con velocidad adaptativa de 10/100/1,000 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Router principal y extensor",
+              "attr_value": "Consumo máximo de energía: 24 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Voltaje de funcionamiento",
+              "attr_value": "DC 12V 2A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Seguridad del firewall",
+              "attr_value": "Compatible",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "HUAWEI HomeSec®",
+              "attr_value": "Compatible",
+              "attr_remark": "*Protección de seguridad HUAWEI HomeSec®: prevención de ataques de fuerza bruta a la red Wi‑Fi"
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Control parental",
+              "attr_value": "Compatible",
+              "attr_remark": "*Añade restricciones de tiempo de Internet, pagos, juegos, videos y acceso a redes sociales, y bloquea el acceso a sitios no seguros para disfrutar de un entorno en línea más seguro."
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Seguridad Wi-Fi",
+              "attr_value": "Compatible (WPA2-PSK, WPA/WPA2-PSK, WPA2-PSK/WPA3-SAE y lista de bloqueados/lista de confianza)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Humedad durante almacenamiento",
+              "attr_value": "5%～95%",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura durante almacenamiento",
+              "attr_value": "-40℃～70℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura en funcionamiento",
+              "attr_value": "0℃～40℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Humedad en funcionamiento",
+              "attr_value": "5%～95%, sin condensación",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Almacenamiento",
+              "attr_name": "Router principal y extensor",
+              "attr_value": "",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Almacenamiento",
+              "attr_name": "Almacenamiento interno (ROM)",
+              "attr_value": "128 MB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Almacenamiento",
+              "attr_name": "Memoria de funcionamiento (RAM)",
+              "attr_value": "512 MB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Application",
+              "attr_name": "HUAWEI AI Life",
+              "attr_value": "iOS/Android/HarmonyOS",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "En la caja",
+              "attr_name": "备注",
+              "attr_value": "*El contenido final está sujeto a cambios sin previo aviso.",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "wifimeshx1pro": {
+          "product_key": "wifimeshx1pro",
+          "product_id": "x1-pro",
+          "product_name": "HUAWEI WiFi Mesh X1 Pro",
+          "product_name_short": "WiFi Mesh X1 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/x1-pro/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/x1-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Negro",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Banda inalámbrica",
+              "attr_value": "2.4 GHz y 5 GHz (admite configuración de integración de doble banda)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Estándar de transmisión",
+              "attr_value": "IEEE 802.11be/ax/ac/n/a, 2 × 2 MIMO\nIEEE 802.11be/ax/n/g/b, 2 × 2 MIMO",
+              "attr_remark": "*Necesario utilizarlo con el dispositivo de acceso a Internet correspondiente."
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Velocidad de transmisión inalámbrica",
+              "attr_value": "WIFI7 2 × 2\n2.4 GHz: 688 Mbps (teóricos)\n5 GHz: 2,882 Mbps (teóricos)\nVelocidad total teórica negociada: 3,570 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "备注",
+              "attr_value": "*Mbps es la velocidad teórica negociada en modo 4 × 4 4K QAM. La velocidad negociada teórica real depende del dispositivo.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Puerto de red",
+              "attr_name": "Puertos de red",
+              "attr_value": "Puerto de velocidad adaptable 10/100/1000M/2500M × 4",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Puerto de red",
+              "attr_name": "Puerto WAN",
+              "attr_value": "Uno (interfaces WAN y LAN adaptables)",
+              "attr_remark": "*Total cuatro puertos Ethernet de velocidad adaptable 10/100/1000/2500M."
+            },
+            {
+              "group_name": "Puerto de red",
+              "attr_name": "Puerto LAN",
+              "attr_value": "Tres (interfaces WAN y LAN adaptables)",
+              "attr_remark": "*Total cuatro puertos Ethernet de velocidad adaptable 10/100/1000/2500M."
+            },
+            {
+              "group_name": "Memoria",
+              "attr_name": "Almacenamiento interno (ROM)",
+              "attr_value": "128 MB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Memoria",
+              "attr_name": "Memoria de funcionamiento (RAM)",
+              "attr_value": "512 MB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Voltaje de trabajo",
+              "attr_value": "DC 12 V",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Seguridad de cortafuegos",
+              "attr_value": "Compatible",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "HUAWEI HomeSec®",
+              "attr_value": "Compatible",
+              "attr_remark": "*Protección de seguridad HUAWEI HomeSec®: Prevención de ataques de fuerza bruta Wi-Fi"
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Control parental",
+              "attr_value": "Compatible",
+              "attr_remark": "*Añade restricciones de tiempo en Internet, pagos, juegos, vídeos y acceso a redes sociales, y bloquea el acceso a sitios no seguros para un entorno online más seguro."
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Seguridad Wi-Fi",
+              "attr_value": "compatible (WPA2-PSK, WPA/WPA2-PSK, WPA2-PSK/WPA3-SAE y lista de bloqueo/lista de confianza)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Humedad en almacenamiento",
+              "attr_value": "5% ~ 95%",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura de almacenamiento",
+              "attr_value": "-40℃ ~ 70℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura de funcionamiento",
+              "attr_value": "0℃ ~ 40℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Humedad para funcionamiento",
+              "attr_value": "5% ~ 95%, sin condensación",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Application",
+              "attr_name": "HUAWEI AI Life",
+              "attr_value": "iOS/Android/HarmonyOS",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "wifimesh3": {
+          "product_key": "wifimesh3",
+          "product_id": "wifi-mesh3-plus",
+          "product_name": "HUAWEI WiFi Mesh 3+",
+          "product_name_short": "WiFi Mesh 3+",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/wifi-mesh3-plus/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/wifi-mesh3-plus/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Blanco",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Altura",
+              "attr_value": "150 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Ancho",
+              "attr_value": "60 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Profundidad",
+              "attr_value": "110 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Peso",
+              "attr_value": "Aproximadamente 260 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "备注",
+              "attr_value": "*El tamaño, el peso y las especificaciones relacionadas del producto son sólo valores teóricos. Las medidas reales entre productos individuales pueden variar. Todas las especificaciones están sujetas al producto real.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Estandar de Wi-Fi",
+              "attr_value": "Wi-Fi 6",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Velocidad inalámbrica",
+              "attr_value": "Wi-Fi 6 2 × 2",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Banda inalámbrica",
+              "attr_value": "2.4 GHz y 5 GHz (admite configuración de integración de doble banda)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Memoria",
+              "attr_name": "备注",
+              "attr_value": "*La capacidad de memoria disponible puede ser menor, ya que el software ocupa parte del espacio.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Botón",
+              "attr_name": "Botón de reinicio",
+              "attr_value": "Orificio independiente de reinicio",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Seguridad del firewall",
+              "attr_value": "Protección de seguridad HUAWEI HomeSec®: compatible con la protección contra ataques de fuerza bruta en redes Wi-Fi.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Control parental",
+              "attr_value": "Admite restricciones de duración y bloquedo de sitios web maliciosos para proteger el acceso saludable de los niños a Internet.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura de funcionamiento",
+              "attr_value": "0°C a 40°C (32°F a 104°F)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Condiciones de humedad",
+              "attr_value": "5% a 95% (sin condensación)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura de almacenamiento",
+              "attr_value": "De –40°C a +70°C (de –40°F a +158°F)",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "wifimesh7": {
+          "product_key": "wifimesh7",
+          "product_id": "wifi-mesh7",
+          "product_name": "HUAWEI WiFi Mesh 7",
+          "product_name_short": "WiFi Mesh 7",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/wifi-mesh7/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/wifi-mesh7/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Blanco",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Altura",
+              "attr_value": "220.5 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Anchura",
+              "attr_value": "76 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Profundidad",
+              "attr_value": "150 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Peso",
+              "attr_value": "Unos 895 g (sin embalaje)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "备注",
+              "attr_value": "*El tamaño del producto, el peso del producto y las especificaciones relacionadas son sólo valores teóricos. Las medidas reales entre productos individuales pueden variar. Todas las especificaciones están sujetas al producto real.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Estándar de transmisión",
+              "attr_value": "IEEE 802.11b/g/n/ax\n2 x 2 MIMO 2,4GHz\nIEEE 802.11a/n/ac/ax\n2 x 2 MIMO 5GHz Banda Baja\nIEEE 802.11a/n/ac/ax\n4 x 4 MIMO 5GHz Banda Alta",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Velocidad de transmisión inalámbrica",
+              "attr_value": "2.4GHz\n574 Mbps (teórico)\n5GHz Banda baja\n1201 Mbps (teóricos)\n5GHz Banda Alta\n4804 Mbps (teóricos)\nVelocidad total teórica negociada\n6579 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Banda de frecuencia inalámbrica",
+              "attr_value": "2.4GHz y 5GHz Banda Baja y 5GHz Banda Alta (soporta priorizar 5GHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Antena",
+              "attr_name": "Tipo de antena WLAN",
+              "attr_value": "Antenas internas",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Puerto de red",
+              "attr_name": "Puerto WAN/LAN autoadaptable",
+              "attr_value": "El cable de red de bajada puede insertarse en cualquiera de los cuatro puertos Ethernet de 10/100/1000 Mbps con autonegociación para acceder a Internet.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Botón",
+              "attr_name": "Botón H (o Hi) de HUAWEI (compatible con WPS)",
+              "attr_value": "Conecta con dispositivos de conexión HarmonyOS o dispositivos inalámbricos WPS con una pulsación del botón H",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Botón",
+              "attr_name": "Botón de reinicio",
+              "attr_value": "Agujero de reinicio independiente.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Fuente de alimentación",
+              "attr_value": "12V DC, 3A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Consumo de energía",
+              "attr_value": "< 36 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Tensión de entrada",
+              "attr_value": "100 – 240V",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Frecuencia de la tensión de entrada",
+              "attr_value": "50 - 60 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Seguridad del cortafuegos",
+              "attr_value": "Soporta la protección de seguridad HUAWEI HomeSec™: Prevención de ataques de fuerza bruta en Wi-Fi, Prevención de acceso no autorizado a la red, WPA3",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Control parental",
+              "attr_value": "Admitido",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura de funcionamiento",
+              "attr_value": "0°C a 40°C (32°F-104°F)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura de almacenamiento",
+              "attr_value": "-40℃ a +70℃ (-40℉ a +158℉)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Humedad",
+              "attr_value": "5% a 95% (sin condensación)",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "wifimesh3_2": {
+          "product_key": "wifimesh3_2",
+          "product_id": "wifi-mesh3",
+          "product_name": "HUAWEI WiFi Mesh 3",
+          "product_name_short": "WiFi Mesh 3",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/wifi-mesh3/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/wifi-mesh3/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Blanco",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Altura",
+              "attr_value": "174 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Anchura",
+              "attr_value": "70 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Profundidad",
+              "attr_value": "107 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Peso",
+              "attr_value": "Unos 413 g (sin embalaje)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "备注",
+              "attr_value": "*El tamaño del producto, el peso del producto y las especificaciones relacionadas son sólo valores teóricos. Las medidas reales entre productos individuales pueden variar. Todas las especificaciones están sujetas al producto real.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Norma de transmisión",
+              "attr_value": "IEEE 802.11b/g/n/ax\n2 x 2 MIMO 2,4 GHz\nIEEE 802.11a/n/ac/ax\n2 x 2 MIMO 5 GHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Velocidad de transmisión inalámbrica",
+              "attr_value": "2.4 GHz: 574 Mbps (teóricos)\n5 GHz: 2402 Mbps (teóricos)\nVelocidad total teórica negociada: 2976 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Banda de frecuencia inalámbrica",
+              "attr_value": "2.4 GHz y 5 GHz (admite la priorización de 5 GHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Antena",
+              "attr_name": "Tipo de antena WLAN",
+              "attr_value": "Antenas internas",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Puerto de red",
+              "attr_name": "Puerto WAN/LAN autoadaptable",
+              "attr_value": "El cable de red de bajada se puede insertar en cualquiera de los tres puertos Ethernet de 10/100/1000 Mbps con autonegociación para acceder a Internet.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Botón",
+              "attr_name": "Botón H (o Hi) de HUAWEI (compatible con WPS)",
+              "attr_value": "Conéctate a dispositivos HarmonyOS Connect o a dispositivos inalámbricos WPS con sólo pulsar el botón H",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Botón",
+              "attr_name": "Botón de reinicio",
+              "attr_value": "Agujero de restablecimiento independiente",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Fuente de alimentación",
+              "attr_value": "12V DC, 1A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Consumo de energía",
+              "attr_value": "< 12 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Tensión de entrada",
+              "attr_value": "100 – 240V",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Frecuencia de la tensión de entrada",
+              "attr_value": "50 – 60 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Seguridad del cortafuegos",
+              "attr_value": "Soporta HUAWEI HomeSec™",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Protección de seguridad",
+              "attr_value": "Prevención de ataques de fuerza bruta WiFi, prevención de acceso a la red no autorizado, WPA3",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Control parental",
+              "attr_value": "Soporta",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura de funcionamiento",
+              "attr_value": "De 0°C a 40°C (32°F-104°F)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura de almacenamiento",
+              "attr_value": "-40℃ a +70℃ (-40℉ a +158℉)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Humedad",
+              "attr_value": "5% a 95% (sin condensación)",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "wifibe3pro": {
+          "product_key": "wifibe3pro",
+          "product_id": "wifi-be3-pro",
+          "product_name": "HUAWEI WiFi BE3 Pro",
+          "product_name_short": "WiFi BE3 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/wifi-be3-pro/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/wifi-be3-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Negro",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Cuando la antena está plegada",
+              "attr_value": "Altura: 59.5 mm\nAncho: 177.9 mm\nProfundidad: 225 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Cuando la antena está desplegada",
+              "attr_value": "Altura: 187.5 mm\nAncho: 154.1 mm\nProfundidad: 225 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Puerto de red",
+              "attr_name": "Puerto de red",
+              "attr_value": "Puerto de red de 2,500 M × 2\nPuerto de red de 1,000 M × 2",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Puerto de red",
+              "attr_name": "4 puertos WAN/LAN",
+              "attr_value": "2 × 2.5 GE WAN/LAN con detección automática\n2 × GE WAN/LAN con detección automática",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura y humedad de funcionamiento",
+              "attr_value": "0 ℃～40 ℃ (32 ℉～104 ℉)\n5 %～95 %, sin condensación",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura de almacenamiento",
+              "attr_value": "-40 ℃～70 ℃ (-40 ℉～158 ℉)",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "wifibe3": {
+          "product_key": "wifibe3",
+          "product_id": "wifi-be3",
+          "product_name": "HUAWEI WiFi BE3",
+          "product_name_short": "WiFi BE3",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/wifi-be3/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/wifi-be3/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Blanco",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Negro",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Dimensiones",
+              "attr_value": "148.8 mm × 215 mm × 71.5 mm (antena plegada)\n280 mm × 215 mm × 61,5 mm (antena desplegada)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Peso del dispositivo",
+              "attr_value": "Aproximadamente 436 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "备注",
+              "attr_value": "*El tamaño del producto, su peso y las especificaciones relacionadas son sólo valores teóricos. Las medidas reales entre productos individuales pueden variar. Todas las especificaciones están sujetas al producto real.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Estándares Wi-Fi",
+              "attr_value": "IEEE 802.11a/n/ac/ax/be\nIEEE 802.11b/g/n/ax/be",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Velocidad inalámbrica",
+              "attr_value": "Wi-Fi 7 2 × 2\n2.4 GHz 688 Mbps (teóricos)\n5 GHz 2882 Mbps (teóricos)\nVelocidad total teórica: 3570 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Banda inalámbrica",
+              "attr_value": "2.4 GHz y 5 GHz (admite configuración de integración de doble banda)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Botón",
+              "attr_name": "Botón de Reinicio",
+              "attr_value": "Botón de reinicio independiente",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Especificaciones de alimentación",
+              "attr_value": "Fuente de alimentación: 12 V CC, 1 A\nConsumo de energía < 12 W\nTensión de entrada: 100-240 V CA\nFrecuencia de la tensión de entrada: 50-60 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Seguridad cortafuegos",
+              "attr_value": "Protección de seguridad HUAWEI HomeSec®: soporta Wi-Fi anti cracking por fuerza bruta, Wi-Fi anti scraping de red",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Control Parental",
+              "attr_value": "Admite restricciones de duración, bloqueo de sitios web maliciosos para proteger el acceso saludable de los niños a Internet",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura de funcionamiento",
+              "attr_value": "0℃ a 40℃ (32°F-104°F)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Humedad de funcionamiento",
+              "attr_value": "5% a 95% (sin condensación)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura de almacenamiento",
+              "attr_value": "-40℃ a +70℃ (-40℉ a +158℉)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "En la caja",
+              "attr_name": "En la caja",
+              "attr_value": "HUAWEI WiFi BE3: 1\nAdaptador de corriente: 1\nTarjeta de garantía: 1\nGuía del usuario: 1\nCable Ethernet: 1 (1 metro)",
+              "attr_remark": "*Las especificaciones anteriores son valores teóricos basados en el diseño del producto. Algunas características y especificaciones pueden variar según los mercados. Para proporcionar información, especificaciones y características precisas del producto, Huawei puede realizar ajustes en tiempo real en las especificaciones precedentes, de modo que coincidan con el rendimiento, las especificaciones, los índices y los componentes del producto real. La información sobre el producto está sujeta a dichos cambios y ajustes sin previo aviso."
+            }
+          ]
+        },
+        "wifiax3s": {
+          "product_key": "wifiax3s",
+          "product_id": "ax3s",
+          "product_name": "HUAWEI WiFi AX3S",
+          "product_name_short": "WiFi AX3S",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/ax3s/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/ax3s/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Negro",
+              "sku_codes": []
+            }
+          ],
+          "specifications": []
+        },
+        "wifiax3pro": {
+          "product_key": "wifiax3pro",
+          "product_id": "ax3-pro",
+          "product_name": "HUAWEI WiFi AX3 Pro",
+          "product_name_short": "WiFi AX3 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/ax3-pro/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/ax3-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Alto",
+              "attr_value": "39.7 mm (antena plegada)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Ancho",
+              "attr_value": "225 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Profundidad",
+              "attr_value": "159.2 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Peso",
+              "attr_value": "Alrededor de 400 g",
+              "attr_remark": "*El tamaño del producto, el peso del producto y las especificaciones relacionadas son sólo valores teóricos. Las medidas reales entre productos individuales pueden variar. Todas las especificaciones están sujetas al producto real."
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Estándar de transmisión",
+              "attr_value": "IEEE 802.11b/g/n/ax 2 × 2 MIMO, IEEE 802.11a/n/ac/ax 2 × 2 MU-MIMO",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Velocidad de transmisión inalámbrica",
+              "attr_value": "2.4 GHz 574 Mbps (teóricos)\n5 GHz 2402 Mbps (teóricos)\nVelocidad total teórica negociada: 2976 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Banda de frecuencia inalámbrica",
+              "attr_value": "2.4 GHz y 5 GHz (admite priorización de 5 GHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Antena",
+              "attr_name": "Tipo de antena WLAN",
+              "attr_value": "Antena externa",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Alimentación",
+              "attr_value": "12V CC, 2 A (área FCC)\n12V CC, 1 A (área CE)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Consumo de energía",
+              "attr_value": "< 24 W (área FCC)\n< 12 W (área CE)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Voltaje de entrada",
+              "attr_value": "100-240V",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Frecuencia de tensión de entrada",
+              "attr_value": "50-60 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Cortafuegos de seguridad",
+              "attr_value": "Compatible con la protección de seguridad HUAWEI HomeSec™: Prevención de ataques de fuerza bruta Wi-Fi, control de acceso Wi-Fi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Seguridad",
+              "attr_name": "Control parental",
+              "attr_value": "Admitido",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura",
+              "attr_value": "Temperatura de funcionamiento: 0°C a 40°C (32°F-104°F)\nTemperatura de almacenamiento: -40℃ a +70℃ (-40℉ a +158℉)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Humedad",
+              "attr_value": "5% a 95% (sin condensación)",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "wifiax3": {
+          "product_key": "wifiax3",
+          "product_id": "ax3",
+          "product_name": "HUAWEI WiFi AX3",
+          "product_name_short": "WiFi AX3",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/ax3/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/ax3/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "wifiax3dualcore": {
+          "product_key": "wifiax3dualcore",
+          "product_id": "ax3-dual-core",
+          "product_name": "HUAWEI WiFi AX3 (Dual-Core)",
+          "product_name_short": "WiFi AX3 (Dual-Core)",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/ax3-dual-core/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/ax3-dual-core/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "wifiax3quadcore": {
+          "product_key": "wifiax3quadcore",
+          "product_id": "ax3-quad-core",
+          "product_name": "HUAWEI WiFi AX3 (Quad-Core)",
+          "product_name_short": "WiFi AX3 (Quad-Core)",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/ax3-quad-core/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/ax3-quad-core/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "wifiax2": {
+          "product_key": "wifiax2",
+          "product_id": "ax2",
+          "product_name": "HUAWEI WiFi AX2",
+          "product_name_short": "WiFi AX2",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/ax2/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/ax2/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Blanco",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Altura",
+              "attr_value": "29 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Anchura",
+              "attr_value": "257.6 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Profundidad",
+              "attr_value": "163.5 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Peso",
+              "attr_value": "Aproximadamente 216 g (sin empaque)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "备注",
+              "attr_value": "*El tamaño del producto, el peso del producto y las especificaciones relacionadas son sólo valores teóricos. Las medidas reales entre productos individuales pueden variar. Todas las especificaciones están sujetas al producto real.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Estándar de transmisión:",
+              "attr_value": "802.11ax/ac/a/n 2 x 2 y 802.11b/g/n 2 x 2, MIMO",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Velocidad de transmisión inalámbrica:",
+              "attr_value": "hasta 300 Mbit/s en una red Wi-Fi de 2,4 GHz\nhasta 1201 Mbit/s en una red Wi-Fi de 5 GHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Banda de frecuencia inalámbrica:",
+              "attr_value": "2,4 GHz y 5 GHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Procesadores",
+              "attr_name": "CPU",
+              "attr_value": "Procesadror RTL8198D, Dual-core 900MHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Funciones del software",
+              "attr_name": "APP:",
+              "attr_value": "HUAWEI AI Life APP",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Funciones del software",
+              "attr_name": "Características:",
+              "attr_value": "Protocolo 802.11kv,IPv4/IPv6,Temporizador Wi-Fi,Wi-Fi para invitados,Limitación de la velocidad de los dispositivos,Filtro de direcciones MAC,Control parental,Paso de VPN, DMZ/servidor virtual,Métodos de conexión PPPoE/DHCP/Dirección IP estática/Puente WAN",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura",
+              "attr_value": "Temperatura de funcionamiento: 0°C ~ 40°C,\ntemperatura de almacenamiento: -40°C ~ +70°C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Humedad",
+              "attr_value": "Humedad de funcionamiento: 5% a 95% RH (sin condensación)\nHumedad de almacenamiento: 5% a 95%, sin condensación",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "En la caja",
+              "attr_name": "备注",
+              "attr_value": "*Las especificaciones anteriores son valores teóricos basados en el diseño del producto. Algunas características y especificaciones pueden variar según el mercado. Para proporcionar información, especificaciones y características precisas del producto, HUAWEI puede realizar ajustes en tiempo real a las especificaciones precedentes, para que coincidan con el rendimiento, las especificaciones, los índices y los componentes del producto real. La información del producto está sujeta a dichos cambios y ajustes sin previo aviso.",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "wifiax1": {
+          "product_key": "wifiax1",
+          "product_id": "ax1",
+          "product_name": "HUAWEI WiFi AX1",
+          "product_name_short": "WiFi AX1",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/ax1/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/ax1/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Blanco",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Dimensiones",
+              "attr_value": "29 mm (alto) × 257.6 mm (ancho) × 163.5 mm (grosor) (Antena plegada)\n134.5 mm (alto) × 257.6 mm (ancho) × 137.4 mm (grosor) (Antena desplegada)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Peso del dispositivo",
+              "attr_value": "Aproximadamente 216 gramos",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "备注",
+              "attr_value": "*El tamaño y el peso del producto y las especificaciones relacionadas son valores únicamente teóricos. Las medidas reales entre productos individuales pueden variar. Todas las especificaciones están sujetas al producto real.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Estándares Wi-Fi",
+              "attr_value": "IEEE 802.11b/g/n\nIEEE 802.11a/n/ac\n2 × 2 MIMO",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Tasas inalámbricas",
+              "attr_value": "2.4 GHz: 300 Mbps (teórico)\n5 GHz: 867 Mbps (teórico)\nCapacidad teórica total negociada: 1,167 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Banda inalámbrica",
+              "attr_value": "2.4 GHz y 5 GHz (admite priorización de 5 GHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Puerto de red",
+              "attr_name": "Puertos de red",
+              "attr_value": "cuatro puertos WAN/LAN de 10/100/1000 Mbps, compatibles con autoadaptación",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Puerto de red",
+              "attr_name": "Puertos",
+              "attr_value": "Puerto de alimentación, puerto de red, botón WPS/RESET",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Botón",
+              "attr_name": "Botón de reinicio",
+              "attr_value": "Botón WPS/RESET, 2 en 1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Especificaciones de energía",
+              "attr_value": "Fuente de alimentación: 12 V CC, 1 A\nConsumo de energía: < 12 W\nVoltaje de entrada: 100-240 V\nFrecuencia de voltaje de entrada: 50-60 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Funciones del software",
+              "attr_name": "Gestión de aplicaciones",
+              "attr_value": "Aplicación HUAWEI AI Life",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Funciones del software",
+              "attr_name": "Funciones de software",
+              "attr_value": "Protocolo 802.11 k/v, IPv4/IPv6, temporizador Wi-Fi, Wi-Fi para invitados, limitación de velocidad del dispositivo, WPA3, filtro de dirección MAC, control parental, transferencia VPN, cliente L2TP/PPTP, DMZ/servidor virtual, PPPoE/DHCP /IP estática/Métodos de conexión WAN en puente.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura de funcionamiento",
+              "attr_value": "0℃ a 40℃ (32°F–104°F)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Humedad de funcionamiento",
+              "attr_value": "5% a 95% (sin condensación)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura de almacenamiento",
+              "attr_value": "–40℃ a +70℃ (–40℉ a +158℉)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "En la caja",
+              "attr_name": "备注",
+              "attr_value": "*Las especificaciones anteriores son valores teóricos basados ​​en el diseño del producto. Algunas características y especificaciones pueden variar según los mercados. Para proporcionar información, especificaciones y características precisas del producto, HUAWEI puede realizar ajustes en tiempo real a las especificaciones anteriores, para que coincidan con el rendimiento, las especificaciones, los índices y los componentes del producto real. La información del producto está sujeta a dichos cambios y ajustes sin previo aviso.",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "其他": {
+      "series_key": "其他",
+      "series_name": "其他",
+      "products": {
+        "4gcpe5s": {
+          "product_key": "4gcpe5s",
+          "product_id": "4g-cpe-5s",
+          "product_name": "HUAWEI 4G CPE 5s",
+          "product_name_short": "4G CPE 5s",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/4g-cpe-5s/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/4g-cpe-5s/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Blanco",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Alto",
+              "attr_value": "125 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Ancho",
+              "attr_value": "125 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Grosor",
+              "attr_value": "54.2 mm (soporte incluido)\n24.5 mm (soporte no incluido)",
+              "attr_remark": "Nota: El tamaño puede variar en función de la configuración, el proceso de fabricación o la medición."
+            },
+            {
+              "group_name": "Dimensiones y peso",
+              "attr_name": "Peso",
+              "attr_value": "Unos 155 g (sin incluir el adaptador de corriente)",
+              "attr_remark": "Nota: El peso real puede variar en función de la configuración, el proceso de fabricación o la medición."
+            },
+            {
+              "group_name": "5G/4G",
+              "attr_name": "Velocidad de transmisión 4G",
+              "attr_value": "Descarga máx.: 195 Mbps\nSubida máx.: 105 Mbps",
+              "attr_remark": "Nota: Valor teórico. La velocidad real varía según el operador, las condiciones de la red, la distancia y el tipo de terminal."
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Estandar",
+              "attr_value": "Wi-Fi 4",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Velocidad de transmisión inalámbrica",
+              "attr_value": "2.4 GHz: 300 Mbps (valor teórico)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Inalámbrico",
+              "attr_name": "Banda de frecuencia inalámbrica",
+              "attr_value": "2.4 GHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Antena",
+              "attr_name": "Tipo de antena 5G/4G",
+              "attr_value": "Antenas principal y de diversidad 4G incorporadas, las antenas externas pueden ser extraíbles",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Antena",
+              "attr_name": "Tipo de antena WLAN",
+              "attr_value": "Antena Wi-Fi 2.4G integrada, no extraíble",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Potencia",
+              "attr_value": "< 12 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Alimentación",
+              "attr_name": "Fuente de alimentación AC/DC",
+              "attr_value": "AC: 100V～240V DC: 12V/1A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Medio ambiente",
+              "attr_name": "Temperatura",
+              "attr_value": "Temperatura en funcionamiento: 0°C ~ 40°C\nTemperatura en almacenamiento: -20°C ~ +70°C",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "4grouterb310": {
+          "product_key": "4grouterb310",
+          "product_id": "b310",
+          "product_name": "HUAWEI 4G Router B310",
+          "product_name_short": "4G Router B310",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/b310/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/b310/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "e5573": {
+          "product_key": "e5573",
+          "product_id": "e5573",
+          "product_name": "HUAWEI E5573",
+          "product_name_short": "E5573",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/mx/routers/e5573/",
+          "specs_url": "https://consumer.huawei.com/mx/routers/e5573/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    }
+  }
+}

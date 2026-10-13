@@ -160,7 +160,8 @@ def test_build_new_products_payload_includes_changed_existing_products():
 
     product = diff_payload["series"]["shangjie"]["products"]["h5-pro"]
     assert diff_payload["diff_product_count"] == 1
-    assert diff_payload["new_product_count"] == 0
+    assert diff_payload["new_product_count"] == 1
+    assert diff_payload["added_product_count"] == 0
     assert diff_payload["changed_product_count"] == 1
     assert product["specifications"][0]["attr_value"] == "black, gray, blue"
 
@@ -260,7 +261,8 @@ def test_write_new_products_diff_creates_file_for_changed_products(tmp_path):
     assert diff_path == tmp_path / "cars_260517_260518_new.json"
     diff_payload = json.loads(diff_path.read_text(encoding="utf-8"))
     assert diff_payload["diff_product_count"] == 1
-    assert diff_payload["new_product_count"] == 0
+    assert diff_payload["new_product_count"] == 1
+    assert diff_payload["added_product_count"] == 0
     assert diff_payload["changed_product_count"] == 1
     assert "h5-pro" in diff_payload["series"]["shangjie"]["products"]
 
@@ -341,6 +343,14 @@ def test_export_category_writes_pull_time_and_diff(tmp_path):
                             "mate70": {
                                 "product_id": "1001",
                                 "product_name": "Mate 70",
+                                "product_name_short": "Mate 70",
+                                "sku_code": "sku-1",
+                                "sku_name": "Mate 70",
+                                "product_url": "https://www.vmall.com/product/1001.html",
+                                "third_level_category_code": "260101",
+                                "color_summary_count": 0,
+                                "color_summary": [],
+                                "specifications": [],
                             },
                         },
                     },

@@ -129,7 +129,16 @@ def test_export_category_writes_cars_payload_and_diff(tmp_path):
                         "series_key": "wenjie",
                         "series_name": "问界",
                         "products": {
-                            "问界-m9-max": {"product_id": "1001", "product_name": "问界 M9 Max"},
+                            "问界-m9-max": {
+                                "product_id": "1001",
+                                "product_name": "问界 M9 Max",
+                                "product_name_short": "问界 M9 Max",
+                                "sku_code": "1001",
+                                "sku_name": "问界 M9 Max",
+                                "product_url": "https://hima.auto/wenjie/m9/",
+                                "third_level_category_code": "问界-m9",
+                                "specifications": [],
+                            },
                         },
                     },
                 },

@@ -108,6 +108,7 @@ class JsonCategoryExportMixin:
             "current_pull_time": current_payload.get("pull_time"),
             "diff_product_count": 0,
             "new_product_count": 0,
+            "added_product_count": 0,
             "changed_product_count": 0,
             "series": {},
         }
@@ -120,7 +121,7 @@ class JsonCategoryExportMixin:
                 previous_product = previous_products.get(product_identity)
                 if previous_product is None:
                     diff_products[product_key] = product
-                    diff_payload["new_product_count"] += 1
+                    diff_payload["added_product_count"] += 1
                     continue
                 if self._product_changed(previous_product, product):
                     diff_products[product_key] = product
@@ -134,6 +135,7 @@ class JsonCategoryExportMixin:
                 "products": diff_products,
             }
             diff_payload["diff_product_count"] += len(diff_products)
+            diff_payload["new_product_count"] += len(diff_products)
 
         return diff_payload
 
@@ -155,11 +157,14 @@ class JsonCategoryExportMixin:
 
     def _canonical_product_for_diff(self, product: dict[str, Any]) -> dict[str, Any]:
         ignored_keys = {"product_key"}
-        return {
+        canonical = {
             key: self._canonical_value_for_diff(value)
             for key, value in product.items()
             if key not in ignored_keys
         }
+        canonical.setdefault("color_summary_count", 0)
+        canonical.setdefault("color_summary", [])
+        return canonical
 
     def _canonical_value_for_diff(self, value: Any) -> Any:
         if isinstance(value, dict):

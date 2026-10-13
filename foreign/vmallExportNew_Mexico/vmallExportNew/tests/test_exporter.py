@@ -1,0 +1,666 @@
+import json
+
+from vmall_export_new.categories import CATEGORY_PRESETS
+from vmall_export_new.exporter import VmallExporter
+from vmall_export_new.models import CategoryConfig, SearchProduct, SearchQueryConfig
+
+
+def test_dedupe_products_keeps_first_unique_name():
+    exporter = VmallExporter(client=None)
+    products = [
+        SearchProduct(
+            product_id="1",
+            product_name="HUAWEI Pura 90 Pro",
+            sku_code="sku-1",
+            sku_name="HUAWEI Pura 90 Pro 12GB+256GB 椰青白",
+            category_code="260101",
+            raw={},
+        ),
+        SearchProduct(
+            product_id="2",
+            product_name="HUAWEI Pura 90 Pro",
+            sku_code="sku-2",
+            sku_name="HUAWEI Pura 90 Pro 16GB+512GB 粉红芭乐",
+            category_code="260101",
+            raw={},
+        ),
+        SearchProduct(
+            product_id="3",
+            product_name="HUAWEI MatePad Edge",
+            sku_code="sku-3",
+            sku_name="HUAWEI MatePad Edge WiFi 16GB+512GB 皓月银",
+            category_code="270101",
+            raw={},
+        ),
+    ]
+
+    deduped = exporter._dedupe_products(products, limit=None)
+
+    assert [item.product_id for item in deduped] == ["1", "3"]
+
+
+def test_count_products_uses_nested_product_total():
+    exporter = VmallExporter(client=None)
+    payload = {
+        "series": {
+            "a": {"products": {"p1": {}, "p2": {}}},
+            "b": {"products": {"p3": {}}},
+        }
+    }
+
+    assert exporter._count_products(payload) == 3
+
+
+def test_build_category_tree_includes_pull_time():
+    exporter = VmallExporter(client=None)
+    category = CategoryConfig(
+        key="phones",
+        name="鎵嬫満",
+        keyword="鎵嬫満",
+        category_id=100507,
+    )
+
+    payload = exporter._build_category_tree(category, [], pull_time="260518")
+
+    assert payload["pull_time"] == "260518"
+
+
+def test_build_new_products_payload_compares_product_ids():
+    exporter = VmallExporter(client=None)
+    previous_payload = {
+        "category_key": "phones",
+        "category_name": "鎵嬫満",
+        "pull_time": "260517",
+        "series": {
+            "mate": {
+                "series_key": "mate",
+                "series_name": "Mate",
+                "products": {
+                    "mate70": {"product_id": "1001", "product_name": "Mate 70"},
+                },
+            },
+        },
+    }
+    current_payload = {
+        "category_key": "phones",
+        "category_name": "鎵嬫満",
+        "pull_time": "260518",
+        "series": {
+            "mate": {
+                "series_key": "mate",
+                "series_name": "Mate",
+                "products": {
+                    "mate70": {"product_id": "1001", "product_name": "Mate 70"},
+                    "mate80": {"product_id": "1002", "product_name": "Mate 80"},
+                },
+            },
+        },
+    }
+
+    diff_payload = exporter._build_new_products_payload(previous_payload, current_payload)
+
+    assert diff_payload["previous_pull_time"] == "260517"
+    assert diff_payload["current_pull_time"] == "260518"
+    assert diff_payload["new_product_count"] == 1
+    assert list(diff_payload["series"]["mate"]["products"]) == ["mate80"]
+
+
+def test_build_new_products_payload_includes_changed_existing_products():
+    exporter = VmallExporter(client=None)
+    previous_payload = {
+        "category_key": "cars",
+        "category_name": "Cars",
+        "pull_time": "260517",
+        "series": {
+            "shangjie": {
+                "series_key": "shangjie",
+                "series_name": "Shangjie",
+                "products": {
+                    "h5-pro": {
+                        "product_id": "h5-pro",
+                        "product_name": "Shangjie H5 Pro",
+                        "specifications": [
+                            {
+                                "group_name": "appearance",
+                                "attr_name": "exterior_color",
+                                "attr_value": "black, gray",
+                            }
+                        ],
+                    },
+                },
+            },
+        },
+    }
+    current_payload = {
+        "category_key": "cars",
+        "category_name": "Cars",
+        "pull_time": "260518",
+        "series": {
+            "shangjie": {
+                "series_key": "shangjie",
+                "series_name": "Shangjie",
+                "products": {
+                    "h5-pro": {
+                        "product_id": "h5-pro",
+                        "product_name": "Shangjie H5 Pro",
+                        "specifications": [
+                            {
+                                "group_name": "appearance",
+                                "attr_name": "exterior_color",
+                                "attr_value": "black, gray, blue",
+                            }
+                        ],
+                    },
+                },
+            },
+        },
+    }
+
+    diff_payload = exporter._build_new_products_payload(previous_payload, current_payload)
+
+    product = diff_payload["series"]["shangjie"]["products"]["h5-pro"]
+    assert diff_payload["diff_product_count"] == 1
+    assert diff_payload["new_product_count"] == 0
+    assert diff_payload["changed_product_count"] == 1
+    assert product["specifications"][0]["attr_value"] == "black, gray, blue"
+
+
+def test_write_new_products_diff_creates_file(tmp_path):
+    exporter = VmallExporter(client=None)
+    previous_payload = {
+        "category_key": "phones",
+        "category_name": "鎵嬫満",
+        "pull_time": "260517",
+        "series": {},
+    }
+    current_payload = {
+        "category_key": "phones",
+        "category_name": "鎵嬫満",
+        "pull_time": "260518",
+        "series": {
+            "mate": {
+                "series_key": "mate",
+                "series_name": "Mate",
+                "products": {
+                    "mate80": {"product_id": "1002", "product_name": "Mate 80"},
+                },
+            },
+        },
+    }
+
+    diff_path = exporter._write_new_products_diff(
+        previous_payload,
+        current_payload,
+        diff_dir=tmp_path,
+    )
+
+    assert diff_path == tmp_path / "phones_260517_260518_new.json"
+    diff_payload = json.loads(diff_path.read_text(encoding="utf-8"))
+    assert diff_payload["new_product_count"] == 1
+    assert diff_payload["series"]["mate"]["products"]["mate80"]["product_id"] == "1002"
+
+
+def test_write_new_products_diff_creates_file_for_changed_products(tmp_path):
+    exporter = VmallExporter(client=None)
+    previous_payload = {
+        "category_key": "cars",
+        "category_name": "Cars",
+        "pull_time": "260517",
+        "series": {
+            "shangjie": {
+                "series_key": "shangjie",
+                "series_name": "Shangjie",
+                "products": {
+                    "h5-pro": {
+                        "product_id": "h5-pro",
+                        "product_name": "Shangjie H5 Pro",
+                        "specifications": [
+                            {
+                                "group_name": "appearance",
+                                "attr_name": "exterior_color",
+                                "attr_value": "black, gray",
+                            }
+                        ],
+                    },
+                },
+            },
+        },
+    }
+    current_payload = {
+        "category_key": "cars",
+        "category_name": "Cars",
+        "pull_time": "260518",
+        "series": {
+            "shangjie": {
+                "series_key": "shangjie",
+                "series_name": "Shangjie",
+                "products": {
+                    "h5-pro": {
+                        "product_id": "h5-pro",
+                        "product_name": "Shangjie H5 Pro",
+                        "specifications": [
+                            {
+                                "group_name": "appearance",
+                                "attr_name": "exterior_color",
+                                "attr_value": "black, gray, blue",
+                            }
+                        ],
+                    },
+                },
+            },
+        },
+    }
+
+    diff_path = exporter._write_new_products_diff(
+        previous_payload,
+        current_payload,
+        diff_dir=tmp_path,
+    )
+
+    assert diff_path == tmp_path / "cars_260517_260518_new.json"
+    diff_payload = json.loads(diff_path.read_text(encoding="utf-8"))
+    assert diff_payload["diff_product_count"] == 1
+    assert diff_payload["new_product_count"] == 0
+    assert diff_payload["changed_product_count"] == 1
+    assert "h5-pro" in diff_payload["series"]["shangjie"]["products"]
+
+
+def test_write_new_products_diff_skips_when_no_previous_payload(tmp_path):
+    exporter = VmallExporter(client=None)
+
+    diff_path = exporter._write_new_products_diff(
+        None,
+        {"category_key": "phones", "pull_time": "260518", "series": {}},
+        diff_dir=tmp_path,
+    )
+
+    assert diff_path is None
+    assert not any(tmp_path.iterdir())
+
+
+def test_export_category_writes_pull_time_and_diff(tmp_path):
+    class StubExporter(VmallExporter):
+        def __init__(self):
+            super().__init__(client=None)
+
+        def _current_pull_time(self):
+            return "260518"
+
+        def _build_export_item(self, category, product):
+            return {
+                "category_key": category.key,
+                "category_name": category.name,
+                "series_name": "Mate",
+                "series_key": "mate",
+                "product_id": product.product_id,
+                "product_name": product.product_name,
+                "product_name_short": product.product_name,
+                "product_key": product.product_name.lower().replace(" ", ""),
+                "sku_code": product.sku_code,
+                "sku_name": product.sku_name,
+                "product_url": product.product_url,
+                "third_level_category_code": product.category_code,
+                "specifications": [],
+            }
+
+    class StubClient:
+        def search_products(self, **kwargs):
+            return [
+                SearchProduct(
+                    product_id="1001",
+                    product_name="Mate 70",
+                    sku_code="sku-1",
+                    sku_name="Mate 70",
+                    category_code="260101",
+                    raw={},
+                ),
+                SearchProduct(
+                    product_id="1002",
+                    product_name="Mate 80",
+                    sku_code="sku-2",
+                    sku_name="Mate 80",
+                    category_code="260101",
+                    raw={},
+                ),
+            ]
+
+    output_dir = tmp_path / "output"
+    diff_dir = tmp_path / "diff"
+    output_dir.mkdir()
+    (output_dir / "phones.json").write_text(
+        json.dumps(
+            {
+                "category_key": "phones",
+                "category_name": "鎵嬫満",
+                "pull_time": "260517",
+                "series": {
+                    "mate": {
+                        "series_key": "mate",
+                        "series_name": "Mate",
+                        "products": {
+                            "mate70": {
+                                "product_id": "1001",
+                                "product_name": "Mate 70",
+                            },
+                        },
+                    },
+                },
+            }
+        ),
+        encoding="utf-8",
+    )
+    exporter = StubExporter()
+    exporter.client = StubClient()
+    category = CategoryConfig(
+        key="phones",
+        name="鎵嬫満",
+        keyword="鎵嬫満",
+        category_id=100507,
+    )
+
+    file_path, count = exporter.export_category(
+        category,
+        output_dir=output_dir,
+        diff_dir=diff_dir,
+    )
+
+    payload = json.loads(file_path.read_text(encoding="utf-8"))
+    diff_payload = json.loads(
+        (diff_dir / "phones_260517_260518_new.json").read_text(encoding="utf-8")
+    )
+    assert count == 2
+    assert payload["pull_time"] == "260518"
+    assert diff_payload["new_product_count"] == 1
+    assert diff_payload["series"]["mate"]["products"]["mate80"]["product_id"] == "1002"
+
+
+def test_category_queries_fallbacks_to_single_query():
+    category = CategoryConfig(
+        key="phones",
+        name="手机",
+        keyword="手机",
+        category_id=100507,
+    )
+
+    assert category.queries == (
+        SearchQueryConfig(keyword="手机", category_id=100507),
+    )
+
+
+def test_search_query_filter_keeps_allowed_category_codes_only():
+    class StubClient:
+        def search_products(self, **kwargs):
+            return [
+                SearchProduct(
+                    product_id="1",
+                    product_name="A",
+                    sku_code="sku-1",
+                    sku_name="A-1",
+                    category_code="310205",
+                    raw={},
+                ),
+                SearchProduct(
+                    product_id="2",
+                    product_name="B",
+                    sku_code="sku-2",
+                    sku_name="B-1",
+                    category_code="310206",
+                    raw={},
+                ),
+            ]
+
+    exporter = VmallExporter(client=StubClient())
+
+    items = exporter._search_products_for_query(
+        SearchQueryConfig(
+            keyword="耳机",
+            category_id=100559,
+            allowed_category_codes=("310205",),
+        ),
+        page_size=20,
+        max_pages=1,
+    )
+
+    assert [item.product_id for item in items] == ["1"]
+
+
+def test_extract_color_summary_uses_color_select_items_first():
+    exporter = VmallExporter(client=None)
+    main_data = {
+        "colorSelectItem": [
+            {
+                "attrName": "颜色",
+                "attrValue": "曜石黑",
+                "sbomCode": "sku-black-1",
+                "surrportSbomCodes": ["sku-black-1", "sku-black-2"],
+                "url": "https://example.com/black.png",
+            },
+            {
+                "attrName": "颜色",
+                "attrValue": "雪域白",
+                "sbomCode": "sku-white-1",
+                "surrportSbomCodes": ["sku-white-1", "sku-white-2"],
+                "url": "https://example.com/white.png",
+            },
+        ]
+    }
+
+    summary = exporter._extract_color_summary(main_data)
+
+    assert summary == [
+        {
+            "attr_name": "颜色",
+            "attr_value": "曜石黑",
+            "sku_codes": ["sku-black-1", "sku-black-2"],
+            "image_url": "https://example.com/black.png",
+            "source": "colorSelectItem",
+        },
+        {
+            "attr_name": "颜色",
+            "attr_value": "雪域白",
+            "sku_codes": ["sku-white-1", "sku-white-2"],
+            "image_url": "https://example.com/white.png",
+            "source": "colorSelectItem",
+        },
+    ]
+
+
+def test_extract_color_summary_falls_back_to_product_options_style():
+    exporter = VmallExporter(client=None)
+    main_data = {
+        "productOptions": {
+            "gbomAttrMappings": {
+                "款式": [
+                    {
+                        "attrName": "款式",
+                        "attrValue": "风信紫 淡紫色氟橡胶表带",
+                        "sbomCode": "sku-purple",
+                        "supportSbomCodes": ["sku-purple"],
+                    }
+                ]
+            },
+            "sbomList": {
+                "sku-purple": {
+                    "gbomAttrList": [
+                        {
+                            "attrName": "款式",
+                            "attrValue": "风信紫 淡紫色氟橡胶表带",
+                        }
+                    ],
+                    "sbomCode": "sku-purple",
+                }
+            },
+        }
+    }
+
+    summary = exporter._extract_color_summary(main_data)
+
+    assert summary == [
+        {
+            "attr_name": "款式",
+            "attr_value": "风信紫 淡紫色氟橡胶表带",
+            "sku_codes": ["sku-purple"],
+            "source": "productOptions.gbomAttrMappings",
+        }
+    ]
+
+
+def test_build_category_tree_places_color_summary_before_specifications():
+    exporter = VmallExporter(client=None)
+    category = CategoryConfig(
+        key="phones",
+        name="手机",
+        keyword="手机",
+        category_id=100507,
+    )
+    item = {
+        "category_key": category.key,
+        "category_name": category.name,
+        "series_name": "Mate系列",
+        "series_key": "mate系列",
+        "product_id": "1001",
+        "product_name": "HUAWEI Mate 80 Pro",
+        "product_name_short": "Mate 80 Pro",
+        "product_key": "mate80pro",
+        "sku_code": "sku-white",
+        "sku_name": "HUAWEI Mate 80 Pro 12GB+256GB 雪域白",
+        "product_url": "https://www.vmall.com/product/1001.html",
+        "third_level_category_code": "260101",
+        "color_summary": [
+            {
+                "attr_name": "颜色",
+                "attr_value": "雪域白",
+                "sku_codes": ["sku-white"],
+            }
+        ],
+        "specifications": [],
+    }
+
+    payload = exporter._build_category_tree(category, [item], pull_time="260520")
+    product = payload["series"]["mate系列"]["products"]["mate80pro"]
+
+    assert product["color_summary_count"] == 1
+    assert product["color_summary"] == item["color_summary"]
+    assert list(product).index("color_summary") < list(product).index("specifications")
+
+
+def test_router_category_queries_cover_mobile_wifi_subcategories():
+    queries = CATEGORY_PRESETS["routers"]["search_queries"]
+
+    assert {
+        (query.keyword, query.category_id, query.allowed_category_codes)
+        for query in queries
+    } == {
+        ("路由", 100529, ("300101",)),
+        ("随行WiFi", 100533, ("300103",)),
+        ("移动路由", 100533, ("300103",)),
+        ("移动路由", 101800, ("640101",)),
+    }
+
+
+def test_wearable_category_queries_cover_watch_band_and_kids_watch():
+    queries = CATEGORY_PRESETS["wearables"]["search_queries"]
+
+    assert {
+        (query.keyword, query.category_id, query.allowed_category_codes)
+        for query in queries
+    } == {
+        ("手表", 100523, ("290101",)),
+        ("手环", 100525, ("290102",)),
+        ("儿童手表", 102292, ("290103",)),
+    }
+
+
+def test_export_category_merges_and_dedupes_multiple_queries(tmp_path):
+    class StubExporter(VmallExporter):
+        def __init__(self):
+            super().__init__(client=None)
+
+        def _current_pull_time(self):
+            return "260520"
+
+        def _build_export_item(self, category, product):
+            return {
+                "category_key": category.key,
+                "category_name": category.name,
+                "series_name": "路由器",
+                "series_key": "routers",
+                "product_id": product.product_id,
+                "product_name": product.product_name,
+                "product_name_short": product.product_name,
+                "product_key": product.product_name.lower().replace(" ", ""),
+                "sku_code": product.sku_code,
+                "sku_name": product.sku_name,
+                "product_url": product.product_url,
+                "third_level_category_code": product.category_code,
+                "specifications": [],
+            }
+
+    class StubClient:
+        def search_products(self, **kwargs):
+            if kwargs["category_id"] == 100529:
+                return [
+                    SearchProduct(
+                        product_id="router-1",
+                        product_name="华为路由 BE7",
+                        sku_code="sku-router",
+                        sku_name="华为路由 BE7",
+                        category_code="300101",
+                        raw={},
+                    )
+                ]
+            if kwargs["category_id"] == 100533:
+                return [
+                    SearchProduct(
+                        product_id="wifi-1",
+                        product_name="华为随行WiFi X",
+                        sku_code="sku-wifi",
+                        sku_name="华为随行WiFi X 银色",
+                        category_code="300103",
+                        raw={},
+                    )
+                ]
+            if kwargs["category_id"] == 101800:
+                return [
+                    SearchProduct(
+                        product_id="mobile-router-pro",
+                        product_name="华为移动路由 Pro",
+                        sku_code="sku-mobile-router-pro",
+                        sku_name="华为移动路由 Pro 白色",
+                        category_code="640101",
+                        raw={},
+                    )
+                ]
+            return []
+
+    exporter = StubExporter()
+    exporter.client = StubClient()
+    category = CategoryConfig(
+        key="routers",
+        name="路由器",
+        keyword="路由",
+        search_queries=(
+            SearchQueryConfig("路由", 100529, ("300101",)),
+            SearchQueryConfig("随行WiFi", 100533, ("300103",)),
+            SearchQueryConfig("移动路由", 100533, ("300103",)),
+            SearchQueryConfig("移动路由", 101800, ("640101",)),
+        ),
+    )
+
+    file_path, count = exporter.export_category(
+        category,
+        output_dir=tmp_path / "output",
+        diff_dir=tmp_path / "diff",
+    )
+
+    payload = json.loads(file_path.read_text(encoding="utf-8"))
+    products = payload["series"]["routers"]["products"]
+    assert count == 3
+    assert {
+        product["product_name"]
+        for product in products.values()
+    } == {
+        "华为路由 BE7",
+        "华为随行WiFi X",
+        "华为移动路由 Pro",
+    }
