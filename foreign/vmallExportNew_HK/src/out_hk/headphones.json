@@ -1,0 +1,1291 @@
+{
+  "category_key": "headphones",
+  "category_name": "耳机",
+  "source": "https://consumer.huawei.com/hk/",
+  "pull_time": "261013",
+  "series": {
+    "freebuds系列": {
+      "series_key": "freebuds系列",
+      "series_name": "FreeBuds 系列",
+      "products": {
+        "freebudspro5": {
+          "product_key": "freebudspro5",
+          "product_id": "freebuds-pro-5",
+          "product_name": "HUAWEI FreeBuds Pro 5",
+          "product_name_short": "FreeBuds Pro 5",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/headphones/freebuds-pro-5/",
+          "specs_url": "https://consumer.huawei.com/hk/headphones/freebuds-pro-5/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 4,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "大地金",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "雪域白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "冰霜銀",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "穹宇藍",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "耳機",
+              "attr_value": "高度：29.1 mm\n寬度：21.8 mm\n深度：23.7 mm\n重量：約 5.5 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "充電盒（大地金、雪域白、冰霜銀）",
+              "attr_value": "高度：65.50 mm\n寬度：46.70 mm\n深度：22.98 mm\n重量：約 43 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "充電盒（穹宇藍）",
+              "attr_value": "高度：66.11 mm\n寬度：46.98 mm\n深度：24.06 mm\n重量：約 46 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*實際尺寸可能因產品配置和製造流程而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池容量",
+              "attr_value": "耳機：60 mAh（單隻最小值）\n充電盒：537 mAh（最小值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電方式",
+              "attr_value": "有線充電：USB-C 介面：5V-0.5A 或以上\n無線充電：支持，最高 5 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電時間",
+              "attr_value": "耳機（在充電盒內）約 40 分鐘\n充電盒（不含耳機，有線充電）約 1 小時；充電盒（不含耳機，無線充電）約 150 分鐘",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池續航時間",
+              "attr_value": "音質優先：L2HC/LDAC 播放\n音樂播放（關閉降噪）：充滿電後 8 小時，配合充電盒使用可達 33 小時。\n音樂播放（開啟降噪）：充飽電後 5 小時，配合充電盒使用可達 22 小時。\n連線品質優先：AAC 播放\n音樂播放（關閉降噪）：充滿電後可使用 9 小時，配合充電盒使用可達 38 小時。\n音樂播放（開啟降噪功能）：充滿電後可使用 6 小時，搭配充電盒使用可達 25 小時。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "語音通話：",
+              "attr_value": "語音通話（關閉降噪）：充滿電後可使用 5 小時，配合充電盒使用可達 22 小時。\n語音通話（開啟降噪）：充滿電後可使用 4 小時，配合充電盒使用可達 18 小時。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*充電數據來自華為實驗室測試。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙相容性",
+              "attr_value": "BT 6",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "彈出式配對",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "同時連接兩台設備",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "备注",
+              "attr_value": "*此功能需要運行 EMUI 10 或更高版本的華為手機。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "备注",
+              "attr_value": "*耳機（不含充電盒）符合 IP57（IEC 60529）標準。本產品並非專業級防水設備，但在正常使用情況下可防潑水、抗水、防塵。經實驗室在受控條件下測試，結果顯示其符合 IEC 60529 標準的 IP57 等級。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freebudsneo": {
+          "product_key": "freebudsneo",
+          "product_id": "freebuds-neo",
+          "product_name": "HUAWEI FreeBuds Neo",
+          "product_name_short": "FreeBuds Neo",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/headphones/freebuds-neo/",
+          "specs_url": "https://consumer.huawei.com/hk/headphones/freebuds-neo/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 4,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "星河銀",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "星雲粉",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "星空黑",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "零度白",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "耳機",
+              "attr_value": "高度：23.2 mm\n寬度：21.56 mm\n深度：24.56 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "充電盒",
+              "attr_value": "高度：41.22 mm\n寬度：68.35 mm\n深度：25.57 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*上述數據是根據使用中碼耳塞套時的測試結果。實際尺寸可能因產品配置和製造流程而異，請以實體為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*數據基於使用中號耳塞套時的測試結果。實際重量可能因產品配置和製造流程而異，請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池容量",
+              "attr_value": "額定容量\n單隻耳機：60 mAh\n充電盒：460 mAh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電方式",
+              "attr_value": "USB Type-C 接口，5V/0.5A 以上",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電時間*",
+              "attr_value": "充電盒可從零電量填滿：約 70 分鐘；\n耳機與充電盒同時充電：約 70 分鐘；\n使用充電盒為耳機充電：約 45 分鐘。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "續航時間**",
+              "attr_value": "充滿電後：\n音樂播放（SD）：開啟降噪 6.5 小時，關閉降噪 10 小時\n音樂播放（HD）：開啟降噪 6 小時，關閉降噪 9 小時\n語音通話（SD）：開啟降噪 5 小時，關閉降噪 6 小時\n語音通話（HD）：開啟降噪 4 小時，關閉降噪 5 小時\n搭配充電盒使用：\n音樂播放（SD）：開啟降噪 24 小時，關閉降噪 40 小時\n音樂播放（HD）：開啟降噪 22 小時，關閉降噪 33 小時\n語音通話（SD）：開啟降噪 18 小時，關閉降噪 24 小時\n語音通話（HD）：開啟降噪 16 小時，關閉降噪 20 小時",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*數據來自華為實驗室測試。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "耳機",
+              "attr_value": "IP55",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "备注",
+              "attr_value": "*IP55 防塵抗水等級僅適用於耳機本體，不適用於充電盒。本產品並非專業防水設備，但在正常使用條件下具備防潑水、抗水及防塵性能。經嚴格控制的實驗室環境測試，其防護等級符合 GB/T 4208-2017 及 IEC 60529 標準下的 IP55 等級。防潑水、抗水及防塵性能並非永久有效，防護性能可能會因日常磨損而降低。請勿在潮濕環境下為設備充電。因液體進入導致的損壞不在保養範圍內。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freebuds7i": {
+          "product_key": "freebuds7i",
+          "product_id": "freebuds7i",
+          "product_name": "HUAWEI FreeBuds 7i",
+          "product_name_short": "FreeBuds 7i",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/headphones/freebuds7i/",
+          "specs_url": "https://consumer.huawei.com/hk/headphones/freebuds7i/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "櫻語粉",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "貝母白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "深空灰",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "耳機尺寸",
+              "attr_value": "約 31.9 mm（長）× 21.0 mm（寬）× 24.6 mm（高）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "耳機重量",
+              "attr_value": "每個耳機 5.4 g（± 0.3 g）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "充電盒尺寸",
+              "attr_value": "約 57.8 mm（長）× 57.8 mm（寬）× 27.8 mm（高）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "充電盒重量",
+              "attr_value": "36.5 g（± 1 g）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品的實際尺寸可能會根據產品配置和製造工藝而有所變化。請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池容量",
+              "attr_value": "耳機：55 mAh（最小值）\n充電盒：510 mAh（最小值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電方式",
+              "attr_value": "有線充電：USB-C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電時長",
+              "attr_value": "充電盒給耳機充電：40 分鐘\n淨充電盒有線充電：60 分鐘",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "續航力",
+              "attr_value": "聆聽音樂時長，耳機充滿電（降噪關）：8.0 小時\n聆聽音樂時長，耳機充滿電（降噪開）：5.0 小時\n聆聽音樂時長，配合充電盒（降噪關）：35 小時\n聆聽音樂時長，配合充電盒（降噪開）：20 小時",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*充電數據來自華為實驗室。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "BT 5.4",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "開盒自動配對",
+              "attr_value": "支援*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "雙設備連接",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "备注",
+              "attr_value": "*需適配 EMUI 10 或以上版本的華為智能手機。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "耳機",
+              "attr_value": "IP54",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "备注",
+              "attr_value": "*IP54 防塵防水僅適用於耳機本身，不適用於充電盒。該設備在正常條件下具有防潑水、防塵和防水功能。它在受控實驗室條件下進行測試，並根據 IEC 標準 60529 獲得了 IP54 的認可評級。防濺、防塵和防水並不是永久的，並且效能可能會因日常磨損而下降。避免在潮濕的環境中為設備充電。液體損壞不在保固範圍內。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "耳機",
+              "attr_value": "耳機 × 2（左和右）\n耳塞 × 4（大，中，小，超小；中號出廠時放在耳機上）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "充電盒",
+              "attr_value": "快速啟動手冊（內含安全資訊說明）× 1\n保養卡 × 1",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freebuds6": {
+          "product_key": "freebuds6",
+          "product_id": "freebuds6",
+          "product_name": "HUAWEI FreeBuds 6",
+          "product_name_short": "FreeBuds 6",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/headphones/freebuds6/",
+          "specs_url": "https://consumer.huawei.com/hk/headphones/freebuds6/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "星空黑",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "天際白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "極光紫",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "電池",
+              "attr_name": "電池容量",
+              "attr_value": "電池類型：鋰離子聚合物電池\n耳機：39.5 mAh（每個最低值）；\n充電盒：510 mAh（最小值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池續航力",
+              "attr_value": "音質優先：\n聆聽音樂（降噪關閉）：一次充電可使用 5.5 小時，使用充電盒可使用 32 小時；\n聆聽音樂（降噪開啟）：耳機一次充電可使用 4.0 小時，使用充電盒可使用 24 小時。\n連線穩定優先：\n聽音樂（降噪關閉）：一次充電可使用 6 小時，使用充電盒可使用 36 小時；\n聆聽音樂（降噪開啟）：耳機一次充電可使用 4.5 小時，使用充電盒可使用 27 小時。\n語音通話（降噪關閉）：耳機一次充電可使用 3 小時，使用充電盒可使用 19 小時；\n語音通話（降噪開啟）：耳機一次充電可使用 2.8 小時，使用充電盒可使用 17 小時。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電方式",
+              "attr_value": "有線充電：USB Type-C 介面，5V/0.5A 以上\n無線充電：支持，最高 2 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電時長",
+              "attr_value": "有線充電：僅充電盒，約 45 分鐘；耳機和充電盒，約 45 分鐘；充電盒可為耳機充電約 25 分鐘。**\n無線充電：僅限充電盒，約 150 分鐘。**",
+              "attr_remark": "*續航力和充電數據來自華為實驗室測試。測試期間，AAC、L2HC 或 LDAC 格式的音訊以 50% 的音量播放。其他功能採用預設設定。實際結果可能因音量、音訊來源、環境幹擾、產品功能和使用習慣而異。\n**數據來自華為實驗室測試。"
+            }
+          ]
+        },
+        "freebuds5": {
+          "product_key": "freebuds5",
+          "product_id": "freebuds5",
+          "product_name": "HUAWEI FreeBuds 5",
+          "product_name_short": "FreeBuds 5",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/headphones/freebuds5/",
+          "specs_url": "https://consumer.huawei.com/hk/headphones/freebuds5/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "冰霜銀",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "陶瓷白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "珊瑚橙",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "耳機",
+              "attr_value": "高度：32.4 mm ± 0.5 mm\n寬度：17.6 mm ± 0.5 mm\n深度：22.8 mm ± 0.5 mm\n重量：5.4g ± 0.3g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "充電盒",
+              "attr_value": "高度：66.6 mm ± 0.5 mm\n寬度：50.1 mm ± 0.5 mm\n深度：27.3 mm ± 0.5 mm\n重量：45 g ± 1 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品呎吋，受產品配置和製造工藝影響，實際機身呎吋和重量或有差異，請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池容量：",
+              "attr_value": "耳機電池 42 mAh（單隻最小值），充電盒電池 505 mAh（最小值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電方式：",
+              "attr_value": "充電盒有線充電：USB Type-C\n充電盒支援無線充電",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電時間：",
+              "attr_value": "充電盒給耳機充電：20 分鐘\n空盒有線充電：40 分鐘\n空盒無線充電：240 分鐘",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "續航力：",
+              "attr_value": "聆聽音樂時長，耳機充滿電（降噪關）：5 小時\n聆聽音樂時長，耳機充滿電（降噪開）：3.5 小時\n聆聽音樂時長，配合充電盒（降噪關）：30 小時\n聆聽音樂時長，配合充電盒（降噪開）：20 小時",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "注意：續航和充電數據來自華為實驗室，實際使用情況受音量、音源、環境干擾程度、產品功能和使用習慣的影響可能有所不同。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freebuds6i": {
+          "product_key": "freebuds6i",
+          "product_id": "freebuds6i",
+          "product_name": "HUAWEI FreeBuds 6i",
+          "product_name_short": "FreeBuds 6i",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/headphones/freebuds6i/",
+          "specs_url": "https://consumer.huawei.com/hk/headphones/freebuds6i/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "天際白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "流光紫",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "幻夜黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "耳機尺寸",
+              "attr_value": "約 31.4 mm（長）× 21.3 mm（寬）× 23.7 mm（高）\n耳機重量：每個耳機 5.4 g（±0.3 g）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "充電盒尺寸",
+              "attr_value": "約 48.2 mm（長）× 61.8 mm（寬）× 27 mm（高）\n充電盒重量：34 g（±1 g）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品的實際尺寸可能會根據產品配置和製造工藝而有所變化。請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池容量",
+              "attr_value": "耳機：55 mAh（最小值）\n充電盒：410 mAh（最小值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電方式",
+              "attr_value": "有線充電：USB-C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電時長",
+              "attr_value": "充電盒給耳機充電：40 分鐘\n淨充電盒有線充電：60 分鐘",
+              "attr_remark": "*充電數據來自華為實驗室，測試條件：常溫 25℃。僅供參考。"
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "續航力",
+              "attr_value": "聆聽音樂時長，耳機充滿電（降噪開）：5.0 小時\n聆聽音樂時長，耳機充滿電（降噪關）：8.0 小時\n聆聽音樂時長，配合充電盒（降噪開）：20 小時\n聆聽音樂時長，配合充電盒（降噪關）：35 小時",
+              "attr_remark": "*續航數據來自華為實驗室，默認條件為：音量 50%，AAC 編碼格式，實際續航時間受音量、音源、環境干擾程度、產品功能、配套設備、系統、使用習慣等的影響。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "BT 5.3",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "佩戴檢測",
+              "attr_value": "支援*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "雙設備連接",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "备注",
+              "attr_value": "*需適配 EMUI10 或以上版本的華為智能手機或平板。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "耳機",
+              "attr_value": "IP54",
+              "attr_remark": "*IP54 防塵防水僅適用於耳機本身，不適用於充電盒。該設備在正常條件下具有防潑水、防塵和防水功能。它在受控實驗室條件下進行測試，並根據 IEC 標準 60529 獲得了 IP54 的認可評級。防濺、防塵和防水並不是永久的，並且效能可能會因日常磨損而下降。避免在潮濕的環境中為設備充電。液體損壞不在保固範圍內。"
+            }
+          ]
+        },
+        "freebuds5i": {
+          "product_key": "freebuds5i",
+          "product_id": "freebuds5i",
+          "product_name": "HUAWEI FreeBuds 5i",
+          "product_name_short": "FreeBuds 5i",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/headphones/freebuds5i/",
+          "specs_url": "https://consumer.huawei.com/hk/headphones/freebuds5i/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "星際黑",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "海島藍",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "陶瓷白",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "耳機",
+              "attr_value": "高度：30.9 mm\n寬度：21.7 mm\n深度：23.9 mm\n重量：約 4.9 g ± 0.2 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "充電盒",
+              "attr_value": "高度：48.2 mm\n寬度：61.8 mm\n深度：26.9 mm\n重量：約 33.9 g ± 1.0 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品呎吋，受產品配置和製造工藝影響，實際機身尺寸和重量或有差異，請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池容量：",
+              "attr_value": "耳機：55 mAh（最小值）*\n充電盒：410 mAh（最小值）*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "續航力：",
+              "attr_value": "聆聽音樂時長，耳機充滿電（降噪開）：6.0 小時**\n聆聽音樂時長，耳機充滿電（降噪關）：7.5 小時**\n聆聽音樂時長，配合充電盒（降噪開）：18.5 小時**\n聆聽音樂時長，配合充電盒（降噪關）：28 小時**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電時長：",
+              "attr_value": "充電盒給耳機充電：60 分鐘**\n淨充電盒有線充電：110 分鐘**",
+              "attr_remark": "*實際容量可能略有不同。\n**續航數據來自華為實驗室，默認條件為：音量 50%，AAC 編碼格式，實際續航時間受音量、音源、環境干擾程度、產品功能、配套設備、系統、使用習慣等的影響。\n***充電數據來自華為實驗室，測試條件：常溫 25℃。"
+            },
+            {
+              "group_name": "操控",
+              "attr_name": "耳機",
+              "attr_value": "按壓觸控：輕點兩下/長按\n滑動觸控：上滑、下滑",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "操控",
+              "attr_name": "充電盒",
+              "attr_value": "按鍵",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙：",
+              "attr_value": "BT 5.2",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "佩戴檢測：",
+              "attr_value": "支援*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "雙設備連接：",
+              "attr_value": "支援",
+              "attr_remark": "*需適配 EMUI 10.1 或以上版本的華為智能手機或平板。"
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "耳機：",
+              "attr_value": "IP54",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "充電盒：",
+              "attr_value": "不防水",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "备注",
+              "attr_value": "*本產品並非專業防水設備，在正常使用狀態下可防濺、抗水、防塵，在受控實驗室條件下經測試，其效果達到 IP54 級別。防濺、抗水、防塵功能並非永久有效，防護性能可能會因日常磨損而下降。請勿在潮濕狀態下為設備充電。由於浸入液體而導致的損壞不在保修範圍之內。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freebudsse2": {
+          "product_key": "freebudsse2",
+          "product_id": "freebuds-se-2",
+          "product_name": "HUAWEI FreeBuds SE 2",
+          "product_name_short": "FreeBuds SE 2",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/headphones/freebuds-se-2/",
+          "specs_url": "https://consumer.huawei.com/hk/headphones/freebuds-se-2/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "陶瓷白",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "耳機：",
+              "attr_value": "長度：33.66 mm\n寬度：17.83 mm\n厚度：18.13 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "充電盒：",
+              "attr_value": "長度：50.40 mm\n寬度：50.31 mm\n厚度：23.40 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品呎吋，受產品配置和製造工藝影響，實際機身呎吋和重量或有差異，請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池容量",
+              "attr_value": "類型：鋰離子聚合物電池\n耳機電池：41 mAh（單隻最小值）\n充電盒電池：510 mAh（最小值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "續航",
+              "attr_value": "耳機聆聽音樂時長：耳機單次充電使用 9 小時，搭配充電盒使用 40 小時*\n耳機語音通話時間：耳機單次充電使用 5 小時，搭配充電盒使用 24 小時*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電方式",
+              "attr_value": "充電盒有線充電：USB Type-C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電時長",
+              "attr_value": "充電盒為耳機充電：約 60 分鐘**\n空盒有線充電：約 110 分鐘**\n耳機在盒有線充電：約 110 分鐘**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*續航力資料來自華為實驗室，預設設定下，50% 音量、AAC 編碼格式，實際續航時間受音量、音源、環境幹擾程度、產品功能、配套設備、系統、使用習慣等的影響。",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "freeclip系列": {
+      "series_key": "freeclip系列",
+      "series_name": "FreeClip 系列",
+      "products": {
+        "freeclip2s": {
+          "product_key": "freeclip2s",
+          "product_id": "freeclip2-s",
+          "product_name": "HUAWEI FreeClip 2 S",
+          "product_name_short": "FreeClip 2 S",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/headphones/freeclip2-s/",
+          "specs_url": "https://consumer.huawei.com/hk/headphones/freeclip2-s/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "星海藍",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "珠光銀",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "耳機呎吋約：",
+              "attr_value": "25.4 mm（高）× 26.7 mm（寬）× 18.8 mm（深）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "充電盒呎吋約：",
+              "attr_value": "37.4 mm（高）× 48.6 mm（寬）× 48.9 mm（深）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品呎吋，受產品配置和製造工藝影響，實際機身呎吋和重量或有差異，請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品重量，受產品配置和製造工藝影響，實際機身呎吋和重量或有差異，請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池容量",
+              "attr_value": "耳機：60 mAh（單隻典型值）\n充電盒：537 mAh（典型值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電方式",
+              "attr_value": "無線充電：最高 3 W\n有線充電：USB Type-C 接口（5V/1.5A）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電時間*",
+              "attr_value": "有線充電：\n僅充電盒：約 50 分鐘\n耳機和充電盒：約 60 分鐘\n充電盒給耳機充電：約 40 分鐘\n無線充電：\n僅充電盒：約 150 分鐘",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池續航**",
+              "attr_value": "音樂播放：耳機滿電單次使用約 9 小時，配合滿電充電盒使用約 38 小時。\n語音通話：耳機滿電單次使用約 6 小時，配合滿電充電盒使用約 25 小時。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*續航數據來自華為實驗室，測試條件常溫 25°C，無線充電底座正對充電線圈，實際使用受環境，使用習慣等影響可能有所不同。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "操控",
+              "attr_name": "备注",
+              "attr_value": "*可通過華為智慧音頻 app 設置當前的手勢功能，實際功能以界面顯示為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "备注",
+              "attr_value": "*需適配 EMUI 10.0 及以上版本的華為智能手機或平板。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "备注",
+              "attr_value": "*耳機機身滿足 IP57 防塵防水條件，充電盒部分滿足 IP54 防塵防水條件。本產品並非專業防水設備，在正常使用狀態下可防潑水、抗水、防塵，在受控實驗室條件下經測試，其效果在 IEC 60529 標準下耳機機身達到 IP57 等級，充電盒部分達到 IP54 等級。本產品不適用於如游泳、淋浴等在高水壓或有高速水流的活動。防潑水、抗水、防塵功能並非永久有效，防護性能可能會因日常磨損而下降。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "备注",
+              "attr_value": "*本產品標配不含 USB Type-C 充電線。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freeclip2": {
+          "product_key": "freeclip2",
+          "product_id": "freeclip2",
+          "product_name": "HUAWEI FreeClip 2",
+          "product_name_short": "FreeClip 2",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/headphones/freeclip2/",
+          "specs_url": "https://consumer.huawei.com/hk/headphones/freeclip2/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 4,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "丹寧藍",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "玫瑰金",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "羽沙白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "摩登黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "耳機呎吋約：",
+              "attr_value": "25.4 mm（高）× 26.7 mm（寬）× 18.8 mm（深）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "充電盒呎吋約：",
+              "attr_value": "50.0 mm（高）× 49.6 mm（寬）× 25.0 mm（深）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品呎吋，受產品配置和製造工藝影響，實際機身呎吋和重量或有差異，請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品重量，受產品配置和製造工藝影響，實際機身呎吋和重量或有差異，請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池容量",
+              "attr_value": "耳機：60 mAh（單隻典型值）\n充電盒：537 mAh（典型值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電方式",
+              "attr_value": "無線充電：最高 3 W\n有線充電：USB Type-C 接口（5V/1.5A）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電時間*",
+              "attr_value": "有線充電：\n僅充電盒：約 50 分鐘\n耳機和充電盒：約 60 分鐘\n充電盒給耳機充電：約 40 分鐘\n無線充電：\n僅充電盒：約 150 分鐘",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池續航**",
+              "attr_value": "音樂播放：耳機滿電單次使用約 9 小時，配合滿電充電盒使用約 38 小時。\n語音通話：耳機滿電單次使用約 6 小時，配合滿電充電盒使用約 25 小時。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*續航數據來自華為實驗室，測試條件常溫 25°C，無線充電底座正對充電線圈，實際使用受環境，使用習慣等影響可能有所不同。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "操控",
+              "attr_name": "备注",
+              "attr_value": "*可通過華為智慧音頻 app 設置當前的手勢功能，實際功能以界面顯示為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "BT 6.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "開盒自動彈窗配對*",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "雙設備連接",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "备注",
+              "attr_value": "*需適配 EMUI 10.0 及以上版本的華為智能手機或平板。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "备注",
+              "attr_value": "*耳機機身滿足 IP57 防塵防水條件，充電盒部分滿足 IP54 防塵防水條件。本產品並非專業防水設備，在正常使用狀態下可防潑水、抗水、防塵，在受控實驗室條件下經測試，其效果在 IEC 60529 標準下耳機機身達到 IP57 等級，充電盒部分達到 IP54 等級。本產品不適用於如游泳、淋浴等在高水壓或有高速水流的活動。防潑水、抗水、防塵功能並非永久有效，防護性能可能會因日常磨損而下降。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "备注",
+              "attr_value": "*本產品標配不含 USB Type-C 充電線。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "freeclip": {
+          "product_key": "freeclip",
+          "product_id": "freeclip",
+          "product_name": "HUAWEI FreeClip",
+          "product_name_short": "FreeClip",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/headphones/freeclip/",
+          "specs_url": "https://consumer.huawei.com/hk/headphones/freeclip/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 4,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "玫瑰金",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "暖星雲",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "流光紫",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "星空黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "耳機呎吋（高 × 寬 × 深）約：",
+              "attr_value": "26.70 mm × 22.00 mm × 25.30 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "充電盒呎吋（高 × 寬 × 深）約：",
+              "attr_value": "59.70 mm × 51.95 mm × 27.35 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品呎吋，受產品配置和製造工藝影響，實際機身呎吋和重量或有差異，請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "每隻耳夾：",
+              "attr_value": "5.6 g ± 0.3 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "充電盒：",
+              "attr_value": "45.8 g ± 1 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品重量，受產品配置和製造工藝影響，實際機身呎吋和重量或有差異，請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池容量",
+              "attr_value": "耳機：\n55 mAh（單隻最小值）\n充電盒：\n510 mAh（最小值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電方式",
+              "attr_value": "有線充電：\nUSB-C（5V/0.5A 及以上）\n無線充電：\n約 2 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電時間",
+              "attr_value": "充電盒給耳機充電：約 40 分鐘\n空盒有線充電：約 60 分鐘\n空盒無線充電：約 150 分鐘",
+              "attr_remark": "*充電數據來自華為實驗室，測試條件常溫 25°C，無線充電底座正對充電線圈，實際使用受環境，使用習慣等影響可能有所不同。"
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "續航時間",
+              "attr_value": "聆聽音樂：耳機單次充電可使用長達 8 小時，配合充電盒可使用長達 36 小時。",
+              "attr_remark": "*所有續航數據來自華為實驗室，預設設置下，50% 音量、AAC 模式，實際續航時間受音量、音源、環境干擾程度、產品功能和使用習慣的影響可能有所不同。"
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "耳機：",
+              "attr_value": "IP54",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "充電盒：",
+              "attr_value": "不防水",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "备注",
+              "attr_value": "*IP54 防塵防水條件適用於耳機機身，不適用於充電盒部分。本產品並非專業防水設備，在正常使用狀態下可防潑水、抗水、防塵，在受控實驗室條件下經測試，其效果在 IEC 60529 標準下達到 IP54 等級。防潑水、抗水、防塵功能並非永久有效，防護性能可能會因日常磨損而下降。請勿在潮濕狀態下為設備充電。由於浸入液體而導致的損壞不在保修範圍之內。",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "freearc系列": {
+      "series_key": "freearc系列",
+      "series_name": "FreeArc 系列",
+      "products": {
+        "freearc": {
+          "product_key": "freearc",
+          "product_id": "freearc",
+          "product_name": "HUAWEI FreeArc",
+          "product_name_short": "FreeArc",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/headphones/freearc/",
+          "specs_url": "https://consumer.huawei.com/hk/headphones/freearc/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "原野綠",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "星空黑",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "蒼穹灰",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "耳機：",
+              "attr_value": "約 45.40 mm × 18.35 mm × 47.50 mm（長 × 寬 × 高）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "充電盒：",
+              "attr_value": "約 67.80 mm × 67.80 mm × 26.50 mm（長 × 寬 × 高）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品的實際尺寸可能會根據產品配置和製造工藝而有所變化。請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "耳機重量：",
+              "attr_value": "每個耳機 8.9 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "充電盒重量：",
+              "attr_value": "67 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品的實際尺寸可能會根據產品配置和製造工藝而有所變化。請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池容量",
+              "attr_value": "電池類型：鋰離子聚合物電池\n耳機：55 mAh（每個耳機的最小值）\n充電盒：510 mAh（最小值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電方式",
+              "attr_value": "有線充電：USB-C：5V2A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "充電時間",
+              "attr_value": "使用充電盒充電耳機：約 40 分鐘*\n充電盒有線充電：約 60 分鐘*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池續航力",
+              "attr_value": "音樂播放：充滿電後可播放達 7 小時，與充滿電的充電盒一起使用可達 28 小時**\n語音通話：充滿電後可進行達 5 小時通話，與充滿電的充電盒一起使用可達 20 小時**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*數據來自華為實驗室測試。在測試中，環境溫度為 25°C，實際結果可能因環境因素和使用習慣而有所不同。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "材質",
+              "attr_name": "耳機：",
+              "attr_value": "聆聽豆：PC\nC 形橋：鎳鈦形狀記憶合金 + 液態矽膠\n舒適水滴：PC + 液體矽膠\n充電盒：PC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "耳機：",
+              "attr_value": "IP57",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "充電盒：",
+              "attr_value": "不防水",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "防水防塵等級",
+              "attr_name": "备注",
+              "attr_value": "*IP57 防塵抗水等級僅適用於耳機本身，不包括充電盒。該設備在正常條件下具備防濺、防塵和抗水功能。它已在受控實驗室條件下進行測試，並根據 IEC 60529 標準下獲得 IP57 等級。隨著正常使用，抗水、防塵能力可能會隨時間降低。避免在潮濕環境中為設備充電。液體損壞不在保養範圍內。運動後及放入充電盒前，請及時擦乾耳機（特別是充電接點）。IP57 等級表示該設備在特定受控測試條件下可防止靜態水浸入，水深不超過 1 米，持續時間不超過 30 分鐘，且水與設備之間的溫差不超過 5°C。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "包裝盒採用塑膠密封，包裝盒內有：",
+              "attr_value": "耳塞 × 1 對（左及右）\n充電盒 × 1\n快速入門指南與安全資訊 × 1\n保養卡 × 1",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

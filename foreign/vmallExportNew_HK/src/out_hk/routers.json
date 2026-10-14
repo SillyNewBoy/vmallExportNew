@@ -1,0 +1,735 @@
+{
+  "category_key": "routers",
+  "category_name": "路由器",
+  "source": "https://consumer.huawei.com/hk/",
+  "pull_time": "261013",
+  "series": {
+    "路由系列": {
+      "series_key": "路由系列",
+      "series_name": "路由系列",
+      "products": {
+        "wifimeshx3pro": {
+          "product_key": "wifimeshx3pro",
+          "product_id": "x3-pro",
+          "product_name": "HUAWEI WiFi Mesh X3 Pro",
+          "product_name_short": "WiFi Mesh X3 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/routers/x3-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/routers/x3-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "黑色",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "主路由",
+              "attr_value": "高度：250.9 mm\n直徑：123.2 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "子路由",
+              "attr_value": "高度：73.5 mm\n直徑：114.8 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "主路由重量",
+              "attr_value": "約 777 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "子路由重量",
+              "attr_value": "約 416 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、重量及相關規格均為理論值，實際測量值可能因產品而異。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "無線頻段",
+              "attr_value": "2.4 GHz & 5 GHz，支援設定雙頻合一",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "傳輸標準",
+              "attr_value": "支援 IEEE 802.11be/ax/ac/n/a，2 × 2 MU-MIMO\n支援 IEEE 802.11be/ax/n/g/b，2 × 2 MU-MIMO",
+              "attr_remark": "*需與​​對應的網際網路連接設備搭配使用。"
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "無線速率",
+              "attr_value": "Wi-Fi 7 2 × 2\n2.4 GHz：理論速率為 688 Mbps\n5 GHz：理論速率為 2882 Mbps\n理論速率總和：3570 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "天線",
+              "attr_name": "主路由",
+              "attr_value": "2.4G：2 條天線，5G：4 條天線",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "天線",
+              "attr_name": "子路由",
+              "attr_value": "2.4G：2 條天線，5G：4 條天線",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網口",
+              "attr_name": "主路由",
+              "attr_value": "2 個 10/100/1000/2500 M 自適應速率的乙太網路接口（支援 WAN/LAN 自適應介面）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網口",
+              "attr_name": "子路由",
+              "attr_value": "1 個 10/100/1000 M 自適應速率的乙太網路埠",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "主路由和子路由",
+              "attr_value": "最大耗電量：24 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "工作電壓",
+              "attr_value": "DC 12V 2A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "安全",
+              "attr_name": "防火牆安全管理",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "安全",
+              "attr_name": "HUAWEI HomeSec®",
+              "attr_value": "支援",
+              "attr_remark": "*HUAWEI HomeSec® 安全防護：支援 Wi-Fi 防暴力破解。"
+            },
+            {
+              "group_name": "安全",
+              "attr_name": "家長控制",
+              "attr_value": "支援",
+              "attr_remark": "*支援時間限制、支付限制、遊戲限制、影片限制、社交限制、不良網站攔截等，保護孩子健康上網。"
+            },
+            {
+              "group_name": "安全",
+              "attr_name": "Wi-Fi 安全管理",
+              "attr_value": "支援（WPA2-PSK、WPA/WPA2-PSK、WPA2-PSK/WPA3-SAE 及黑白名單安全認證機制）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "儲存",
+              "attr_name": "子母路由",
+              "attr_value": "512 MB（RAM）+ 128 MB（ROM）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "工作溫度",
+              "attr_value": "0℃～40℃（32℉～104℉）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "儲存溫度",
+              "attr_value": "-40℃～70℃（-40℉～158℉）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "工作濕度",
+              "attr_value": "5%～95%，非凝結",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "儲存濕度",
+              "attr_value": "5%～95%，非凝結",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Wi-Fi 頻道",
+              "attr_name": "备注",
+              "attr_value": "*頻道值因國家/地區而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "應用程式",
+              "attr_name": "HUAWEI AI Life",
+              "attr_value": "iOS/Android/HarmonyOS",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "备注",
+              "attr_value": "*最終產品以實物為準。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "wifimesh7": {
+          "product_key": "wifimesh7",
+          "product_id": "wifi-mesh7",
+          "product_name": "HUAWEI WiFi Mesh 7",
+          "product_name_short": "WiFi Mesh 7",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/routers/wifi-mesh7/",
+          "specs_url": "https://consumer.huawei.com/hk/routers/wifi-mesh7/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "白色",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "高度",
+              "attr_value": "220.5 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "闊度",
+              "attr_value": "76 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "厚度",
+              "attr_value": "150 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "重量",
+              "attr_value": "約 895 g （不包括充電器）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "傳輸標準",
+              "attr_value": "支援 IEEE 802.11b/g/n/ax\n支援 2 × 2 MIMO 2.4 GHz\n支援 IEEE 802.11a/n/ac/ax\n支援 2 × 2 MIMO 5 GHz（低頻）\n支援 4 × 4 MIMO 5 GHz（高頻）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "無線速率",
+              "attr_value": "2.4 GHz 理論速率為 574 Mbps\n5 GHz (低頻)理論速率為 1,201 Mbps\n5 GHz (高頻)理論速率為 4,804 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "無線頻段",
+              "attr_value": "2.4 GHz & 5 GHz，支援 5 GHz優先",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "天線",
+              "attr_name": "WiFi天線類型",
+              "attr_value": "內置天線",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "按鍵",
+              "attr_name": "HUAWEI H (或 Hi) 按鍵",
+              "attr_value": "按下 H 按鍵連接到HarmonyOS 連接設備或 WPS 無線設備",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "按鍵",
+              "attr_name": "重設按鍵",
+              "attr_value": "獨立重設針孔",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "產品供電",
+              "attr_value": "12V DC，3A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "功耗",
+              "attr_value": "< 36 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "輸入電壓",
+              "attr_value": "100 - 240 V",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "輸入電壓頻率",
+              "attr_value": "50 - 60 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "安全",
+              "attr_name": "防火牆安全管理",
+              "attr_value": "HUAWEI HomeSec\nTM\n安全防護：\n支援 Wi-Fi 防暴力破解、防蹭網、防攝像鏡頭盜用",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "溫度",
+              "attr_value": "",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "工作溫度：",
+              "attr_value": "0℃～40℃（32℉～104℉）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "儲存溫度",
+              "attr_value": "-40℃～70℃（-40℉～158℉）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "濕度",
+              "attr_value": "5%～95%（非凝結）",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "wifimesh3": {
+          "product_key": "wifimesh3",
+          "product_id": "wifi-mesh3",
+          "product_name": "HUAWEI WiFi Mesh 3",
+          "product_name_short": "WiFi Mesh 3",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/routers/wifi-mesh3/",
+          "specs_url": "https://consumer.huawei.com/hk/routers/wifi-mesh3/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "白色",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "高度",
+              "attr_value": "174 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "闊度",
+              "attr_value": "70 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "厚度",
+              "attr_value": "107 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "重量",
+              "attr_value": "約 413g （不包括充電器）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "傳輸標準",
+              "attr_value": "支援 IEEE 802.11b/g/n/ax\n支援 2 x 2 MIMO 2.4 GHz\n支援 IEEE 802.11a/n/ac/ax\n支援 2 x 2 MIMO 5 GHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "無線速率",
+              "attr_value": "2.4 GHz 理論速率為 574 Mbps\n5 GHz 理論速率為 2,402 Mbps\n理論速率總和 2,976 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "無線頻段",
+              "attr_value": "2.4 GHz & 5 GHz，支援 5 GHz 優先",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "天線",
+              "attr_name": "WiFi天線類型:",
+              "attr_value": "內置天線",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "按鍵",
+              "attr_name": "HUAWEI H (或 Hi) 按鍵",
+              "attr_value": "按下 H 按鍵連接到 HarmonyOS 連接設備或 WPS 無線設備",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "按鍵",
+              "attr_name": "重設按鍵",
+              "attr_value": "獨立重設針孔",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "產品供電",
+              "attr_value": "12V DC, 1A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "功耗",
+              "attr_value": "< 12 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "輸入電壓",
+              "attr_value": "100 - 240V",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "輸入電壓頻率",
+              "attr_value": "50 – 60 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "安全",
+              "attr_name": "防火牆安全管理",
+              "attr_value": "HUAWEI HomeSec™  安全防護",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "工作溫度：",
+              "attr_value": "0 ℃～40 ℃（32℉～104℉）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "儲存溫度：",
+              "attr_value": "-40 ℃～70 ℃（-40℉～158℉）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "濕度",
+              "attr_value": "5%～95%（非凝結）",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "wifibe3": {
+          "product_key": "wifibe3",
+          "product_id": "wifi-be3",
+          "product_name": "HUAWEI WiFi BE3",
+          "product_name_short": "WiFi BE3",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/routers/wifi-be3/",
+          "specs_url": "https://consumer.huawei.com/hk/routers/wifi-be3/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "白色",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "呎吋",
+              "attr_value": "148.8 mm（H）× 215 mm（W）× 71.5 mm（D）（天線折疊）\n280 mm（H）× 215 mm（W）× 61.5 mm（D）（天線展開）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "裝置重量",
+              "attr_value": "About 436 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "Wi-Fi 標準",
+              "attr_value": "IEEE 802.11a/n/ac/ax/be\nIEEE 802.11b/g/n/ax/be\n2 × 2，MIMO",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "無線速率",
+              "attr_value": "Wi-Fi 7 2 × 2\n2.4 GHz：688 Mbps（理論值）\n5 GHz：2882 Mbps（理論值）\n理論協商速率總和：3570 Mbps\nWi-Fi 6 2 × 2\n2.4 GHz：574 Mbps（理論值）\n5 GHz：2402 Mbps（理論值）\n理論協商速率總和：2976 Mbps\nWi-Fi 5 2 × 2\n2.4 GHz：300 Mbps（理論值）\n5 GHz：867 Mbps（理論值）\n理論協商速率總和：1167 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "無線頻段",
+              "attr_value": "2.4 GHz & 5 GHz（支援雙頻整合設定）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網口",
+              "attr_name": "網絡連接埠",
+              "attr_value": "自適應 WAN 和 LAN 介面：家庭網路線可以插入任何網路接口，從而可以存取互聯網。\n提供 1 個 10/100/1000M/2500M 自適應速率乙太網路接口和 3 個 10/100/1000M 自適應速率乙太網路接口；",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網口",
+              "attr_name": "接口",
+              "attr_value": "電源接口、網路接口、重置按鈕（針孔）、WPS 接鈕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "按鍵",
+              "attr_name": "重置按鈕",
+              "attr_value": "獨立重置孔",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "電源規格",
+              "attr_value": "電源：12V DC，1A\n功耗 < 12 W\n輸入電壓：100–240V AC\n輸入電壓頻率：50–60 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "軟件功能",
+              "attr_name": "應用程式管理",
+              "attr_value": "HUAWEI AI Life 應用程式",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "軟件功能",
+              "attr_name": "軟體功能",
+              "attr_value": "支援華為 HarmonyLink 和 802.11kV 協定、PPPoE/DHCP/靜態 IP 上網、智能偵測、網口盲插、遠端控制、Wi-Fi 定時開關、訪客 Wi-Fi、Wi-Fi 防暴力破解、WPA3、家長監護、VPN 滲透、DMZ/虛擬伺服器",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "安全",
+              "attr_name": "防火牆安全管理",
+              "attr_value": "HUAWEI HomeSec™ 安全防護：支援 Wi-Fi 防暴力破解、Wi-Fi 防蹭網",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "安全",
+              "attr_name": "家長監護",
+              "attr_value": "支援時長限制、惡意網站攔截，保障兒童健康上網",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "工作溫度",
+              "attr_value": "0°C 至 40°C（32°F–104°F）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "工作濕度",
+              "attr_value": "5% 至 95%（非冷凝）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "存放溫度",
+              "attr_value": "–40℃ 至 +70℃（–40°F 至 +158°F）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "备注",
+              "attr_value": "*以上規格為基於產品設計的理論值。某些功能和規格可能因市場而異。為了提供準確的產品資訊、規格和功能，華為可能會對前述規格進行即時調整，使其與實際產品的產品性能、規格、指標和組件相匹配。產品資訊如有更改和調整，恕不另行通知。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "wifiax3pro": {
+          "product_key": "wifiax3pro",
+          "product_id": "ax3-pro",
+          "product_name": "HUAWEI WiFi AX3 Pro",
+          "product_name_short": "WiFi AX3 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/routers/ax3-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/routers/ax3-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "黑色",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "高度",
+              "attr_value": "39.7 mm（天線摺疊）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "闊度",
+              "attr_value": "225 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "厚度",
+              "attr_value": "159.2 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋及重量",
+              "attr_name": "重量",
+              "attr_value": "約 390 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "傳輸標準",
+              "attr_value": "IEEE 802.11 ax/n/g/b 2 × 2，MIMO\nIEEE 802.11 ax/ac/n/a 2 × 2，MIMO",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "無線速率",
+              "attr_value": "2.4 GHz 理論協商速率為 574 Mbps\n5 GHz 理論協商速率為 2,402 Mbps\n理論協商速率總和 2,976 Mbps",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi",
+              "attr_name": "無線頻段",
+              "attr_value": "2.4 GHz & 5 GHz（支援 5 GHz 優選）\n最大連接數：128",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "天線",
+              "attr_name": "天線類型",
+              "attr_value": "外置天線",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "AC/DC 電源",
+              "attr_value": "DC：12V/1A\nAC：100V-240V 50 Hz / 60 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "功耗",
+              "attr_value": "< 12 W",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "輸入電壓",
+              "attr_value": "100–240V",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功耗",
+              "attr_name": "輸入電壓頻率",
+              "attr_value": "50–60 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "安全",
+              "attr_name": "防火牆安全管理",
+              "attr_value": "HUAWEI HomeSec™ 安全防護：支援 Wi-Fi 防暴力破解、Wi-Fi 防蹭網、鏡頭安全防護",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "安全",
+              "attr_name": "兒童上網保護",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "溫度",
+              "attr_value": "工作溫度：0℃～40℃\n存儲溫度：-40℃～+70℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "濕度",
+              "attr_value": "5%～95%（非凝結）",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "wifiax3pro_2": {
+          "product_key": "wifiax3pro_2",
+          "product_id": "ax3-quad-core",
+          "product_name": "HUAWEI WiFi AX3 Pro",
+          "product_name_short": "WiFi AX3 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/routers/ax3-quad-core/",
+          "specs_url": "https://consumer.huawei.com/hk/routers/ax3-quad-core/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    },
+    "其他": {
+      "series_key": "其他",
+      "series_name": "其他",
+      "products": {
+        "5gcpepro2": {
+          "product_key": "5gcpepro2",
+          "product_id": "5g-cpe-pro-2",
+          "product_name": "HUAWEI 5G CPE Pro 2",
+          "product_name_short": "5G CPE Pro 2",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/routers/5g-cpe-pro-2/",
+          "specs_url": "https://consumer.huawei.com/hk/routers/5g-cpe-pro-2/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    }
+  }
+}

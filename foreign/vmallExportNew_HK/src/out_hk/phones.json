@@ -1,0 +1,3284 @@
+{
+  "category_key": "phones",
+  "category_name": "手机",
+  "source": "https://consumer.huawei.com/hk/",
+  "pull_time": "261013",
+  "series": {
+    "mate系列": {
+      "series_key": "mate系列",
+      "series_name": "Mate 系列",
+      "products": {
+        "mate80pro": {
+          "product_key": "mate80pro",
+          "product_id": "mate80-pro",
+          "product_name": "HUAWEI Mate 80 Pro",
+          "product_name_short": "Mate 80 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/mate80-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/mate80-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "曜石黑",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "雲杉綠",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "晨曦金",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "161.85 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "76 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "7.95 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "约 219 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "6.75 吋",
+              "attr_remark": "*顯示屏採用圓角設計，按照標準矩形測量時，屏幕的對角線長度是 6.75 吋（實際可視區域略小）。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩",
+              "attr_value": "10.7 億色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "LTPO OLED，支援 1-120 Hz 自適應高動​​態刷新率，1440 Hz 高頻 PWM 調光，300 Hz 觸控採樣率",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "分辨率",
+              "attr_value": "2832 × 1280 像素",
+              "attr_remark": "*解像度為標準矩形，採用圓角設計，實際有效像素略少。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "PPI",
+              "attr_value": "460 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM + ROM",
+              "attr_value": "16 GB RAM + 512 GB ROM",
+              "attr_remark": "*由於部分內部儲存空間被軟體佔用，因此可用的內部儲存空間可能會較小。"
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "擴充儲存",
+              "attr_value": "不支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "自動對焦模式",
+              "attr_value": "相位對焦，反差對焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "變焦模式",
+              "attr_value": "支持 4 × 光學變焦（4 × 變焦為近似值，鏡頭焦段分別為 13 mm，24 mm，92.5 mm）、100  倍數碼變焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "照片分辨率",
+              "attr_value": "最大可支援 8192 × 6144 像素",
+              "attr_remark": "*不同拍照模式的照片像素可能有所差異，請以實際為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "攝像分辨率",
+              "attr_value": "最大可支援 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式的視頻像素可能有所差異，請以實際為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置閃光燈",
+              "attr_value": "LED 閃光燈",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置攝像頭拍攝功能",
+              "attr_value": "AI 構圖*、AI 動態照片、風馳閃拍、夜景、超微距、高畫質模式、縮時攝影、超廣角鏡頭、可調式實體光圈、人像模式、專業模式、慢動作、全景模式、光繪畫攝影、濾鏡、浮水印、AI 攝影大師、拍攝微笑、聲控拍攝、定時拍攝、連拍",
+              "attr_remark": "*要使用此功能，請透過 HOTA 更新將手機更新至最新版本。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "照片解像度",
+              "attr_value": "最大可支援 4160 × 3120 像素",
+              "attr_remark": "*不同拍攝模式的相片像素可能有所不同。請以實際為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "最大可支援 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式的相片像素可能有所不同。請以實際為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置鏡頭拍攝功能",
+              "attr_value": "AI 動態照片、慢動作、人像模式、延時攝影、濾鏡、水印、笑臉抓拍、鏡像模式、聲控拍照、定時拍照",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "雙 SIM 卡",
+              "attr_value": "SGT-LX9",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "SIM 主卡",
+              "attr_value": "4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/17/18/19/20/26/28/66\n4G LTE TDD：Bands 34/38/39/40/41/42/48\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "SIM 副卡",
+              "attr_value": "4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/17/18/19/20/26/28/66\n4G LTE TDD：Bands 34/38/39/40/41/42/48\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "备注",
+              "attr_value": "*現網可用功能取決於營運商網路狀況和相關業務部署。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz 和 5 GHz\nIEEE 802.11a/b/g/n/ac/ax/be，2 × 2 MIMO，HE160，8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*需要相應的路由器支援。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "Bluetooth 6.0，支持 BLE，SBC，AAC，LDAC 及 L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C，支援 USB 3.1 Gen1，相容於 DP1.2",
+              "attr_remark": "*USB 3.1 Gen1 功能需要使用支援 USB 3.1 Gen1 的 USB 連接線。標配線僅支援 USB 2.0。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "耳機插孔",
+              "attr_value": "USB Type-C 耳機插孔",
+              "attr_remark": "*支援 USB Type-C 數位耳機。"
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "音頻",
+              "attr_value": "HUAWEI Histen 音效，支持立體聲\n*.mp3，*.mp4，*.3gp，*.ogg，*.amr，*.aac，*.flac，*.wav，*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "影片",
+              "attr_value": "*.3gp，*.mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "mate9pro": {
+          "product_key": "mate9pro",
+          "product_id": "mate9-pro",
+          "product_name": "HUAWEI Mate 9 Pro",
+          "product_name_short": "Mate 9 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/mate9-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/mate9-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "mate9": {
+          "product_key": "mate9",
+          "product_id": "mate9",
+          "product_name": "HUAWEI Mate 9",
+          "product_name_short": "Mate 9",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/mate9/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/mate9/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "porschedesignhuaweimaters": {
+          "product_key": "porschedesignhuaweimaters",
+          "product_id": "porsche-design-mate-rs",
+          "product_name": "PORSCHE DESIGN HUAWEI Mate RS",
+          "product_name_short": "PORSCHE DESIGN HUAWEI Mate RS",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/porsche-design-mate-rs/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/porsche-design-mate-rs/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "porschedesignhuaweimate10": {
+          "product_key": "porschedesignhuaweimate10",
+          "product_id": "porsche-design-mate10",
+          "product_name": "PORSCHE DESIGN HUAWEI Mate 10",
+          "product_name_short": "PORSCHE DESIGN HUAWEI Mate 10",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/porsche-design-mate10/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/porsche-design-mate10/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "porschedesignhuaweimate9": {
+          "product_key": "porschedesignhuaweimate9",
+          "product_id": "porsche-design-mate9",
+          "product_name": "PORSCHE DESIGN HUAWEI Mate 9",
+          "product_name_short": "PORSCHE DESIGN HUAWEI Mate 9",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/porsche-design-mate9/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/porsche-design-mate9/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    },
+    "pura系列": {
+      "series_key": "pura系列",
+      "series_name": "Pura 系列",
+      "products": {
+        "pura90spromax": {
+          "product_key": "pura90spromax",
+          "product_id": "pura90s-pro-max",
+          "product_name": "HUAWEI Pura 90s Pro Max",
+          "product_name_short": "Pura 90s Pro Max",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/pura90s-pro-max/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/pura90s-pro-max/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 4,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "晨曦金",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "橘子海",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "霞光紫",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "曜石黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "長度",
+              "attr_value": "164 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "寬度",
+              "attr_value": "77.1 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "8.1 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "约 230.5 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "6.9 吋",
+              "attr_remark": "*顯示屏採用圓角設計，按照標準矩形測量時，屏幕的對角線長度是 6.87 吋（實際可視區域略小）。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩",
+              "attr_value": "10.7 億色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "LTPO OLED，支援 1-120 Hz 自適應高動​​態刷新率，高頻 PWM 調光，高達 300 Hz 觸控採樣率",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "分辨率",
+              "attr_value": "2880 × 1308 像素",
+              "attr_remark": "*解像度為標準矩形，採用圓角設計，實際有效像素略少。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "PPI",
+              "attr_value": "460 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM + ROM",
+              "attr_value": "12 GB RAM + 512 GB ROM",
+              "attr_remark": "*由於部分內部儲存空間被軟體佔用，因此可用的內部儲存空間可能會較小。"
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "擴充儲存",
+              "attr_value": "不支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "自動對焦模式",
+              "attr_value": "相位對焦，反差對焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "變焦模式",
+              "attr_value": "支援 4x 光學變焦（4x 變焦為近似值，鏡頭焦段分別為 24 mm，13 mm，89 mm）、100x 數碼變焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "照片解像度",
+              "attr_value": "最大可支援 8192 × 6144 像素",
+              "attr_remark": "*高解像度模式支援 16384 × 12288 像素。不同拍照模式的照片像素可能有所差異，請以實際為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "最大可支援 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式的影片像素可能有所差異，請以實際為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置閃光燈",
+              "attr_value": "LED 閃光燈",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置攝像頭拍攝功能",
+              "attr_value": "AI 構圖、AI 動態照片、風馳閃拍、夜景、超微距、高畫質模式、縮時攝影、超廣角鏡頭、可調式實體光圈、人像模式、專業模式、慢動作、全景模式、光繪畫攝影、濾鏡、浮水印、AI 攝影大師、拍攝微笑、聲控拍攝、定時拍攝、連拍、貼紙",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "照片解像度",
+              "attr_value": "最大可支援 4160 × 3120 像素",
+              "attr_remark": "*不同拍攝模式的相片像素可能有所不同。請以實際為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "最大可支援 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式的相片像素可能有所不同。請以實際為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置鏡頭拍攝功能",
+              "attr_value": "AI 動態照片、慢動作、人像模式、延時攝影、濾鏡、水印、笑臉抓拍、鏡像模式、聲控拍照、定時拍照",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "抗水防塵級別",
+              "attr_name": "备注",
+              "attr_value": "*本產品依據 IEC 60529 標準，在受控實驗室條件下測試，防潑水、抗水、防塵等級達到 IP68 和 IP69。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "典型容量",
+              "attr_value": "非歐盟地區：6000 mAh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "額定容量",
+              "attr_value": "非歐盟地區：5850 mAh\n歐盟地區：5270 mAh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*典型值。實際容量可能略有差異。此容量為電池標稱容量。每部手機的實際電池容量可能略高於或低於標稱電池容量。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "雙 SIM 卡",
+              "attr_value": "SCA-LX9",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "SIM 主卡",
+              "attr_value": "5G NR：n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78/n79/n80/n81/n83/n84\n4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66\n4G LTE TDD：Bands 34/38/39/40/41/42/48\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "SIM 副卡",
+              "attr_value": "5G NR：n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78/n79/n80/n81/n83/n84\n4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66\n4G LTE TDD：Bands 34/38/39/40/41/42/48\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "备注",
+              "attr_value": "*實際網路可用功能取決於營運商網路狀況及相關服務的部署。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz 和 5 GHz\nIEEE 802.11a/b/g/n/ac/ax/be，2 × 2 MIMO，EHT160，8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*需要相應的路由器支援。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NearLink 星閃技術",
+              "attr_value": "支援，NearLink E2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "Bluetooth 6.0，支持 BLE，SBC，AAC，LDAC 及 L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "耳機插孔",
+              "attr_value": "USB Type-C 耳機插孔",
+              "attr_remark": "*支援 USB Type-C 數位耳機。"
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "音頻",
+              "attr_value": "HUAWEI Histen 音效，支持立體聲",
+              "attr_remark": "*.mp3，*.mp4，*.3gp，*.ogg，*.amr，*.aac，*.flac，*.wav，*.midi"
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "影片",
+              "attr_value": "*.3gp，*.mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "pura90spro": {
+          "product_key": "pura90spro",
+          "product_id": "pura90s-pro",
+          "product_name": "HUAWEI Pura 90s Pro",
+          "product_name_short": "Pura 90s Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/pura90s-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/pura90s-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 4,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "粉紅芭樂",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "橘子汽水",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "椰青白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "桑果黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "長度",
+              "attr_value": "157.8 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "寬度",
+              "attr_value": "74.5 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "8.2 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "约 213.5 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "6.6 吋",
+              "attr_remark": "*顯示屏採用圓角設計，按照標準矩形測量時，屏幕的對角線長度是 6.58 吋（實際可視區域略小）。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩",
+              "attr_value": "10.7 億色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "LTPO OLED，支援 1-120 Hz 自適應高動​​態刷新率，高頻 PWM 調光，高達 300 Hz 觸控採樣率",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "分辨率",
+              "attr_value": "2760 × 1256 像素",
+              "attr_remark": "*解像度為標準矩形，採用圓角設計，實際有效像素略少。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "PPI",
+              "attr_value": "460 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM + ROM",
+              "attr_value": "12 GB RAM + 256 GB / 512 GB ROM",
+              "attr_remark": "*由於部分內部儲存空間被軟體佔用，因此可用的內部儲存空間可能會較小。"
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "擴充儲存",
+              "attr_value": "不支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "自動對焦模式",
+              "attr_value": "相位對焦，反差對焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "變焦模式",
+              "attr_value": "支援 4x 光學變焦（4x 變焦為近似值，鏡頭焦段分別為 24 mm，13 mm，90.5 mm）、100x 數碼變焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "照片解像度",
+              "attr_value": "最大可支援 8192 × 6144 像素",
+              "attr_remark": "*不同拍照模式的照片像素可能有所差異，請以實際為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "最大可支援 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式的影片像素可能有所差異，請以實際為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置閃光燈",
+              "attr_value": "LED 閃光燈",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置攝像頭拍攝功能",
+              "attr_value": "AI 構圖、AI 動態照片、風馳閃拍、夜景、超微距、高畫質模式、縮時攝影、超廣角鏡頭、可調式實體光圈、人像模式、專業模式、慢動作、全景模式、光繪畫攝影、濾鏡、浮水印、AI 攝影大師、拍攝微笑、聲控拍攝、定時拍攝、連拍、貼紙",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "照片解像度",
+              "attr_value": "最大可支援 4160 × 3120 像素",
+              "attr_remark": "*不同拍攝模式的相片像素可能有所不同。請以實際為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "最大可支援 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式的相片像素可能有所不同。請以實際為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置鏡頭拍攝功能",
+              "attr_value": "AI 動態照片、慢動作、人像模式、延時攝影、濾鏡、水印、笑臉抓拍、鏡像模式、聲控拍照、定時拍照",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "抗水防塵級別",
+              "attr_name": "备注",
+              "attr_value": "*本產品依據 IEC 60529 標準，在受控實驗室條件下測試，防潑水、抗水、防塵等級達到 IP68 和 IP69。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "典型容量",
+              "attr_value": "非歐盟地區：6000 mAh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "額定容量",
+              "attr_value": "非歐盟地區：5850 mAh\n歐盟地區：5270 mAh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*典型值。實際容量可能略有差異。此容量為電池標稱容量。每部手機的實際電池容量可能略高於或低於標稱電池容量。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "雙 SIM 卡",
+              "attr_value": "MLN-LX9",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "SIM 主卡",
+              "attr_value": "5G NR：n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78/n79/n80/n81/n83/n84\n4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66\n4G LTE TDD：Bands 34/38/39/40/41/42/48\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "SIM 副卡",
+              "attr_value": "5G NR：n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78/n79/n80/n81/n83/n84\n4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66\n4G LTE TDD：Bands 34/38/39/40/41/42/48\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "备注",
+              "attr_value": "*實際網路可用功能取決於營運商網路狀況及相關服務的部署。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz 和 5 GHz\nIEEE 802.11a/b/g/n/ac/ax/be，2 × 2 MIMO，EHT160，8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*需要相應的路由器支援。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NearLink 星閃技術",
+              "attr_value": "支援，NearLink E2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "Bluetooth 6.0，支持 BLE，SBC，AAC，LDAC 及 L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "耳機插孔",
+              "attr_value": "USB Type-C 耳機插孔",
+              "attr_remark": "*支援 USB Type-C 數位耳機。"
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "音頻",
+              "attr_value": "HUAWEI Histen 音效，支持立體聲\n*.mp3，*.mp4，*.3gp，*.ogg，*.amr，*.aac，*.flac，*.wav，*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "影片",
+              "attr_value": "*.3gp，*.mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "pura80ultra": {
+          "product_key": "pura80ultra",
+          "product_id": "pura80-ultra",
+          "product_name": "HUAWEI Pura 80 Ultra",
+          "product_name_short": "Pura 80 Ultra",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/pura80-ultra/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/pura80-ultra/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "鎏光金",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "鎏光黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "163 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "76.1 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "8.3 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 233.5 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "6.8 吋",
+              "attr_remark": "*顯示屏採用圓角設計，按照標準矩形測量時，屏幕的對角線長度是 6.78 吋（實際可視區域略小）。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "顏色",
+              "attr_value": "10.7 億色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏幕類型",
+              "attr_value": "LTPO OLED，支援 1-120 Hz 自適應高動​​態刷新率，1440 Hz 高頻 PWM 調光，300 Hz 觸控採樣率",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "2848 × 1276 像素",
+              "attr_remark": "*解像度為標準矩形，採用圓角設計，實際有效像素略少。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "PPI",
+              "attr_value": "460 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM + ROM",
+              "attr_value": "16 GB RAM + 512 GB ROM",
+              "attr_remark": "*由於部分內部儲存空間被軟體佔用，因此可用的內部儲存空間可能會較小。"
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "擴充儲存",
+              "attr_value": "不支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "自動對焦模式",
+              "attr_value": "相位對焦，對比對焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "變焦模式",
+              "attr_value": "3.7x 及9.4x 光學變焦（3.7x 及 9.4x 變焦為近似值，鏡頭焦距為 22.5 mm、13 mm、83 mm、212 mm），100x 數碼變焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "照片解像度",
+              "attr_value": "最高支援 8192 × 6144 像素",
+              "attr_remark": "*不同拍攝模式的相片像素可能有所不同。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "最高支援 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式的影片像素可能有所不同。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置閃光燈",
+              "attr_value": "LED 閃光燈",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置鏡頭拍攝功能",
+              "attr_value": "AI 動態照片、風馳閃拍、夜景、超微距、高畫質模式、縮時攝影、超廣角鏡頭、可調式實體光圈、人像模式、專業模式、慢動作、全景模式、光繪畫攝影、濾鏡、浮水印、AI 攝影大師、拍攝微笑、聲控拍攝、定時拍攝、連拍",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "定時拍攝",
+              "attr_value": "最高支援 4160 × 3120 像素",
+              "attr_remark": "*不同拍照模式的照片像素可能有差所不同，請以實際為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "最高支援 3840 × 2160 像素",
+              "attr_remark": "*不同拍照模式的影片像素可能有差所不同，請以實際為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置鏡頭拍攝功能",
+              "attr_value": "AI 動態照片、慢動作自拍、人像、縮時攝影、濾鏡、浮水印、拍攝微笑、鏡面反射、聲控拍攝、定時拍攝",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "主 SIM 卡",
+              "attr_value": "4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/25/26/28/32/66\n4G LTE TDD：Bands 34/38/39/40/41/42\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "副 SIM 卡",
+              "attr_value": "4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/25/26/28/32/66\n4G LTE TDD：Bands 34/38/39/40/41/42\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "备注",
+              "attr_value": "*現網可用功能取決於營運商網路狀況和相關業務部署。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz 及 5 GHz\nIEEE 802.11 a/b/g/n/ac/ax/be，2 × 2 MIMO，EHT160，8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*需要相應的路由器支援。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "藍牙 5.2，支援 BLE、SBC、AAC、LDAC 及 L2HC。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C，USB 3.1 GEN1",
+              "attr_remark": "*需搭配支援該功能的 USB 連接線使用（非標配 USB 連接線，需另外購買）。\n**標配數據線支援 USB 2.0。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "耳機",
+              "attr_value": "USB Type-C 耳機插孔",
+              "attr_remark": "*支援 USB Type-C 數位耳機。"
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "音訊",
+              "attr_value": "HUAWEI Histen，支持立體聲\n*.mp3、*.mp4、*.3gp、*.ogg、*.amr、*.aac、*.flac、*.wav、*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "影片",
+              "attr_value": "*.3gp、*.mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "pura80pro": {
+          "product_key": "pura80pro",
+          "product_id": "pura80-pro",
+          "product_name": "HUAWEI Pura 80 Pro",
+          "product_name_short": "Pura 80 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/pura80-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/pura80-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "釉紅",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "釉白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "釉黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "163 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "76.1 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "8.3 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 219 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "6.8 吋",
+              "attr_remark": "*顯示屏採用圓角設計，按照標準矩形測量時，屏幕的對角線長度是 6.78 吋（實際可視區域略小）。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "顏色",
+              "attr_value": "10.7 億色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏幕類型",
+              "attr_value": "LTPO OLED，支援 1-120 Hz 自適應高動​​態刷新率，1440 Hz 高頻 PWM 調光，300 Hz 觸控採樣率",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "2848 × 1276 像素",
+              "attr_remark": "*解像度為標準矩形，採用圓角設計，實際有效像素略少。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "PPI",
+              "attr_value": "460 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM + ROM",
+              "attr_value": "12 GB RAM + 512 GB ROM",
+              "attr_remark": "*由於部分內部儲存空間被軟體佔用，因此可用的內部儲存空間可能會較小。"
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "擴充儲存",
+              "attr_value": "不支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "自動對焦模式",
+              "attr_value": "相位對焦，對比對焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "變焦模式",
+              "attr_value": "4x 光學變焦（4x 變焦為近似值，鏡頭焦距為 22.5 mm、13 mm、92.5 mm），100x 數碼變焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "照片解像度",
+              "attr_value": "最高支援 8192 × 6144 像素",
+              "attr_remark": "*不同拍攝模式的相片像素可能有所不同。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "最高支援 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式的影片像素可能有所不同。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置閃光燈",
+              "attr_value": "LED 閃光燈",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置鏡頭拍攝功能",
+              "attr_value": "AI 動態照片、風馳閃拍、夜景、超微距、高畫質模式、縮時攝影、超廣角鏡頭、可調式實體光圈、人像模式、專業模式、慢動作、全景模式、光繪畫攝影、濾鏡、浮水印、AI 攝影大師、拍攝微笑、聲控拍攝、定時拍攝、連拍",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "定時拍攝",
+              "attr_value": "最高支援 4160 × 3120 像素",
+              "attr_remark": "*不同拍照模式的照片像素可能有差所不同，請以實際為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "最高支援 3840 × 2160 像素",
+              "attr_remark": "*不同拍照模式的影片像素可能有差所不同，請以實際為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置鏡頭拍攝功能",
+              "attr_value": "AI 動態照片、慢動作自拍、人像、縮時攝影、濾鏡、浮水印、拍攝微笑、鏡面反射、聲控拍攝、定時拍攝",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "主 SIM 卡",
+              "attr_value": "4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/25/26/28/32/66\n4G LTE TDD：Bands 34/38/39/40/41/42\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "副 SIM卡",
+              "attr_value": "4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/25/26/28/32/66\n4G LTE TDD：Bands 34/38/39/40/41/42\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "备注",
+              "attr_value": "*現網可用功能取決於營運商網路狀況和相關業務部署。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz 及 5 GHz\nIEEE 802.11 a/b/g/n/ac/ax/be，2 × 2 MIMO，EHT160，8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*需要相應的路由器支援。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "藍牙 5.2，支援 BLE、SBC、AAC、LDAC 及 L2HC。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C，USB 3.1 GEN1",
+              "attr_remark": "*需搭配支援該功能的 USB 連接線使用（非標配 USB 連接線，需另外購買）。\n**標配數據線支援 USB 2.0。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "耳機",
+              "attr_value": "USB Type-C 耳機插孔",
+              "attr_remark": "*支援 USB Type-C 數位耳機。"
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "音訊",
+              "attr_value": "HUAWEI Histen，支持立體聲\n*.mp3、*.mp4、*.3gp、*.ogg、*.amr、*.aac、*.flac、*.wav、*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "影片",
+              "attr_value": "*.3gp、*.mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "pura80": {
+          "product_key": "pura80",
+          "product_id": "pura80",
+          "product_name": "HUAWEI Pura 80",
+          "product_name_short": "Pura 80",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/pura80/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/pura80/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "絲絨金",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "絲絨白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "絲絨黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "157.7 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "74.4 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "8.2 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "约 211 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "6.6 吋",
+              "attr_remark": "*顯示屏採用圓角設計，按照標準矩形測量時，屏幕的對角線長度是 6.58 吋（實際可視區域略小）。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩",
+              "attr_value": "10.7 億色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "LTPO OLED，支援 1-120 Hz 自適應高動​​態刷新率，1440 Hz 高頻 PWM 調光，300 Hz 觸控採樣率",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "分辨率",
+              "attr_value": "2760 × 1256 像素",
+              "attr_remark": "*解像度為標準矩形，採用圓角設計，實際有效像素略少。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "PPI",
+              "attr_value": "460 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM + ROM",
+              "attr_value": "12 GB RAM + 256 GB ROM",
+              "attr_remark": "*由於部分內部儲存空間被軟體佔用，因此可用的內部儲存空間可能會較小。"
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "擴充儲存",
+              "attr_value": "不支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "自動對焦模式",
+              "attr_value": "相位對焦，反差對焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "變焦模式",
+              "attr_value": "支持 5.5x 光學變焦（5.5x 變焦為近似值，鏡頭焦段分別為 13 mm，24 mm，125 mm）、50 倍數碼變焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "照片分辨率",
+              "attr_value": "最大可支援 8192 × 6144 像素",
+              "attr_remark": "*不同拍照模式的照片像素可能有所差異，請以實際為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "攝像分辨率",
+              "attr_value": "最大可支援 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式的視頻像素可能有所差異，請以實際為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置閃光燈",
+              "attr_value": "LED 閃光燈",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置攝像頭拍攝功能",
+              "attr_value": "AI 動態照片、風馳閃拍、夜景、超微距、高畫質模式、縮時攝影、超廣角鏡頭、可調式實體光圈、人像模式、專業模式、慢動作、全景模式、光繪畫攝影、濾鏡、浮水印、AI 攝影大師、拍攝微笑、聲控拍攝、定時拍攝、連拍",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "照片解像度",
+              "attr_value": "最大可支援 4160 × 3120 像素",
+              "attr_remark": "*不同拍攝模式的相片像素可能有所不同。請以實際為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "最大可支援 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式的相片像素可能有所不同。請以實際為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置鏡頭拍攝功能",
+              "attr_value": "AI 動態照片、慢動作、人像模式、延時攝影、濾鏡、水印、笑臉抓拍、鏡像模式、聲控拍照、定時拍照",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "網路制式 (單 SIM 卡)",
+              "attr_value": "HED-LX9（單 SIM 卡）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "SIM 主卡 (單 SIM 卡)",
+              "attr_value": "4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/17/18/19/20/26/28/66\n4G LTE TDD：Bands 34/38/39/40/41/42\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "網路制式 (雙 SIM 卡)",
+              "attr_value": "HED-LX9（雙 SIM 卡）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "SIM 主卡 (雙 SIM 卡)",
+              "attr_value": "4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/17/18/19/20/26/28/66\n4G LTE TDD：Bands 34/38/39/40/41/42\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "SIM 副卡 (雙 SIM 卡)",
+              "attr_value": "4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/17/18/19/20/26/28\n4G LTE TDD：Bands 34/38/39/40/41/42\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "备注",
+              "attr_value": "*現網可用功能取決於營運商網路狀況和相關業務部署。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz 和 5 GHz\nIEEE 802.11 a/b/g/n/ac/ax/be，2 × 2 MIMO，EHT160，8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*需要相應的路由器支援。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "Bluetooth 5.2，支持 BLE，SBC，AAC，LDAC 和 L2HC 高清音頻。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C，USB 2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "耳機插孔",
+              "attr_value": "USB Type-C 耳機插孔",
+              "attr_remark": "*支援 USB Type-C 數位耳機。"
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "音頻",
+              "attr_value": "HUAWEI Histen 音效，支持立體聲\n*.mp3，*.mp4，*.3gp，*.ogg，*.amr，*.aac，*.flac，*.wav，*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "影片",
+              "attr_value": "*.3gp，*.mp4",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "matex系列": {
+      "series_key": "matex系列",
+      "series_name": "Mate X 系列",
+      "products": {
+        "matex7": {
+          "product_key": "matex7",
+          "product_id": "mate-x7",
+          "product_name": "HUAWEI Mate X7",
+          "product_name_short": "Mate X7",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/mate-x7/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/mate-x7/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "雲錦白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "寰宇紅",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "曜石黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "156.8 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "摺疊狀態下：73.8 mm\n展開狀態下：144.2 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "摺疊狀態下：9.5 mm\n展開狀態下：4.5 mm",
+              "attr_remark": "*摺疊厚度不包含相機模組外觀。展開厚度不包括螢幕邊框。實際尺寸可能因配置、製造流程和測量方法而異。"
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 236 g（含電池）",
+              "attr_remark": "*重量不包括外屏保護膜和內屏表層的重量。實際重量可能因配置、製造流程和測量方法而略有不同。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "內屏幕：8 吋\n外屏幕：6.49 吋",
+              "attr_remark": "*屏幕採用圓角設計，內屏幕/外屏幕的對角線長度以標準矩形測量為 8/6.49 吋（實際可視區域略小）。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "顏色",
+              "attr_value": "內屏幕：10.7 億色，P3 廣色域\n外屏幕：10.7 億色，P3 廣色域",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "內屏幕：OLED，1-120 Hz LTPO 自適應刷新率，1440 Hz 高頻 PWM 調光\n外屏幕：OLED，1-120 Hz LTPO 自適應刷新率，1440 Hz 高頻 PWM 調光",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "內屏幕：2416 × 2210 像素\n外屏幕：2444 × 1080 像素",
+              "attr_remark": "*該解像度對應於標準矩形。實際有效刷幕像素數略少。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "PPI",
+              "attr_value": "內屏幕：412 ppi\n外屏幕：412 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM + ROM",
+              "attr_value": "16 GB RAM + 512 GB ROM",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "外置記憶體",
+              "attr_value": "不支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "备注",
+              "attr_value": "*可使用的內存容量小於此值，因為手機軟件佔用部分空間。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置閃光燈",
+              "attr_value": "LED 閃光燈",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置相機影片拍攝",
+              "attr_value": "支援最高 4K（3840 × 2160）視訊錄製，支援 AIS 影像防手震；支援 1080p@960fps 超慢動作影片",
+              "attr_remark": "*1080p@960fps 基於 AI 幀插入演算法實作。在不同視訊模式下，視訊像素數可能略有不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "變焦模式",
+              "attr_value": "3.5 倍光學變焦（3.5 倍變焦為近似值，鏡頭焦距分別為 23 mm、13 mm 和 81 mm），以及 100 倍數碼變焦。",
+              "attr_remark": "*不同模式下，像素數可能略有不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "相片解像度",
+              "attr_value": "最高可達 8192 × 6144 像素",
+              "attr_remark": "*不同拍照模式下，照片像素數可能略有不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解析度",
+              "attr_value": "最高可達 3840 × 2160 像素",
+              "attr_remark": "*不同視訊模式下，影片像素數可能略有不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "對焦模式",
+              "attr_value": "自動對焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解析度",
+              "attr_value": "高達 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式下影片像素可能會有所不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "照片解像度",
+              "attr_value": "高達 4160 × 3120 像素",
+              "attr_remark": "*不同拍攝模式下照片像素可能會有所不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "抗水防塵級別",
+              "attr_name": "备注",
+              "attr_value": "*本產品依據 IEC 60529 標準，在受控實驗室條件下測試，其防潑水、抗水和防塵等級為 IP58 和 IP59。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*電池額定容量為 5470 mAh。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "雙 SIM 型號",
+              "attr_value": "主 SIM 卡\n4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66\n4G LTE TDD：Bands 34/38/39/40/41/42/48\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8 (850/900/1800/1900 MHz)\n副 SIM 卡\n4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66\n4G LTE TDD：Bands 34/38/39/40/41/42/48\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8 (850/900/1800/1900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "备注",
+              "attr_value": "*實際網路功能取決於營運商網路狀況及相關服務部署。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C，USB 3.1 Gen1，支援 DP1.2",
+              "attr_remark": "*USB 3.1 Gen1 功能需要使用支援 USB 3.1 Gen1 的 USB 連接線。標配線僅支援 USB 2.0。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "耳機介面",
+              "attr_value": "USB Type-C 耳機接口",
+              "attr_remark": "*僅支援 USB Type-C 數位耳機。其他耳機需搭配華為 USB Type-C 轉 3.5 mm 數位音訊轉接器使用。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz 和 5 GHz 雙頻\nIEEE 802.11a/b/g/n/ac/ax/be，2 × 2 MIMO，HE160，8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*需搭配對應的路由器使用。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "藍牙 6.0，支援 BLE、SBC、AAC、LDAC 和 L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NearLink",
+              "attr_value": "支援 NearLink E1.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "音效",
+              "attr_value": "HUAWEI Histen\n*.mp3，*.mp4，*.ogg，*.amr，*.aac，*.flac，*.wav，*.3gp，*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "影片",
+              "attr_value": "*mp4，*3gp",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "备注",
+              "attr_value": "*最終產品以實物為準。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "matex6": {
+          "product_key": "matex6",
+          "product_id": "mate-x6",
+          "product_name": "HUAWEI Mate X6",
+          "product_name_short": "Mate X6",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/mate-x6/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/mate-x6/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "寰宇紅",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "曜石黑",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "星雲灰",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "156.6 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "摺疊狀態下：73.78 mm\n展開狀態下：144.04 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "摺疊狀態下：9.85 mm (錦纖版) / 9.9mm (素皮版)\n展開狀態下：4.6 mm",
+              "attr_remark": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。折疊厚度不包含相機模組外觀。展開厚度不包括螢幕邊框。\n**實際尺寸可能因配置、製造流程和測量方法而異。"
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 239 g（含電池）",
+              "attr_remark": "*重量不包括外屏保護膜和內屏表層的重量。\n**實際重量可能因配置、製造流程和測量方法而略有不同。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "內屏幕：7.93 吋\n外屏幕：6.45 吋",
+              "attr_remark": "*外屏對角線長度為 6.45 吋，內屏對角線長度為 7.93 吋，均以標準矩形測量，而不是兩個顯示器上看到的圓角形狀（實際可視面積略小）。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "顏色",
+              "attr_value": "內屏幕：10.7 億色\n外屏幕：10.7 億色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "內屏幕：OLED，1-120 Hz LTPO 自適應刷新率，1440 Hz 高頻 PWM 調光\n外屏幕：OLED，1-120 Hz LTPO 自適應刷新率，1440 Hz 高頻 PWM 調光",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "內屏幕：2440 × 2240 像素\n外屏幕：2440 × 1080 像素",
+              "attr_remark": "*該分辨率對應於標準矩形。實際有效刷幕像素數略少。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "PPI",
+              "attr_value": "內屏幕：417 PPI\n外屏幕：413 PPI",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM + ROM",
+              "attr_value": "12 GB RAM + 512 GB ROM",
+              "attr_remark": "*可使用的內存容量小於此值，因為手機軟件佔用部分空間。"
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "外置記憶體",
+              "attr_value": "不支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "變焦模式",
+              "attr_value": "支援 4 倍光學變焦（4 倍變焦為近似值，鏡頭焦距為 24 毫米、13 毫米、90 毫米）\n100 倍數碼變焦",
+              "attr_remark": "*不同模式下，像素數可能略有不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "自動對焦模式",
+              "attr_value": "相位對焦、對比對焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影像解像度",
+              "attr_value": "高達 8192 × 6144 像素",
+              "attr_remark": "*不同拍照模式下，照片像素數可能略有不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "高達 3840 × 2160 像素",
+              "attr_remark": "*在不同視訊模式下，視訊像素數可能略有不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置閃光燈",
+              "attr_value": "LED 閃光燈",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置鏡頭拍攝模式",
+              "attr_value": "AI 動態影像、超高速抓拍、夜景、超微距、微距影片、高解析度、縮時攝影、超廣角鏡頭、可調式實體光圈、人像、專業、慢動作、全景、光繪、濾鏡、貼紙、大師 AI、笑臉捕捉、音訊控制、定時器、連拍",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影像解析度",
+              "attr_value": "高達 3264 × 2448 像素",
+              "attr_remark": "*不同拍攝模式下照片像素可能會有所不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解析度",
+              "attr_value": "高達 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式下影片像素可能會有所不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置相機拍攝模式",
+              "attr_value": "動態影像、人像、縮時拍攝、濾鏡、捕捉微笑、鏡面反射、音訊控制、定時器",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "主卡",
+              "attr_value": "ICL-LX9（雙 SIM 型號）\n4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/17/18/19/20/26/28/66\n4G TD-LTE：Bands 34/38/39/40/41/42\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（1900/1800/850/900 MHz）",
+              "attr_remark": "*現網可用功能取決於營運商網路及相關業務部署。"
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "副卡",
+              "attr_value": "4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/17/18/19/20/26/28/66\n4G TD-LTE：Bands 34/38/39/40/41/42\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（1900/1800/850/900 MHz）",
+              "attr_remark": "*現網可用功能取決於營運商網路及相關業務部署。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "無線區域網路",
+              "attr_value": "2.4 GHz 和 5 GHz\n802.11a/b/g/n/ac/ax、2 × 2 MIMO、HE160、1024 QAM、 8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*需要配合相應的路由器使用。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "藍牙 5.2，支援 BLE、SBC、AAC、LDAC 和 L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C, USB 3.1 GEN 1",
+              "attr_remark": "*此功能需與支援此功能的 USB 線（非標準 USB 線，需另外購買）搭配使用。\n**隨附的 USB 連接線支援 USB2.0。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "耳機插孔",
+              "attr_value": "USB Type-C 耳機插孔",
+              "attr_remark": "*僅支援 Type-C 數位耳機。"
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "音效",
+              "attr_value": "HUAWEI Histen，支援立體聲\n*.mp3、*.mp4、*.ogg、*.amr、*.aac、*.flac、*.wav、*.3gp、*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "影片",
+              "attr_value": "*.3gp，*.mp4",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "matext系列": {
+      "series_key": "matext系列",
+      "series_name": "Mate XT 系列",
+      "products": {
+        "matextultimatedesign": {
+          "product_key": "matextultimatedesign",
+          "product_id": "mate-xt-ultimate-design",
+          "product_name": "HUAWEI Mate XT ULTIMATE DESIGN",
+          "product_name_short": "Mate XT ULTIMATE DESIGN",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/mate-xt-ultimate-design/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/mate-xt-ultimate-design/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "瑞紅",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "玄黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "156.7 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "單屏模式：73.75 mm\n雙屏模式：143.0 mm\n三屏模式：219.0 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "單屏模式：12.8 mm\n雙屏模式：7.45 mm / 4.75 mm\n三屏模式：3.6 mm / 3.6 mm / 4.75 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 298 g（含電池，不含屏幕保護貼；含屏幕保護貼約 306 g）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏幕尺寸",
+              "attr_value": "單屏模式：6.4 吋\n雙屏模式：7.9 吋\n三屏模式：10.2 吋",
+              "attr_remark": "*屏幕採用圓角設計，依照標準矩形測量，單屏模式對角線長度為 6.4 吋，雙屏模式對角線長度為 7.9 吋，三屏模式對角線長度為 10.2 吋，實際可視面積略小。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "顏色",
+              "attr_value": "10.7 億色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "OLED，高達 90 Hz 自適應刷新率，1440 Hz 高頻 PWM 調光，高達 240 Hz 觸控採樣率",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "單屏模式：2232 × 1008 像素\n雙屏模式：2232 × 2048 像素\n三屏模式：2232 × 3184 像素",
+              "attr_remark": "*解像度依照標準矩形測量，屏幕採用圓角設計，實際有效像素略少。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "PPI",
+              "attr_value": "382 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM + ROM",
+              "attr_value": "16 GB RAM + 1 TB ROM",
+              "attr_remark": "*可使用的內存容量小於此值，因為手機軟件佔用部分空間。"
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "外置記憶體",
+              "attr_value": "不支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "自動對焦模式",
+              "attr_value": "相位對焦、對比對焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "變焦模式",
+              "attr_value": "支援 5.5 倍光學變焦（5.5 倍變焦為近似值，鏡頭焦距為 24 毫米、13 毫米、125 毫米）及 50 倍數碼變焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "照片解像度",
+              "attr_value": "高達 8192 × 6144 像素",
+              "attr_remark": "*不同拍照模式下，照片像素數可能略有不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "高達 3840 × 2160 像素",
+              "attr_remark": "*在不同視訊模式下，視訊像素數可能略有不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置閃光燈",
+              "attr_value": "LED 閃光燈",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置鏡頭拍攝模式",
+              "attr_value": "風馳閃拍、可變物理光圈、鏡像拍攝、影像增強、快速選單、夜景、超微距、微距、故事創作、高畫質模式、縮時攝影、超廣角鏡頭、光圈、雙景錄影、人像、專業模式、慢動作、全景模式、單色、流光快門、濾鏡、貼紙、文件矯正、AI 攝影大師、動態照片、4D 預測追焦、笑臉捕捉、音訊控制、定時拍攝、連拍模式",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置鏡頭",
+              "attr_value": "8 MP 自拍相機（F2.2）",
+              "attr_remark": "*不同模式下，照片和影片像素數可能略有不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "相片解像度",
+              "attr_value": "3264 × 2448 像素",
+              "attr_remark": "*不同拍攝模式下照片像素可能會有所不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式下影片像素可能會有所不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置相機拍攝模式",
+              "attr_value": "HDR Vivid、慢動作自拍、夜景、人像模式、智能廣角切換、全景模式、縮時攝影、動態照片、濾鏡、貼紙、笑臉捕捉、音訊控制、定時拍攝",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "主卡",
+              "attr_value": "GRL-LX9（雙 SIM 型號）\n4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/17/18/19/20/26/28\n4G TD-LTE：Bands 34/38/39/40/41/42\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（1900/1800/850/900 MHz）",
+              "attr_remark": "*現網可用功能取決於營運商網路及相關業務部署。"
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "副卡",
+              "attr_value": "4G LTE FDD：Bands 1/2/3/4/5/6/7/8/9/12/17/18/19/20/26/28\n4G TD-LTE：Bands 34/38/39/40/41/42\n3G WCDMA：Bands 1/2/4/5/6/8/19\n2G GSM：Bands 2/3/5/8（1900/1800/850/900 MHz）",
+              "attr_remark": "*現網可用功能取決於營運商網路及相關業務部署。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz 及 5 GHz\n802.11a/b/g/n/ac/ax、2 × 2 MIMO、HE160、4096 QAM、8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*需要相應的路由器支援。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "Bluetooth",
+              "attr_value": "Bluetooth 5.2，支援 BLE，SBC，AAC，LDAC 及 L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C，USB 3.1 GEN1",
+              "attr_remark": "*需搭配支援該功能的 USB 連接線使用（非標準 USB 連接線，需另行購買）。\n**標配數據線支援 USB 2.0。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "耳機：",
+              "attr_value": "USB Type-C 耳機插孔",
+              "attr_remark": "*支援 USB Type-C 數位耳機。"
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "音效",
+              "attr_value": "HUAWEI Histen，支援立體聲\n*.mp3，*.mp4，*.3gp，*.ogg，*.amr，*.aac，*.flac，*.wav，*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "影片",
+              "attr_value": "*.3gp，*.mp4",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "nova系列": {
+      "series_key": "nova系列",
+      "series_name": "nova 系列",
+      "products": {
+        "nova15max": {
+          "product_key": "nova15max",
+          "product_id": "nova15-max",
+          "product_name": "HUAWEI nova 15 Max",
+          "product_name_short": "nova 15 Max",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/nova15-max/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/nova15-max/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "晨曦金",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "曜金黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "163.3 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "78.0 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "7.98 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 232 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏幕尺寸",
+              "attr_value": "6.84 吋",
+              "attr_remark": "*顯示屏採用圓角設計，按照標準矩形測量時，屏幕的對角線長度是 6.84 吋（實際可視區域略小）。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩",
+              "attr_value": "10.7 億種顏色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "OLED，最高刷新率可達 120 Hz，觸控取樣速率可達 300 Hz。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "FHD+ 2756 × 1272 像素",
+              "attr_remark": "*解像度為標準矩形，採用圓角設計，實際有效像素略少。"
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "ROM",
+              "attr_value": "256 GB ROM",
+              "attr_remark": "*由於部分內部儲存空間被軟體佔用，因此可用的內部儲存空間可能會較小。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "自動對焦模式",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "圖像穩定技術",
+              "attr_value": "AI 智能防手震（AIS）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "變焦模式",
+              "attr_value": "10x 數碼變焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "圖像解像度",
+              "attr_value": "最高支援 8192 × 6144 像素",
+              "attr_remark": "*實際圖像解析度可能因拍攝模式而異。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "最大支援 3840 × 2160 像素",
+              "attr_remark": "*實際視頻解析度可能因拍攝模式而異。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置鏡頭拍攝模式",
+              "attr_value": "大光圈、夜景、人像、照片、視頻、專業模式、慢動作、全景、延時攝影、貼紙、高解析度、動態圖像",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "圖像解像度",
+              "attr_value": "最大支援 3264 × 2448 像素",
+              "attr_remark": "*實際圖像解像度可能因拍攝模式而異。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解析度",
+              "attr_value": "最大支援 3840 × 2160 像素",
+              "attr_remark": "*實際影片解像度可能因拍攝模式而異。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置鏡頭拍攝模式",
+              "attr_value": "夜景、人像、照片、影片、延時攝影、貼紙、動態照片",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "型號 1",
+              "attr_value": "CHZ-LX1（雙卡）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "主卡",
+              "attr_value": "FDD-LTE：Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\nTDD-LTE：Bands 38/40/41\nUMTS：Bands 1/2/4/5/8/19\nGSM：Bands 2/3/5/8",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "副卡",
+              "attr_value": "FDD-LTE：Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\nTDD-LTE：Bands 38/40/41\nUMTS：Bands 1/2/4/5/8/19\nGSM：Bands 2/3/5/8",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "备注",
+              "attr_value": "*在雙卡版本中，任一卡槽均可設置為支援主卡或副卡。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz 和 5 GHz，IEEE 802.11a/b/g/n/ac/ax/be，2 × 2 MIMO，EHT80，1024 QAM",
+              "attr_remark": "*需要路由器支援。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "Bluetooth 5.2，支援 BLE、SBC、AAC、LDAC 及 L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C，USB 2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "耳機插孔",
+              "attr_value": "Type-C 耳機插孔",
+              "attr_remark": "*僅支援 Type-C 數位耳機。"
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "音頻",
+              "attr_value": "HUAWEI Histen\n*.mp3，*.mp4，*.3gp,*.ogg，*.amr，*.aac，*.flac，*.wav，*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "影片",
+              "attr_value": "*.3gp，*.mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "nova14pro": {
+          "product_key": "nova14pro",
+          "product_id": "nova14-pro",
+          "product_name": "HUAWEI nova 14 Pro",
+          "product_name_short": "nova 14 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/nova14-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/nova14-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "冰晶藍",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "凝霜白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "羽砂黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "163.4 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "75.0 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "7.78 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 207 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "顯示屏幕呎吋",
+              "attr_value": "6.78 吋",
+              "attr_remark": "*屏幕採用圓角設計，依照標準矩形測量，外屏對角線長度為 6.78 吋（實際可視區域較小）。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩",
+              "attr_value": "10.7 億色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "OLED，1-120 Hz LTPO 自適應刷新率，高達 300 Hz 觸控採樣率",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "FHD+ 2776 × 1224 像素",
+              "attr_remark": "*此解像度對應標準矩形，實際螢幕有效像素略少。"
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM + ROM",
+              "attr_value": "12 GB RAM + 512 GB ROM",
+              "attr_remark": "*可使用的內存容量小於此值，因為手機軟件佔用部分空間。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "自動對焦模式",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影像穩定",
+              "attr_value": "OIS 光學防手震",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "變焦模式",
+              "attr_value": "支援 3 倍光學變焦（3 倍變焦為近似值，焦距為 16 毫米、24 毫米、69 毫米）和 30 倍混合變焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影像解像度",
+              "attr_value": "支援高達 8192 × 6144 像素",
+              "attr_remark": "*實際影像解像度可能因拍攝模式而有所不同。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "支援高達 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式的影片像素可能有差異，請以實際為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置鏡頭拍攝模式",
+              "attr_value": "短片、追焦、人像影片、微電影、AI-Camera、大光圈、夜間、人像、高解像度、照片拍攝、專業、影片、超級微距、全景、縮時攝影、慢動作、浮水印、動態相片、定時拍攝、拍攝微笑、聲控拍攝、濾鏡",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影像解像度",
+              "attr_value": "支援高達 8192 × 6144 像素",
+              "attr_remark": "*實際影像解析度可能因拍攝模式而異。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "支援高達 3840 × 2160 像素",
+              "attr_remark": "*實際影片解析度可能因拍攝模式而異。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置相機拍攝模式",
+              "attr_value": "短片、微電影、夜間、人像、影片、慢動作、縮時攝影、全景、濾鏡、鏡面反射、貼紙、拍攝微笑、聲控拍攝、定時拍攝",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "Model 1",
+              "attr_value": "MIA-LX9（雙卡版本）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "主卡",
+              "attr_value": "FDD-LTE：Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\nTDD-LTE：Bands 38/40/41\nUMTS：Bands 1/2/4/5/8/19\nGSM：Bands 2/3/5/8",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "副卡",
+              "attr_value": "FDD-LTE：Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\nTDD-LTE：Bands 38/40/41\nUMTS：Bands 1/2/4/5/8/19\nGSM：Bands 2/3/5/8",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "备注",
+              "attr_value": "*在雙 SIM 卡版本中，任一卡插槽均可設定為容納主 SIM 卡或副 SIM 卡。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz 和 5 GHz，IEEE 802.11a/b/g/n/ac/ax/be，2 × 2 MIMO，HE160，8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*需要路由器支援。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "藍牙 5.2，支援 BLE、SBC、AAC、LDAC 及 L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C，USB 2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "耳機插孔",
+              "attr_value": "Type-C 耳機插孔",
+              "attr_remark": "*僅支援 Type-C 數位耳機。"
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "音訊",
+              "attr_value": "HUAWEI Histen\n*.mp3，*.mp4，*.ogg，*.amr，*.aac，*.flac，*.wav",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "影片",
+              "attr_value": "*.3gp，*.mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "nova14": {
+          "product_key": "nova14",
+          "product_id": "nova14",
+          "product_name": "HUAWEI nova 14",
+          "product_name_short": "nova 14",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/nova14/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/nova14/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "冰晶藍",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "凝霜白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "羽砂黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "161.73 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "75.48 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "7.18 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 192 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "顯示屏幕呎吋",
+              "attr_value": "6.7 吋",
+              "attr_remark": "*屏幕採用圓角設計，依照標準矩形測量，外屏對角線長度為 6.7 吋（實際可視區域較小）。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩",
+              "attr_value": "10.7 億色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "OLED，高達 120 Hz LTPO 自適應刷新率，300 Hz 觸控採樣率",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "FHD+ 2412 × 1084 像素",
+              "attr_remark": "*此解像度對應標準矩形，實際螢幕有效像素略少。"
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM + ROM",
+              "attr_value": "12 GB RAM + 256 GB ROM",
+              "attr_remark": "*可使用的內存容量小於此值，因為手機軟件佔用部分空間。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "自動對焦模式",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影像穩定",
+              "attr_value": "OIS 光學防手震 及 AIS防手震",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "變焦模式",
+              "attr_value": "支援 3 倍光學變焦（3 倍變焦為近似值，焦距為 16 毫米、23 毫米、69 毫米）和 30 倍數碼變焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影像解像度",
+              "attr_value": "支援高達 8192 × 6144 像素",
+              "attr_remark": "*實際影像解像度可能因拍攝模式而有所不同。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "支援高達 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式的影片像素可能有差異，請以實際為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置鏡頭拍攝模式",
+              "attr_value": "短片、追焦、人像影片、微電影、AI-Camera、大光圈、夜間、人像、高解像度、照片拍攝、專業、影片、超級微距、全景、縮時攝影、慢動作、浮水印、動態相片、定時拍攝、拍攝微笑、聲控拍攝、濾鏡",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影像解像度",
+              "attr_value": "支援高達 8192 × 6144 像素",
+              "attr_remark": "*實際影像解析度可能因拍攝模式而異。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "支援高達 3840 × 2160 像素",
+              "attr_remark": "*實際影片解析度可能因拍攝模式而異。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置相機拍攝模式",
+              "attr_value": "短片、微電影、夜間、人像、影片、慢動作、縮時攝影、全景、濾鏡、鏡面反射、貼紙、拍攝微笑、聲控拍攝、定時拍攝",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "Model 1",
+              "attr_value": "TLR-LX9（雙卡版本）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "主卡",
+              "attr_value": "FDD-LTE：Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\nTDD-LTE：Bands 38/40/41\nUMTS：Bands 1/2/4/5/8/19\nGSM：Bands 2/3/5/8",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "副卡",
+              "attr_value": "FDD-LTE：Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\nTDD-LTE：Bands 38/40/41\nUMTS：Bands 1/2/4/5/8/19\nGSM：Bands 2/3/5/8",
+              "attr_remark": "*在雙 SIM 卡版本中，任一卡插槽均可設定為容納主 SIM 卡或副 SIM 卡。\n**現網可用功能取決於營運商網路及相關業務部署。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz 和 5 GHz，IEEE 802.11a/b/g/n/ac/ax，2 × 2 MIMO，HE160，1024 QAM，8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*需要路由器支援。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "藍牙 5.2，支援 BLE、SBC、AAC、LDAC 及 L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C，USB 2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "耳機插孔",
+              "attr_value": "Type-C 耳機插孔",
+              "attr_remark": "*僅支援 Type-C 數位耳機。"
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "音訊",
+              "attr_value": "HUAWEI Histen\n*.mp3，*.mp4，*.3gp，*.ogg，*.amr，*.aac，*.flac，*.wav，*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "影片",
+              "attr_value": "*.3gp，*.mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "nova13pro": {
+          "product_key": "nova13pro",
+          "product_id": "nova13-pro",
+          "product_name": "HUAWEI nova 13 Pro",
+          "product_name_short": "nova 13 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/nova13-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/nova13-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "洛登綠",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "星耀黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "163.4 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "74.9 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "7.82 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 209 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "呎吋：",
+              "attr_value": "6.76 吋",
+              "attr_remark": "*屏幕採用圓角設計，依照標準矩形測量，外屏對角線長度為 6.76 吋（實際可視區域較小）。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩：",
+              "attr_value": "10.7 億色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型：",
+              "attr_value": "OLED，1-120 Hz LTPO 自適應刷新率，高達 300 Hz 觸控採樣率",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度：",
+              "attr_value": "FHD+ 2776 × 1224 像素",
+              "attr_remark": "*此解像度對應標準矩形，實際螢幕有效像素略少。"
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM",
+              "attr_value": "12 GB RAM",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "ROM",
+              "attr_value": "512 GB ROM",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "备注",
+              "attr_value": "*可使用的內存容量小於此值，因為手機軟件佔用部分空間。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置鏡頭",
+              "attr_value": "50 MP 超光變鏡頭（F1.4~F4.0 光圈，OIS）\n12 MP 長焦人像鏡頭（F2.4 光圈，OIS）\n8 MP 超廣角微距相機（F2.2 光圈）",
+              "attr_remark": "*照片像素可能因拍攝模式而異。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "自動對焦模式",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影像穩定",
+              "attr_value": "OIS 光學防手震",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "變焦模式",
+              "attr_value": "支援 3 倍光學變焦（3 倍變焦為近似值，焦距為 15.9 毫米、23 毫米、68.5 毫米）和 30 倍混合變焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影像解像度",
+              "attr_value": "支援高達 8192 × 6144 像素",
+              "attr_remark": "*實際影像解像度可能因拍攝模式而有所不同。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "支援高達 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式的影片像素可能有差異，請以實際為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置鏡頭拍攝模式",
+              "attr_value": "短片、追焦、人像影片、微電影、AI-Camera、大光圈、夜間、人像、高解像度、照片拍攝、專業、影片、超級微距、全景、縮時攝影、慢動作、浮水印、動態相片、定時拍攝、拍攝微笑、聲控拍攝、濾鏡",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置鏡頭",
+              "attr_value": "60 MP 超廣角自動對焦前置鏡頭（F2.4 光圈）\n8 MP 特寫人像前置鏡頭（F2.2 光圈）",
+              "attr_remark": "*不同拍照模式下，像素數可能略有不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影像解像度",
+              "attr_value": "支援高達 8960 × 6720 像素",
+              "attr_remark": "*實際影像解析度可能因拍攝模式而異。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "支援高達 3840 × 2160 像素",
+              "attr_remark": "*實際影片解析度可能因拍攝模式而異。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置相機拍攝模式",
+              "attr_value": "短片、微電影、夜間、人像、影片、慢動作、縮時攝影、全景、濾鏡、鏡面反射、貼紙、拍攝微笑、聲控拍攝、定時拍攝",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "主卡",
+              "attr_value": "4G FDD LTE：Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\n4G TDD LTE：Bands 38/40/41\n3G WCDMA：Bands 1/2/4/5/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "副卡",
+              "attr_value": "4G FDD LTE：Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\n4G TDD LTE：Bands 38/40/41\n3G WCDMA：Bands 1/2/4/5/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": "*在雙 SIM 卡版本中，任一卡插槽均可設定為容納主 SIM 卡或副 SIM 卡。\n**現網可用功能取決於營運商網路及相關業務部署。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz 和 5 GHz、802.11 a/b/g/n/ac/ax、2 × 2 MIMO、HE160、1024 QAM、8 Spatial-stream Sounding MU-MIMO。",
+              "attr_remark": "*需要路由器支援。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "藍牙 5.2，支援 BLE、SBC、AAC、LDAC 及 L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C、USB 2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "耳機插孔",
+              "attr_value": "Type-C 耳機插孔",
+              "attr_remark": "*僅支援 Type-C 數位耳機。"
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "音訊",
+              "attr_value": "HUAWEI Histen\n*.mp3，*.mp4，*.3gp，*.ogg，*.amr，*.aac，*.flac，*.wav，*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "影片",
+              "attr_value": "*.3gp，*.mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "nova13": {
+          "product_key": "nova13",
+          "product_id": "nova13",
+          "product_name": "HUAWEI nova 13",
+          "product_name_short": "nova 13",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/nova13/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/nova13/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "洛登綠",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "羽砂白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "星耀黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "161.4 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "75.3 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "6.98 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 195 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "呎吋：",
+              "attr_value": "6.7 吋",
+              "attr_remark": "*屏幕採用圓角設計，依照標準矩形測量，外屏對角線長度為 6.7 吋（實際可視區域較小）。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩：",
+              "attr_value": "10.7 億色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型：",
+              "attr_value": "OLED，高達 120 Hz 刷新率，300 Hz 觸控採樣率",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度：",
+              "attr_value": "FHD+ 2412 × 1084 像素",
+              "attr_remark": "*此解像度對應標準矩形，實際螢幕有效像素略少。"
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM",
+              "attr_value": "12 GB RAM",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "ROM",
+              "attr_value": "256 GB ROM",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "备注",
+              "attr_value": "*可使用的內存容量小於此值，因為手機軟件佔用部分空間。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置鏡頭",
+              "attr_value": "50 MP 超感知鏡頭（F1.9 光圈）\n8 MP 超廣角微距相機（F2.2 光圈）",
+              "attr_remark": "*照片像素可能因拍攝模式而異。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "自動對焦模式",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影像穩定",
+              "attr_value": "AI 防手震",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "變焦模式",
+              "attr_value": "10 倍數碼變焦",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影像解像度",
+              "attr_value": "支援高達 8192 × 6144 像素",
+              "attr_remark": "*實際影像解像度可能因拍攝模式而有所不同。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "支援高達 3840 × 2160 像素",
+              "attr_remark": "*不同拍攝模式的影片像素可能有差異，請以實際為準。"
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置鏡頭拍攝模式",
+              "attr_value": "短片、追焦、人像影片、微電影、AI-Camera、大光圈、夜間、人像、高解像度、照片拍攝、專業、影片、超級微距、全景、縮時攝影、慢動作、浮水印、動態相片、定時拍攝、拍攝微笑、聲控拍攝、濾鏡",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置鏡頭",
+              "attr_value": "60 MP 前置超廣角人像相機（F2.4 光圈）",
+              "attr_remark": "*不同拍照模式下，像素數可能略有不同，請以實際情況為準。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影像解像度",
+              "attr_value": "支援高達 8960 × 6720 像素",
+              "attr_remark": "*實際影像解析度可能因拍攝模式而異。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "支援高達 3840 × 2160 像素",
+              "attr_remark": "*實際影片解析度可能因拍攝模式而異。"
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置相機拍攝模式",
+              "attr_value": "短片、微電影、夜間、人像、影片、慢動作、縮時攝影、全景、濾鏡、鏡面反射、貼紙、拍攝微笑、聲控拍攝、定時拍攝",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "主卡",
+              "attr_value": "4G FDD LTE：Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\n4G TDD LTE：Bands 38/40/41\n3G WCDMA：Bands 1/2/4/5/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "網路制式",
+              "attr_name": "副卡",
+              "attr_value": "4G FDD LTE：Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\n4G TDD LTE：Bands 38/40/41\n3G WCDMA：Bands 1/2/4/5/8/19\n2G GSM：Bands 2/3/5/8（850/900/1800/1900 MHz）",
+              "attr_remark": "*在雙 SIM 卡版本中，任一卡插槽均可設定為容納主 SIM 卡或副 SIM 卡。\n**現網可用功能取決於營運商網路及相關業務部署。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz 和 5 GHz、802.11 a/b/g/n/ac/ax、2 × 2 MIMO、HE160、1024 QAM、8 Spatial-stream Sounding MU-MIMO。",
+              "attr_remark": "*需要路由器支援。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "藍牙 5.2，支援 BLE、SBC、AAC、LDAC 及 L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C、USB 2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "耳機插孔",
+              "attr_value": "Type-C 耳機插孔",
+              "attr_remark": "*僅支援 Type-C 數位耳機。"
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "音訊",
+              "attr_value": "HUAWEI Histen\n*.mp3，*.mp4，*.3gp，*.ogg，*.amr，*.aac，*.flac，*.wav，*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影音",
+              "attr_name": "影片",
+              "attr_value": "*.3gp，*.mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "novaplus": {
+          "product_key": "novaplus",
+          "product_id": "nova-plus",
+          "product_name": "HUAWEI nova plus",
+          "product_name_short": "nova plus",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/nova-plus/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/nova-plus/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "nova": {
+          "product_key": "nova",
+          "product_id": "nova",
+          "product_name": "HUAWEI nova",
+          "product_name_short": "nova",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/nova/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/nova/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "nova3": {
+          "product_key": "nova3",
+          "product_id": "nova3",
+          "product_name": "HUAWEI nova 3",
+          "product_name_short": "nova 3",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/nova3/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/nova3/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "nova3i": {
+          "product_key": "nova3i",
+          "product_id": "nova3i",
+          "product_name": "HUAWEI nova 3i",
+          "product_name_short": "nova 3i",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/nova3i/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/nova3i/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    },
+    "其他": {
+      "series_key": "其他",
+      "series_name": "其他",
+      "products": {
+        "p10lite": {
+          "product_key": "p10lite",
+          "product_id": "p10-lite",
+          "product_name": "HUAWEI P10 lite",
+          "product_name_short": "P10 lite",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/p10-lite/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/p10-lite/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "p10plus": {
+          "product_key": "p10plus",
+          "product_id": "p10-plus",
+          "product_name": "HUAWEI P10 Plus",
+          "product_name_short": "P10 Plus",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/p10-plus/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/p10-plus/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "p10": {
+          "product_key": "p10",
+          "product_id": "p10",
+          "product_name": "HUAWEI P10",
+          "product_name_short": "P10",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/p10/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/p10/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "p9lite": {
+          "product_key": "p9lite",
+          "product_id": "p9-lite",
+          "product_name": "HUAWEI P9 lite",
+          "product_name_short": "P9 lite",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/p9-lite/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/p9-lite/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "p9plus": {
+          "product_key": "p9plus",
+          "product_id": "p9-plus",
+          "product_name": "HUAWEI P9 Plus",
+          "product_name_short": "P9 Plus",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/p9-plus/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/p9-plus/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "p9": {
+          "product_key": "p9",
+          "product_id": "p9",
+          "product_name": "HUAWEI P9",
+          "product_name_short": "P9",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/p9/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/p9/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "y6pro": {
+          "product_key": "y6pro",
+          "product_id": "y6-pro",
+          "product_name": "HUAWEI Y6 Pro",
+          "product_name_short": "Y6 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/y6-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/y6-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "y7prime2018": {
+          "product_key": "y7prime2018",
+          "product_id": "y7-prime-2018",
+          "product_name": "HUAWEI Y7 Prime 2018",
+          "product_name_short": "Y7 Prime 2018",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/y7-prime-2018/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/y7-prime-2018/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "y7prime": {
+          "product_key": "y7prime",
+          "product_id": "y7-prime",
+          "product_name": "HUAWEI Y7 Prime",
+          "product_name_short": "Y7 Prime",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/y7-prime/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/y7-prime/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "y92019": {
+          "product_key": "y92019",
+          "product_id": "y9-2019",
+          "product_name": "HUAWEI Y9 2019",
+          "product_name_short": "Y9 2019",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/phones/y9-2019/",
+          "specs_url": "https://consumer.huawei.com/hk/phones/y9-2019/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    }
+  }
+}

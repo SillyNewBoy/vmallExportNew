@@ -1,0 +1,1829 @@
+{
+  "category_key": "tablets",
+  "category_name": "平板电脑",
+  "source": "https://consumer.huawei.com/hk/",
+  "pull_time": "261013",
+  "series": {
+    "matepad系列": {
+      "series_key": "matepad系列",
+      "series_name": "MatePad 系列",
+      "products": {
+        "matepadpromax": {
+          "product_key": "matepadpromax",
+          "product_id": "matepad-pro-max",
+          "product_name": "HUAWEI MatePad Pro Max",
+          "product_name_short": "MatePad Pro Max",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/matepad-pro-max/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/matepad-pro-max/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "凝光藍",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "289.34 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "196.34 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "4.7 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 509 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*實際尺寸可能因配置、製造流程和測量方法而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "呎吋",
+              "attr_value": "13.2 吋*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "柔性 OLED PaperMatte 雲晰柔光屏**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "3000 × 2000，273 ppi***",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏佔比",
+              "attr_value": "94%****",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "對比度",
+              "attr_value": "2,000,000:1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "亮度",
+              "attr_value": "1600 nits*****",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "备注",
+              "attr_value": "*屏幕對角線尺寸為 13.2 吋（標準矩形）。由於圓角設計，實際可視區域略小。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "备注",
+              "attr_value": "*由於部分內部儲存空間被軟件佔用，可用的內部儲存或會小於此值。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "照片解像度",
+              "attr_value": "最高可達 8192 × 6144 像素*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "最高可達 3840 × 2160 像素**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "备注",
+              "attr_value": "*不同拍攝模式的照片像素可能有所不同，請以實際情況為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "典型容量",
+              "attr_value": "歐盟版 9760 mAh\n非歐盟版 10400 mAh*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*歐盟版電池額定容量為 9660 mAh。非歐盟版電池額定容量為 10300 mAh。實際容量可能略有不同。電池內置，不可拆卸。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "標準充電器：",
+              "attr_value": "20V-5A 充電器（非歐盟地區）*；歐盟地區需另外購買。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "快速充電：",
+              "attr_value": "最高 66 W**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "有線反向充電：",
+              "attr_value": "最高 40 W***",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "备注",
+              "attr_value": "*可能因當地法規而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "Wi-Fi：",
+              "attr_value": "802.11a/b/g/n/ac/ax/be，2 × 2 MIMO",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN 頻率：",
+              "attr_value": "2.4 GHz 及 5 GHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙：",
+              "attr_value": "Bluetooth 6.0，支援 BLE，SBC，supports AAC，LDAC，L2HC\nBluetooth 檔案傳輸：支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "星閃技術：",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "PC 資料同步：",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "OTG：",
+              "attr_value": "支援（反向供電時最大輸出電流為 1.5A/5V）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB：",
+              "attr_value": "Type-C，USB 3.1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "配件：",
+              "attr_value": "HUAWEI 星躍鍵盤 × 1",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "matepadpro122": {
+          "product_key": "matepadpro122",
+          "product_id": "matepad-pro-12-2",
+          "product_name": "HUAWEI MatePad Pro 12.2\"",
+          "product_name_short": "MatePad Pro 12.2\"",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/matepad-pro-12-2/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/matepad-pro-12-2/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "飛天青",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "182.53 mm*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "271.25 mm*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "5.5 mm*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 512 g（含電池）**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*實際尺寸可能因配置、製造流程和測量方法而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "呎吋",
+              "attr_value": "12.2 吋*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "雙層 OLED PaperMatte 屏幕**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "2800 × 1840，274 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩",
+              "attr_value": "10.7 億色，P3 廣色域",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏佔比",
+              "attr_value": "92%***",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "對比度",
+              "attr_value": "2,000,000:1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "亮度",
+              "attr_value": "2,000 nits****",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "备注",
+              "attr_value": "*顯示器具有圓角，以標準矩形測量時，螢幕對角線尺寸為 12.2 吋（實際可視面積略小）。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM",
+              "attr_value": "12 GB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "ROM",
+              "attr_value": "512 GB*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "备注",
+              "attr_value": "*由於部分內部儲存空間被軟件佔用，可用的內部儲存或會小於此值。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "相片解像度",
+              "attr_value": "高達 8192 × 6144 像素*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解像度",
+              "attr_value": "高達 3840 × 2160 像素**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "廣角相片解像度",
+              "attr_value": "高達 3264 × 2448 像素*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "廣角影片解像度",
+              "attr_value": "高達 1080p @ 30fps 影片錄影**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "备注",
+              "attr_value": "*實際照片解像度可能因拍攝模式而有差異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "標準容量",
+              "attr_value": "5050 mAh（7.82 V），相當於 10,100 mAh（3.91 V），典型能量 39.49 Wh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "額定容量",
+              "attr_value": "5000 mAh（7.82 V），相當於 10,000 mAh（3.91 V），額定能量 39.10 Wh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*電池採用雙電芯設計。內置電池不可拆卸。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN 頻率",
+              "attr_value": "2.4 GHz 及 5 GHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "Bluetooth 5.2，支援 BLE，AAC，LDAC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙檔案傳輸",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NearLink 星閃技術",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "PC 資料同步",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "OTG",
+              "attr_value": "支援（反向供電時最大輸出電流 1.5A/5V）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "Type-C，USB 3.1 Gen 1*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "备注",
+              "attr_value": "*USB 3.1 Gen 1 功能需搭配支援 USB 3.1 Gen 1 的數據線使用（非標配，需另外購買）。標準數據線支援 USB 2.0。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "音訊",
+              "attr_name": "檔案格式",
+              "attr_value": "mp3/mp4/3gp/ogg/amr/aac/flac/wav/midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影片",
+              "attr_name": "檔案格式",
+              "attr_value": "3gp/mp4",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "备注",
+              "attr_value": "*請以實際產品為準。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "matepadmini": {
+          "product_key": "matepadmini",
+          "product_id": "matepad-mini",
+          "product_name": "HUAWEI MatePad Mini",
+          "product_name_short": "MatePad Mini",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/matepad-mini/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/matepad-mini/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "雲杉綠",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "198.59 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "127.27 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "5.2 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 260 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*數據來自華為實驗室，指的是 HUAWEI MatePad Mini 的重量和厚度。HUAWEI MatePad Mini PaperMatte 版本重量約 260 g，厚度約 5.2 mm。實際重量和厚度可能因產品規格、製造工藝和測量方法而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "呎吋",
+              "attr_value": "8.8 吋*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "柔性 OLED HUAWEI FullView Display",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "2560 × 1600，343 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏佔比",
+              "attr_value": "92%**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "對比度",
+              "attr_value": "2,000,000:1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "亮度",
+              "attr_value": "1800 nits***",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩",
+              "attr_value": "1.07 億色，P3 廣色域",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "备注",
+              "attr_value": "*屏幕對角線尺寸為 8.8 吋（標準矩形）。由於圓角設計，實際可視區域略小。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM：",
+              "attr_value": "12 GB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "ROM：",
+              "attr_value": "256 GB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "备注",
+              "attr_value": "*由於部分內部儲存空間被軟件佔用，可用的內部儲存或會小於此值。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "後置鏡頭",
+              "attr_value": "5000 萬像素（f/1.8 光圈）\n800 萬像素（f/2.2 光圈）\nLED 閃光燈",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "照片解像度（高清鏡頭）",
+              "attr_value": "最高可達 8192 × 6144（高解像度模式）*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "影片解像度（高清鏡頭）",
+              "attr_value": "最高支援 4K（3840 × 2160）錄影，並具備電子防手震功能",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "照片解像度（廣角鏡頭）",
+              "attr_value": "最高可達 3264 × 2448*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "影片解像度（廣角鏡頭）",
+              "attr_value": "最高可達 1920 × 1080 @ 30 fps**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "前置鏡頭",
+              "attr_value": "3200 萬像素（f/2.4 光圈）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "备注",
+              "attr_value": "*照片像素在不同拍照模式下可能略有不同。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN 頻率：",
+              "attr_value": "2.4 GHz 及 5 GHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙：",
+              "attr_value": "Bluetooth 5.2，支援 BLE，AAC，LDAC 和 L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "星閃技術：",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "OTG：",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB：",
+              "attr_value": "Type-C，USB 2.0*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "备注",
+              "attr_value": "*標準數據線支援 USB 2.0。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "备注",
+              "attr_value": "*請以實物為準。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "matepad115s2026": {
+          "product_key": "matepad115s2026",
+          "product_id": "matepad-11-5-s-2026",
+          "product_name": "HUAWEI MatePad 11.5 S 2026",
+          "product_name_short": "MatePad 11.5 S 2026",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/matepad-11-5-s-2026/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/matepad-11-5-s-2026/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "原野綠",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "深空灰",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "177.3 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "261.0 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "6.1 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 515 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*資料來源於華為實驗室。產品的實際重量和厚度可能因配置、製造工藝和測量方法而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "呎吋",
+              "attr_value": "11.5 吋",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "LCD，高達 144 Hz 刷新率\n30~144 Hz 自調式刷新率",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "2800 × 1840*",
+              "attr_remark": "*解像度對應標準矩形，實際屏幕有效像素略少。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏占比",
+              "attr_value": "87%",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "對比度",
+              "attr_value": "1500:1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "亮度",
+              "attr_value": "500 nits*",
+              "attr_remark": "*典型值，顯示 HDR 內容時局部峰值亮度可達 1000 nits。"
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM",
+              "attr_value": "12 GB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "ROM",
+              "attr_value": "256 GB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "备注",
+              "attr_value": "*由於部分內部儲存空間被軟件佔用，可用的內部儲存或會小於此值。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "备注",
+              "attr_value": "*在不同的拍攝模式下，實際影像解像度可能略有不同，請以實際情況為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "备注",
+              "attr_value": "*在不同的攝錄模式下，實際影片解像度可能略有不同，請以實際情況為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "典型容量",
+              "attr_value": "8800 mAh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*典型值。電池的額定容量為 8700 mAh。實際容量可能略有不同。這個容量是標稱電池容量。不可拆卸電池。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "標準充電器",
+              "attr_value": "10V/4A 充電器",
+              "attr_remark": "*不同國家的規定可能有所不同。"
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "快速充電",
+              "attr_value": "最大功率 40 W（10V/4A），相容於 10V/2.25A 超級快充，相容於 9V/2A 快速充電。",
+              "attr_remark": "*需使用華為快速充電線和充電器。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "Wi-Fi",
+              "attr_value": "802.11a/b/g/n/ac/ax, 2 × 2 MIMO",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN 頻率",
+              "attr_value": "2.4 GHz 及 5 GHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "Bluetooth 5.2，支援 BLE，AAC，LDAC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙檔案傳輸",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NearLink 星閃技術",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "PC 資料同步",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "OTG",
+              "attr_value": "支援（反向供電時最大輸出電流 1A/5V）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB",
+              "attr_value": "Type-C，USB 3.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "音訊",
+              "attr_name": "音訊檔案格式：",
+              "attr_value": "*.mp3，*.mp4，*.3gp,*.ogg，*.amr，*.aac，*.flac，*.wav，*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影片",
+              "attr_name": "影片檔案格式",
+              "attr_value": "*.mp4，*.3gp",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "選配",
+              "attr_value": "華為智能磁吸鍵盤",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "备注",
+              "attr_value": "*請以實際產品為準。請向銷售渠道及店員查詢以獲取更詳細的列表。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "matepad12x": {
+          "product_key": "matepad12x",
+          "product_id": "matepad-12-x-2025",
+          "product_name": "HUAWEI MatePad 12 X",
+          "product_name_short": "MatePad 12 X",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/matepad-12-x-2025/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/matepad-12-x-2025/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "草木绿",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "羽砂白",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "183 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "270 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "5.9 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 555 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*數據來自華為實驗室。實際重量因產品版本和型號而異。實際重量和厚度可能因產品規格、製造流程和測量方法而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "呎吋",
+              "attr_value": "12 吋*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "HUAWEI PaperMatte Display（IPS）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "2800 × 1840，280 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏佔比",
+              "attr_value": "88%**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩",
+              "attr_value": "1,670 萬色，P3 廣色域",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "亮度",
+              "attr_value": "1000 nits***",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "备注",
+              "attr_value": "*顯示器具有圓角，以標準矩形測量時，屏幕對角線尺寸為 12 吋（實際可視面積略小）。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM：",
+              "attr_value": "12 GB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "ROM：",
+              "attr_value": "256 GB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "备注",
+              "attr_value": "*由於部分內部儲存空間被軟件佔用，可用的內部儲存或會小於此值。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "相片解像度：",
+              "attr_value": "高達 8192 × 6144 像素*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "影片解像度：",
+              "attr_value": "高達 1080P（1920 × 1080）影片錄影**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "备注",
+              "attr_value": "*實際影像解像度可能因拍攝模式而有差異，請以實際情況為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "相片解像度：",
+              "attr_value": "高達 3264 × 2448 像素*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "影片解像度：",
+              "attr_value": "高達 1080P（1920 × 1080）像素影片錄影**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "备注",
+              "attr_value": "*實際影像解像度可能因拍攝模式而有差異，請以實際情況為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN 頻率：",
+              "attr_value": "2.4 GHz 及 5 GHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙：",
+              "attr_value": "Bluetooth 5.2，支援 BLE，SBC，AAC，LDAC 和 L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "星閃技術：",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "OTG：",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB：",
+              "attr_value": "Type-C，USB 3.1 Gen 1*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "备注",
+              "attr_value": "*USB 3.1 Gen 1 功能需搭配支援 USB 3.1 Gen 1 的數據線使用。標準數據線支援 USB 2.0。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "备注",
+              "attr_value": "*請以實際產品為準。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "matepad1152025": {
+          "product_key": "matepad1152025",
+          "product_id": "matepad-11-5-2025",
+          "product_name": "HUAWEI MatePad 11.5 2025",
+          "product_name_short": "MatePad 11.5 2025",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/matepad-11-5-2025/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/matepad-11-5-2025/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "羽砂紫",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "深空灰",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "177.53 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "262.63 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "6.1 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 515 g（含電池）*",
+              "attr_remark": "*數據來自華為實驗室。實際重量和厚度可能因產品規格、製造流程和測量方法而有所不同。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "呎吋：",
+              "attr_value": "11.5 吋*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏佔比：",
+              "attr_value": "86%**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度：",
+              "attr_value": "2456 × 1600***，256 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩：",
+              "attr_value": "1670 萬色飽和度，100% sRGB（典型值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型：",
+              "attr_value": "TFT LCD（IPS），高達 120 Hz 刷新率\n60/90/120 Hz 智能刷新率",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "觸控屏幕：",
+              "attr_value": "多點觸控，觸控時最多支援 10 個接觸點",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "备注",
+              "attr_value": "*顯示器具有圓角，以標準矩形測量時，螢幕對角線尺寸為 11.5 吋（實際可視面積略小）。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM",
+              "attr_value": "8 GB*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "ROM",
+              "attr_value": "128 GB / 256 GB*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "备注",
+              "attr_value": "*由於部分內部儲存空間被軟件佔用，可用的內部儲存或會小於此值。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置鏡頭的相片解像度：",
+              "attr_value": "4160 × 3120像素*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置鏡頭的影片錄製解像度：",
+              "attr_value": "1920 × 1080 像素**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "後置鏡頭的攝像模式：",
+              "attr_value": "美顏/全景/語音控制/定時拍照/延時/水印/文檔矯正",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "後置相機",
+              "attr_name": "备注",
+              "attr_value": "*不同拍照模式像素可能有差異，請以實際為標準",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置鏡頭的相片解像度：",
+              "attr_value": "3264 × 2448像素*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置鏡頭的影片錄製解像度：",
+              "attr_value": "1920 × 1080 像素**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "前置鏡頭的攝像模式：",
+              "attr_value": "美顏/鏡像/語音控制/定時拍照/延時/水印",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "前置相機",
+              "attr_name": "备注",
+              "attr_value": "*不同拍照模式像素可能有差異，請以實際為標準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "標準充電器",
+              "attr_value": "10V/4A charger",
+              "attr_remark": "*可能根據不同國家的規定或有所不同。"
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "快速充電",
+              "attr_value": "支援 10V/4A 快速充電（最大），並兼容 10V/2.25A，9V/2A 快速充電",
+              "attr_remark": "*需配合 HUAWEI 快速充電線以及充電器使用。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "Wi-Fi：",
+              "attr_value": "802.11a/b/g/n/ac/ax，2 × 2 MIMO",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN 頻率：",
+              "attr_value": "2.4 GHz 及 5 GHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙：",
+              "attr_value": "Bluetooth 5.2，支援 BLE，SBC，AAC，LDAC 高清音頻",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙檔案傳輸：",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "PC資料同步：",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "OTG：",
+              "attr_value": "支援（反向供電時最大輸出電流 1 A/5 V）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB：",
+              "attr_value": "Type-C，USB 2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "音訊",
+              "attr_name": "音頻檔案格式",
+              "attr_value": "*.mp3，*.mp4，*.3gp，*.ogg，*.amr，*.aac，*.flac，*.wav，*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影片",
+              "attr_name": "影片檔案格式",
+              "attr_value": "*.mp4，*.3gp",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "可選配：",
+              "attr_value": "華為智能鍵盤 × 1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "备注",
+              "attr_value": "*電子保養卡將會在特定區域上線。請聯繫銷售渠道以獲取更詳細的清單。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "matepad115": {
+          "product_key": "matepad115",
+          "product_id": "matepad-11-5",
+          "product_name": "HUAWEI MatePad 11.5",
+          "product_name_short": "MatePad 11.5",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/matepad-11-5/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/matepad-11-5/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "深空灰",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "260.88 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "176.82 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "6.85 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 499 g（含電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*數據來自華為實驗室。產品的實際重量和厚度可能因配置、製造流程和測量方法而有所不同。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "呎吋：",
+              "attr_value": "11.5 吋*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏占比：",
+              "attr_value": "86%**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度：",
+              "attr_value": "2200 × 1440***，229 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩：",
+              "attr_value": "1,670 萬色，100% sRGB（典型值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "產品類型：",
+              "attr_value": "TFT LCD（IPS），高達 120 Hz 刷新率\n60/90/120 Hz 智能刷新率",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "觸控屏幕：",
+              "attr_value": "多點觸控，觸控時最多支援 10 點接觸",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "备注",
+              "attr_value": "*屏幕採用圓角設計，依照標準矩形測量時，屏幕的對角線長度為 11.5 吋（實際可視區域略小）。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM",
+              "attr_value": "6 GB*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "ROM",
+              "attr_value": "128 GB*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "备注",
+              "attr_value": "*由於部分內部儲存空間被軟件佔用，可用的內部儲存或會小於此值。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "後置鏡頭：",
+              "attr_value": "1300 萬像素（f/1.8 光圈，自動對焦）\n相片解像度：4160 × 3120 像素*\n影片解像度：3840 × 2160 像素**\n後置鏡頭拍攝模式：美顏模式/全景模式/聲控拍攝/定時拍攝/縮時攝影/水印/文檔/AI 鏡頭",
+              "attr_remark": "*不同拍照模式的照片像素可能有所差異，請以實際為準。\n**不同錄影模式的影片像素可能有所差異，請以實際為準。"
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "前置鏡頭：",
+              "attr_value": "800 萬（f/2.2 光圈，固定焦距）\n前置鏡頭相片解像度：3264 × 2448 像素*\n前置鏡頭影片解像度：1920 × 1080 像素**\n前置鏡頭拍攝模式：人像模式/鏡面反射/聲控拍攝/定時拍攝/縮時攝影/水印",
+              "attr_remark": "*不同拍照模式的照片像素可能有所差異，請以實際為準。\n**不同錄影模式的影片像素可能有所差異，請以實際為準。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "Wi-Fi：",
+              "attr_value": "802.11a/b/g/n/ac/ax，2 × 2 MIMO，HE160",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN 頻率：",
+              "attr_value": "2.4 GHz 及 5 GHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙：",
+              "attr_value": "Bluetooth 5.2，BLE，SBC，AAC，LDAC 高清音訊",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙檔案傳輸：",
+              "attr_value": "支持",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "PC 資料同步：",
+              "attr_value": "支持",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "OTG：",
+              "attr_value": "支持（反向供電時最大輸出電流 1A/5V）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB：",
+              "attr_value": "Type-C，USB 2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "音訊",
+              "attr_name": "音訊檔案格式：",
+              "attr_value": "*.mp3，*.mp4，*.3gp，*.ogg，*.amr，*.aac，*.flac，*.wav，*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "影片",
+              "attr_name": "影片檔案格式：",
+              "attr_value": "*.mp4，*.3gp",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "matepadse11": {
+          "product_key": "matepadse11",
+          "product_id": "matepad-se-11",
+          "product_name": "HUAWEI MatePad SE 11\"",
+          "product_name_short": "MatePad SE 11\"",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/matepad-se-11/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/matepad-se-11/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "星雲灰",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "252.3 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "163.8 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "6.9 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 475 g（包括電池）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*資料來自華為實驗室。個別產品的實際重量可能因配置、製造工藝和測量方法而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "呎吋",
+              "attr_value": "11 吋*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏佔比",
+              "attr_value": "85%**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "1920 × 1200***，207 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩",
+              "attr_value": "1670 萬色，100% sRGB（典型值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "類型",
+              "attr_value": "TFT LCD（IPS）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "备注",
+              "attr_value": "*顯示屏幕採用圓角設計，按照標準矩形測量時，屏幕的對角線長度是 11 英吋（實際可視區域略小）。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "ROM：",
+              "attr_value": "128 GB*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM：",
+              "attr_value": "4 GB / 6 GB / 8 GB*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "备注",
+              "attr_value": "*由於部分內部儲存空間被軟件佔用，可用的內部儲存或會小於此值。僅 HUAWEI MatePad SE 11\" LTE 版本配備 8 GB RAM。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "後置鏡頭：",
+              "attr_value": "800 萬像素（f/2.0 光圈，自動對焦）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "相片解像度：",
+              "attr_value": "3264 × 2448 像素*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "影片解像度：",
+              "attr_value": "1920 × 1080 像素**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "後置鏡頭拍攝模式：",
+              "attr_value": "美顏模式/全景模式/聲控拍攝/定時拍照/縮時攝影/水印/文件/HiVision",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "前置鏡頭",
+              "attr_value": "500 萬像素（f/2.2 光圈，固定焦距）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "相片解像度：",
+              "attr_value": "2560 × 1920 像素*",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "影片解像度：",
+              "attr_value": "1280 × 720 像素**",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "前置鏡頭拍攝模式：",
+              "attr_value": "自拍鏡像/聲控拍攝/定時拍照/縮時拍攝/水印",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "相機",
+              "attr_name": "备注",
+              "attr_value": "*不同拍照模式的照片像素可能有差異，請以實際為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "標準充電器：",
+              "attr_value": "標準充電器支援 10V/2.25A MAX",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "快速充電：",
+              "attr_value": "平板支援 10V/2.25A 快充，相容於 9V/2A 或 5V/2A 充電。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN：",
+              "attr_value": "IEEE 802.11a/b/g/n/ac",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN 頻率：",
+              "attr_value": "2.4 GHz 及 5 GHz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙：",
+              "attr_value": "Bluetooth 5.1，支援 BLE，SBC，AAC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙文件傳輸：",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "PC 數據同步：",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "OTG：",
+              "attr_value": "支援（反向供電時最大輸出電流 1A/5V）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "USB：",
+              "attr_value": "Type-C，USB 2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "备注",
+              "attr_value": "註：部分地區提供電子保養卡。請聯絡銷售管道以取得更詳細的清單。",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "matebook系列": {
+      "series_key": "matebook系列",
+      "series_name": "MateBook 系列",
+      "products": {
+        "matebookd": {
+          "product_key": "matebookd",
+          "product_id": "matebook-d",
+          "product_name": "HUAWEI MateBook D",
+          "product_name_short": "MateBook D",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/matebook-d/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/matebook-d/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "matebooke": {
+          "product_key": "matebooke",
+          "product_id": "matebook-e",
+          "product_name": "HUAWEI MateBook E",
+          "product_name_short": "MateBook E",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/matebook-e/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/matebook-e/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "matebookxpro": {
+          "product_key": "matebookxpro",
+          "product_id": "matebook-x-pro",
+          "product_name": "HUAWEI MateBook X Pro",
+          "product_name_short": "MateBook X Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/matebook-x-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/matebook-x-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "matebookx": {
+          "product_key": "matebookx",
+          "product_id": "matebook-x",
+          "product_name": "HUAWEI MateBook X",
+          "product_name_short": "MateBook X",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/matebook-x/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/matebook-x/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "matebook": {
+          "product_key": "matebook",
+          "product_id": "matebook",
+          "product_name": "HUAWEI MateBook",
+          "product_name_short": "MateBook",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/matebook/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/matebook/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    },
+    "其他": {
+      "series_key": "其他",
+      "series_name": "其他",
+      "products": {
+        "mediapadm3": {
+          "product_key": "mediapadm3",
+          "product_id": "mediapad-m3-8",
+          "product_name": "HUAWEI MediaPad M3",
+          "product_name_short": "MediaPad M3",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/mediapad-m3-8/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/mediapad-m3-8/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "mediapadm3lite": {
+          "product_key": "mediapadm3lite",
+          "product_id": "mediapad-m3-lite",
+          "product_name": "HUAWEI MediaPad M3 Lite",
+          "product_name_short": "MediaPad M3 Lite",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/mediapad-m3-lite/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/mediapad-m3-lite/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "mediapadt270lte": {
+          "product_key": "mediapadt270lte",
+          "product_id": "mediapad-t2-7-lte",
+          "product_name": "HUAWEI MediaPad T2 7.0 LTE",
+          "product_name_short": "MediaPad T2 7.0 LTE",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/mediapad-t2-7-lte/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/mediapad-t2-7-lte/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "mediapadt270pro": {
+          "product_key": "mediapadt270pro",
+          "product_id": "mediapad-t2-7-pro",
+          "product_name": "HUAWEI MediaPad T2 7.0 Pro",
+          "product_name_short": "MediaPad T2 7.0 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/tablets/mediapad-t2-7-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/tablets/mediapad-t2-7-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    }
+  }
+}

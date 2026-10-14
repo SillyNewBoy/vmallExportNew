@@ -1,0 +1,2805 @@
+{
+  "category_key": "wearables",
+  "category_name": "穿戴设备",
+  "source": "https://consumer.huawei.com/hk/",
+  "pull_time": "261013",
+  "series": {
+    "watchgt系列": {
+      "series_key": "watchgt系列",
+      "series_name": "WATCH GT 系列",
+      "products": {
+        "watchgtrunner2": {
+          "product_key": "watchgtrunner2",
+          "product_id": "watch-gt-runner-2",
+          "product_name": "HUAWEI WATCH GT Runner 2",
+          "product_name_short": "WATCH GT Runner 2",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-gt-runner-2/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-gt-runner-2/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "馳光藍",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "破曉橙",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "疾影黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "1.32 吋 AMOLED 彩色屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "466 × 466 pixels，PPI 352",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "材質",
+              "attr_value": "前殼：鈦合金\n後殼：高性能纖維增強複合材料",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "2.4 GHz，支援 BT 6.0 和 BR + BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "GPS（L1 + L5 雙頻）/GLONASS/北斗（B1I + B1C + B2a 三頻）/GALILEO（E1 + E5a 雙頻）/QZSS（L1 + L5 雙頻）/NavIC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "操作環境溫度",
+              "attr_value": "-20℃ 至 +45℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V-10V DC/2A MAX",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "馳光藍、疾影黑",
+              "attr_value": "手錶 × 1\n充電座（含充電線）× 1\n快速啟動手冊、安全資訊手冊及保用証 × 1\n黑色氟橡膠錶帶（附灰色透氣孔）× 1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "破曉橙",
+              "attr_value": "手錶 × 1\n充電座（含充電線）× 1\n快速啟動手冊、安全資訊手冊及保用証 × 1\n白色氟橡膠錶帶（附橘色透氣孔）× 1",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "watchgt6pro": {
+          "product_key": "watchgt6pro",
+          "product_id": "watch-gt6-pro",
+          "product_name": "HUAWEI WATCH GT 6 Pro",
+          "product_name_short": "WATCH GT 6 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-gt6-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-gt6-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "曜石黑",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "琥珀棕",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "鈦空银",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "1.47 吋 AMOLED 彩色屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "466 × 466 pixels，PPI 317",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "材料",
+              "attr_value": "鈦合金",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "2.4 GHz，支援 BT 6.0 和 BR + BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "GPS（L1 + L5 雙頻）/GLONASS/北斗（B1I + B1C + B2a 三頻）/GALILEO（E1 + E5a 雙頻）/QZSS（L1 + L5 雙頻）/NavIC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "操作環境溫度",
+              "attr_value": "-20℃ 至 +45℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V-10V DC/2A MAX",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*根據華為實驗室測試結果，實際使用情況可能因不同機型、使用習慣和環境因素有所不同。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "watchgt7pro": {
+          "product_key": "watchgt7pro",
+          "product_id": "watch-gt7-pro",
+          "product_name": "HUAWEI WATCH GT 7 Pro",
+          "product_name_short": "WATCH GT 7 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-gt7-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-gt7-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "境野黃",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "松霜綠",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "碳晶黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "1.47 吋 AMOLED 彩色屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "466 × 466 pixels，PPI 317",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "峰值亮度",
+              "attr_value": "3000 尼特",
+              "attr_remark": "*3000 尼特 為在 30% 平均畫面亮度（APL）影像刺激下達到的峰值亮度。屏幕亮度會隨環境變化，一切以實際使用為⁠⁠準。"
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "材料",
+              "attr_value": "鈦合金",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "2.4 GHz，支援 BT 6.0 和 BR + BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "GPS（L1 + L5 雙頻）/GLONASS/北斗（B1I + B1C + B2a 三頻）/GALILEO（E1 + E5a 雙頻）/QZSS（L1 + L5 雙頻）/NavIC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "操作環境溫度",
+              "attr_value": "-20℃ 至 +45℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V-10V DC/2A MAX",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*根據華為實驗室測試結果，實際使用情況可能因不同機型、使用習慣和環境因素有所不同。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "watchgt7": {
+          "product_key": "watchgt7",
+          "product_id": "watch-gt7",
+          "product_name": "HUAWEI WATCH GT 7",
+          "product_name_short": "WATCH GT 7",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-gt7/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-gt7/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "呎吋 (HUAWEI WATCH GT 7 46 mm)",
+              "attr_value": "46 mm × 46 mm × 10.95 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "呎吋 (HUAWEI WATCH GT 7 41 mm)",
+              "attr_value": "41.3 mm × 41.3 mm × 9.99 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "適用手腕呎吋 (HUAWEI WATCH GT 7 46 mm)",
+              "attr_value": "140-210 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "適用手腕呎吋 (HUAWEI WATCH GT 7 41 mm)",
+              "attr_value": "120-180 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "重量 (HUAWEI WATCH GT 7 46 mm)",
+              "attr_value": "約 51.3 g（不含錶帶）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "晴光藍： (HUAWEI WATCH GT 7 41 mm)",
+              "attr_value": "約 36.5 g（不含錶帶）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "櫻語粉、月影灰： (HUAWEI WATCH GT 7 41 mm)",
+              "attr_value": "約 37.5 g（不含錶帶）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "悅動白： (HUAWEI WATCH GT 7 41 mm)",
+              "attr_value": "約 37.6 g（不含錶帶）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸 (HUAWEI WATCH GT 7 46 mm)",
+              "attr_value": "1.47 吋 AMOLED 彩色屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度 (HUAWEI WATCH GT 7 46 mm)",
+              "attr_value": "466 × 466 pixels，PPI 317",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "峰值亮度 (HUAWEI WATCH GT 7 46 mm)",
+              "attr_value": "3000 尼特",
+              "attr_remark": "*3000 尼特 為在 30% 平均畫面亮度（APL）影像刺激下達到的峰值亮度。屏幕亮度會隨環境變化，一切以實際使用為⁠⁠準。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸 (HUAWEI WATCH GT 7 41 mm)",
+              "attr_value": "1.32 吋 AMOLED 彩色屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度 (HUAWEI WATCH GT 7 41 mm)",
+              "attr_value": "466 × 466 pixels，PPI 352",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "峰值亮度 (HUAWEI WATCH GT 7 41 mm)",
+              "attr_value": "3000 尼特",
+              "attr_remark": "*3000 尼特 為在 30% 平均畫面亮度（APL）影像刺激下達到的峰值亮度。屏幕亮度會隨環境變化，一切以實際使用為⁠⁠準。"
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "材料",
+              "attr_value": "不銹鋼",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶帶",
+              "attr_name": "錶帶 (HUAWEI WATCH GT 7 46 mm)",
+              "attr_value": "藍色易扣氟橡膠錶帶\n黃色易扣氟橡膠錶帶\n黑色易扣氟橡膠錶帶",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶帶",
+              "attr_name": "錶帶 (HUAWEI WATCH GT 7 41 mm)",
+              "attr_value": "粉紅色易扣氟橡膠錶帶\n藍色易扣氟橡膠錶帶\n白綠雙色複合素皮錶帶",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "2.4 GHz，支援 BT 6.0 和 BR + BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "GPS（L1 + L5 雙頻）/GLONASS/北斗（B1I + B1C + B2a 三頻）/GALILEO（E1 + E5a 雙頻）/QZSS（L1 + L5 雙頻）/NavIC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "操作環境溫度",
+              "attr_value": "-20℃ 至 +45℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V-10V DC/2A MAX",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 7 46 mm)",
+              "attr_value": "最長電池續航力長達 21 天；常規使用情況下，最長電池續航時間為 12 天；開啟 AOD 的情況下，最長電池續航時間為 7 天；啟用戶外運動模式時，最長電池續航時間為 51 小時。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 7 46 mm)",
+              "attr_value": "在省電模式下的最長電池續航時間是在以下條件下測試得出的：使用出廠預設設置、手動關閉運動自動偵測功能、每週藍牙通話 30 分鐘，每週藍牙音樂播放 30 分鐘，心率監測始終開啟，夜間睡眠監測啟用，每週平均運動 90 分鐘，開啟訊息通知（每日 50 條訊息、6 通電話和 3 次鬧鐘），以及設備螢幕每天開啟 200 次。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 7 46 mm)",
+              "attr_value": "在標準模式下的最長電池續航時間是在以下條件下測試得出的：使用出廠預設設置，每週藍牙通話 30 分鐘，每週藍牙音樂播放 30 分鐘，心率監測始終開啟，夜間睡眠監測啟用，額外情緒/壓力紀錄功能啟用，每週平均運動 180 分鐘，開啟訊息通知（每日 50 條訊息、6 通電話和 3 次鬧鐘），設備螢幕每天總共開啟 30 分鐘。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 7 46 mm)",
+              "attr_value": "在啟用 AOD 模式下的最長電池續航時間是在以下條件下測試得出的：使用出廠預設設置，常亮顯示功能（AOD）開啟，每週 30 分鐘藍牙通話，每週 30 分鐘音訊播放，心率監測持續開啟，夜間睡眠監測啟用，額外情緒/壓力記錄啟用，每週平均運動 180 分鐘，開啟訊息通知（每日 50 條訊息、6 通電話和 3 次鬧鐘），設備螢幕每天總共開啟 30 分鐘。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 7 46 mm)",
+              "attr_value": "越野跑模式下的續航時間是在以下條件下測試得出的：使用預設設置，設備螢幕每小時點亮 60 次，運動音量設為 50%，且每小時有 10 次運動提示。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 7 41 mm)",
+              "attr_value": "最長電池續航力長達 14 天；常規使用情況下，最長電池續航時間為 7 天；開啟 AOD 的情況下，最長電池續航時間為 5 天；啟用戶外運動模式時，最長電池續航時間為 32 小時。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 7 41 mm)",
+              "attr_value": "在省電模式下的最長電池續航時間是在以下條件下測試得出的：使用出廠預設設置、手動關閉運動自動偵測功能、每週藍牙通話 30 分鐘，每週藍牙音樂播放 30 分鐘，心率監測始終開啟，夜間睡眠監測啟用，每週平均運動 90 分鐘，開啟訊息通知（每日 50 條訊息、6 通電話和 3 次鬧鐘），以及設備螢幕每天開啟 200 次。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 7 41 mm)",
+              "attr_value": "在標準模式下的最長電池續航時間是在以下條件下測試得出的：使用出廠預設設置，每週藍牙通話 30 分鐘，每週藍牙音樂播放 30 分鐘，心率監測始終開啟，夜間睡眠監測啟用，額外情緒/壓力紀錄功能啟用，每週平均運動 180 分鐘，開啟訊息通知（每日 50 條訊息、6 通電話和 3 次鬧鐘），設備螢幕每天總共開啟 30 分鐘。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 7 41 mm)",
+              "attr_value": "在啟用 AOD 模式下的最長電池續航時間是在以下條件下測試得出的：使用出廠預設設置，常亮顯示功能（AOD）開啟，每週 30 分鐘藍牙通話，每週 30 分鐘音訊播放，心率監測持續開啟，夜間睡眠監測啟用，額外情緒/壓力記錄啟用，每週平均運動 180 分鐘，開啟訊息通知（每日 50 條訊息、6 通電話和 3 次鬧鐘），設備螢幕每天總共開啟 30 分鐘。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 7 41 mm)",
+              "attr_value": "越野跑模式下的續航時間是在以下條件下測試得出的：使用預設設置，設備螢幕每小時點亮 60 次，運動音量設為 50%，且每小時有 10 次運動提示。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*根據華為實驗室測試結果，實際使用情況可能因不同機型、使用習慣和環境因素有所不同。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "honmahuaweiwatchgt6pro": {
+          "product_key": "honmahuaweiwatchgt6pro",
+          "product_id": "honma-huawei-watch-gt6-pro",
+          "product_name": "HONMA × HUAWEI WATCH GT 6 Pro",
+          "product_name_short": "HONMA × HUAWEI WATCH GT 6 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/honma-huawei-watch-gt6-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/honma-huawei-watch-gt6-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "曜石黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "1.47 吋 AMOLED 彩色螢幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "466 × 466 pixels，PPI 317",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "材料",
+              "attr_value": "鈦合金",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "2.4 GHz，支援 BT 6.0 和 BR + BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "GPS（L1 + L5 雙頻）/GLONASS/北斗（B1I + B1C + B2a 三頻）/GALILEO（E1 + E5a 雙頻）/QZSS（L1 + L5 雙頻）/NavIC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "操作環境溫度",
+              "attr_value": "-20℃ 至 +45℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V-10V DC/2A MAX",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*根據華為實驗室測試結果，實際使用情況可能因不同機型、使用習慣和環境因素有所不同。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "watchgt6": {
+          "product_key": "watchgt6",
+          "product_id": "watch-gt6",
+          "product_name": "HUAWEI WATCH GT 6",
+          "product_name_short": "WATCH GT 6",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-gt6/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-gt6/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "呎吋 (HUAWEI WATCH GT 6 46 mm)",
+              "attr_value": "46 mm × 46 mm × 10.95 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "呎吋 (HUAWEI WATCH GT 6 41 mm)",
+              "attr_value": "41.3 mm × 41.3 mm × 9.99 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "適用手腕呎吋 (HUAWEI WATCH GT 6 46 mm)",
+              "attr_value": "140-210 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "適用手腕呎吋 (HUAWEI WATCH GT 6 41 mm)",
+              "attr_value": "浮光白/流光紫：120 - 180 mm\n淺金色：130 - 190 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "重量 (HUAWEI WATCH GT 6 46 mm)",
+              "attr_value": "約 51.3 g（不含錶帶）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "重量 (HUAWEI WATCH GT 6 41 mm)",
+              "attr_value": "約 37.5 g（不含錶帶）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸 (HUAWEI WATCH GT 6 46 mm)",
+              "attr_value": "1.47 吋 AMOLED 彩色屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度 (HUAWEI WATCH GT 6 46 mm)",
+              "attr_value": "466 × 466 pixels，PPI 317",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸 (HUAWEI WATCH GT 6 41 mm)",
+              "attr_value": "1.32 吋 AMOLED 彩色屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度 (HUAWEI WATCH GT 6 41 mm)",
+              "attr_value": "466 × 466 pixels，PPI 352",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "材料",
+              "attr_value": "不鏽鋼",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶帶",
+              "attr_name": "錶帶 (HUAWEI WATCH GT 6 46 mm)",
+              "attr_value": "黑色氟橡膠錶帶\n綠色編織錶帶\n灰色復合皮錶帶",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶帶",
+              "attr_name": "錶帶 (HUAWEI WATCH GT 6 41 mm)",
+              "attr_value": "淺紫色氟橡膠錶帶\n白色複合皮錶帶\n金色米蘭尼斯錶帶",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "2.4 GHz，支援 BT 6.0 和 BR + BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "GPS（L1 + L5 雙頻）/GLONASS/北斗（B1I + B1C + B2a 三頻）/GALILEO（E1 + E5a 雙頻）/QZSS（L1 + L5 雙頻）/NavIC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "操作環境溫度",
+              "attr_value": "-20℃ 至 +45℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V-10V DC/2A MAX",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 6 46 mm)",
+              "attr_value": "電池續航力最長可達 21 天，常規使用時最長可達 12 天，開啟 AOD 功能後最長可達 7 天，戶外運動模式下最長可達 40 小時。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 6 46 mm)",
+              "attr_value": "輕度使用續航測試條件為：預設出廠設置，手動關閉自動偵測運動功能，每週藍牙通話 30 分鐘，每週音訊播放 30 分鐘，心率監測常開，夜間開啟睡眠監測，每周平均運動 90 分鐘，開啟訊息通知（每天 50 條訊息、6 次通話、3 次鬧鐘），每天屏幕亮起 200 次。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 6 46 mm)",
+              "attr_value": "標準續航時間是在以下條件下測試出來的：預設出廠設置，每週藍牙通話 30 分鐘，每週音頻播放 30 分鐘，心率監測常開，夜間開啟睡眠監測，附加情緒/壓力記錄開啟，每周平均運動 180 分鐘，訊息通知開啟（每天 50 條訊息、6 個電話、3 個鬧鐘），每天共計亮屏 30 分鐘。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 6 46 mm)",
+              "attr_value": "開啟 AOD 續航測試條件為：預設出廠設置，開啟 AOD 熄屏提醒，每週藍牙通話 30 分鐘，每周音頻播放 30 分鐘，心率監測常開，夜間開啟睡眠監測，附加情緒/壓力記錄開啟，每周平均運動 180 分鐘，開啟訊息通知（每天 50 條訊息、6 次屏幕、3 個鬧鐘），每天共亮 30 分鐘。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 6 46 mm)",
+              "attr_value": "戶外運動模式下的續航測試條件為：預設出廠設置，裝置屏幕每小時啟動 60 次。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 6 41 mm)",
+              "attr_value": "電池續航力最長可達 14 天，常規使用時最長可達 7 天，開啟 AOD 功能後最長可達 5 天，戶外運動模式下最長可達 25 小時。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 6 41 mm)",
+              "attr_value": "輕度使用續航測試條件為：預設出廠設置，手動關閉自動偵測運動功能，每週藍牙通話 30 分鐘，每週音訊播放 30 分鐘，心率監測常開，夜間開啟睡眠監測，每周平均運動 90 分鐘，開啟訊息通知（每天 50 條訊息、6 次通話、3 次鬧鐘），每天屏幕亮起 200 次。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 6 41 mm)",
+              "attr_value": "標準續航時間是在以下條件下測試出來的：預設出廠設置，每週藍牙通話 30 分鐘，每週音頻播放 30 分鐘，心率監測常開，夜間開啟睡眠監測，附加情緒/壓力記錄開啟，每周平均運動 180 分鐘，訊息通知開啟（每天 50 條訊息、6 個電話、3 個鬧鐘），每天共計亮屏 30 分鐘。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 6 41 mm)",
+              "attr_value": "開啟 AOD 續航測試條件為：預設出廠設置，開啟 AOD 熄屏提醒，每週藍牙通話 30 分鐘，每周音頻播放 30 分鐘，心率監測常開，夜間開啟睡眠監測，附加情緒/壓力記錄開啟，每周平均運動 180 分鐘，開啟訊息通知（每天 50 條訊息、6 次屏幕、3 個鬧鐘），每天共亮 30 分鐘。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 6 41 mm)",
+              "attr_value": "戶外運動模式下的續航測試條件為：預設出廠設置，裝置屏幕每小時啟動 60 次。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*根據華為實驗室測試結果，實際使用情況可能因不同機型、使用習慣和環境因素有所不同。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "watchgt": {
+          "product_key": "watchgt",
+          "product_id": "watch-gt1",
+          "product_name": "HUAWEI WATCH GT",
+          "product_name_short": "WATCH GT",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-gt1/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-gt1/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "watchgt5": {
+          "product_key": "watchgt5",
+          "product_id": "watch-gt5",
+          "product_name": "HUAWEI WATCH GT 5",
+          "product_name_short": "WATCH GT 5",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-gt5/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-gt5/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "呎吋 (HUAWEI WATCH GT 5 46 mm)",
+              "attr_value": "45.8 mm × 45.8 mm × 10.7 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "呎吋 (HUAWEI WATCH GT 5 41 mm)",
+              "attr_value": "41.3 mm × 41.3 mm × 9.5 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。實際產品之間的測量可能有所不同。所有規格以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "適用手腕呎吋 (HUAWEI WATCH GT 5 46 mm)",
+              "attr_value": "140-210 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "適用手腕呎吋 (HUAWEI WATCH GT 5 41 mm)",
+              "attr_value": "120-190 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "重量 (HUAWEI WATCH GT 5 46 mm)",
+              "attr_value": "大約 48 g（不含錶帶）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "重量 (HUAWEI WATCH GT 5 41 mm)",
+              "attr_value": "大約 35 g（不含錶帶）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。實際產品之間的測量可能有所不同。所有規格以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸 (HUAWEI WATCH GT 5 46 mm)",
+              "attr_value": "1.43 吋 AMOLED 彩色屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度 (HUAWEI WATCH GT 5 46 mm)",
+              "attr_value": "466 × 466 像素，PPI 326",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸 (HUAWEI WATCH GT 5 41 mm)",
+              "attr_value": "1.32 吋 AMOLED 彩色屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度 (HUAWEI WATCH GT 5 41 mm)",
+              "attr_value": "466 × 466 像素，PPI 352",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "前殼",
+              "attr_value": "不銹鋼",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "後殼",
+              "attr_value": "高性能纖維強化複合材質",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶帶",
+              "attr_name": "錶帶 (HUAWEI WATCH GT 5 46 mm)",
+              "attr_value": "黑色氟橡膠錶帶\n藍色複合編織錶帶",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶帶",
+              "attr_name": "錶帶 (HUAWEI WATCH GT 5 41 mm)",
+              "attr_value": "棕色複合編織錶帶\n藍色氟橡膠錶帶",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "2.4 GHz，支援 BT5.2 和 BR + BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "L1：GPS + GLONASS + GALILEO + BDS + QZSS\nL5：GPS + GALILEO + BDS + QZSS",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "操作環境溫度",
+              "attr_value": "-20℃ 至 +45℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V-9V DC/2A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 5 46 mm)",
+              "attr_value": "14 天電池續航時間（最大使用）\n9 天電池續航時間（常規使用）\n5 天電池續航時間（啟用常亮模式）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池在以下使用習慣下可維持 14 天： (HUAWEI WATCH GT 5 46 mm)",
+              "attr_value": "使用出廠預設設置，每週 30 分鐘藍牙通話，每週 30 分鐘音頻播放，心率監測始終開啟，夜間啟用睡眠監測，每週平均 90 分鐘運動，啟用訊息通知（每天 50 條訊息、6 通電話和 3 個鬧鐘），設備屏幕每天打開 200 次。實際電池壽命可能因使用習慣而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池在以下使用習慣下可維持 9 天： (HUAWEI WATCH GT 5 46 mm)",
+              "attr_value": "使用出廠預設設置，每週 30 分鐘藍牙通話，每週 30 分鐘音頻播放，心率監測始終開啟，夜間啟用睡眠監測，啟用壓力監測，每週平均 180 分鐘運動，啟用訊息通知（每天 50 條訊息、6 通電話和 3 個鬧鐘），設備屏幕每天總共打開 30 分鐘。實際電池壽命可能因使用習慣而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池在以下使用習慣下可維持 5 天： (HUAWEI WATCH GT 5 46 mm)",
+              "attr_value": "使用出廠預設設置，啟用常亮模式，每週 30 分鐘藍牙通話，每週 30 分鐘音頻播放，心率監測始終開啟，夜間啟用睡眠監測，啟用壓力監測，每週平均 180 分鐘運動，啟用訊息通知（每天 50 條訊息、6 通電話和 3 個鬧鐘），設備屏幕每天總共打開 30 分鐘。實際電池壽命可能因使用習慣而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 5 41 mm)",
+              "attr_value": "最大使用情況下，電池續航時間為 7 天\n常規使用情況下，電池續航時間為 5 天\n啟用常亮模式時，電池續航時間為 3 天",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池在以下使用習慣下可維持 7 天： (HUAWEI WATCH GT 5 41 mm)",
+              "attr_value": "使用出廠預設設置，每週 30 分鐘藍牙通話，每週 30 分鐘音頻播放，心率監測始終開啟，夜間啟用睡眠監測，每週平均 90 分鐘運動，啟用訊息通知（每天 50 條訊息、6 通電話和 3 個鬧鐘），設備屏幕每天打開 200 次。實際電池壽命可能因使用習慣而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池在以下使用習慣下可維持 5 天： (HUAWEI WATCH GT 5 41 mm)",
+              "attr_value": "使用出廠預設設置，每週 30 分鐘藍牙通話，每週 30 分鐘音頻播放，心率監測始終開啟，夜間啟用睡眠監測，啟用壓力監測，每週平均 180 分鐘運動，啟用訊息通知（每天 50 條訊息、6 通電話和 3 個鬧鐘），設備屏幕每天總共打開 30 分鐘。實際電池壽命可能因使用習慣而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池在以下使用習慣下可維持 3 天： (HUAWEI WATCH GT 5 41 mm)",
+              "attr_value": "使用出廠預設設置，啟用常亮模式，每週 30 分鐘藍牙通話，每週 30 分鐘音頻播放，心率監測始終開啟，夜間啟用睡眠監測，啟用壓力監測，每週平均 180 分鐘運動，啟用訊息通知（每天 50 條訊息、6 通電話和 3 個鬧鐘），設備屏幕每天總共打開 30 分鐘。實際電池壽命可能因使用習慣而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*根據華為實驗室測試結果，實際使用情況可能因不同機型、使用習慣和環境因素有所不同。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "watchgt5pro": {
+          "product_key": "watchgt5pro",
+          "product_id": "watch-gt5-pro",
+          "product_name": "HUAWEI WATCH GT 5 Pro",
+          "product_name_short": "WATCH GT 5 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-gt5-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-gt5-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "呎吋 (HUAWEI WATCH GT 5 Pro 46 mm)",
+              "attr_value": "46.3 mm × 46.3 mm × 10.9 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "呎吋 (HUAWEI WATCH GT 5 Pro 42 mm)",
+              "attr_value": "42.49 mm × 42.49 mm × 9.6 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。實際產品之間的測量結果可能有所不同。所有規格以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "適用手腕呎吋 (HUAWEI WATCH GT 5 Pro 46 mm)",
+              "attr_value": "140-210 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "適用手腕呎吋 (HUAWEI WATCH GT 5 Pro 42 mm)",
+              "attr_value": "120-190 mm（陶瓷白：130~190 mm）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "重量 (HUAWEI WATCH GT 5 Pro 46 mm)",
+              "attr_value": "大約 53 克（不含錶帶）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "重量 (HUAWEI WATCH GT 5 Pro 42 mm)",
+              "attr_value": "大約 44 克（不含錶帶）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。實際產品之間的測量結果可能有所不同。所有規格以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸 (HUAWEI WATCH GT 5 Pro 46 mm)",
+              "attr_value": "1.43 吋 AMOLED 彩色螢幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度 (HUAWEI WATCH GT 5 Pro 46 mm)",
+              "attr_value": "466 × 466 像素，PPI 326",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸 (HUAWEI WATCH GT 5 Pro 42 mm)",
+              "attr_value": "1.32 吋 AMOLED 彩色螢幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度 (HUAWEI WATCH GT 5 Pro 42 mm)",
+              "attr_value": "466 × 466 像素，PPI 352",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "前殼 (HUAWEI WATCH GT 5 Pro 46 mm)",
+              "attr_value": "鈦合金",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "後殼 (HUAWEI WATCH GT 5 Pro 46 mm)",
+              "attr_value": "納米微晶陶瓷",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "前殼 (HUAWEI WATCH GT 5 Pro 42 mm)",
+              "attr_value": "納米微晶陶瓷",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "後殼 (HUAWEI WATCH GT 5 Pro 42 mm)",
+              "attr_value": "納米微晶陶瓷",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶帶",
+              "attr_name": "錶帶 (HUAWEI WATCH GT 5 Pro 46 mm)",
+              "attr_value": "黑色氟橡膠錶帶\n鈦金屬錶帶",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶帶",
+              "attr_name": "錶帶 (HUAWEI WATCH GT 5 Pro 42 mm)",
+              "attr_value": "白色氟橡膠錶帶\n白色陶瓷錶帶",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "2.4 GHz，支援 BT 5.2 和 BR + BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "L1：GPS + GLONASS + GALILEO + BDS + QZSS\nL5：GPS + GALILEO + BDS + QZSS",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "操作環境溫度",
+              "attr_value": "-20℃ 至 +45℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V-9V DC/2A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 5 Pro 46 mm)",
+              "attr_value": "最大使用情況下，電池續航時間為 14 天\n常規使用情況下，電池續航時間為 9 天\n啟用常亮模式時，電池續航時間為 5 天",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池在以下使用習慣下可維持 14 天： (HUAWEI WATCH GT 5 Pro 46 mm)",
+              "attr_value": "使用出廠預設設置，每週 30 分鐘藍牙通話，每週 30 分鐘音頻播放，心率監測始終開啟，夜間啟用睡眠監測，每週平均 90 分鐘運動，啟用消息通知（每天 50 條消息、6 通電話和 3 個鬧鐘），設備螢幕每天打開 200 次。實際電池壽命可能因使用習慣而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池在以下使用習慣下可維持 9 天： (HUAWEI WATCH GT 5 Pro 46 mm)",
+              "attr_value": "使用出廠預設設置，每週 30 分鐘藍牙通話，每週 30 分鐘音頻播放，心率監測始終開啟，夜間啟用睡眠監測，啟用壓力監測，每週平均 180 分鐘運動，啟用消息通知（每天 50 條消息、6 通電話和 3 個鬧鐘），設備螢幕每天總共打開 30 分鐘。實際電池壽命可能因使用習慣而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池在以下使用習慣下可維持 5 天： (HUAWEI WATCH GT 5 Pro 46 mm)",
+              "attr_value": "使用出廠預設設置，啟用常亮模式，每週 30 分鐘藍牙通話，每週 30 分鐘音頻播放，心率監測始終開啟，夜間啟用睡眠監測，啟用壓力監測，每週平均 180 分鐘運動，啟用消息通知（每天 50 條消息、6 通電話和 3 個鬧鐘），設備螢幕每天總共打開 30 分鐘。實際電池壽命可能因使用習慣而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池 (HUAWEI WATCH GT 5 Pro 42 mm)",
+              "attr_value": "最大使用情況下，電池續航時間為 7 天\n常規使用情況下，電池續航時間為 5 天\n啟用常亮模式時，電池續航時間為 3 天",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池在以下使用習慣下可維持 7 天： (HUAWEI WATCH GT 5 Pro 42 mm)",
+              "attr_value": "使用出廠預設設置，每週 30 分鐘藍牙通話，每週 30 分鐘音頻播放，心率監測始終開啟，夜間啟用睡眠監測，每週平均 90 分鐘運動，啟用消息通知（每天 50 條消息、6 通電話和 3 個鬧鐘），設備螢幕每天打開 200 次。實際電池壽命可能因使用習慣而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池在以下使用習慣下可維持 5 天： (HUAWEI WATCH GT 5 Pro 42 mm)",
+              "attr_value": "使用出廠預設設置，每週 30 分鐘藍牙通話，每週 30 分鐘音頻播放，心率監測始終開啟，夜間啟用睡眠監測，啟用壓力監測，每週平均 180 分鐘運動，啟用消息通知（每天 50 條消息、6 通電話和 3 個鬧鐘），設備螢幕每天總共打開 30 分鐘。實際電池壽命可能因使用習慣而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "電池在以下使用習慣下可維持 3 天： (HUAWEI WATCH GT 5 Pro 42 mm)",
+              "attr_value": "使用出廠預設設置，啟用常亮模式，每週 30 分鐘藍牙通話，每週 30 分鐘音頻播放，心率監測始終開啟，夜間啟用睡眠監測，啟用壓力監測，每週平均 180 分鐘運動，啟用消息通知（每天 50 條消息、6 通電話和 3 個鬧鐘），設備螢幕每天總共打開 30 分鐘。實際電池壽命可能因使用習慣而異。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*根據華為實驗室測試結果，實際使用情況可能因不同機型、使用習慣和環境因素有所不同。",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "watchfit系列": {
+      "series_key": "watchfit系列",
+      "series_name": "WATCH FIT 系列",
+      "products": {
+        "watchfit5pro": {
+          "product_key": "watchfit5pro",
+          "product_id": "watch-fit5-pro",
+          "product_name": "HUAWEI WATCH FIT 5 Pro",
+          "product_name_short": "WATCH FIT 5 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-fit5-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-fit5-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "丹霞橙",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "冰川白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "雅丹黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*9.5 mm 是手錶的厚度（不包括感測器區域）。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、重量及相關規格均為理論值，實際測量值可能因產品個體差異而有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "峰值亮度",
+              "attr_value": "3000 nits",
+              "attr_remark": "*3000 nits 是在 100% 平均影像亮度 (APL) 下測得的峰值亮度。數據來自華為實驗室。螢幕亮度會因環境而異。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "錶面玻璃",
+              "attr_value": "2.5D 藍寶石玻璃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "备注",
+              "attr_value": "*採用人造藍寶石玻璃製成。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "材質",
+              "attr_value": "中框：鋁合金\n錶圈：鈦合金",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "2.4 GHz，支援 BT 6.0 和 BR + BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "GPS（L1 + L5 雙頻）/GLONASS/北斗（B1I + B1C + B2a 三頻）/GALILEO（E1 + E5a 雙頻）/QZSS（L1 + L5 雙頻）/NavIC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "操作環境溫度",
+              "attr_value": "-20℃ 至 +45℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V-10V DC/2A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "輕度使用情況下，電池續航力最長可達 10 天；典型使用情況下，最長可達 7 天；開啟 AOD（常亮顯示）功能後，最長可達 4 天。",
+              "attr_value": "在省電模式下的最大電池續航時間是在以下條件下測試得出的：使用出廠預設設置、手動關閉運動自動偵測功能、每週藍牙通話 30⁠ 分鐘，每週藍牙音樂播放30⁠ 分鐘，心率監測始終開啟，夜間HUAWEI TruSleep™ 睡眠監測啟用，每週平均運動 90⁠ 分鐘，開啟訊息通知（每日 50⁠ 條訊息、6⁠ 通電話和 3⁠ 次鬧鐘），以及設備屏幕每天開啟 200⁠ 次。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*根據華為實驗室測試結果，實際使用情況可能因不同機型、使用習慣和環境因素有所不同。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "watchfit5": {
+          "product_key": "watchfit5",
+          "product_id": "watch-fit5",
+          "product_name": "HUAWEI WATCH FIT 5",
+          "product_name_short": "WATCH FIT 5",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-fit5/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-fit5/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 5,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "光織銀",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "風信紫",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "向新綠",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "悅動白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "韻律黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*9.5 mm 是手錶的厚度（不包括感測器區域）。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "風信紫",
+              "attr_value": "120-190 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "光織銀、向新綠、悅動白、韻律黑",
+              "attr_value": "130-210 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、重量及相關規格均為理論值，實際測量值可能因產品個體差異而有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "峰值亮度",
+              "attr_value": "2500 nits",
+              "attr_remark": "*2500 nits 是在 80% 平均影像亮度 (APL) 下測得的峰值亮度。數據來自華為實驗室。螢幕亮度會因環境而異。"
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "材質",
+              "attr_value": "鋁合金",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援*",
+              "attr_remark": "*僅光織銀配色支援。"
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "2.4 GHz，支援 BT 6.0 和 BR + BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "GPS（L1 + L5 雙頻）/GLONASS/北斗（B1I + B1C + B2a 三頻）/GALILEO（E1 + E5a 雙頻）/QZSS（L1 + L5 雙頻）/NavIC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "操作環境溫度",
+              "attr_value": "-20℃ 至 +45℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V-10V DC/2A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "輕度使用情況下，電池續航力最長可達 10 天；典型使用情況下，最長可達 7 天；開啟 AOD（常亮顯示）功能後，最長可達 4 天。",
+              "attr_value": "在省電模式下的最大電池續航時間是在以下條件下測試得出的：使用出廠預設設置、手動關閉運動自動偵測功能、每週藍牙通話 30⁠ 分鐘，每週藍牙音樂播放 30⁠ 分鐘，心率監測始終開啟，夜間HUAWEI TruSleep™ 睡眠監測啟用，每週平均運動 90⁠ 分鐘，開啟訊息通知（每日 50⁠ 條訊息、6⁠ 通電話和 3⁠ 次鬧鐘），以及設備屏幕每天開啟 200⁠ 次。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*根據華為實驗室測試結果，實際使用情況可能因不同機型、使用習慣和環境因素有所不同。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "watchfit4pro": {
+          "product_key": "watchfit4pro",
+          "product_id": "watch-fit4-pro",
+          "product_name": "HUAWEI WATCH FIT 4 Pro",
+          "product_name_short": "WATCH FIT 4 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-fit4-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-fit4-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "原野綠",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "海島藍",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "曜石黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "峰值亮度",
+              "attr_value": "3000 尼特（nits）",
+              "attr_remark": "*峰值亮度為 3000 尼特。數據來自華為實驗室。屏幕亮度可能因光線環境和個別顯示內容而有所不同。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "錶面玻璃",
+              "attr_value": "藍寶石玻璃",
+              "attr_remark": "*採用人造藍寶石玻璃製成。"
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "材料",
+              "attr_value": "中框：鋁合金\n錶圈：鈦合金",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "2.4 GHz，Bluetooth 5.2 支援 BR 及 BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "L1：GPS + GLONASS + GALILEO + BDS + QZSS\nL5：GPS + GALILEO + BDS + QZSS",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "環境溫度",
+              "attr_value": "-20℃ 至 +45℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V-9V DC/2A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "10 天最長電池續航時間在以下條件下測試：",
+              "attr_value": "出廠預設設置、每周藍牙通話 30 分鐘、每周播放音樂 30 分鐘、心率監測常開、夜間開啟 HUAWEI TruSleep™、平均每周運動 90 分鐘、開啟消息通知（每天 50 條消息、6 個電話和 3 個鬧鐘）、設備屏幕每天打開 200 次。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "7 天標準電池續航時間在以下條件下測試：",
+              "attr_value": "出廠預設設置、每周 30 分鐘藍牙通話、每周 30 分鐘音樂播放、心率監測常開、夜間開啟 HUAWEI TruSleep™、開啟壓力監測、開啟脈搏波心律失常分析和睡眠呼吸感知功能、平均每周運動 180 分鐘、開啟訊息通知（每天 50 條訊息、6 個通話和 3 個鬧鐘），並且設備屏幕每天總共打開 30 分鐘。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "4 天開啟 AOD 後的電池續航力在以下條件下測試：",
+              "attr_value": "出廠預設設置、開啟 AOD、每周 30 分鐘藍牙通話、每周播放 30 分鐘音樂、心率監測常開、夜間開啟 HUAWEI TruSleep™、開啟自動壓力監測、開啟脈搏波心律失常分析和睡眠呼吸感知功能、平均每周運動 180 分鐘、開啟訊息通知（每天 50 條訊息、6 個呼叫和 3 個鬧鐘），並且設備屏幕每天總共打開 30 分鐘。",
+              "attr_remark": "*數據來自華為實驗室。實際使用方式可能會因產品差異、使用習慣和環境因素而所不同。"
+            }
+          ]
+        },
+        "watchfit4": {
+          "product_key": "watchfit4",
+          "product_id": "watch-fit4",
+          "product_name": "HUAWEI WATCH FIT 4",
+          "product_name_short": "WATCH FIT 4",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-fit4/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-fit4/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "悅動白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "風信紫",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "韻律黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "風信紫",
+              "attr_value": "120-190 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "悅動白及韻律黑",
+              "attr_value": "130-210 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "材料",
+              "attr_value": "鋁合金",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "不支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "Bluetooth",
+              "attr_value": "2.4 GHz，Bluetooth 5.2 支援 BR 及 BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "L1：GPS + GLONASS + GALILEO + BDS + QZSS\nL5：GPS + GALILEO + BDS + QZSS",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "環境溫度",
+              "attr_value": "-20℃ 至 +45℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V/1A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "10 天最長電池續航時間在以下條件下測試：",
+              "attr_value": "出廠預設設置、每周藍牙通話 30 分鐘、每周播放音樂 30 分鐘、心率監測常開、夜間開啟 HUAWEI TruSleep™、平均每周運動 90 分鐘、開啟消息通知（每天 50 條消息、6 個電話和 3 個鬧鐘）、設備屏幕每天打開 200 次。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "7 天標準電池續航時間在以下條件下測試：",
+              "attr_value": "出廠預設設置、每周 30 分鐘藍牙通話、每周 30 分鐘音樂播放、心率監測常開、夜間開啟 HUAWEI TruSleep™、開啟壓力監測、開啟脈搏波心律失常分析和睡眠呼吸感知功能、平均每周運動 180 分鐘、開啟訊息通知（每天 50 條訊息、6 個通話和 3 個鬧鐘），並且設備屏幕每天總共打開 30 分鐘。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "4 天開啟 AOD 後的電池續航力在以下條件下測試：",
+              "attr_value": "出廠預設設置、開啟 AOD、每周 30 分鐘藍牙通話、每周播放 30 分鐘音樂、心率監測常開、夜間開啟 HUAWEI TruSleep™、開啟自動壓力監測、開啟脈搏波心律失常分析和睡眠呼吸感知功能、平均每周運動 180 分鐘、開啟訊息通知（每天 50 條訊息、6 個呼叫和 3 個鬧鐘），並且設備屏幕每天總共打開 30 分鐘。",
+              "attr_remark": "*數據來自華為實驗室。實際使用方式可能會因產品差異、使用習慣和環境因素而所不同。"
+            }
+          ]
+        }
+      }
+    },
+    "mate系列": {
+      "series_key": "mate系列",
+      "series_name": "Mate 系列",
+      "products": {
+        "watchultimatedesign星鑽綻放": {
+          "product_key": "watchultimatedesign星鑽綻放",
+          "product_id": "watch-ultimate-design-spring-edition",
+          "product_name": "HUAWEI WATCH ULTIMATE DESIGN 星鑽綻放",
+          "product_name_short": "WATCH ULTIMATE DESIGN 星鑽綻放",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-ultimate-design-spring-edition/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-ultimate-design-spring-edition/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "星鑽綻放",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*實際尺寸依配置、製造流程、測量方法的不同可能有所差異，請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*實際重量依配置、製造流程、測量方法的不同可能有所差異，請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "珠寶",
+              "attr_name": "鑽石類型",
+              "attr_value": "天然鑽石",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "珠寶",
+              "attr_name": "鑽石數量",
+              "attr_value": "99 顆",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "珠寶",
+              "attr_name": "克拉重量",
+              "attr_value": "0.8 克拉",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "1.38 吋 LTPO 2.0 AMOLED 彩色屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "466 × 466 pixels，PPI 338",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "峰值亮度",
+              "attr_value": "3000 nits",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "BT5.2，BR + BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "L1：GPS + GLONASS + GALILEO + BeiDou + QZSS\nL5：GPS + GALILEO + BeiDou + QZSS",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "Wi-Fi 6：2.4 GHz + 5 GHz\nIEEE 802.11a/b/g/n/ac/ax，1 × 1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "星閃",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "工作環境溫度",
+              "attr_value": "0℃~35℃",
+              "attr_remark": "*手錶在 0℃~35℃ 環境下性能最佳，溫度過低會導致手錶續航或性能下降，溫度過高會觸發保護性關機，請避免在極端溫度環境下使用手錶。"
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "腕上貼膚配戴工作環境溫度",
+              "attr_value": "–20℃~55℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "儲存環境溫度",
+              "attr_value": "–20℃~55℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓電流需求",
+              "attr_value": "5V-10V DC/2A MAX",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "watchultimate2": {
+          "product_key": "watchultimate2",
+          "product_id": "watch-ultimate-2",
+          "product_name": "HUAWEI WATCH Ultimate 2",
+          "product_name_short": "WATCH Ultimate 2",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-ultimate-2/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-ultimate-2/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "蒼穹黑",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "蔚海藍",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "曠野綠",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "蒼穹黑：",
+              "attr_value": "48.5 mm × 48.5 mm × 12.9 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "蔚海藍：",
+              "attr_value": "47.8 mm × 47.8 mm × 12.9 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "曠野綠：",
+              "attr_value": "47.8mm × 47.8mm × 12.9mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*實際尺寸可能會因為產品規格、製作過程及製作工藝有所不同。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "1.5 吋 LTPO 2.0 AMOLED 彩色屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "466 × 466 pixels，PPI 310",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "峰值亮度",
+              "attr_value": "3,500 尼特",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "蒼穹黑：",
+              "attr_value": "前殼：黑色非晶鋯液態金屬\n後殼：納米微晶陶瓷",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "蔚海藍：",
+              "attr_value": "前殼：鋼色非晶鋯液態金屬\n後殼：納米微晶陶瓷",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "曠野綠：",
+              "attr_value": "前殼：鋼色非晶鋯液態金屬\n後殼：納米微晶陶瓷",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶帶",
+              "attr_name": "蒼穹黑：",
+              "attr_value": "黑色氟橡膠錶帶（附贈一條加長黑色氟橡膠錶帶）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶帶",
+              "attr_name": "蔚海藍：",
+              "attr_value": "藍白相間氟橡膠錶帶（附贈一條鈦金屬錶帶及一條加長藍白相間氟橡膠錶帶）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶帶",
+              "attr_name": "曠野綠：",
+              "attr_value": "綠白相間複合材料錶帶（附贈一條鈦金屬錶帶、一條標準尺寸綠氟橡膠錶帶和一條加長綠氟橡膠錶帶）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "BT 5.2，BR + BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "L1：GPS + GLONASS + GALILEO + BeiDou + QZSS\nL5：GPS + GALILEO + BeiDou + QZSS",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "Wi-Fi 6：2.4 GHz + 5 GHz\nIEEE 802.11a/b/g/n/ac/ax 1 × 1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "Nearlink",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "操作環境温度",
+              "attr_value": "0°C to 35°C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "使用溫度",
+              "attr_value": "–20°C to +55°C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "潜水模式",
+              "attr_value": "0°C to 38°C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "eSIM 通话",
+              "attr_value": "0°C to 35°C",
+              "attr_remark": "*本手錶在 0°C至35°C 之間運作最佳。低溫可能縮短電池壽命或影響性能。高溫可能導致手錶為安全起見自動關機。請避免在極端溫度環境下使用本手錶。"
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "儲存溫度",
+              "attr_value": "–20°C to +55℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V-10V DC/2A MAX",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*數據來自於華為實驗室。實際使用方式可能因產品、使用習慣和條件以及環境因素而有所不同。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "蒼穹黑：",
+              "attr_value": "手錶 × 1\n第 2 代 HUAWEI WATCH 無線 SuperCharger × 1\n快速啟動手冊、安全資訊手冊及保用証 × 1\n加長黑色氟橡膠錶帶 × 1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "蔚海藍：",
+              "attr_value": "手錶 × 1\n第 2 代 HUAWEI WATCH 無線 SuperCharger × 1\n快速啟動手冊、安全資訊手冊及保用証 × 1\n加長藍白相間氟橡膠錶帶 × 1\n鈦金屬錶帶 × 1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "包裝清單",
+              "attr_name": "曠野綠：",
+              "attr_value": "手錶 × 1\n第 2 代 HUAWEI WATCH 無線 SuperCharger × 1\n快速啟動手冊、安全資訊手冊及保用証 × 1\n標準尺寸綠氟橡膠錶帶 × 1\n加長綠氟橡膠錶帶 × 1\n鈦金屬錶帶 × 1\n備用鈦金屬錶帶鏈節 × 1",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "watchultimatedesign紫金款": {
+          "product_key": "watchultimatedesign紫金款",
+          "product_id": "watch-ultimate-design-royal-gold-edition",
+          "product_name": "HUAWEI WATCH ULTIMATE DESIGN 紫金款",
+          "product_name_short": "WATCH ULTIMATE DESIGN 紫金款",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-ultimate-design-royal-gold-edition/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-ultimate-design-royal-gold-edition/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "紫金色",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*實際尺寸可能會因為產品規格、製作過程及製作工藝有所不同。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*實際重量可能會因為產品規格、製作過程及製作工藝有所不同。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸",
+              "attr_value": "1.5 吋 LTPO 2.0 AMOLED 彩色屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "466 × 466 pixels，PPI 310",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "峰值亮度",
+              "attr_value": "3,500 nits",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "BT 5.2，BR + BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "L1：GPS + GLONASS + GALILEO + BeiDou + QZSS\nL5：GPS + GALILEO + BeiDou + QZSS",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "Wi-Fi 6：2.4 GHz + 5 GHz\nIEEE 802.11a/b/g/n/ac/ax 1 × 1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "Nearlink",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "操作環境温度：0°C to 35°C",
+              "attr_value": "使用溫度：-20°C to +55°C\n潜水模式：0°C to 38°C\neSIM 通话：0°C to 35°C",
+              "attr_remark": "*本手錶在 0°C 至 35°C 之間運作最佳。低溫可能縮短電池壽命或影響性能。高溫可能導致手錶為安全起見自動關機。請避免在極端溫度環境下使用本手錶。"
+            },
+            {
+              "group_name": "防水級別",
+              "attr_name": "备注",
+              "attr_value": "*在海水中使用後，請務必用淡水沖洗並浸泡裝置，然後擦乾。有關華為可穿戴裝置防水性能的更多信息，請訪問： https://consumer.huawei.com/en/support/content/en-us15851428/ 。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V-10V DC/2A MAX",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*數據來自於華為實驗室。實際使用方式可能因產品、使用習慣和條件以及環境因素而有所不同。",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "watch系列": {
+      "series_key": "watch系列",
+      "series_name": "WATCH 系列",
+      "products": {
+        "watch5": {
+          "product_key": "watch5",
+          "product_id": "watch-5",
+          "product_name": "HUAWEI WATCH 5",
+          "product_name_short": "WATCH 5",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-5/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-5/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "呎吋 (HUAWEI WATCH 5 46 mm)",
+              "attr_value": "46 mm × 46.7 mm × 11.3 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "呎吋 (HUAWEI WATCH 5 42 mm)",
+              "attr_value": "42 mm × 42.5 mm × 10.5 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "適用手腕呎吋 (HUAWEI WATCH 5 46 mm)",
+              "attr_value": "140-210 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "適用手腕呎吋 (HUAWEI WATCH 5 42 mm)",
+              "attr_value": "120-190 mm（星雲杏：120~180 mm）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "銀河紫，鈦空銀 (HUAWEI WATCH 5 46 mm)",
+              "attr_value": "約 58 g（不含錶帶)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "蒼穹黑 (HUAWEI WATCH 5 46 mm)",
+              "attr_value": "約 63 g（不含錶帶)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "星雲杏，晨曦金 (HUAWEI WATCH 5 42 mm)",
+              "attr_value": "約 51 g（不含錶帶)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "金星白 (HUAWEI WATCH 5 42 mm)",
+              "attr_value": "約  48 g（不含錶帶）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、產品重量及相關規格僅為理論值。個別產品之間的實際測量結果可能會有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸 (HUAWEI WATCH 5 46 mm)",
+              "attr_value": "1.5\" LTPO 2.0 AMOLED 彩色屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度 (HUAWEI WATCH 5 46 mm)",
+              "attr_value": "466 × 466 pixels，PPI 310",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "亮度 (HUAWEI WATCH 5 46 mm)",
+              "attr_value": "3000 尼特（nits）峰值亮度",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸 (HUAWEI WATCH 5 42 mm)",
+              "attr_value": "1.38\" LTPO 2.0 AMOLED 彩色屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度 (HUAWEI WATCH 5 42 mm)",
+              "attr_value": "466 × 466 pixels，PPI 338",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "亮度 (HUAWEI WATCH 5 42 mm)",
+              "attr_value": "3000 尼特（nits）峰值亮度",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "材料 (HUAWEI WATCH 5 46 mm)",
+              "attr_value": "銀河紫，鈦空銀\n前殼：航天級鈦合金\n後殼：陶瓷\n蒼穹黑\n前殼：316L不鏽鋼\n後殼：高性能纖維強化複合材質",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "材料 (HUAWEI WATCH 5 42 mm)",
+              "attr_value": "星雲杏，晨曦金\n前殼：904L不鏽鋼\n後殼：陶瓷\n金星白\n前殼：316L不鏽鋼\n後殼：高性能纖維強化複合材質",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶帶",
+              "attr_name": "錶帶 (HUAWEI WATCH 5 46 mm)",
+              "attr_value": "銀河紫 複合材質錶帶\n鈦空銀 鈦合金錶帶\n蒼穹黑 氟橡膠錶帶",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶帶",
+              "attr_name": "錶帶 (HUAWEI WATCH 5 42 mm)",
+              "attr_value": "星雲杏 複合材質錶帶\n晨曦金 鈦合金錶帶\n金星白 複合材質錶帶",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "藍牙",
+              "attr_value": "BT 5.2，BR + BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "GNSS",
+              "attr_value": "L1：GPS + GLONASS + GALILEO + BeiDou + QZSS\nL5：GPS + GALILEO + BeiDou + QZSS",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "WLAN",
+              "attr_value": "Wi-Fi 6：2.4 GHz + 5 GHz\nIEEE 802.11a/b/g/n/ac/ax 1 × 1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "使用溫度",
+              "attr_value": "0°C to 35°C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "儲存溫度",
+              "attr_value": "–20°C to +55°C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V-10V DC/2A MAX",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "標準模式： (HUAWEI WATCH 5 46 mm)",
+              "attr_value": "標準使用達 4.5 天；開啟 AOD 達 3天",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "省電模式： (HUAWEI WATCH 5 46 mm)",
+              "attr_value": "長詳 11 天電池續航力；標準使用達 7 天；開啟 AOD 達 4.5 天",
+              "attr_remark": "*HUAWEI WATCH 5 46mm（標準模式下）：與 iPhone 配對時，在標準使用情況下電池續航時間最長可達 3 天，在開啟 AOD 的情況下電池續航時間最長可達 2 天。"
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "標準模式： (HUAWEI WATCH 5 42 mm)",
+              "attr_value": "標準使用達 3天；開啟 AOD 達 2 天",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "省電模式： (HUAWEI WATCH 5 42 mm)",
+              "attr_value": "長詳 7 天電池續航力；標準使用達 5 天；開啟 AOD 達 3 天",
+              "attr_remark": "*HUAWEI WATCH 5 42mm（標準模式下）：與 iPhone 配對時，在標準使用情況下電池續航時間最長可達 2 天，在開啟 AOD 的情況下電池續航時間最長可達 1.5 天。"
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*根據華為實驗室測試結果。實際使用情況可能因不同型號、使用習慣和環境因素而有所不同。 在標準模式下的標準電池續航時間是在以下條件下測試得出的：使用出廠預設設置，每天 2 小時 LTE 連接和 22 小時與手機的藍牙連接，心率監測始終開啟，夜間開啟 HUAWEI TruSleep™，每天進行 2 次 ECG 測量，每週使用應用程式 60 分鐘，每週藍牙通話 30 分鐘，每週藍牙音樂播放 30 分鐘，每週平均運動 90 分鐘，開啟訊息通知（每日 50 條訊息、6 通電話和 3 次鬧鐘），設備屏幕每天開啟 200 次。 在開啟 AOD 的標準模式下的電池續航時間是在以下條件下測試得出的：使用出廠預設設置，開啟 AOD，每天 2 小時 LTE 連接和 22 小時與手機的藍牙連接，心率監測始終開啟，夜間開啟 HUAWEI TruSleep™，每天進行 2 次 ECG 測量，每週使用應用程式 60 分鐘，每週藍牙通話 30 分鐘，每週藍牙音樂播放 30 分鐘，每週平均運動 90 分鐘，開啟訊息通知（每日 50 條訊息、6 通電話和 3 次鬧鐘），設備屏幕每天開啟 200 次。 在省電模式下的最大電池續航時間是在以下條件下測試得出的：使用出廠預設設置，開啟省電模式，每週藍牙通話 30 分鐘，每週藍牙音樂播放 30 分鐘，心率監測始終開啟，夜間開啟 HUAWEI TruSleep™，每週平均運動 90 分鐘，開啟訊息通知（每日 50 條訊息、6 通電話和 3 次鬧鐘），設備屏幕每天開啟 200 次。 在開啟 AOD 的省電模式下的電池續航時間是在以下條件下測試得出的：使用出廠預設設置，開啟省電模式，開啟 AOD，每週藍牙通話 30 分鐘，每週音樂播放 30 分鐘，心率監測始終開啟，夜間開啟 HUAWEI TruSleep™，開啟壓力監測，開啟脈搏波心律失常分析和睡眠呼吸暫停功能，每週平均運動 180 分鐘，開啟訊息通知（每日 50 條訊息、6 次通話和 3 次鬧鐘），設備屏幕每天總共開啟 30 分鐘。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "watch": {
+          "product_key": "watch",
+          "product_id": "watch",
+          "product_name": "HUAWEI WATCH",
+          "product_name_short": "WATCH",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "watch2": {
+          "product_key": "watch2",
+          "product_id": "watch2",
+          "product_name": "HUAWEI WATCH 2",
+          "product_name_short": "WATCH 2",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch2/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch2/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    },
+    "watchd系列": {
+      "series_key": "watchd系列",
+      "series_name": "WATCH D 系列",
+      "products": {
+        "watchd2": {
+          "product_key": "watchd2",
+          "product_id": "watch-d2",
+          "product_name": "HUAWEI WATCH D2",
+          "product_name_short": "WATCH D2",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-d2/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-d2/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "星雲藍",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "幻夜黑",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "晨曦金",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "中碼錶帶",
+              "attr_value": "130-160 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "大碼錶帶",
+              "attr_value": "161-210 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "顏色",
+              "attr_value": "星雲藍\n幻夜黑\n晨曦金",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "材料",
+              "attr_value": "鋁合金",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "NFC",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "Bluetooth",
+              "attr_value": "2.4 GHz，Bluetooth 5.2 支援 BR 及 BLE",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "環境溫度",
+              "attr_value": "5℃ 至 40℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V/1A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "在典型使用情況下，電池可持續使用長達 ​​6 天。",
+              "attr_value": "典型電池續航力是在以下條件下測試的：使用預設設定、每天測量六次血壓和五次心電圖測量、每週藍牙通話 30 分鐘、每周播放音樂 30 分鐘、心率監測始終開啟、HUAWEI TruSleep™ 夜間開啟、壓力監測開啟、SpO₂ 監測開啟、平均每週運動 90 分鐘、訊息通知開啟（每天 50 條訊息、6 個來電、3 個鬧鐘），每天開啟裝置螢幕總計 30 分鐘。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "啟用 ABPM 功能後，電池可持續使用長達 ​​1 天。",
+              "attr_value": "啟用 ABPM 功能時的電池壽命在以下條件下測試：使用預設設定、啟用 ABPM（間隔 15 分鐘）、每天 6 次血壓測量和 5 次心電圖測量、每週藍牙通話 30 分鐘、每周播放音樂 30 分鐘、心率監測始終開啟、HUAWEI TruSleep™ 夜間開啟、壓力監測開啟、SpO₂ 監測開啟、平均每週運動 90 分鐘、訊息通知開啟（每天 50 條訊息、6 個來電、3 個鬧鐘），每天開啟裝置螢幕總計 30 分鐘。",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "手环系列": {
+      "series_key": "手环系列",
+      "series_name": "手环系列",
+      "products": {
+        "band11pro": {
+          "product_key": "band11pro",
+          "product_id": "band11-pro",
+          "product_name": "HUAWEI Band 11 Pro",
+          "product_name_short": "Band 11 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/band11-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/band11-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "原野綠",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "海島藍",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "羽砂黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、重量及相關規格均為理論值，實際測量值可能因產品而異。所有規格均以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "备注",
+              "attr_value": "*AMOLED 觸控屏幕支援滑動和觸控手勢。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "顏色和材質",
+              "attr_value": "鋁合金錶殼：原野綠、海島藍、羽砂黑",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "溫度",
+              "attr_value": "0℃-35℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V/1A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*數據來自華為實驗室。實際使用情況可能因個別產品、使用習慣和環境因素而有所不同。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "band11": {
+          "product_key": "band11",
+          "product_id": "band11",
+          "product_name": "HUAWEI Band 11",
+          "product_name_short": "Band 11",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/band11/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/band11/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 6,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "星雲杏",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "草木綠",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "悅動白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "羽砂黑",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "流光紫（標準款）",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "羽砂黑（標準款）",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "羽砂黑，草木綠，悅動白",
+              "attr_value": "130-210 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "流光紫，星雲杏",
+              "attr_value": "120-190 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "顏色和材質",
+              "attr_value": "星雲杏、草木綠、悅動白、羽砂黑（金屬款）\n流光紫、羽砂黑（標準款）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "溫度",
+              "attr_value": "0℃-35℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "充電",
+              "attr_name": "充電器電壓和電流要求",
+              "attr_value": "5V/1A",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*數據來自華為實驗室。實際使用情況可能因個別產品、使用習慣和環境因素而有所不同。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "band10": {
+          "product_key": "band10",
+          "product_id": "band10",
+          "product_name": "HUAWEI Band 10",
+          "product_name_short": "Band 10",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/band10/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/band10/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 5,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "向新綠",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "托帕藍",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "流光紫",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "冰川白",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "羽砂黑",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*8.99 mm 為手環最薄處測得的厚度（手環錶面到底蓋的距離，不包括感應器區域）。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "冰川白、流光紫",
+              "attr_value": "120-190 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "適用手腕呎吋",
+              "attr_name": "羽砂黑、向新綠、托帕藍",
+              "attr_value": "130-210 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "顏色及材質",
+              "attr_value": "羽砂黑、冰川白、向新綠、托帕藍、流光紫（鋁合金錶殼）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "環境",
+              "attr_name": "溫度",
+              "attr_value": "0℃-35℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "最長使用場景續航可達 14 天",
+              "attr_value": "心率常開、關閉夜間 TruSleep™、每周平均鍛煉 30 分鐘、開啟訊息通知（每天 50 次訊息、6 次來電、3 次鬧鐘）、每天亮屏 200 次。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "標準使用場景續航可達 8 天",
+              "attr_value": "心率常開、開啟夜間 TruSleep™、血氧自動檢測開啟、壓力檢測，每周平均鍛煉 60 分鐘、開啟訊息通知（每天 50 次訊息、6 次來電、3 次鬧鐘）、每天亮屏 500 次。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "開啟熄屏顯示使用場景續航 3 天",
+              "attr_value": "開啟熄屏顯示、心率常開、夜間使用科學睡眠、開啟血氧自動檢測、壓力檢測，每周平均鍛煉 60 分鐘、開啟訊息通知（每天 50 次訊息、6 次來電、3 次鬧鐘）、每天亮屏 500 次。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "备注",
+              "attr_value": "*數據來自華為實驗室。實際使用情況可能因個別產品、使用習慣和環境因素而有所不同。",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "talkbandb3lite": {
+          "product_key": "talkbandb3lite",
+          "product_id": "talkband-b3-lite",
+          "product_name": "HUAWEI TalkBand B3 Lite",
+          "product_name_short": "TalkBand B3 Lite",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/talkband-b3-lite/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/talkband-b3-lite/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        },
+        "talkbandb3": {
+          "product_key": "talkbandb3",
+          "product_id": "talkband-b3",
+          "product_name": "HUAWEI TalkBand B3",
+          "product_name_short": "TalkBand B3",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/talkband-b3/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/talkband-b3/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    },
+    "儿童手表系列": {
+      "series_key": "儿童手表系列",
+      "series_name": "儿童手表系列",
+      "products": {
+        "watchkidsx1pro": {
+          "product_key": "watchkidsx1pro",
+          "product_id": "watch-kids-x1-pro",
+          "product_name": "HUAWEI WATCH KIDS X1 Pro",
+          "product_name_short": "WATCH KIDS X1 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/watch-kids-x1-pro/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/watch-kids-x1-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "幻夜黑",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "夢幻紫",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*實際尺寸依配置、製造流程、測量方法的不同可能有所差異，請以實物為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "重量",
+              "attr_name": "备注",
+              "attr_value": "*產品尺寸、重量及相關規格均為理論值，實際測量值可能因產品個體差異而有所不同。所有規格均以實際產品為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "尺寸：",
+              "attr_value": "1.82 吋\nAMOLED 觸控屏幕",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度：",
+              "attr_value": "480 × 408 像素",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶殼",
+              "attr_name": "材質：",
+              "attr_value": "塑膠",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "錶帶",
+              "attr_name": "材質：",
+              "attr_value": "硬塑膠帶",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "RAM + ROM",
+              "attr_value": "2 GB RAM + 64 GB ROM",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "記憶體",
+              "attr_name": "备注",
+              "attr_value": "*由於系統軟體佔用部分空間，實際可用記憶體容量會小於此值。",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "其他": {
+      "series_key": "其他",
+      "series_name": "其他",
+      "products": {
+        "fit": {
+          "product_key": "fit",
+          "product_id": "fit",
+          "product_name": "HUAWEI FIT",
+          "product_name_short": "FIT",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/wearables/fit/",
+          "specs_url": "https://consumer.huawei.com/hk/wearables/fit/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "category_key": "laptops",
+  "category_name": "笔记本电脑",
+  "source": "https://consumer.huawei.com/hk/",
+  "pull_time": "261013",
+  "series": {
+    "matebook系列": {
+      "series_key": "matebook系列",
+      "series_name": "MateBook 系列",
+      "products": {
+        "matebookxpro2024": {
+          "product_key": "matebookxpro2024",
+          "product_id": "matebook-x-pro-ultra-premium-edition",
+          "product_name": "HUAWEI MateBook X Pro 2024",
+          "product_name_short": "MateBook X Pro 2024",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/laptops/matebook-x-pro-ultra-premium-edition/",
+          "specs_url": "https://consumer.huawei.com/hk/laptops/matebook-x-pro-ultra-premium-edition/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "晴藍",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "作業系統",
+              "attr_name": "Windows 11 家用版",
+              "attr_value": "",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "寬度",
+              "attr_value": "310 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "深度",
+              "attr_value": "222 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "13.5 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "980 g",
+              "attr_remark": "*產品尺寸，產品重量及相關規格僅為理論值。個別產品之間的實際量度可能有所不同。所有規格均以實際產品為準。"
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "呎吋",
+              "attr_value": "14.2 吋",
+              "attr_remark": "*屏幕採用圓角設計，按照標準矩形測量時，屏幕的對角線長度為 14.2 吋（實際可視區域略小）。"
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "類型",
+              "attr_value": "OLED",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "屏佔比",
+              "attr_value": "93%",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "屏幕比例",
+              "attr_value": "3:2",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "解像度",
+              "attr_value": "3120 × 2080，264 PPI",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "刷新率",
+              "attr_value": "120 Hz",
+              "attr_remark": "*刷新率出廠設定為最高 60 Hz，支援切換為最高 120 Hz。在不同應用介面下更新率可能有差異，請以實際體驗為準。"
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "亮度",
+              "attr_value": "1000 nits",
+              "attr_remark": "*典型值，數據來自華為實驗室。需開啟 HDR 模式，並配合 HDR 內容源顯⁠示，局部峰值亮度可達 1000 nits⁠，請以實際使用為準。"
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "色域",
+              "attr_value": "Adobe RGB / P3 / sRGB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "色准",
+              "attr_value": "平均 △E < 1，支援多屏幕同色顯示",
+              "attr_remark": "*多屏幕同色，依應用軟件、屏幕設定、使用習慣、環境等因素不同，可能略有差異，請以實際體驗為準。購買時最新支援的設備機型請見官網或諮詢華為客服。"
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "色深",
+              "attr_value": "10.7 億色",
+              "attr_remark": "*實現 10.7 億色彩顯示效果需開啟 HDR 模式，並配合支援 10 bit 的內容來源顯⁠示⁠。"
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "對比度",
+              "attr_value": "1000000:1",
+              "attr_remark": "*典型值，數據來自華為實驗室。"
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "可視角度",
+              "attr_value": "178 度",
+              "attr_remark": "*典型值，數據來自華為實驗室。"
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "觸控屏",
+              "attr_value": "支援十點觸控",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "材料",
+              "attr_value": "鋰聚合物",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "容量",
+              "attr_value": "70 Wh（額定容量）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi 及藍牙",
+              "attr_name": "Wi-Fi",
+              "attr_value": "IEEE 802.11a/b/g/n/ac/ax，160 MHz\n2.4 GHz / 5 GHz / 6 GHz*\n*Wi-Fi 6E 連接可能因地區和本地網絡而異。\n2 × 2 MIMO\nWPA/WPA2/WPA3",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi 及藍牙",
+              "attr_name": "藍牙",
+              "attr_value": "藍牙 5.3",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "matebookd162024": {
+          "product_key": "matebookd162024",
+          "product_id": "matebook-d-16-2024",
+          "product_name": "HUAWEI MateBook D 16 2024",
+          "product_name_short": "MateBook D 16 2024",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/laptops/matebook-d-16-2024/",
+          "specs_url": "https://consumer.huawei.com/hk/laptops/matebook-d-16-2024/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "皓月銀",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "作業系統",
+              "attr_name": "Windows 11 家用版",
+              "attr_value": "",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度",
+              "attr_value": "17 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "闊度",
+              "attr_value": "356.7 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "厚度",
+              "attr_value": "248.7 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量",
+              "attr_value": "約 1.7 kg",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "呎吋",
+              "attr_value": "16 吋",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "類型",
+              "attr_value": "IPS",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "屏佔比",
+              "attr_value": "90%",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "屏幕比例",
+              "attr_value": "16:10",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "解像度",
+              "attr_value": "1920 × 1200，142 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "亮度",
+              "attr_value": "300 nits",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "色域",
+              "attr_value": "100% sRGB / 45% NTSC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "對比度",
+              "attr_value": "1200:1",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "可視角度",
+              "attr_value": "178 度",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "屏幕",
+              "attr_name": "备注",
+              "attr_value": "*屏幕亮度、色域、對比度、可視角度等數據為典型值。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "儲存",
+              "attr_name": "备注",
+              "attr_value": "*硬盤格式化之後的實際容量可能較小。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "材料",
+              "attr_value": "鋰聚合物",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "電池",
+              "attr_name": "容量",
+              "attr_value": "56 Wh（額定容量）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi 及藍牙",
+              "attr_name": "Wi-Fi：",
+              "attr_value": "IEEE 802.11a/b/g/n/ac/ax\n2.4 GHz 及 5 GHz\n2 × 2 MIMO\nWPA/WPA2/WPA3",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "WiFi 及藍牙",
+              "attr_name": "藍牙：",
+              "attr_value": "藍牙 5.1",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "matebook": {
+          "product_key": "matebook",
+          "product_id": "matebook",
+          "product_name": "HUAWEI MateBook",
+          "product_name_short": "MateBook",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/laptops/matebook/",
+          "specs_url": "https://consumer.huawei.com/hk/laptops/matebook/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 0,
+          "color_summary": [],
+          "specifications": []
+        }
+      }
+    }
+  }
+}

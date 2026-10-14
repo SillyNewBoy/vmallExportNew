@@ -1,0 +1,350 @@
+{
+  "category_key": "monitors",
+  "category_name": "显示器",
+  "source": "https://consumer.huawei.com/hk/",
+  "pull_time": "261013",
+  "series": {
+    "mateview系列": {
+      "series_key": "mateview系列",
+      "series_name": "MateView 系列",
+      "products": {
+        "mateview": {
+          "product_key": "mateview",
+          "product_id": "mateview",
+          "product_name": "HUAWEI MateView",
+          "product_name_short": "MateView",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/monitors/mateview/",
+          "specs_url": "https://consumer.huawei.com/hk/monitors/mateview/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "皓月銀",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏幕尺寸",
+              "attr_value": "28.2吋",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏幕比例",
+              "attr_value": "3: 2",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度：",
+              "attr_value": "3840 x 2560",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "刷新率",
+              "attr_value": "60 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏幕色彩：",
+              "attr_value": "色域\n98% DCI-P3（典型值）/ 覆蓋 100% sRGB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩",
+              "attr_value": "10.7 億色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色準",
+              "attr_value": "ΔE<2",
+              "attr_remark": "*色準為 DCI-P3 色域下的批量平均色準值，sRGB 色域下的批量平均色準值為 ΔE<1。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "HDR",
+              "attr_value": "HDR 400",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "亮度",
+              "attr_value": "500 nit（典型值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "護眼模式",
+              "attr_value": "支援TÜV Rheinland 低藍光及無頻閃認証",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "對比度",
+              "attr_value": "1200: 1 （典型值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏占比",
+              "attr_value": "94%",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功能",
+              "attr_name": "Smart Bar",
+              "attr_value": "確認: 單擊\n返回: 雙擊\n快捷操作：\n單指滑動調節音量\n雙指滑動切換輸入源",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功能",
+              "attr_name": "鍵盤及滑鼠控制",
+              "attr_value": "支援",
+              "attr_remark": "*鍵盤及滑鼠僅無線輸入源和 USB-C 輸入源能夠支援，且受限於接入的主機能力，僅支援部分主機設備，以實際使用為準。"
+            },
+            {
+              "group_name": "支架",
+              "attr_name": "高度調節",
+              "attr_value": "110 mm（±5 mm）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "支架",
+              "attr_name": "傾斜角度",
+              "attr_value": "前後俯仰 -5°/18°（±2°）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "接口",
+              "attr_name": "备注",
+              "attr_value": "*65 W 為最大對外充電功率，受使用場景下的環境溫度影響，對外充電功率可能會降低。受接入 USB-C 設備可充電能力限制，實際充電功率以接入 USB-C 設備支援為準。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接方式",
+              "attr_name": "無線投屏",
+              "attr_value": "支援",
+              "attr_remark": "*此功能僅無線版支援。"
+            },
+            {
+              "group_name": "連接方式",
+              "attr_name": "WiFi",
+              "attr_value": "IEEE 802.11 a/b/g/n/ac",
+              "attr_remark": "*此功能僅無線版支援。"
+            },
+            {
+              "group_name": "連接方式",
+              "attr_name": "WiFi 頻段",
+              "attr_value": "2.4 GHz 和 5 GHz",
+              "attr_remark": "*此功能僅無線版支援。"
+            },
+            {
+              "group_name": "連接方式",
+              "attr_name": "藍牙",
+              "attr_value": "藍牙 5.1",
+              "attr_remark": "*此功能僅無線版支援。"
+            },
+            {
+              "group_name": "連接方式",
+              "attr_name": "有線投屏",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "多媒體",
+              "attr_name": "麥克風",
+              "attr_value": "DMIC x 2，支援 4 m 遠場收音",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "多媒體",
+              "attr_name": "揚聲器數量",
+              "attr_value": "揚聲器 x 2",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "多媒體",
+              "attr_name": "揚聲器功率",
+              "attr_value": "5 W x 2（額定功率）",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "mateviewgt34inchsoundedition": {
+          "product_key": "mateviewgt34inchsoundedition",
+          "product_id": "mateview-gt",
+          "product_name": "HUAWEI MateView GT 34-inch Sound Edition",
+          "product_name_short": "MateView GT 34-inch Sound Edition",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/monitors/mateview-gt/",
+          "specs_url": "https://consumer.huawei.com/hk/monitors/mateview-gt/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "黑色",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏幕尺寸",
+              "attr_value": "34 吋",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏幕曲率",
+              "attr_value": "1500R",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏幕比例",
+              "attr_value": "21:9",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "屏幕類型",
+              "attr_value": "VA",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "解像度",
+              "attr_value": "3440 x 1440",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "刷新率",
+              "attr_value": "165 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色域",
+              "attr_value": "90% DCI-P3（典型值）/ 覆蓋 100% sRGB",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色彩",
+              "attr_value": "10.7 億色",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "亮度",
+              "attr_value": "500 nit（典型值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "對比度",
+              "attr_value": "4000:1 （典型值）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "色準",
+              "attr_value": "ΔE < 2",
+              "attr_remark": "*色準為 sRGB 色域下的批量平均色準值。"
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "HDR",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "顯示屏幕",
+              "attr_name": "護眼模式",
+              "attr_value": "支援 TÜV Rheinland 低藍光及無頻閃認証",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功能",
+              "attr_name": "SoundBar 雙揚聲器",
+              "attr_value": "5 W x 2",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功能",
+              "attr_name": "音量調節",
+              "attr_value": "觸控式音量調節，雙擊靜音",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功能",
+              "attr_name": "燈效",
+              "attr_value": "8 種幻彩燈效，支援自定義設置",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功能",
+              "attr_name": "麥克風",
+              "attr_value": "DMIC x 2，支援 4 m 收音",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功能",
+              "attr_name": "遊戲輔助",
+              "attr_value": "暗階增強，遊戲準星",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "功能",
+              "attr_name": "OSD",
+              "attr_value": "五向搖桿按鍵",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "支架",
+              "attr_name": "快速裝拆",
+              "attr_value": "支援",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "支架",
+              "attr_name": "掛牆功能",
+              "attr_value": "支援，VESA 100 x 100 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "支架",
+              "attr_name": "高度調節",
+              "attr_value": "110 mm（±5 mm）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "支架",
+              "attr_name": "傾斜角度",
+              "attr_value": "前後俯仰 -5°/20°（±2°）",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "接口",
+              "attr_name": "备注",
+              "attr_value": "*受 HDMI2.0 理論帶寬限制，HDMI2.0 支援的最大分辨率為 3440 x 1440@100 Hz，推薦使用 DP 及 USB-C 接口。",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

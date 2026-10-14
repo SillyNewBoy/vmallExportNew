@@ -1,0 +1,87 @@
+{
+  "category_key": "speakers",
+  "category_name": "音箱",
+  "source": "https://consumer.huawei.com/hk/",
+  "pull_time": "261013",
+  "series": {
+    "sound系列": {
+      "series_key": "sound系列",
+      "series_name": "Sound 系列",
+      "products": {
+        "soundjoy2": {
+          "product_key": "soundjoy2",
+          "product_id": "sound-joy-2-bluetooth-speaker",
+          "product_name": "HUAWEI Sound Joy 2",
+          "product_name_short": "Sound Joy 2",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/hk/speakers/sound-joy-2-bluetooth-speaker/",
+          "specs_url": "https://consumer.huawei.com/hk/speakers/sound-joy-2-bluetooth-speaker/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "向新綠",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "曜石黑",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "海島藍",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "呎吋",
+              "attr_name": "高度：",
+              "attr_value": "202 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "寬度：",
+              "attr_value": "73 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "重量：",
+              "attr_value": "700 g",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "呎吋",
+              "attr_name": "备注",
+              "attr_value": "*實際尺寸可能因產品配置和製造流程而有所不同。",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "連接",
+              "attr_name": "Bluetooth",
+              "attr_value": "BT 5.2",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "温度",
+              "attr_name": "工作温度",
+              "attr_value": "0℃ to 40℃",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "温度",
+              "attr_name": "儲存溫度",
+              "attr_value": "-20℃ to 70℃",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}
