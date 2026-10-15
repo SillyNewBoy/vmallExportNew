@@ -1,0 +1,2831 @@
+{
+  "category_key": "phones",
+  "category_name": "手机",
+  "source": "https://consumer.huawei.com/id/",
+  "pull_time": "261015",
+  "series": {
+    "nova系列": {
+      "series_key": "nova系列",
+      "series_name": "nova 系列",
+      "products": {
+        "nova16spro": {
+          "product_key": "nova16spro",
+          "product_id": "nova16s-pro",
+          "product_name": "HUAWEI nova 16s Pro",
+          "product_name_short": "nova 16s Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/id/phones/nova16s-pro/",
+          "specs_url": "https://consumer.huawei.com/id/phones/nova16s-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Isle Blue",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Starry Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Panjang",
+              "attr_value": "163 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Lebar",
+              "attr_value": "78 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Tebal",
+              "attr_value": "7,1 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Berat",
+              "attr_value": "± 218 g (termasuk baterai)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Ukuran Layar",
+              "attr_value": "6,84 inci",
+              "attr_remark": "*Dengan desain sudut membulat pada display, panjang diagonal layar luar adalah 6,84 inci jika diukur menurut persegi panjang standar (area yang dapat dilihat aktual sedikit lebih kecil)."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Warna",
+              "attr_value": "1,07 miliar warna, P3 wide color gamut",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Tipe",
+              "attr_value": "OLED, 1-120 Hz LTPO adaptive refresh rate, PWM Dimming frekuensi tinggi 2,160 Hz, touch sampling rate hingga 300 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Resolusi",
+              "attr_value": "FHD+ 2856 × 1320 Piksel",
+              "attr_remark": "*Resolusi diukur sebagai persegi panjang standar, dengan desain sudut membulat, piksel efektif sedikit lebih sedikit."
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "ROM",
+              "attr_value": "256 GB ROM",
+              "attr_remark": "*Penyimpanan internal yang tersedia mungkin lebih kecil karena sebagian penyimpanan internal digunakan oleh software."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Autofokus",
+              "attr_value": "YA",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Stabilisasi Gambar",
+              "attr_value": "Utama/Telephoto: AI Image Stabilization + Optical Image Stabilization,\nWide Angle: AI Image Stabilization",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Zoom",
+              "attr_value": "Mendukung zoom optik 3,7× (zoom 3,7× adalah nilai perkiraan, panjang fokus lensa adalah 23 mm, 13 mm, 88 mm) Mendukung zoom digital 100×",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 16384 × 12288 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat berbeda tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel",
+              "attr_remark": "*Resolusi video aktual dapat berbeda tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Pengambilan Kamera Belakang",
+              "attr_value": "AI Composition, Short-Form Video, Follow Focus, Portrait Video, AI-Camera, Wide Aperture, Night, Portrait, High-Res, Photo, Pro, Video, Super Macro, Panorama, Time-Lapse, Slow-Mo, Watermark, Moving Picture, Timer, Capture Smiles, Audio Control, Filter",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 8192 × 6144 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat berbeda tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel",
+              "attr_remark": "*Resolusi video aktual dapat berbeda tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Mode Pengambilan Kamera Depan",
+              "attr_value": "Short-Form Video, Night, Portrait, Video, Slow-Mo, Time-Lapse, Panorama, Filter, Mirror Reflection, Capture Smiles, Audio Control, Timer",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Baterai",
+              "attr_name": "备注",
+              "attr_value": "*Kapasitas Baterai Terukur adalah 6,800 mAh.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Model Dual SIM",
+              "attr_value": "CRS-LX9",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "5G NR: n1/n2/n3/n5/n7/n8/n20/n28/n38/n40/n41/n66/n71/n77/n78/n80/n81/n82/n83/n84\n4G LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\n4G LTE TDD: Bands 38/40/41\n3G WCDMA: Bands 1/2/4/5/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Sekunder",
+              "attr_value": "5G NR: n1/n2/n3/n5/n7/n8/n20/n28/n38/n40/n41/n66/n71/n77/n78/n80/n81/n82/n83/n84\n4G LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\n4G LTE TDD: Bands 38/40/41\n3G WCDMA: Bands 1/2/4/5/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Sekunder",
+              "attr_value": "CRS-LX9",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "5G NR: n1/n2/n3/n5/n7/n8/n20/n28/n38/n40/n41/n66/n71/n77/n78/n80/n81/n82/n83/n84\n4G LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\n4G LTE TDD: Bands 38/40/41\n3G WCDMA: Bands 1/2/4/5/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Sekunder",
+              "attr_value": "Tidak Didukung",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "备注",
+              "attr_value": "*Pada versi Dual SIM, salah satu slot kartu dapat diatur untuk menampung kartu SIM primer atau sekunder.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "WLAN",
+              "attr_value": "2,4 GHz dan 5 GHz, IEEE 802.11a/b/g/n/ac/ax/be, 2 × 2 MIMO, EHT80",
+              "attr_remark": "*Perlu dukungan router."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Bluetooth",
+              "attr_value": "Bluetooth 6.0, Mendukung BLE, SBC, AAC, LDAC dan L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C, USB 2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Earjack",
+              "attr_value": "Type-C earjack",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Audio",
+              "attr_value": "HUAWEI Histen\n.mp3, *.mp4, *.3gp, *.ogg, *.amr, .aac,.flac, *.wav, .midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Video",
+              "attr_value": ".3gp, .mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "nova16s": {
+          "product_key": "nova16s",
+          "product_id": "nova16s",
+          "product_name": "HUAWEI nova 16s",
+          "product_name_short": "nova 16s",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/id/phones/nova16s/",
+          "specs_url": "https://consumer.huawei.com/id/phones/nova16s/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Breathing Crystal",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Starry Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Panjang",
+              "attr_value": "159.6 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Lebar",
+              "attr_value": "75.5 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Tebal",
+              "attr_value": "7.3 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Berat",
+              "attr_value": "± 199 g (termasuk baterai)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Ukuran Layar",
+              "attr_value": "6.68 inci",
+              "attr_remark": "*Dengan desain sudut membulat pada display, panjang diagonal layar luar adalah 6.68 inci jika diukur menurut persegi panjang standar (area yang dapat dilihat aktual sedikit lebih kecil)."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Warna",
+              "attr_value": "1.07 miliar warna, P3 wide color gamut",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Tipe",
+              "attr_value": "OLED, refresh rate hingga 120 Hz, PWM Dimming frekuensi tinggi 2160 Hz, touch sampling rate hingga 300 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Resolusi",
+              "attr_value": "FHD+ 2800 × 1280 Piksel",
+              "attr_remark": "*Resolusi diukur sebagai persegi panjang standar, dengan desain sudut membulat, piksel efektif sedikit lebih sedikit."
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "ROM",
+              "attr_value": "256 GB ROM",
+              "attr_remark": "*Penyimpanan internal yang tersedia mungkin lebih kecil karena sebagian penyimpanan internal digunakan oleh software."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Autofocus Mode",
+              "attr_value": "YES",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Image Stabilization",
+              "attr_value": "Main: AI Image Stabilization,\nTelephoto: AI Image Stabilization + Optical Image Stabilization",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Zoom Mode",
+              "attr_value": "Supports 3.3x optical zoom (3.3x zoom is an approximate value, the lens focal lengths are 23 mm, 88 mm) Supports 100× digital zoom",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Image Resolution",
+              "attr_value": "Support up to 8192 × 6144 pixels",
+              "attr_remark": "*The actual image resolution may vary depending on the shooting mode."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Video Resolution",
+              "attr_value": "Support up to 3840 × 2160 pixels",
+              "attr_remark": "*The actual video resolution may vary depending on the shooting mode."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Rear Camera Capture Mode",
+              "attr_value": "AI Composition, Short-Form Video, Follow Focus, Portrait Video, AI-Camera, Wide Aperture, Night, Portrait, High-Res, Photo, Pro, Video, Panorama, Time-Lapse, Slow-Mo, Watermark, Moving Picture, Timer, Capture Smiles, Audio Control, Filter",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 8192 × 6144 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat berbeda tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel",
+              "attr_remark": "*Resolusi video aktual dapat berbeda tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Mode Pengambilan Kamera Depan",
+              "attr_value": "Short-Form Video, Night, Portrait, Video, Slow-Mo, Time-Lapse, Panorama, Filter, Mirror Reflection, Capture Smiles, Audio Control, Timer",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Baterai",
+              "attr_name": "备注",
+              "attr_value": "*Kapasitas Baterai Terukur adalah 6,800 mAh.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Model Dual SIM",
+              "attr_value": "EMA-LX9",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "5G NR: n1/n2/n3/n5/n7/n8/n20/n28/n38/n40/n41/n66/n71/n77/n78/n80/n81/n82/n83/n84\n4G LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\n4G LTE TDD: Bands 38/40/41\n3G WCDMA: Bands 1/2/4/5/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Sekunder",
+              "attr_value": "5G NR: n1/n2/n3/n5/n7/n8/n20/n28/n38/n40/n41/n66/n71/n77/n78/n80/n81/n82/n83/n84\n4G LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\n4G LTE TDD: Bands 38/40/41\n3G WCDMA: Bands 1/2/4/5/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Model Single SIM",
+              "attr_value": "EMA-LX9",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "5G NR: n1/n2/n3/n5/n7/n8/n20/n28/n38/n40/n41/n66/n71/n77/n78/n80/n81/n82/n83/n84\n4G LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\n4G LTE TDD: Bands 38/40/41\n3G WCDMA: Bands 1/2/4/5/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Sekunder",
+              "attr_value": "Tidak Didukung",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "备注",
+              "attr_value": "*Pada versi Dual SIM, salah satu slot kartu dapat diatur untuk menampung kartu SIM primer atau sekunder.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz dan 5 GHz, IEEE 802.11a/b/g/n/ac/ax/be, 2 × 2 MIMO, EHT80",
+              "attr_remark": "*Perlu dukungan router."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Bluetooth",
+              "attr_value": "Bluetooth 6.0, Mendukung BLE, SBC, AAC, LDAC dan L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C, USB 2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Earjack",
+              "attr_value": "Type-C earjack",
+              "attr_remark": "*Hanya mendukung Type-C digital headset."
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Audio",
+              "attr_value": "HUAWEI Histen\n*.mp3, *.mp4, *.3gp, *.ogg, *.amr, .aac,.flac, *.wav, .midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Video",
+              "attr_value": ".3gp, .mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "nova14pro": {
+          "product_key": "nova14pro",
+          "product_id": "nova14-pro",
+          "product_name": "HUAWEI nova 14 Pro",
+          "product_name_short": "nova 14 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/id/phones/nova14-pro/",
+          "specs_url": "https://consumer.huawei.com/id/phones/nova14-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Crystal Blue",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Tinggi",
+              "attr_value": "163.4 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Lebar",
+              "attr_value": "75.0 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Kedalaman",
+              "attr_value": "7.78 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Berat",
+              "attr_value": "Sekitar 207 g (termasuk baterai)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*Ukuran produk, berat produk, dan spesifikasi terkait hanya nilai teoritis. Pengukuran aktual antar produk individual dapat bervariasi. Semua spesifikasi mengacu pada produk aktual.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Ukuran Layar",
+              "attr_value": "6.78 inci",
+              "attr_remark": "*Dengan desain sudut melengkung pada layar, panjang diagonal layar eksterior adalah 6.78 inci ketika diukur menurut persegi panjang standar (area yang dapat dilihat aktual sedikit lebih kecil)."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Warna",
+              "attr_value": "1.07 miliar warna",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Tipe",
+              "attr_value": "OLED, LTPO adaptive refresh rate 1-120 Hz, touch sampling rate hingga 300 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Resolusi",
+              "attr_value": "FHD+ 2776 × 1224 Piksel",
+              "attr_remark": "*Resolusi diukur sebagai persegi panjang standar, dengan desain sudut melengkung, piksel efektif sedikit lebih sedikit."
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "ROM",
+              "attr_value": "512 GB ROM",
+              "attr_remark": "*Penyimpanan internal yang tersedia mungkin lebih kecil karena sebagian penyimpanan internal ditempati oleh perangkat lunak."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Autofocus",
+              "attr_value": "YA",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Stabilisasi Gambar",
+              "attr_value": "Optical and AI Image Stabilisation",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Zoom",
+              "attr_value": "Mendukung optical zoom 3x (zoom 3x adalah nilai perkiraan, dengan panjang fokus 16 mm, 24 mm, dan 69 mm) dan digital zoom 30x",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 8192 × 6144 piksel",
+              "attr_remark": "*Resolusi gambar sebenarnya dapat bervariasi tergantung mode pengambilan gambar yang dipilih."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel",
+              "attr_remark": "*Resolusi video sebenarnya dapat bervariasi tergantung mode pengambilan video yang dipilih."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Pengambilan Kamera Belakang",
+              "attr_value": "Short-Form Video, Follow Focus, Portrait Video, Story Creator, AI-Camera, Wide Aperture, Night, Portrait, High-Res, Photo, Pro, Video, Super Macro, Panorama, Time-Lapse, Slow-Mo, Watermark, Moving Picture, Timer, Capture Smiles, Audio Control, Filter",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 8192 × 6144 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel",
+              "attr_remark": "*Resolusi video aktual dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Mode Pengambilan Kamera Depan",
+              "attr_value": "Short-Form Video, Showcase Focus,Story Creator, Night, Portrait, Video, Slow-Mo, Time-Lapse, Panorama, Filter, Mirror Reflection, Stickers, Capture Smiles, Audio Control, Timer",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Model 1",
+              "attr_value": "MIA-LX9 (Dual SIM)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "FDD-LTE: Band 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\nTDD-LTE: Band 38/40/41\nUMTS: Band 1/2/4/5/8/19\nGSM: Band 2/3/5/8",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Sekunder",
+              "attr_value": "FDD-LTE: Band 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\nTDD-LTE: Band 38/40/41\nUMTS: Band 1/2/4/5/8/19\nGSM: Band 2/3/5/8",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "备注",
+              "attr_value": "*Dalam versi Dual SIM, slot kartu mana pun dapat diatur untuk menampung kartu SIM utama atau sekunder.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz dan 5 GHz, IEEE 802.11a/b/g/n/ac/ax/be, 2 × 2 MIMO, HE160, 8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*Perlu dukungan router."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Bluetooth",
+              "attr_value": "Bluetooth 5.2, Mendukung BLE, SBC, AAC, LDAC dan L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C, USB 2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Earjack",
+              "attr_value": "Earjack Type-C",
+              "attr_remark": "*Hanya mendukung headset digital Type-C."
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Audio",
+              "attr_value": "HUAWEI Histen\n*.mp3, *.mp4, *.ogg, *.amr, *.aac, *.flac, *.wav",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Video",
+              "attr_value": ".3gp, .mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "nova13pro": {
+          "product_key": "nova13pro",
+          "product_id": "nova13-pro",
+          "product_name": "HUAWEI nova 13 Pro",
+          "product_name_short": "nova 13 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/id/phones/nova13-pro/",
+          "specs_url": "https://consumer.huawei.com/id/phones/nova13-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Loden Green",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Panjang",
+              "attr_value": "163.4 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Lebar",
+              "attr_value": "74.9 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Tebal",
+              "attr_value": "7.82 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Berat",
+              "attr_value": "Kira-kira 209 g (termasuk baterai)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Ukuran Layar",
+              "attr_value": "6.76 inci",
+              "attr_remark": "*Dengan desain sudut melengkung pada layar, panjang diagonal layar eksterior adalah 6,76 inci saat diukur sesuai bentuk standar persegi panjang (area yang dapat dilihat sebenarnya sedikit lebih kecil)."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Warna",
+              "attr_value": "1.07 miliar warna",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Tipe",
+              "attr_value": "OLED, refresh rate adaptif LTPO 1-120Hz, hingga touch sampling rate 300 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Resolusi",
+              "attr_value": "FHD+ 2776 × 1224 Piksel",
+              "attr_remark": "*Resolusi diukur sebagai persegi panjang standar, dengan desain sudut melengkung, piksel efektif sedikit lebih sedikit."
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "ROM",
+              "attr_value": "256/512 GB ROM",
+              "attr_remark": "*Penyimpanan internal yang tersedia mungkin lebih kecil karena sebagian ditempati oleh perangkat lunak."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Autofokus",
+              "attr_value": "YA",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Stabilisasi Gambar",
+              "attr_value": "Stabilisasi gambar optik",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Zoom",
+              "attr_value": "Mendukung zoom optik 3x (zoom 3x adalah nilai perkiraan, dengan panjang fokus 15.9 mm, 23 mm, dan 68.5 mm) dan zoom hybrid 30x",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 8192 × 6144 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel",
+              "attr_remark": "*Resolusi video aktual dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Pengambilan Kamera Belakang",
+              "attr_value": "Video Pendek, Fokus Ikuti, Video Potret, Pembuat Cerita, Kamera AI, Apertur Lebar, Malam, Potret, Resolusi Tinggi, Foto, Pro, Video, Super Makro, Panorama, Selang Waktu, Slow-Mo, Tanda Air, Gambar Bergerak, Timer, Tangkap Senyuman, Kontrol Audio, Filter",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 8960 × 6720 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel",
+              "attr_remark": "*Resolusi video aktual dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Mode Pengambilan Kamera Depan",
+              "attr_value": "Video Pendek, Fokus Tampilan, Pembuat Cerita, Malam, Potret, Video, Slow-Mo, Selang Waktu, Panorama, Filter, Refleksi Cermin, Stiker, Tangkap Senyuman, Kontrol Audio, Timer",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Model 1",
+              "attr_value": "MIS-LX9 (Dual SIM)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "4G FDD LTE: Band 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\n4G TDD LTE: Band 38/40/41\n3G WCDMA: Band 1/2/4/5/8/19\n2G GSM: Band 2/3/5/8(850/900/1.800/1.900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Sekunder",
+              "attr_value": "4G FDD LTE: Band 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\n4G TDD LTE: Band 38/40/41\n3G WCDMA: Band 1/2/4/5/8/19\n2G GSM: Band 2/3/5/8(850/900/1.800/1.900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Model 2",
+              "attr_value": "MIS-LX9 (Single SIM)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "4G FDD LTE: Band 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66\n4G TDD LTE: Band 38/40/41\n3G WCDMA: Band 1/2/4/5/8/19\n2G GSM: Band 2/3/5/8(850/900/1.800/1.900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Sekunder",
+              "attr_value": "Tidak Didukung",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "备注",
+              "attr_value": "*Dalam versi Dual SIM, slot kartu mana pun dapat diatur untuk mengakomodasi kartu SIM utama atau sekunder.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz dan 5 GHz, 802.11 a/b/g/n/ac/ax, 2 × 2 MIMO, HE160, 1024 QAM, 8 Spatial-stream Sounding MU-MIMO.",
+              "attr_remark": "*Perlu dukungan router."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Bluetooth",
+              "attr_value": "Bluetooth 5.2, Dukung BLE, SBC, AAC, LDAC dan L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C, USB 2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Jack Telinga",
+              "attr_value": "Jack telinga Type-C",
+              "attr_remark": "*Hanya mendukung headset digital Type-C."
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Audio",
+              "attr_value": "HUAWEI Histen\n*.mp3, *.mp4, .3gp,.ogg, *.amr, *.aac, *.flac, *.wav, .midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Video",
+              "attr_value": ".3gp, *.mp4",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "In The Box",
+              "attr_name": "备注",
+              "attr_value": "*Hubungi saluran penjualan untuk daftar lebih rinci, dapat bervariasi di pasar berbeda. Mengacu pada produk yang sebenarnya.",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "pura系列": {
+      "series_key": "pura系列",
+      "series_name": "Pura 系列",
+      "products": {
+        "pura90spromax": {
+          "product_key": "pura90spromax",
+          "product_id": "pura90s-pro-max",
+          "product_name": "HUAWEI Pura 90s Pro Max",
+          "product_name_short": "Pura 90s Pro Max",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/id/phones/pura90s-pro-max/",
+          "specs_url": "https://consumer.huawei.com/id/phones/pura90s-pro-max/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Blush Gold",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Orange Ocean",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Graphite Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Tinggi",
+              "attr_value": "164 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Lebar",
+              "attr_value": "77.1 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Tebal",
+              "attr_value": "8.1 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Berat",
+              "attr_value": "Kurang lebih 230.5 g (termasuk baterai)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*Ukuran produk, berat produk, dan spesifikasi terkait hanyalah nilai teoritis. Pengukuran aktual antar produk mungkin bervariasi. Semua spesifikasi mengacu pada produk aktual.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Ukuran Layar",
+              "attr_value": "6.9 inci",
+              "attr_remark": "*Dengan desain sudut membulat pada layar, panjang diagonal layar eksterior adalah 6.87 inci jika diukur menurut persegi panjang standar (area pandang aktual sedikit lebih kecil)."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Warna",
+              "attr_value": "1.07 miliar warna",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Tipe",
+              "attr_value": "LTPO OLED, kecepatan refresh dinamis tinggi adaptif 1-120 Hz, peredupan PWM frekuensi tinggi, hingga 300 Hz touch sampling rate",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Resolusi",
+              "attr_value": "2880 × 1308 Piksel",
+              "attr_remark": "*Resolusi diukur sebagai persegi panjang standar, dengan desain sudut membulat, piksel efektif sedikit lebih sedikit."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "PPI",
+              "attr_value": "460 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "RAM + ROM",
+              "attr_value": "12 GB RAM + 256 GB ROM/12 GB RAM + 512 GB ROM",
+              "attr_remark": "*Penyimpanan internal yang tersedia mungkin lebih kecil karena sebagian penyimpanan internal digunakan oleh perangkat lunak."
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "Ruang Memori Eksternal",
+              "attr_value": "Tidak Tersedia",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Fokus Otomatis",
+              "attr_value": "Fokus fase, fokus kontras",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Zoom",
+              "attr_value": "Zoom optik 4x (zoom 4x adalah nilai perkiraan, panjang fokus lensa adalah 24 mm, 13 mm, 89 mm), dan zoom digital 100x.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 8192 × 6144 piksel",
+              "attr_remark": "*Mode High-res mendukung 16384 × 12288 piksel. Resolusi gambar aktual dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel",
+              "attr_remark": "*Resolusi video aktual dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Lampu Kilat Belakang",
+              "attr_value": "Lampu kilat LED",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Pemotretan Kamera Belakang",
+              "attr_value": "Komposisi AI, Gambar Bergerak AI, Jepretan Kecepatan Ultra, Malam, Super Makro, High-res, Time-Lapse, Lensa Sudut Ultra Lebar, Bukaan Fisik yang Dapat Disesuaikan, Potret, Pro, Slow-Mo, Panorama, Lukisan Cahaya, Filter, Master AI, Tangkap Senyuman, Kontrol Audio, Timer, Pemotretan Burst, Stiker",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 4160 × 3120 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel",
+              "attr_remark": "*Resolusi video aktual dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Mode Pemotretan Kamera Depan",
+              "attr_value": "Gambar Bergerak AI, Selfie Gerak Lambat, Potret, Time-Lapse, Filter, Stiker, Tangkap Senyuman, Refleksi Cermin, Kontrol Audio, Timer",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Baterai",
+              "attr_name": "Kapasitas Tipikal",
+              "attr_value": "6,000 mAh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Baterai",
+              "attr_name": "Kapasitas Terukur",
+              "attr_value": "5,850 mAh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Baterai",
+              "attr_name": "备注",
+              "attr_value": "*Nilai tipikal. Kapasitas aktual dapat bervariasi sedikit. Kapasitas ini adalah kapasitas baterai nominal. Kapasitas baterai aktual untuk setiap ponsel mungkin sedikit di atas atau di bawah kapasitas baterai nominal.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Percikan, Air, dan Debu",
+              "attr_name": "备注",
+              "attr_value": "*Produk ini dinilai IP68 dan IP69 untuk ketahanan terhadap percikan, air, dan debu berdasarkan standar IEC 60529 dan diuji dalam kondisi laboratorium terkontrol.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Model Single SIM",
+              "attr_value": "SCA-LX9 (Model Single SIM)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78/n79/n80/n81/n83/n84\n4G LTE FDD: Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66\n4G LTE TDD: Bands 34/38/39/40/41/42/48\n3G WCDMA: Bands 1/2/4/5/6/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": "*Fungsi yang tersedia di jaringan langsung tergantung pada situasi jaringan operator dan penerapan layanan terkait.\n**Pada model Single SIM, mendukung satu Nano SIM dan satu eSIM.\n***eSIM memerlukan paket layanan nirkabel dan memungkinkan kamu mengaktifkan paket jaringan seluler tanpa menggunakan Nano SIM. Ketersediaan eSIM dapat bervariasi tergantung negara dan operator. Periksa dengan operatormu apakah paket jaringan selulermu mendukung eSIM."
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Model Dual SIM",
+              "attr_value": "SCA-LX9 (Model Dual SIM)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78/n79/n80/n81/n83/n84\n4G LTE FDD: Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66\n4G LTE TDD: Bands 34/38/39/40/41/42/48\n3G WCDMA: Bands 1/2/4/5/6/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Sekunder",
+              "attr_value": "5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78/n79/n80/n81/n83/n84\n4G LTE FDD: Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66\n4G LTE TDD: Bands 34/38/39/40/41/42/48\n3G WCDMA: Bands 1/2/4/5/6/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": "*Fungsi yang tersedia di jaringan langsung tergantung pada situasi jaringan operator dan penerapan layanan terkait.\n**Kartu SIM mana pun dapat diatur sebagai kartu SIM utama atau sekunder.\n***eSIM memerlukan paket layanan nirkabel dan memungkinkan kamu mengaktifkan paket jaringan seluler tanpa menggunakan Nano SIM. Ketersediaan eSIM dapat bervariasi tergantung negara dan operator. Periksa dengan operatormu apakah paket jaringan selulermu mendukung eSIM."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz dan 5 GHz\nIEEE 802.11a/b/g/n/ac/ax/be, 2 × 2 MIMO, EHT160, 8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*Memerlukan dukungan router"
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "NearLink",
+              "attr_value": "Didukung, NearLink E2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Bluetooth",
+              "attr_value": "Bluetooth 6.0, Mendukung BLE, SBC, AAC, LDAC dan L2HC.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Colokan Earphone",
+              "attr_value": "Colokan earphone USB Type-C",
+              "attr_remark": "*Mendukung headset digital USB Type-C."
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Audio",
+              "attr_value": "HUAWEI Histen, mendukung suara stereo\n*.mp3, *.mp4, .3gp,.ogg, *.amr, *.aac, *.flac, *.wav, .midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Video",
+              "attr_value": ".3gp, *.mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "pura90spro": {
+          "product_key": "pura90spro",
+          "product_id": "pura90s-pro",
+          "product_name": "HUAWEI Pura 90s Pro",
+          "product_name_short": "Pura 90s Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/id/phones/pura90s-pro/",
+          "specs_url": "https://consumer.huawei.com/id/phones/pura90s-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 4,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Guava Soda",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Orange Soda",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Coconut White",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Mulberry Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Tinggi",
+              "attr_value": "157.8 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Lebar",
+              "attr_value": "74.5 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Tebal",
+              "attr_value": "8.2 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Berat",
+              "attr_value": "Kurang lebih 213.5 g (termasuk baterai)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*Ukuran produk, berat produk, dan spesifikasi terkait hanyalah nilai teoritis. Pengukuran aktual antar produk mungkin bervariasi. Semua spesifikasi mengacu pada produk aktual.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Ukuran Layar",
+              "attr_value": "6.6 inci",
+              "attr_remark": "*Dengan desain sudut membulat pada layar, panjang diagonal layar eksterior adalah 6.58 inci jika diukur menurut persegi panjang standar (area pandang aktual sedikit lebih kecil)."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Warna",
+              "attr_value": "1.07 miliar warna",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Tipe",
+              "attr_value": "LTPO OLED, kecepatan refresh dinamis tinggi adaptif 1-120 Hz, peredupan PWM frekuensi tinggi, hingga 300 Hz touch sampling rate",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Resolusi",
+              "attr_value": "2760 × 1256 Piksel",
+              "attr_remark": "*Resolusi diukur sebagai persegi panjang standar, dengan desain sudut membulat, piksel efektif sedikit lebih sedikit."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "PPI",
+              "attr_value": "460 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "RAM + ROM",
+              "attr_value": "12 GB RAM + 256 GB ROM/12 GB RAM + 512 GB ROM",
+              "attr_remark": "*Penyimpanan internal yang tersedia mungkin lebih kecil karena sebagian penyimpanan internal digunakan oleh perangkat lunak."
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "Dukungan Memori Eksternal",
+              "attr_value": "Tidak didukung",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Fokus Otomatis",
+              "attr_value": "Fokus fase, fokus kontras",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Zoom",
+              "attr_value": "Zoom optik 4x (zoom 4x adalah nilai perkiraan, panjang fokus lensa adalah 24 mm, 13 mm, 90.5 mm), dan zoom digital 100x.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 8192 × 6144 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel",
+              "attr_remark": "*Resolusi video aktual dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Lampu Kilat Belakang",
+              "attr_value": "Lampu kilat LED",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Pemotretan Kamera Belakang",
+              "attr_value": "Komposisi AI, Gambar Bergerak AI, Jepretan Kecepatan Ultra, Malam, Super Makro, High-res, Time-Lapse, Lensa Sudut Ultra Lebar, Bukaan Fisik yang Dapat Disesuaikan, Potret, Pro, Slow-Mo, Panorama, Lukisan Cahaya, Filter, Master AI, Tangkap Senyuman, Kontrol Audio, Timer, Pemotretan Burst, Stiker",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 4160 × 3120 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel",
+              "attr_remark": "*Resolusi video aktual dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Mode Pemotretan Kamera Depan",
+              "attr_value": "Gambar Bergerak AI, Selfie Gerak Lambat, Potret, Time-Lapse, Filter, Stiker, Tangkap Senyuman, Refleksi Cermin, Kontrol Audio, Timer",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Baterai",
+              "attr_name": "Kapasitas Tipikal",
+              "attr_value": "6,000 mAh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Baterai",
+              "attr_name": "Kapasitas Terukur",
+              "attr_value": "5,850 mAh",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Baterai",
+              "attr_name": "备注",
+              "attr_value": "*Nilai tipikal. Kapasitas aktual dapat bervariasi sedikit. Kapasitas ini adalah kapasitas baterai nominal. Kapasitas baterai aktual untuk setiap ponsel mungkin sedikit di atas atau di bawah kapasitas baterai nominal.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Percikan, Air, dan Debu",
+              "attr_name": "备注",
+              "attr_value": "*Produk ini dinilai IP68 dan IP69 untuk ketahanan terhadap percikan, air, dan debu berdasarkan standar IEC 60529 dan diuji dalam kondisi laboratorium terkontrol.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Model Single SIM",
+              "attr_value": "MLN-LX9 (Model Single SIM)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78/n79/n80/n81/n83/n84\n4G LTE FDD: Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66\n4G LTE TDD: Bands 34/38/39/40/41/42/48\n3G WCDMA: Bands 1/2/4/5/6/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": "*Fungsi yang tersedia di jaringan langsung tergantung pada situasi jaringan operator dan penerapan layanan terkait."
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Model Dual SIM",
+              "attr_value": "MLN-LX9 (Model Dual SIM)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78/n79/n80/n81/n83/n84\n4G LTE FDD: Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66\n4G LTE TDD: Bands 34/38/39/40/41/42/48\n3G WCDMA: Bands 1/2/4/5/6/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Sekunder",
+              "attr_value": "5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78/n79/n80/n81/n83/n84\n4G LTE FDD: Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66\n4G LTE TDD: Bands 34/38/39/40/41/42/48\n3G WCDMA: Bands 1/2/4/5/6/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": "*Fungsi yang tersedia di jaringan langsung tergantung pada situasi jaringan operator dan penerapan layanan terkait.\n**Kartu SIM mana pun dapat diatur sebagai kartu SIM utama atau sekunder."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz dan 5 GHz\nIEEE 802.11a/b/g/n/ac/ax/be, 2 × 2 MIMO, EHT160, 8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*Memerlukan dukungan router"
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "NearLink",
+              "attr_value": "Didukung, NearLink E2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Bluetooth",
+              "attr_value": "Bluetooth 6.0, Mendukung BLE, SBC, AAC, LDAC dan L2HC.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Colokan Earphone",
+              "attr_value": "Colokan earphone USB Type-C",
+              "attr_remark": "*Mendukung headset digital USB Type-C."
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Audio",
+              "attr_value": "HUAWEI Histen, mendukung suara stereo",
+              "attr_remark": "*.mp3, *.mp4, .3gp,.ogg, *.amr, *.aac, *.flac, *.wav, .midi"
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Video",
+              "attr_value": "*.3gp, *.mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "pura80pro": {
+          "product_key": "pura80pro",
+          "product_id": "pura80-pro",
+          "product_name": "HUAWEI Pura 80 Pro",
+          "product_name_short": "Pura 80 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/id/phones/pura80-pro/",
+          "specs_url": "https://consumer.huawei.com/id/phones/pura80-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Glazed Red",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Glazed White",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Glazed Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Panjang",
+              "attr_value": "163 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Lebar",
+              "attr_value": "76.1 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Tebal",
+              "attr_value": "8.3 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Berat",
+              "attr_value": "Kira-kira 219 g (termasuk baterai)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Ukuran",
+              "attr_value": "6.8 inci",
+              "attr_remark": "*Dengan desain sudut melengkung pada layar, panjang diagonal layar eksterior adalah 6,78 inci bila diukur menurut persegi panjang standar (area yang benar-benar terlihat sedikit lebih kecil)."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Warna",
+              "attr_value": "1.07 miliar warna",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Tipe",
+              "attr_value": "LTPO OLED, adaptive high dynamic refresh rates 1-120 Hz, high frequency PWM dimming 1,440 Hz, touch sampling rate hingga 300 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Resolusi",
+              "attr_value": "2848 × 1276 Piksel",
+              "attr_remark": "*Resolusi diukur sebagai persegi panjang standar, dengan desain sudut melengkung, jumlah piksel efektif sedikit lebih kurang."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "PPI",
+              "attr_value": "460 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "RAM + ROM",
+              "attr_value": "12 GB RAM + 512 GB ROM",
+              "attr_remark": "*Penyimpanan internal yang tersedia mungkin lebih kecil karena sebagian penyimpanan internal ditempati oleh perangkat lunak."
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "Dukungan Memori Eksternal",
+              "attr_value": "Tidak didukung",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Fokus Otomatis",
+              "attr_value": "Fase fokus, kontras fokus",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Zoom",
+              "attr_value": "Zoom optik 4x (zoom 4x adalah nilai perkiraan, panjang fokus lensa adalah 22.5 mm, 13 mm, 92.5 mm), dan zoom digital 100x.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 8192 × 6144 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel.",
+              "attr_remark": "*Resolusi video aktual dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Lampu Kilat Belakang",
+              "attr_value": "LED flash",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Pengambilan Gambar Kamera Belakang",
+              "attr_value": "AI Moving Picture, Ultra Speed Snapshot, Malam, Super Makro, Resolusi Tinggi, Time-Lapse, Lensa Sudut Lebar Ultra, Apertur Fisik yang Dapat Disesuaikan, Potret, Pro, Slow-Mo, Panorama, Lukisan Cahaya, Filter, Stiker, Master AI, Capture Smiles, Kontrol Audio, Timer, Burst Shooting",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 4160 × 3120 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel.",
+              "attr_remark": "*Resolusi video aktual dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Mode Pengambilan Gambar Kamera Depan",
+              "attr_value": "AI Moving Picture, Slow-Motion Selfie, Potret, Time-Lapse, Filter, Stiker, Capture Smiles, Refleksi Cermin, Kontrol Audio, Timer",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "4G LTE FDD: Band 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/25/26/28/32/66\n4G LTE TDD: Band 34/38/39/40/41/42\n3G WCDMA: Band 1/2/4/5/6/8/19\n2G GSM: Band 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Sekunder",
+              "attr_value": "4G LTE FDD: Band 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/25/26/28/32/66\n4G LTE TDD: Band 34/38/39/40/41/42\n3G WCDMA: Band 1/2/4/5/6/8/19\n2G GSM: Band 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "备注",
+              "attr_value": "*Fungsi yang tersedia di jaringan live bergantung pada situasi jaringan operator dan penyebaran layanan terkait.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "WLAN",
+              "attr_value": "2,4 GHz dan 5 GHz\nIEEE 802.11a/b/g/n/ac/ax/be, 2 x 2 MIMO, EHT160, 8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*Perlu dukungan router"
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Bluetooth",
+              "attr_value": "Bluetooth 5.2, Mendukung BLE, SBC, AAC, LDAC dan L2HC.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C, USB 3.1 GEN1",
+              "attr_remark": "*Fungsi ini harus digunakan dengan kabel USB (kabel USB non-standar, harus dibeli terpisah) yang mendukung fungsi ini.\n**Kabel USB dalam kotak mendukung USB 2.0."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Colokan Earphone",
+              "attr_value": "Colokan earphone USB Type-C",
+              "attr_remark": "*Mendukung headset digital USB Type-C."
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Audio",
+              "attr_value": "HUAWEI Histen, mendukung suara stereo\n*.mp3, *.mp4, .3gp,.ogg, *.amr, *.aac, *.flac, *.wav, .midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Video",
+              "attr_value": ".3gp, *.mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "pura80ultra": {
+          "product_key": "pura80ultra",
+          "product_id": "pura80-ultra",
+          "product_name": "HUAWEI Pura 80 Ultra",
+          "product_name_short": "Pura 80 Ultra",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/id/phones/pura80-ultra/",
+          "specs_url": "https://consumer.huawei.com/id/phones/pura80-ultra/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Prestige Gold",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Golden Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Panjang",
+              "attr_value": "163 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Lebar",
+              "attr_value": "76.1 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Tebal",
+              "attr_value": "8.3 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Berat",
+              "attr_value": "Kira-kira 233.5 g (termasuk baterai)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Ukuran",
+              "attr_value": "6.8 inci",
+              "attr_remark": "*Dengan desain sudut melengkung pada layar, panjang diagonal layar eksterior adalah 6.78 inci bila diukur menurut persegi panjang standar (area yang benar-benar terlihat sedikit lebih kecil)."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Warna",
+              "attr_value": "1.07 miliar warna",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Tipe",
+              "attr_value": "LTPO OLED, adaptive high dynamic refresh rates 1-120 Hz, high frequency PWM dimming 1,440 Hz, touch sampling rate hingga 300 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Resolusi",
+              "attr_value": "2848 × 1276 Piksel",
+              "attr_remark": "*Resolusi diukur sebagai persegi panjang standar, dengan desain sudut melengkung, piksel efektif sedikit lebih sedikit."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "PPI",
+              "attr_value": "460 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "RAM + ROM",
+              "attr_value": "16 GB RAM + 512 GB ROM",
+              "attr_remark": "*Penyimpanan internal yang tersedia mungkin lebih kecil karena sebagian penyimpanan internal ditempati oleh perangkat lunak."
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "Dukungan Memori Eksternal",
+              "attr_value": "Tidak didukung",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Fokus Otomatis",
+              "attr_value": "Fase fokus, kontras fokus",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Zoom",
+              "attr_value": "Zoom optik 3.7x dan 9.4x (zoom 3.7x dan 9.4x adalah nilai perkiraan, panjang fokus lensa adalah 22.5 mm, 13 mm, 83 mm, 212 mm), dan zoom digital 100x.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 8192 × 6144 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel.",
+              "attr_remark": "*Resolusi video aktual dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Lampu Kilat Belakang",
+              "attr_value": "LED flash",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Pengambilan Gambar Kamera Belakang",
+              "attr_value": "AI Moving Picture, Ultra Speed Snapshot, Malam, Super Makro, Resolusi Tinggi, Time-Lapse, Lensa Sudut Lebar Ultra, Apertur Fisik yang Dapat Disesuaikan, Potret, Pro, Slow-Mo, Panorama, Lukisan Cahaya, Filter, Stiker, Master AI, Capture Smiles, Kontrol Audio, Timer, Burst Shooting",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 4160 × 3120 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel.",
+              "attr_remark": "*Resolusi video aktual dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Mode Pengambilan Gambar Kamera Depan",
+              "attr_value": "AI Moving Picture, Slow-Motion Selfie, Potret, Time-Lapse, Filter, Stiker, Capture Smiles, Refleksi Cermin, Kontrol Audio, Timer",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Primary SIM Card",
+              "attr_value": "4G LTE FDD: Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/25/26/28/32/66\n4G LTE TDD: Bands 34/38/39/40/41/42\n3G WCDMA: Bands 1/2/4/5/6/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Secondary SIM Card",
+              "attr_value": "4G LTE FDD: Bands 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/25/26/28/32/66\n4G LTE TDD: Bands 34/38/39/40/41/42\n3G WCDMA: Bands 1/2/4/5/6/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "备注",
+              "attr_value": "*Fungsi yang tersedia di jaringan langsung bergantung pada situasi jaringan operator dan penerapan layanan terkait.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz dan 5 GHz\nIEEE 802.11a/b/g/n/ac/ax/be, 2 × 2 MIMO, EHT160, 8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*Memerlukan dukungan router"
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Bluetooth",
+              "attr_value": "Bluetooth 5.2, Mendukung BLE, SBC, AAC, LDAC, dan L2HC.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "USB",
+              "attr_value": "USB Tipe-C, USB 3.1 GEN1",
+              "attr_remark": "*Fungsi ini harus digunakan dengan kabel USB (kabel USB non-standar, perlu dibeli terpisah) yang mendukung fungsi ini.\n**Kabel USB dalam kotak mendukung USB 2.0."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Earjack",
+              "attr_value": "Earjack USB Tipe-C",
+              "attr_remark": "*Mendukung headset digital USB Tipe-C."
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Audio",
+              "attr_value": "HUAWEI Histen, mendukung suara stereo\n*.mp3, *.mp4, *.3gp, *.ogg, *.amr, *.aac, *.flac, *.wav, *.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Video",
+              "attr_value": "*.3gp, *.mp4",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "pura80": {
+          "product_key": "pura80",
+          "product_id": "pura80",
+          "product_name": "HUAWEI Pura 80",
+          "product_name_short": "Pura 80",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/id/phones/pura80/",
+          "specs_url": "https://consumer.huawei.com/id/phones/pura80/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Frosted Gold",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Frosted Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Panjang",
+              "attr_value": "157.7 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Lebar",
+              "attr_value": "74.4 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Tebal",
+              "attr_value": "8.2 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Berat",
+              "attr_value": "Kira-kira 211 g (termasuk baterai)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Size",
+              "attr_value": "6.6 inches",
+              "attr_remark": "*With a rounded corners design on the display, the diagonal length of the exterior screen is 6.58 inches when measured according to the standard rectangle (the actual viewable area is slightly smaller)."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Colour",
+              "attr_value": "1.07 billion colours",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Type",
+              "attr_value": "LTPO OLED, 1-120 Hz adaptive high dynamic refresh rates, 1440 Hz high frequency PWM dimming, up to 300 Hz touch sampling rate",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Resolution",
+              "attr_value": "2760 × 1256 Pixels",
+              "attr_remark": "*The resolution measured as a standard rectangle, with a rounded corners design, the effective pixels are slightly less."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "PPI",
+              "attr_value": "460 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "RAM + ROM",
+              "attr_value": "RAM 12 GB + ROM 256 GB",
+              "attr_remark": "*Penyimpanan internal yang tersedia mungkin lebih kecil karena sebagian penyimpanan internal digunakan oleh perangkat lunak."
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "Media Memori Eksternal",
+              "attr_value": "Tidak didukung",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Fokus Otomatis",
+              "attr_value": "Fokus fase, fokus kontras",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Zoom",
+              "attr_value": "Zoom optik 5.5x (zoom 5.5x adalah nilai perkiraan, panjang fokus lensa adalah 24 mm, 13 mm, 125 mm), dan zoom digital 50x.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 8192 × 6144 piksel",
+              "attr_remark": "*Resolusi gambar sebenarnya dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel.",
+              "attr_remark": "*Resolusi video sebenarnya dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Senter Belakang",
+              "attr_value": "LED Flash",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Pengambilan Gambar Kamera Belakang",
+              "attr_value": "Gambar Bergerak AI, Jepretan Kecepatan Ultra, Malam, Makro Super, Resolusi Tinggi, Time-Lapse, Lensa Sudut Ultra Lebar, Apertur Fisik yang Dapat Disesuaikan, Potret, Pro, Gerak Lambat, Panorama, Lukisan Cahaya, Filter, Stiker, Master AI, Tangkap Senyum, Kontrol Audio, Timer, Pemotretan Burst",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 4160 × 3120 piksel",
+              "attr_remark": "*Resolusi gambar sebenarnya dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel.",
+              "attr_remark": "*Resolusi video sebenarnya dapat bervariasi tergantung mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Mode Pengambilan Gambar Kamera Depan",
+              "attr_value": "Gambar Bergerak AI, Swafoto Gerak Lambat, Potret, Time-Lapse, Filter, Stiker, Tangkap Senyum, Pantulan Cermin, Kontrol Audio, Timer",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "备注",
+              "attr_value": "*Fungsi yang tersedia di jaringan langsung bergantung pada situasi jaringan operator dan penerapan layanan terkait.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz and 5 GHz\nIEEE 802.11 a/b/g/n/ac/ax/be,2x2 MIMO,EHT160,8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*Need router support"
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Bluetooth",
+              "attr_value": "Bluetooth 5.2, Support BLE, SBC, AAC, LDAC and L2HC.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C, USB 2.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Earjack",
+              "attr_value": "USB Type-C earjack",
+              "attr_remark": "*Support USB Type-C digital headset."
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Audio",
+              "attr_value": "HUAWEI Histen, support stereo sound\n*.mp3, *.mp4, *.3gp,*.ogg, *.amr, *.aac, *.flac, *.wav, *.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Video",
+              "attr_value": "*.3gp, *.mp4",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "mate系列": {
+      "series_key": "mate系列",
+      "series_name": "Mate 系列",
+      "products": {
+        "mate80pro": {
+          "product_key": "mate80pro",
+          "product_id": "mate80-pro",
+          "product_name": "HUAWEI Mate 80 Pro",
+          "product_name_short": "Mate 80 Pro",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/id/phones/mate80-pro/",
+          "specs_url": "https://consumer.huawei.com/id/phones/mate80-pro/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Hitam",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Hijau",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Emas",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Panjang",
+              "attr_value": "161.85 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Lebar",
+              "attr_value": "76 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Tebal",
+              "attr_value": "7.95 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensi",
+              "attr_name": "Berat",
+              "attr_value": "Sekitar 219 g (termasuk baterai)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Ukuran Layar",
+              "attr_value": "6.75 inci",
+              "attr_remark": "*Dengan desain sudut membulat pada layar, panjang diagonal layar eksterior adalah 6.75 inci jika diukur menurut persegi panjang standar (area pandang aktual sedikit lebih kecil)."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Warna",
+              "attr_value": "1.07 miliar warna",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Tipe",
+              "attr_value": "LTPO OLED, adaptive high dynamic refresh rate 1-120 Hz, 1,440 Hz high frequency PWM dimming, hingga 300 Hz touch sampling rate",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Resolusi",
+              "attr_value": "2832 × 1280 piksel",
+              "attr_remark": "*Resolusi diukur sebagai persegi panjang standar, dengan desain sudut membulat, piksel efektif sedikit lebih sedikit."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "PPI",
+              "attr_value": "460 ppi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "RAM + ROM",
+              "attr_value": "16 GB RAM + 512 GB ROM",
+              "attr_remark": "*Penyimpanan internal yang tersedia mungkin lebih kecil karena sebagian penyimpanan internal digunakan oleh perangkat lunak."
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "Dukungan Memori Eksternal",
+              "attr_value": "Tidak didukung",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Fokus Otomatis",
+              "attr_value": "Phase focus, contrast focus",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Zoom",
+              "attr_value": "4 × optical zoom (zoom 4 × adalah nilai perkiraan, panjang fokus lensa adalah 24 mm, 13 mm, 92.5 mm)\n100 × digital zoom",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 8192 × 6144 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel",
+              "attr_remark": "*Resolusi video aktual dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Lampu Flash Belakang",
+              "attr_value": "LED flash",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Jepretan Kamera Belakang",
+              "attr_value": "AI Composition, AI Moving Picture, Ultra Speed Snapshot, Night, Super Macro, High-res, Time-Lapse, Ultra Wide Angle Lens, Adjustable Physical Aperture, Portrait, Pro, Slow-Mo, Panorama, Light painting, Filter, Stickers, Master AI, Capture Smiles, Audio Control, Timer, Burst Shooting",
+              "attr_remark": "*Untuk menggunakan fitur ini, harap perbarui ponsel Anda ke versi terbaru melalui pembaruan HOTA."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Mendukung hingga 4160 × 3120 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Mendukung hingga 3840 × 2160 piksel",
+              "attr_remark": "*Resolusi video aktual dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Mode Jepretan Kamera Depan",
+              "attr_value": "AI Moving Picture, Slow-Motion Selfie, Portrait, Time-Lapse, Filter, Stickers, Capture Smiles, Mirror Reflection, Audio Control, Timer",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Model Dual SIM",
+              "attr_value": "SGT-LX9",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "4G LTE FDD: Bands 1/2/3/4/5/6/7/8/9/12/17/18/19/20/26/28/66\n4G LTE TDD: Bands 34/38/39/40/41/42/48\n3G WCDMA: Bands 1/2/4/5/6/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Sekunder",
+              "attr_value": "4G LTE FDD: Bands 1/2/3/4/5/6/7/8/9/12/17/18/19/20/26/28/66\n4G LTE TDD: Bands 34/38/39/40/41/42/48\n3G WCDMA: Bands 1/2/4/5/6/8/19\n2G GSM: Bands 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": "*Fungsi yang tersedia di jaringan langsung bergantung pada situasi jaringan operator dan penerapan layanan terkait.\n**Kartu SIM mana pun dapat diatur sebagai kartu SIM utama atau sekunder."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz dan 5 GHz\nIEEE 802.11a/b/g/n/ac/ax/be, 2 × 2 MIMO, HE160, 8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*Memerlukan dukungan router."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Bluetooth",
+              "attr_value": "Bluetooth 6.0, Mendukung BLE, SBC, AAC, LDAC dan L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C, USB 3.1 GEN1, mendukung DP1.2",
+              "attr_remark": "*Fungsi USB 3.1 GEN1 memerlukan kabel USB yang mendukung USB 3.1 GEN1. Kabel data standar mendukung USB 2.0."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Earjack",
+              "attr_value": "USB Type-C earjack",
+              "attr_remark": "*Mendukung headset digital USB Type-C."
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Audio",
+              "attr_value": "Huawei Histen, mendukung suara stereo\n*.mp3, *.mp4, *.ogg, *.amr, *.aac, *.flac, *.wav, *.3gp, .midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Video",
+              "attr_value": ".3gp, *.mp4",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "matex系列": {
+      "series_key": "matex系列",
+      "series_name": "Mate X 系列",
+      "products": {
+        "matex7": {
+          "product_key": "matex7",
+          "product_id": "mate-x7",
+          "product_name": "HUAWEI Mate X7",
+          "product_name_short": "Mate X7",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/id/phones/mate-x7/",
+          "specs_url": "https://consumer.huawei.com/id/phones/mate-x7/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 3,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Brocade White",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Nebula Red",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Panjang",
+              "attr_value": "156.8 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Lebar",
+              "attr_value": "Terlipat: 73.8 mm\nTerbuka: 144.2 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Tebal",
+              "attr_value": "Terlipat: Tebal: 9.5 mm\nTerbuka: 4.5 mm",
+              "attr_remark": "*Ketebalan saat terlipat tidak termasuk tampilan modul kamera. Ketebalan saat terbuka tidak termasuk bingkai layar. Dimensi sebenarnya dapat bervariasi tergantung konfigurasi, proses manufaktur, dan metode pengukuran."
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Berat",
+              "attr_value": "Sekitar 236 g (termasuk baterai)",
+              "attr_remark": "*Berat yang diklaim tidak termasuk berat lapisan permukaan layar dalam. Berat sebenarnya dapat sedikit bervariasi menurut konfigurasi, proses manufaktur, dan metode pengukuran."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Ukuran",
+              "attr_value": "Layar Utama: 8 inci\nLayar Sampul: 6.49 inci",
+              "attr_remark": "*Dengan desain sudut membulat pada layar, panjang diagonal Layar Utama/Sampul adalah 8/6.49 inci saat diukur sesuai persegi panjang standar (area yang dapat dilihat sebenarnya sedikit lebih kecil)."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Warna",
+              "attr_value": "Layar Utama: 1.07 miliar warna, gamut warna lebar P3\nLayar Sampul: 1.07 miliar warna, gamut warna lebar P3",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Tipe",
+              "attr_value": "Layar Utama: OLED, refresh rate adaptif LTPO 1-120 Hz, PWM dimming frekuensi tinggi 1440 Hz\nLayar Sampul: OLED, refresh rate adaptif LTPO 1-120 Hz, PWM dimming frekuensi tinggi 1440 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Resolusi",
+              "attr_value": "Layar Utama: 2416 × 2210 Pixel\nLayar Sampul: 2444 × 1080 Pixel",
+              "attr_remark": "*Resolusi ini sesuai dengan persegi panjang standar. Jumlah piksel layar efektif sebenarnya sedikit lebih rendah."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "PPI",
+              "attr_value": "Layar Utama: 412 PPI\nLayar Sampul: 412 PPI",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "RAM + ROM",
+              "attr_value": "16 GB RAM + 512 GB ROM",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "Dukungan Memori Eksternal",
+              "attr_value": "Tidak didukung",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "备注",
+              "attr_value": "*Kapasitas memori yang tersedia kurang dari nilai ini karena perangkat lunak sistem memenuhi sebagian ruang.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Flash belakang",
+              "attr_value": "LED Flash",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Rekaman video kamera belakang",
+              "attr_value": "Mendukung rekaman video hingga 4K (3840 × 2160), mendukung stabilisasi gambar AIS; mendukung video super slow motion 1080p@960fps",
+              "attr_remark": "*1080p@960 fps diimplementasikan berdasarkan algoritma penyisipan frame AI. Dalam mode video berbeda, jumlah piksel video mungkin sedikit berbeda, silakan merujuk pada situasi sebenarnya."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode zoom",
+              "attr_value": "Zoom optik 3.5x (zoom 3.5x adalah nilai perkiraan, panjang fokus lensa adalah 23 mm, 13 mm, 81 mm), dan zoom digital 100x.",
+              "attr_remark": "*Dalam mode berbeda, jumlah piksel mungkin sedikit berbeda, silakan merujuk pada situasi sebenarnya."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi gambar",
+              "attr_value": "Hingga 8192 × 6144 piksel",
+              "attr_remark": "*Dalam mode foto berbeda, jumlah piksel foto mungkin sedikit berbeda, silakan merujuk pada situasi sebenarnya."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi video",
+              "attr_value": "Hingga 3840 × 2160 piksel",
+              "attr_remark": "*Dalam mode video berbeda, jumlah piksel video mungkin sedikit berbeda, silakan merujuk pada situasi sebenarnya."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode fokus",
+              "attr_value": "Autofokus",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi video",
+              "attr_value": "Hingga 3840 × 2160 piksel",
+              "attr_remark": "*Piksel video dapat bervariasi dalam mode pengambilan berbeda, silakan merujuk pada situasi sebenarnya."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi gambar",
+              "attr_value": "Hingga 4160 × 3120 piksel",
+              "attr_remark": "*Piksel foto dapat bervariasi dalam mode pengambilan berbeda. Piksel sebenarnya yang berlaku."
+            },
+            {
+              "group_name": "Baterai",
+              "attr_name": "备注",
+              "attr_value": "*Kapasitas Rated Baterai adalah 5,470 mAh.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Percikan, Air, dan Debu",
+              "attr_name": "备注",
+              "attr_value": "**Produk ini dinilai IP58 dan IP59 untuk ketahanan cipratan, air, dan debu di bawah standar IEC 60529 dan diuji dalam kondisi laboratorium terkendali.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "4G LTE FDD: Band 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66\n4G LTE TDD: Band 34/38/39/40/41/42/48\n3G WCDMA: Band 1/2/4/5/6/8/19\n2G GSM: Band 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Sekunder",
+              "attr_value": "4G LTE FDD: Band 1/2/3/4/5/6/7/8/9/12/13/17/18/19/20/26/28/66\n4G LTE TDD: Band 34/38/39/40/41/42/48\n3G WCDMA: Band 1/2/4/5/6/8/19\n2G GSM: Band 2/3/5/8 (850/900/1,800/1,900 MHz)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "备注",
+              "attr_value": "*Fungsi yang tersedia di jaringan live tergantung pada situasi jaringan operator dan penyebaran layanan terkait.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C, USB 3.1 GEN1, mendukung DP1.2",
+              "attr_remark": "*Fungsi USB 3.1 GEN1 memerlukan kabel USB yang mendukung USB 3.1 GEN1. Kabel data standar mendukung USB 2.0."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Jack earphone",
+              "attr_value": "Jack earphone USB Type-C",
+              "attr_remark": "*Hanya headset digital USB Type-C yang didukung. Headset lain perlu digunakan dengan adaptor audio digital Huawei USB Type-C ke 3.5 mm."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz dan 5 GHz\nIEEE 802.11 a/b/g/n/ac/ax/be, 2x2 MIMO, HE160, 8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*Perlu digunakan dengan router yang sesuai."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Bluetooth",
+              "attr_value": "Bluetooth 6.0, Mendukung BLE, SBC, AAC, LDAC dan L2HC",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "NearLink",
+              "attr_value": "Didukung, NearLink E1.0",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Audio",
+              "attr_value": "HUAWEI Histen\n.mp3,.mp4,.ogg,.amr,.aac,.flac,.wav,.3gp,.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Video",
+              "attr_value": ".mp4,*.3gp",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "In The Box",
+              "attr_name": "备注",
+              "attr_value": "*Isi akhir tergantung pada benda sebenarnya.",
+              "attr_remark": ""
+            }
+          ]
+        },
+        "matex6": {
+          "product_key": "matex6",
+          "product_id": "mate-x6",
+          "product_name": "HUAWEI Mate X6",
+          "product_name_short": "Mate X6",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/id/phones/mate-x6/",
+          "specs_url": "https://consumer.huawei.com/id/phones/mate-x6/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 2,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Nebula Red",
+              "sku_codes": []
+            },
+            {
+              "attr_name": "颜色",
+              "attr_value": "Black",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Tinggi",
+              "attr_value": "156,6 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Lebar",
+              "attr_value": "Saat dilipat: 73.78 mm\nSaat dibuka: 144.04 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Kedalaman",
+              "attr_value": "Saat dilipat: 9.85 mm (Serat Vegan) / 9.9 mm (Kulit Vegan)\nSaat dibuka: 4.6 mm",
+              "attr_remark": "*Ukuran produk, berat produk, dan spesifikasi terkait hanya merupakan nilai teoritis. Pengukuran aktual antara masing-masing produk dapat bervariasi. Semua spesifikasi bergantung pada produk yang sebenarnya. Ketebalan saat dilipat tidak termasuk tampilan modul kamera. Ketebalan saat dibuka tidak termasuk tepi layar.\n**Dimensi aktual dapat bervariasi tergantung pada konfigurasi, proses pembuatan, dan metode pengukuran."
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Berat",
+              "attr_value": "Sekitar 239 g (termasuk baterai)",
+              "attr_remark": "*Berat yang diklaim tidak termasuk berat lapisan pelindung layar luar dan lapisan permukaan layar bagian dalam.\n**Berat aktual dapat sedikit bervariasi menurut konfigurasi, proses pembuatan, dan metode pengukuran."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Ukuran",
+              "attr_value": "Layar Utama: 7.93 inci\nLayar Penutup: 6.45 inci",
+              "attr_remark": "*Panjang diagonal layar penutup adalah 6.45 inci dan panjang diagonal layar utama adalah 7.93 inci, saat masing-masing diukur sebagai persegi panjang standar, bukan bentuk sudut membulat yang terlihat pada kedua layar (area tampilan sebenarnya sedikit lebih kecil)."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Warna",
+              "attr_value": "Layar Utama: 1.07 miliar warna\nLayar Penutup: 1.07 miliar warna",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Jenis",
+              "attr_value": "Layar Utama: OLED, kecepatan refresh adaptif LTPO 1-120 Hz, peredupan PWM frekuensi tinggi 1,440 Hz\nLayar Penutup: OLED, kecepatan refresh adaptif LTPO 1-120 Hz, peredupan PWM frekuensi tinggi 1,440 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Resolusi",
+              "attr_value": "Layar Utama: 2440 × 2240 Piksel\nLayar Penutup: 2440 × 1080 Piksel",
+              "attr_remark": "*Resolusi ini sesuai ke persegi panjang standar. Jumlah piksel layar efektif sebenarnya sedikit lebih sedikit."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "PPI",
+              "attr_value": "Layar Utama: 417 PPI\nLayar Penutup: 413 PPI",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "RAM + ROM",
+              "attr_value": "RAM 12 GB + ROM 512 GB",
+              "attr_remark": "*Kapasitas memori yang tersedia kurang dari nilai ini karena perangkat lunak sistem menghabiskan sebagian ruang."
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "Dukungan Memori Eksternal",
+              "attr_value": "Tidak didukung",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Fokus Otomatis",
+              "attr_value": "Fokus fase, Fokus kontras",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Zoom",
+              "attr_value": "Mendukung zoom optik 4× (zoom 4× adalah perkiraan, panjang fokus lensa adalah 24 mm, 13 mm, 90 mm)\nZoom digital 100×",
+              "attr_remark": "*Dalam mode yang berbeda, jumlah piksel mungkin sedikit berbeda, harap lihat situasi sebenarnya."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Hingga 8192 × 6144 piksel",
+              "attr_remark": "*Dalam mode foto yang berbeda, jumlah piksel foto mungkin sedikit berbeda, harap lihat situasi sebenarnya situasi."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Hingga 3840 × 2160 piksel",
+              "attr_remark": "*Dalam mode video yang berbeda, jumlah piksel video mungkin sedikit berbeda, harap lihat situasi sebenarnya."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Senter Belakang",
+              "attr_value": "Lampu Kilat LED",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Pengambilan Kamera Belakang",
+              "attr_value": "Gambar Bergerak AI, Jepretan Kecepatan Ultra, Malam, Makro Super, Video Makro, Resolusi Tinggi, Time-Lapse, Lensa Sudut Ultra Lebar, Apertur Fisik yang Dapat Disesuaikan, Potret, Pro, Gerak Lambat, Panorama, Lukisan Cahaya, Filter, Stiker, Master AI, Tangkap Senyum, Kontrol Audio, Pengatur Waktu, Pemotretan Beruntun\"",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "Hingga 3264 × 2448 piksel",
+              "attr_remark": "*Piksel foto dapat bervariasi dalam mode pemotretan yang berbeda, harap lihat situasi sebenarnya."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Video",
+              "attr_value": "Hingga 3840 × 2160 piksel",
+              "attr_remark": "*Piksel video dapat bervariasi dalam mode pemotretan yang berbeda, harap lihat situasi sebenarnya."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Mode Pengambilan Kamera Depan",
+              "attr_value": "Gambar Bergerak, Potret, Time-Lapse, Filter, Menangkap Senyum, Pantulan Cermin, Kontrol Audio, Pengatur Waktu\"",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Utama",
+              "attr_value": "ICL-LX9 (Model SIM Tunggal)\n4G LTE FDD: Pita 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9 / 12 / 17 / 18 / 19 / 20 / 26 / 28 / 66\n4G TD-LTE: Pita 34 / 38 / 39 / 40 / 41 / 42\n3G WCDMA: Pita 1 / 2 / 4 / 5 / 6 / 8 / 19\n2G GSM: Pita 2 / 3 / 5 / 8 (1900 / 1800 / 850 / 900 MHz)",
+              "attr_remark": "*Fungsi yang tersedia pada jaringan aktif bergantung pada situasi jaringan operator dan penyebaran layanan terkait."
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Kartu SIM Sekunder",
+              "attr_value": "4G LTE FDD: Bands 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9 / 12 / 17 / 18 / 19 / 20 / 26 / 28 / 66\n4G TD-LTE: Bands 34 / 38 / 39 / 40 / 41 / 42\n3G WCDMA: Bands 1 / 2 / 4 / 5 / 6 / 8 / 19\n2G GSM: Bands 2 / 3 / 5 / 8(1900 / 1800 / 850 / 900 MHz)",
+              "attr_remark": "*Fungsi yang tersedia di jaringan langsung bergantung pada situasi penyebaran jaringan operator dan layanan terkait."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "\"WLAN",
+              "attr_value": "2.4 GHz dan 5 GHz\n802.11 a/b/g/n/ac/ax, 2 × 2 MIMO, HE160, 1024 QAM, 8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*Perlu digunakan dengan router yang sesuai."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Bluetooth",
+              "attr_value": "Bluetooth 5.2, Mendukung BLE, SBC, AAC, LDAC, dan L2HC.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C",
+              "attr_remark": "*Fungsi ini harus digunakan dengan kabel USB (kabel USB non-standar, perlu dibeli terpisah) yang mendukung fungsi ini.\n**Kabel USB kotak masuk mendukung USB 2.0."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Earjack",
+              "attr_value": "Earjack USB Type-C",
+              "attr_remark": "*Mendukung headset digital Type-C.\""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Audio",
+              "attr_value": "Huawei Histen, support stereo sound\n*.mp3,*.mp4,*.ogg,*.amr,*.aac,*.flac,*.wav,*.3gp,*.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Video",
+              "attr_value": "*mp4,*3gp",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    },
+    "matext系列": {
+      "series_key": "matext系列",
+      "series_name": "Mate XT 系列",
+      "products": {
+        "matextultimatedesign": {
+          "product_key": "matextultimatedesign",
+          "product_id": "mate-xt-ultimate-design",
+          "product_name": "HUAWEI Mate XT ULTIMATE DESIGN",
+          "product_name_short": "Mate XT ULTIMATE DESIGN",
+          "sku_code": "",
+          "sku_name": "",
+          "product_url": "https://consumer.huawei.com/id/phones/mate-xt-ultimate-design/",
+          "specs_url": "https://consumer.huawei.com/id/phones/mate-xt-ultimate-design/specs/",
+          "third_level_category_code": "",
+          "color_summary_count": 1,
+          "color_summary": [
+            {
+              "attr_name": "颜色",
+              "attr_value": "Red",
+              "sku_codes": []
+            }
+          ],
+          "specifications": [
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Tinggi",
+              "attr_value": "156.7 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Lebar",
+              "attr_value": "layar tunggal: 73.5 mm\nlayar ganda: 143.0 mm\nlayar rangkap tiga: 219.0 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Kedalaman",
+              "attr_value": "layar tunggal: 12.8 mm\nlayar ganda: 7.45 mm / 4.75 mm\nlayar rangkap tiga: 3.6 mm / 3.6 mm / 4.75 mm",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "Berat",
+              "attr_value": "Sekitar 298 g (termasuk baterai, tidak termasuk pelindung layar; sekitar 306 g termasuk pelindung layar)",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Dimensions",
+              "attr_name": "备注",
+              "attr_value": "*Ukuran produk, berat produk, dan spesifikasi terkait hanyalah nilai teoritis. Pengukuran aktual antara masing-masing produk dapat bervariasi. Semua spesifikasi bergantung pada produk sebenarnya.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Ukuran Layar",
+              "attr_value": "layar tunggal: 6.4 inci\nlayar ganda: 7.9 inci\nlayar tiga: 10.2 inci",
+              "attr_remark": "*Dengan desain sudut membulat pada layar, panjang diagonal layar tunggal adalah 6.4 inci, panjang diagonal layar ganda adalah 7.9 inci, dan panjang diagonal layar tiga adalah 10.2 inci saat diukur menurut persegi panjang standar, area yang dapat dilihat sebenarnya sedikit lebih kecil."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Warna",
+              "attr_value": "1.07 miliar warna",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Jenis",
+              "attr_value": "OLED, kecepatan refresh dinamis tinggi adaptif hingga 90 Hz, peredupan PWM frekuensi tinggi 1,440 Hz, kecepatan pengambilan sampel sentuh hingga 240 Hz",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "Resolusi",
+              "attr_value": "layar tunggal: 2232 × 1008 Piksel\nlayar ganda: 2232 × 2048 Piksel\nlayar tiga: 2232 × 3184 Piksel",
+              "attr_remark": "*Resolusi diukur sebagai persegi panjang standar, dengan desain sudut membulat, piksel efektifnya sedikit lebih sedikit."
+            },
+            {
+              "group_name": "Tampilan",
+              "attr_name": "PPI",
+              "attr_value": "382 PPI",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "RAM + ROM",
+              "attr_value": "RAM 16 GB + ROM 1 TB",
+              "attr_remark": "*Penyimpanan internal yang tersedia mungkin lebih kecil karena sebagian penyimpanan internal ditempati oleh perangkat lunak."
+            },
+            {
+              "group_name": "Memori",
+              "attr_name": "Dukungan Memori Eksternal",
+              "attr_value": "Tidak didukung",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Fokus Otomatis",
+              "attr_value": "Fokus fase, fokus kontras",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Zoom",
+              "attr_value": "Zoom optik 5.5x (zoom 5.5x merupakan nilai perkiraan, panjang fokus setara lensa adalah 24 mm, 13 mm, 125 mm), dan zoom digital 50x.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "8192 × 6144 piksel",
+              "attr_remark": "*Resolusi gambar aktual dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Resolusi Video",
+              "attr_value": "3840 × 2160 piksel",
+              "attr_remark": "*Resolusi video aktual dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Flashlight Belakang",
+              "attr_value": "Lampu kilat LED",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Belakang",
+              "attr_name": "Mode Pengambilan Kamera Belakang",
+              "attr_value": "Ultra Speed Snapshot, Adjustable Physical Aperture, Mirror Shooting, Enhance images, Quick Menu, Night, Super Macro, Macro, Story Creator, High-Res, Time-Lapse, Ultra Wide Angle Lens, Aperture, Dual-View Video, Portrait, Pro, Slow-Mo, Panorama, Monochrome, Light painting, Filter, Stickers, Documents, Master AI, Moving Picture, 4D Predictive Focus, Capture Smiles, Audio Control, Timer, Burst Shooting",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Kamera Depan",
+              "attr_value": "Kamera Swafoto 8 MP (F2.2)",
+              "attr_remark": "*Dalam mode foto yang berbeda, jumlah piksel mungkin sedikit berbeda, harap lihat situasi sebenarnya."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Gambar",
+              "attr_value": "3264 × 2448 piksel",
+              "attr_remark": "*Resolusi gambar sebenarnya dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Resolusi Video",
+              "attr_value": "3840 × 2160 piksel.",
+              "attr_remark": "*Resolusi video sebenarnya dapat bervariasi tergantung pada mode pemotretan."
+            },
+            {
+              "group_name": "Kamera Depan",
+              "attr_name": "Mode Pengambilan Kamera Depan",
+              "attr_value": "HDR Vivid, Slow-Motion Selfie, Night, Portrait, Panorama, Time-Lapse, Moving Picture, Filter, Stickers, Capture Smiles, Mirror Reflection, Audio Control, Timer",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Percikan, Air, dan Debu",
+              "attr_name": "IPX8",
+              "attr_value": "Tidak Tersedia",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Jaringan",
+              "attr_name": "Model SIM Ganda",
+              "attr_value": "Kartu SIM Utama\nGRL-LX9 (Model SIM Ganda)\n4G LTE FDD: Pita 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9 / 12 / 17 / 18 / 19 / 20 / 26 / 28\n4G TD-LTE: Pita 34 / 38 / 39 / 40 / 41 / 42\n3G WCDMA: Pita 1 / 2 / 4 / 5 / 6 / 8 / 19\n2G GSM: Pita 2 / 3 / 5 / 8 (1,900 / 1,800 / 850 / 900 MHz)",
+              "attr_remark": "*Fungsi yang tersedia pada jaringan aktif bergantung pada situasi jaringan operator dan penyebaran layanan terkait."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "WLAN",
+              "attr_value": "2.4 GHz dan 5 GHz\n802.11a/b/g/n/ac/ax, 2 × 2 MIMO, HE160, 4096 QAM, 8 Spatial-stream Sounding MU-MIMO",
+              "attr_remark": "*Perlu dukungan router"
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Bluetooth",
+              "attr_value": "Bluetooth 5.2, Mendukung BLE, SBC, AAC, LDAC, dan L2HC.",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "USB",
+              "attr_value": "USB Type-C, USB 3.1 GEN1",
+              "attr_remark": "*Fungsi ini harus digunakan dengan kabel USB (kabel USB non-standar, perlu dibeli terpisah) yang mendukung fungsi ini.\n**Kabel USB kotak masuk mendukung USB 2.0."
+            },
+            {
+              "group_name": "Konektivitas",
+              "attr_name": "Earjack",
+              "attr_value": "Earjack USB Type-C",
+              "attr_remark": "*Mendukung headset digital USB Type-C."
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Audio",
+              "attr_value": "HUAWEI Histen, support stereo sound\n*.mp3, *.mp4, *.3gp,*.ogg, *.amr, *.aac, *.flac, *.wav, *.midi",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "Media",
+              "attr_name": "Video",
+              "attr_value": "*.3gp, *.mp4",
+              "attr_remark": ""
+            },
+            {
+              "group_name": "In The Box",
+              "attr_name": "备注",
+              "attr_value": "*Dapat bervariasi di negara yang berbeda. Tergantung pada produk sebenarnya.",
+              "attr_remark": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}
